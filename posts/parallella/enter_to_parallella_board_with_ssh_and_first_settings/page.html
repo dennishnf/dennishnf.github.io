@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/x-icon" />
+<link rel="icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.bitbucket.io">Dennis Núñez Fernández</a></b></h1>
+<h2>Bachelor in Science with mention in Electronic Engineering</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="https://dennishnf.bitbucket.io/index.html">Home</a></li>
+<li><a href="https://dennishnf.bitbucket.io/research/research.html">Research</a></li>
+<li><a href="https://dennishnf.bitbucket.io/posts/posts.html">Posts</a></li>
+<li><a href="https://dennishnf.bitbucket.io/contact/contact.html">Contact</a></li>
+<li><a href="https://dennishnf.bitbucket.io/cv/CV-DennisNúñezFernández-english.pdf">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Enter to Parallella Board with SSH and first settings</h2>
+
+<p align="justify">Start typing in the terminal:</p>
+<p><code class="barcode">$ ssh [user@]hostname
+</code></p>
+
+<p align="justify">In my case: (I use 192.168.1.110 to connect through a router, or 10.42.0.50 to connect directly by ethernet).</p>
+<p><code class="barcode">$ ssh parallella@192.168.1.110
+</code></p>
+
+<p align="justify">The command above starts the remote control of Parallella Board.</p>
+<p align="justify">After, write the password <custom_code>parallella</custom_code>:</p>
+<p><code class="barcode">parallella@192.168.1.110's password: parallella
+</code></p>
+
+<p align="justify">Then, the mext message will appear:</p>
+<p><code class="barcode">Welcome to Linaro 14.04 (GNU/Linux 3.14.12-parallella-xilinx-g40a90c3 armv7l)
+ ' Documentation:  https://wiki.linaro.org/
+Last login: Wed Jul 15 01:08:59 2015 from 192.168.1.110
+parallella@parallella:~$ 
+</code></p>
+
+<p align="justify">Then, if is the first time you connect to Parallella Board with SSH, you can:</p>
+<br/> 
+<h4>Set or Change User Password</h4>
+
+<p align="justify">Type passwd command as follows to change your own password:</p>
+<p><code class="barcode">$ passwd
+</code></p>
+
+<br/> 
+<h4>Upgrade an Update</h4>
+
+<p><code class="barcode">parallella@parallella:~$ sudo apt-get update
+parallella@parallella:~$ sudo apt-get upgrade
+</code></p>
+
+<br/> 
+<h4>Set correctly timezone</h4>
+
+<p align="justify">To change the timezone on Ubuntu/Debian distros you can use this command:</p>
+<p><code class="barcode">$ sudo dpkg-reconfigure tzdata
+</code></p>
+
+<br/> 
+<h4>Correct issue: "perl: warning: Setting locale failed."</h4>
+
+<p align="justify">If you run <custom_code>$ sudo dpkg-reconfigure locales</custom_code> and it shows the next message:</p>
+<p><code class="barcode">perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "es_PE.UTF-8",
+	LC_ADDRESS = "es_PE.UTF-8",
+	LC_MONETARY = "es_PE.UTF-8",
+	LC_NUMERIC = "es_PE.UTF-8",
+	LC_TELEPHONE = "es_PE.UTF-8",
+	LC_IDENTIFICATION = "es_PE.UTF-8",
+	LC_MEASUREMENT = "es_PE.UTF-8",
+	LC_TIME = "es_PE.UTF-8",
+	LC_NAME = "es_PE.UTF-8",
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+</code></p>
+
+<p align="justify">Simply add 'es_PE.UTF-8' to 'local' file:</p>
+<p><code class="barcode">$ sudo locale-gen es_PE.UTF-8
+</code></p>
+
+<p align="justify">If you have the same issue but it shows 'en_US.UTF-8' instead of 'es_PE.UTF-8', so in the previous command replace 'es_PE.UTF-8' by 'en_US.UTF-8'.</p>
+<br/> 
+<h4>Run some Tests</h4>
+
+<p align="justify">Now you can browse folders and run some tests with:</p>
+<p><code class="barcode">$ ./test.sh
+</code></p>
+
+<br/> 
+<h4>Shutdown the Parallella Board</h4>
+
+<p align="justify">To shutdown the Board Parallella not forget to insert the following command, and then disconnect the power supply:</p>
+<p><code class="barcode">$ sudo shutdown -h now
+</code></p>
+
+
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+Made from scratch - Python as backend <br/>
+Website updated 18-06-2020 12:24 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 

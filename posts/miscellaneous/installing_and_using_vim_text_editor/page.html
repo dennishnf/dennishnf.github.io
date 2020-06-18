@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/x-icon" />
+<link rel="icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.bitbucket.io">Dennis Núñez Fernández</a></b></h1>
+<h2>Bachelor in Science with mention in Electronic Engineering</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="https://dennishnf.bitbucket.io/index.html">Home</a></li>
+<li><a href="https://dennishnf.bitbucket.io/research/research.html">Research</a></li>
+<li><a href="https://dennishnf.bitbucket.io/posts/posts.html">Posts</a></li>
+<li><a href="https://dennishnf.bitbucket.io/contact/contact.html">Contact</a></li>
+<li><a href="https://dennishnf.bitbucket.io/cv/CV-DennisNúñezFernández-english.pdf">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Installing and Using Vim text editor</h2>
+
+<br/> 
+<h3>Introduction</h3>
+
+<p align="justify">The vi editor is a very powerful tool and has a very extensive built-in manual, which you can activate using the <custom_code>:help</custom_code> command when the program is started (instead of using man or info, which don't contain nearly as much information). We will only discuss the very basics here to get you started.</p>
+<p align="justify">What makes vi confusing to the beginner is that it can operate in two modes: "command mode" and "insert mode". The editor always starts in command mode. Commands move you through the text, search, replace, mark blocks and perform other editing tasks, and some of them switch the editor to insert mode. This means that each key has not one, but likely two meanings: it can either represent a command for the editor when in command mode, or a character that you want in a text when in insert mode.</p>
+<br/> 
+<h3>Installing on Linux</h3>
+
+<p align="justify">First, check if you have Vim.</p>
+<p><code class="barcode">$ vim
+</code></p>
+
+<p align="justify">, and you should see something like this:</p>
+<p><code class="barcode">~                                                                                    
+~                                 VIM - Vi IMproved                                  
+~                                                                                    
+~                                  version 7.4.52                                    
+~                             by Bram Moolenaar et al.                               
+~              Modified by pkg-vim-maintainers@lists.alioth.debian.org               
+~                    Vim is open source and freely distributable                     
+~                                                                                    
+</code></p>
+
+<p align="justify">If not, you should install Vim:</p>
+<p><code class="barcode">$ sudo apt-ge update
+$ sudo apt-get install vim
+</code></p>
+
+<p align="justify">You can check the default Vim tutorial with:</p>
+<p><code class="barcode">$ vimtutor
+</code></p>
+
+<br/> 
+<h3>Starting</h3>
+
+<p align="justify">Similar to another editors, you can create or open a new file in the current directory with:</p>
+<p><code class="barcode">$ vim file.txt
+</code></p>
+
+<p align="justify">As I mentioned in the introduction, Vim has two modes "command mode" and "insert mode". The editor always starts in command mode. So, commands move you through the text, search, replace, mark blocks and perform other editing tasks, and some of them switch the editor to insert mode. This means that each key has not one, but likely two meanings: it can either represent a command for the editor when in command mode, or a character that you want in a text when in insert mode.</p>
+<p align="justify">After the file.txt is open:</p>
+<p align="justify">-Insert <custom_code>i</custom_code> to switch the editor from command mode (not able to edit the file) to insert mode (able to edit the file).</p>
+<p align="justify">-Insert ESC buttom to switch the editor from insert mode (able to edit the file) to command mode (not able to edit the file).</p>
+<p align="justify">NOTE: Instead of <custom_code>i</custom_code>, you can Insert other keys to switch from command mode to insert mode:</p>
+<p align="justify">- <custom_code>i</custom_code>: insert before the cursor.</p>
+<p align="justify">- <custom_code>I</custom_code>: insert at the beginning of the line.</p>
+<p align="justify">- <custom_code>a</custom_code>: insert (append) after the cursor.</p>
+<p align="justify">- <custom_code>A</custom_code>: insert (append) at the end of the line.</p>
+<p align="justify">- <custom_code>o</custom_code>: append (open) a new line below the current line.</p>
+<p align="justify">- <custom_code>O</custom_code>: append (open) a new line above the current line.</p>
+<br/> 
+<h3>Saving and Quitting</h3>
+
+<p align="justify">In command mode:</p>
+<p align="justify">Insert <custom_code>:w</custom_code> to save the file. If you don't have a filename or want to write out to a different filename, use <custom_code>:w filename</custom_code>.</p>
+<p align="justify">Insert <custom_code>:wq</custom_code> to save and exit.</p>
+<p align="justify">Insert <custom_code>:q</custom_code> to exit (this fails when changes have been made), <custom_code>:q!</custom_code> to quit without writing.</p>
+<br/> 
+<h3>Default VIM setting in .vimrc</h3>
+
+<p align="justify">In command mode:</p>
+<p align="justify">Insert <custom_code>:set ruler</custom_code> to have the line and column number indicator.</p>
+<p align="justify">Insert <custom_code>:set laststatus=2</custom_code> to have the status bat at the bottom with the current file name and the ruler.</p>
+<p align="justify">Insert <custom_code>:set number</custom_code> to show the number of each line.</p>
+<p align="justify">Insert <custom_code>:set title</custom_code> to show the name of the file.</p>
+<p align="justify">Insert <custom_code>:set hlsearch</custom_code> to highlight search words.</p>
+<p align="justify">Insert <custom_code>:syntax on</custom_code> to show the syntax of the file.</p>
+<p align="justify">But if the file is closed with <custom_code>:q</custom_code> and open again, all last settings dissapear. So, to solve this we should to docked them in our home directory with:</p>
+<p><code class="barcode">$ cd 
+$ vim .vimrc 
+</code></p>
+
+<p align="justify">Then edit with Vim using <custom_code>i</custom_code> and inserting:</p>
+<p><code class="barcode">set ruler laststatus=2 number title hlsearch
+syntax on
+</code></p>
+
+<p align="justify">Then save and exit with <custom_code>:wq</custom_code>.</p>
+<br/> 
+<h3>Setting Indent in .vimrc </h3>
+
+<p align="justify">In command mode:</p>
+<p align="justify">Add the following lines in your .vimrc:</p>
+<p><code class="barcode">filetype plugin indent on
+" show existing tab with 2 spaces width
+set tabstop=2
+" when indenting with '>', use 2 spaces width
+set shiftwidth=2
+</code></p>
+
+<br/> 
+<h3>Indent several lines</h3>
+
+<p align="justify">Press <custom_code>V</custom_code> to switch to VISUAL LINE mode and highlight the lines you want to indent by pressing <custom_code>j</custom_code> (or ↓ button). Then press <custom_code>></custom_code> to indent them. So the complete command would be <custom_code>Vjjj></custom_code>.</p>
+<br/> 
+<h3>Editing files</h3>
+
+<p align="justify">In command mode:</p>
+<p align="justify">Insert <custom_code>u</custom_code> to undo.</p>
+<p align="justify">Insert Ctrl + <custom_code>r</custom_code> to redo.</p>
+<p align="justify">Insert <custom_code>.</custom_code> to repeat last command.</p>
+<br/> 
+<h3>Copy/cut and paste into Vim</h3>
+
+<p align="justify">Position the cursor where you want to begin cutting.</p>
+<p align="justify">Insert <custom_code>v</custom_code> to select characters (or uppercase <custom_code>V</custom_code> to select whole lines).</p>
+<p align="justify">Move the cursor to the end of what you want to cut.</p>
+<p align="justify">Insert <custom_code>y</custom_code> to copy (or <custom_code>d</custom_code> to cut).</p>
+<p align="justify">Move to where you would like to paste.</p>
+<p align="justify">Insert <custom_code>p</custom_code> to paste after the cursor, or <custom_code>P</custom_code> to paste before.</p>
+<br/> 
+<h3>Copy/cut and paste to external</h3>
+
+<p align="justify">-Copy from Vim to external:</p>
+<p align="justify">Position the cursor where you want to begin cutting.</p>
+<p align="justify">Insert <custom_code>v</custom_code> to select characters (or uppercase <custom_code>V</custom_code> to select whole lines).</p>
+<p align="justify">Move the cursor to the end of what you want to cut.</p>
+<p align="justify">Insert <custom_code>"+y</custom_code> to copy (or <custom_code>"+d</custom_code> to cut).</p>
+<p align="justify">Move to where you would like and paste.</p>
+<p align="justify">-Copy from external to Vim:</p>
+<p align="justify">Select manually the text and copy.</p>
+<p align="justify">Insert <custom_code>"+p</custom_code> to paste after the cursor, or <custom_code>"+P</custom_code> to paste before.</p>
+<br/> 
+<h3>Search and replace</h3>
+
+<p align="justify">In command mode:</p>
+<p align="justify">Insert <custom_code>/pattern</custom_code> to search for pattern.</p>
+<p align="justify">Insert <custom_code>?pattern</custom_code> to search backward for pattern.</p>
+<p align="justify">Insert <custom_code>n</custom_code> to repeat search in same direction, or <custom_code>N</custom_code> to repeat search in opposite direction.</p>
+<p align="justify">Insert <custom_code>:%s/old/new/g</custom_code> to replace all old with new throughout file.</p>
+<p align="justify">Insert <custom_code>:%s/old/new/gc</custom_code> to replace all old with new throughout file with confirmations.</p>
+<p align="justify">Insert <custom_code>:noh</custom_code> to remove highlighting of search matches.</p>
+<br/> 
+<h3>Opening different files</h3>
+
+<p align="justify">When starting Vim, the -p option opens each specified file in a separate tab.</p>
+<p><code class="barcode">$ vim -p first.txt second.txt
+</code></p>
+
+<p align="justify">Insert <custom_code>{i}gt</custom_code> to go to tab in position i.</p>
+<p align="justify">In the opened file, insert <custom_code>:tabnew</custom_code> or <custom_code>:tabnew file</custom_code> to open a file in a new tab.</p>
+<br/> 
+<h3>Cursor movement</h4>
+
+<p align="justify">List of commands to insert in command mode:</p>
+<p align="justify">- <custom_code>H</custom_code>: move to top of screen.</p>
+<p align="justify">- <custom_code>M</custom_code>: move to middle of screen.</p>
+<p align="justify">- <custom_code>L</custom_code>: move to bottom of screen.</p>
+<p align="justify">- <custom_code>w</custom_code>: jump forwards to the start of a word.</p>
+<p align="justify">- <custom_code>W</custom_code>: jump forwards to the start of a word (words can contain punctuation).</p>
+<p align="justify">- <custom_code>e</custom_code>: jump forwards to the end of a word.</p>
+<p align="justify">- <custom_code>E</custom_code>: jump forwards to the end of a word (words can contain punctuation).</p>
+<p align="justify">- <custom_code>b</custom_code>: jump backwards to the start of a word.</p>
+<p align="justify">- <custom_code>B</custom_code>: jump backwards to the start of a word (words can contain punctuation).</p>
+<p align="justify">- <custom_code>$</custom_code>: jump to the end of the line.</p>
+<p align="justify">- <custom_code>gg</custom_code>: go to the first line of the document.</p>
+<p align="justify">- <custom_code>G</custom_code>: go to the last line of the document.</p>
+<p align="justify">- <custom_code>5G</custom_code>: go to line 5.</p>
+<p align="justify">- <custom_code>}</custom_code>: jump to next paragraph (or function/block, when editing code).</p>
+<p align="justify">- <custom_code>{</custom_code>: jump to previous paragraph (or function/block, when editing code).</p>
+<p align="justify">- <custom_code>zz</custom_code>: center cursor on screen.</p>
+<p align="justify">- Ctrl + <custom_code>b</custom_code>: move back one full screen.</p>
+<p align="justify">- Ctrl + <custom_code>f</custom_code>: move forward one full screen.</p>
+<p align="justify">- Ctrl + <custom_code>d</custom_code>: move forward 1/2 a screen.</p>
+<p align="justify">- Ctrl + <custom_code>u</custom_code>: move back 1/2 a screen.</p>
+<br/> 
+<h3>Resoures</h3>
+
+<p align="justify">- Home site of Vim: <a target="_blank" href="https://vim.sourceforge.io/">https://vim.sourceforge.io/</a>.</p>
+<p align="justify">- Vim Cheat Sheet: <a target="_blank" href="https://vim.rtorr.com/">https://vim.rtorr.com/</a>.</p>
+
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+Made from scratch - Python as backend <br/>
+Website updated 18-06-2020 12:24 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 

@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/x-icon" />
+<link rel="icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.bitbucket.io">Dennis Núñez Fernández</a></b></h1>
+<h2>Bachelor in Science with mention in Electronic Engineering</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="https://dennishnf.bitbucket.io/index.html">Home</a></li>
+<li><a href="https://dennishnf.bitbucket.io/research/research.html">Research</a></li>
+<li><a href="https://dennishnf.bitbucket.io/posts/posts.html">Posts</a></li>
+<li><a href="https://dennishnf.bitbucket.io/contact/contact.html">Contact</a></li>
+<li><a href="https://dennishnf.bitbucket.io/cv/CV-DennisNúñezFernández-english.pdf">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Robust hand detection and tracking on a personal computer and embedded computer</h2>
+
+<p align="justify">The objective of this project is to detect, localise and track a single human hand in real-time. This is a tremendously challenging task as hands can be very varied in shape and viewpoint, can be closed or open, can be partially occlused, can have different articulations of the fingers, can be grasping other objects or other hands, etc. Our motivation for this is that having a reliable hand detector facilitates many other tasks in human visual recognition, such as determining human layout and actions from static images. It also benefits human temporal analysis, such as recognizing sign language, gestures and activities in video.</p>
+<br/> 
+<h3>Haar cascade classifier</h3>
+
+<p align="justify">The Viola–Jones object detection algorithm is the first object detection algorithm to provide competitive object detection rates in real-time proposed in 2001 by Paul Viola and Michael Jones. Although it can be trained to detect a variety of object classes, it was motivated primarily by the problem of hand detection.</p>
+<p align="justify">This approach to hand detecting combines four key concepts:</p>
+<p align="justify">a. Haar-like features: simple rectangular features.</p>
+<p align="justify">b. Integral image: for rapid features detection.</p>
+<p align="justify">c. AdaBoost: machine-learning method.</p>
+<p align="justify">d. Cascade classifier: to combine many features efficiently.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/steps_viola_jones.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 1: Haar cascade classifier</i></p>
+
+<br/> 
+<h4>A. Haar like features:</h4>
+
+<p align="justify">Haar like features are used to detect variation in the black and light portion of the image. This computation forms a single rectangle around the detected hand. Based on the color shade near nose or forehead a contour is formed. Some commonly used Haar features are: two rectangle feature, three rectangle feature, four rectangle feature.</p>
+<p align="justify">The value of two rectangle feature is the difference between the sums of the pixels within two rectangle regions as sown in Figure 2. In three rectangles, the value is center rectangle subtracted by the addition of the two surrounding rectangles. Whereas four rectangle features computes the difference between the diagonal pairs of the rectangles.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/haar_features.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 2: Haar features used for hand detection</i></p>
+
+<br/> 
+<h4>B. Integral Images:</h4>
+
+<p align="justify">As the name suggests, the value at any point (x, y) in the summed-area table is the sum of all the pixels above and to the left of (x, y), inclusive:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/formula_integral_image_1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">where i(x,y) is the value of the pixel at (x,y).</p>
+<p align="justify">The summed-area table can be computed efficiently in a single pass over the image, as the value in the summed-area table at (x, y) is just:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/formula_integral_image_2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">Once the summed-area table has been computed, evaluating the sum of intensities over any rectangular area requires exactly four array references regardless of the area size. That is, the notation in the figure at right, having A=(x0, y0), B=(x1, y0), C=(x0, y1) and D=(x1, y1), the sum of i(x,y) over the rectangle spanned by A, B,C and D is:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/formula_integral_image_3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/integral_image.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 3: A description of computing a sum in the summed-area table data structure/algorithm</i></p>
+
+<br/> 
+<h4>C. Adaboost machine learning method</h4>
+
+<p align="justify">AdaBoost algorithm helps to select small features that facilitates fast and easy computation. Unlike other methods, AdaBoost algorithm gives desired region of the object discarding unnecessary background.</p>
+<p align="justify">It uses an important concept of Bagging that is procedure for combining different classifiers constructed using the same data set.It is an acronym for bootstrap aggregating, a motivation of combining classifiers is to improve an unstable classifier and an unstable classifier is one where a small change in the learning set/classification parameters produces a large change in the classifier.</p>
+<p align="justify">The speed with which features may be evaluated does not adequately compensate for their number, however. For example, in a standard 24x24 pixel sub-window, there are a total of M = 162,336 possible features, and it would be prohibitively expensive to evaluate them all when testing an image. Thus, the object detection framework employs a variant of the learning algorithm AdaBoost to both select the best features and to train classifiers that use them. This algorithm constructs a “strong” classifier as a linear combination of weighted simple “weak” classifiers.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/formula_adaboost_1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">Each weak classifier is a threshold function based on the feature fj.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/formula_adaboost_2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">The threshold value &theta;j and the polarity sj are determined in the training, as well as the coefficients &alpha;j.</p>
+<br/> 
+<h4>D. Cascade classifier</h4>
+
+<p align="justify">The Viola and Jones algorithm eliminates hand candidates quickly using a cascade of stages. The cascade eliminates candidates by making stricter requirements in each stage with later stages being much more difficult for a candidate to pass. Candidates exit the cascade if they pass all stages or fail any stage. A hand is detected if a candidate passes all stages. This process is shown in Figure 4.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/cascades_step.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 4: Cascades using for hand detection</i></p>
+
+<br/> 
+<h3>Object tracking</h3>
+
+<p align="justify">Usually tracking algorithms are faster than detection algorithms. The reason is simple. When you are tracking an object that was detected in the previous frame, you know a lot about the appearance of the object. You also know the location in the previous frame and the direction and speed of its motion. So in the next frame, you can use all this information to predict the location of the object in the next frame and do a small search around the expected location of the object to accurately locate the object. A good tracking algorithm will use all information it has about the object up to that point while a detection algorithm always starts from scratch. Therefore, while designing an efficient system usually an object detection is run on every nth frame while the tracking algorithm is employed in the n-1 frames in between.</p>
+<p align="justify">In this project, the MIL (Multiple Instance Learning) algorithm will be used for hand tracking. The MIL algorithm trains a classifier in an online manner to separate the object from the background. Multiple Instance Learning avoids the drift problem for a robust tracking. So, MIL results in a more robust and stable tracker. The implementation is based on the paper "Visual Tracking with Online Multiple Instance Learning" by B Babenko, M-H Yang, and S Belongie.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/mil_tracker.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 5: Using one positive bag consisting of several image patches to update a MIL classifier</i></p>
+
+<br/> 
+<h3>Implementation</h3>
+
+<p align="justify">Haar cascade classifier allows good detection of objects with static features such as ballons, boxes, faces, eyes, mounts, noise, etc. But hand has few static features because its shape and fingers can change as well as its orientations. So, Haar cascade classifier allows detection of basic hand shapes and is not a robust technique to recognise a hand with different poses. Since hand detection using Haar cascades in not a robust method, this deficiency is compensated with a hand tracker based on wriste region. In addition, hand  tracking allows the reduction of the processing time since tracking requieres less compotutional resources, this is showed in the results. To sum up, the system performs hand detection for a short time and hand tracking start working after the hand is located.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/flowchart_project.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 6: Basic scheme of the hand detection system</i></p>
+
+<p align="justify">The systems is composed of three basic steps: hand detection, extraction of wrist region, and hand tracking. Figure 6 shows the steps mentioned above. Furthermore, wrist region is proposed for tracking due this region keeps invariant when hand changes to different poses and shapes. Figure 7 shows the different regions after each step. The yellow square represent the hand region detected by the Haar classifier and only detects basic poses of the hand, so this rectangle is unestable and change to different shapes. The red rectangle encloses the wrist region, with keeps invariant to different hand poses and is taken as reference for hand tracking. Finally, the blue rectangle represents the hand region, wuch keeps invariant to different shapes, poses, positions and light conditions. In addition, this blue rectangle keeps stable in order to do additional processing such as han posese recognition, hand interaction, etc. 
+
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/tracking_region.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 7: Regions extrated after each step</i></p>
+
+<p align="justify">The implementation of this hand detector on a personal computer has no problems since its computational resources. However, when using the Raspberry Pi for hand detection and tracking we have two major pitfalls working against us: restricted memory (only 1GB on the Raspberry Pi 3) and limited processor speed (four ARM Cortex-A53 core running at 1.2GHz on the Raspberry Pi 3). So, this makes it difficult to use larger, complex algorithms on this platform. Since Haar cascades and tracking algorithms are designed to consume the less amount of computational resorces, the implementation on the Raspberry Pi is feasible. A basic scheme of the recognition system is presented in the Figure 8 and show the input and output signals.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/diagram.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 8: Basic scheme of the hand detection system</i></p>
+
+<p align="justify">The implementation of the whole system was performed in C++ and using OpenCV 3.3.0 libraries since these allow the easy realization of haar cascade classifier and object tracking with a good performance. Also, these libraries can be used on a personal computer as well as on different embedded computers like Beglebone and Raspberry Pi. This hand detector will be implemented on two different computers, a personal computer and embedded computer. The Raspberry Pi 3 board will be used as embedded computer.</p>
+<br/> 
+<h3>Results</h3>
+
+<p align="justify">The videos presented in this section show different aspects in the implementation of this project. The Video 1 puts in evidence the wrong hand detection for complex hand shapes of the hand detection step (based on the Haar cascader classifier), whose processing time is about 32 ms. In contrast, hand tracking has a better processing time than hand detection, which is about 8 ms (four times faster than hand detection step), but performs a wrong hand tracking for complex shapes.</p>
+
+<center style="padding-bottom: 8px; padding-top: 8px;" ><video controls><source src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/hand-detrack-simple-pc.mp4" type="video/mp4"> Your browser does not support the video tag.</video></center>
+
+<p style="text-align:center;"><i>Video 1: Simple detection and tracking of a hand in real-time on a personal computer</i></p>
+
+<p align="justify">The video 2 demostrates the robustness of the proposed technique on a personal computer. Using the aproach the hand is successfully detected in different positions, shapes, poses and different light conditions. In addition to this, processing time to performs hand tracking is about 5 ms. Therefore, compared with a simple hand detection and tracking, hte  approach imporves the detection and processing time.</p>
+
+<center style="padding-bottom: 8px; padding-top: 8px;" ><video controls><source src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/hand-detrack-pc.mp4" type="video/mp4"> Your browser does not support the video tag.</video></center>
+
+<p style="text-align:center;"><i>Video 2: Robust detection and tracking of a hand in real-time on a personal computer</i></p>
+
+<p align="justify">Finally, the video 3 shows the implementation of the proposed technique on a credit card-size embedded computer (Raspberry Pi 3). On this board, the hand detectiond and tracking is performed with good accuracy despite different positions, chapes, gestures and light conditions. Moreover, procecssing time is about 180 ms because of the low computational resources of the Raspberry Pi and the computational requirements of MIL algorithm to perform hand tracking.</p>
+
+<center style="padding-bottom: 8px; padding-top: 8px;" ><video controls><source src="https://dennishnf.bitbucket.io/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/hand-detrack-rpi.mp4" type="video/mp4"> Your browser does not support the video tag.</video></center>
+
+<p style="text-align:center;"><i>Video 3: Robust detection and tracking of a hand in real-time on a embedded computer</i></p>
+
+<br/> 
+<h3>Conclusions</h3>
+
+<p align="justify">In summary, a hand detector was implemented in real-time on a Raspberry Pi platform. What makes this a robust technique is the extraction of the wrist region since this keeps invariant to different shapes and finger variations. So, the results show a good detection for different complex shapes of the hand, different positions and light conditions. In addition to this, the time used to perform the image classification is about 5 ms on a personal computer and 180 ms on a Raspberry Pi.</p>
+
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+Made from scratch - Python as backend <br/>
+Website updated 18-06-2020 12:24 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 

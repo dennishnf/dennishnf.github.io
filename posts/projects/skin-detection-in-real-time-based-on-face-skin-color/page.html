@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/x-icon" />
+<link rel="icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.bitbucket.io">Dennis Núñez Fernández</a></b></h1>
+<h2>Bachelor in Science with mention in Electronic Engineering</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="https://dennishnf.bitbucket.io/index.html">Home</a></li>
+<li><a href="https://dennishnf.bitbucket.io/research/research.html">Research</a></li>
+<li><a href="https://dennishnf.bitbucket.io/posts/posts.html">Posts</a></li>
+<li><a href="https://dennishnf.bitbucket.io/contact/contact.html">Contact</a></li>
+<li><a href="https://dennishnf.bitbucket.io/cv/CV-DennisNúñezFernández-english.pdf">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Skin detection in real-time based on face skin color</h2>
+
+<br/> 
+<h3>Introduction</h3>
+
+<p align="justify">In the last two decades extensive research have focused on skin detection in images. Skin detection means detecting image pixels and regions that contain skin-tone color. Most the research in this area have focused on detecting skin pixels and regions based on their color. Very few approaches attempt to also use texture information to classify skin pixels.</p>
+<p align="justify">Detecting skin-colored pixels, although seems a straightforward easy task, has proven quite hallenging for many reasons. The appearance of skin in an image depends on the illumination conditions (illumination geometry and color) where the image was captured. We humans are very good at identifying object colors in a wide range of illuminations, this is called color constancy. Color constancy is a mystery of perception. Therefore, an important challenge in skin detection is to represent the color in a way that is invariant or at least insensitive to changes in illumination.</p>
+<p align="justify">In this project, we propose an algorithm that take advantage of face color information in order to segment skin regions. Since face has important information about skin propieties such as light conditions, skin tone color and more, one of the main advantages of this method is the no need of a database and training phase due skin model is extracted from the face and constructed according the actual light and skin conditions of the person. Therefore, this method automatically adapt the skin model to the actual conditions of the enviroment.</p>
+<br/> 
+<h3>Face detection</h3>
+
+<p align="justify">Object Detection using Haar feature-based cascade classifiers is an effective object detection method proposed by Paul Viola and Michael Jones in their paper, "Rapid Object Detection using a Boosted Cascade of Simple Features" in 2001. It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images.</p>
+<p align="justify">The speed with which features may be evaluated does not adequately compensate for their number, however. For example, in a standard 24x24 pixel sub-window, there are a total of M = 162,336 possible features, and it would be prohibitively expensive to evaluate them all when testing an image. Thus, the object detection framework employs a variant of the learning algorithm AdaBoost to both select the best features and to train classifiers that use them. This algorithm constructs a “strong” classifier as a linear combination of weighted simple “weak” classifiers.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/typical_viola_jones.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 1: Typical Viola-Jones flowchart</i></p>
+
+<p align="justify">All human faces share some similar properties. These regularities may be matched using Haar Features. Each classifier is composed of Haar feature extractors (weak classifiers). Each Haar feature is the weighted sum of 2-D integrals of small rectangular areas attached to each other. The weights may take values ±1. Figure 2 shows examples of Haar features relative to the enclosing detection window. Black areas have a positive weight and white areas have a negative weight.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/haar-cascades.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 2: Haar features used for face detection</i></p>
+
+<p align="justify">The cascade architecture is very efficient because the classifiers with the fewest features are placed at the beginning of the cascade, minimizing the total required computation. A cascade of gradually more complex classifiers achieves even better detection rates.</p>
+<p align="justify">The evaluation of the strong classifiers generated by the learning process can be done quickly, but it isn’t fast enough to run in real-time. For this reason, the strong classifiers are arranged in a cascade in order of complexity, where each successive classifier is trained only on those selected samples which pass through the preceding classifiers. If at any stage in the cascade a classifier rejects the sub-window under inspection, no further processing is performed and continue on searching the next sub-window. The cascade therefore has the form of a degenerate tree.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/cascade.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 3: Cascades using for face detection</i></p>
+
+<br/> 
+<h3>YCrCb color space</h3>
+
+<p align="justify">YCbCr is an encoded non-linear RGB signal, commonly used by European television studios and for image compression work. As shown in fig. 2 color is represented by luma (which is luminance computed from nonlinear RGB) constructed as a weighted sum of RGB values. YCbCr is a commonly used color space in digital video domain. In this format, luminance information is stored as a single component (Y), and chrominance information is stored as two color-difference components (Cb and Cr). Cb represents the difference between the blue component and reference value. Cr represents the difference between the red component and a reference value. YCbCr is used in several papers for skin detection. YCbCr values can be obtained from RGB color space according to the next equation.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/equation.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">In contrast to RGB, the YCbCr color space is luma-independent, resulting in a better performance. Figure 4 shows the diferent distribution of some colors such as yellow, green, red and others in the YCrCr color space.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/ycbcr-colorspace.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 4: YCbCr color space</i></p>
+
+<p align="justify">Experimental tests shows the efficiency of YCbCr color space for the segmentation and detection of skin color in color images. Figure 5 demostrates that YCbCr color space is better than the RGB color space to detect skin regions. Furthermore, YCbCr image shows a better robustness to variation of light conditions, so conversion from RGB to YCbCr will be used in this project in pre-procesing step.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/original_rgb_ycbcr.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 5: [Left] Original image extracted from the camera, [Center] Skin color thresholding using RGB color space, [Right] Skin color thresholding using YCrCb color space</i></p>
+
+<br/> 
+<h3>Implementation</h3>
+
+<p align="justify">Figure 6 shows the proposed system, which has four stages: face detection is performed in the first step, then the image transformation from the RGB to YCbCr color space is applied before the extraction of the parameters and before the skin color thresholding. Next the threshold calculation is done using the Y, Cb and Cr histograms analysis. Filter stage or classifier is obtained using the skin detection with the threshold that was obtained in the previous stage. In addition, Viola-Jones algorithm is used in face detection step. Since Viola-Jones algorithm, conversion to YCbCr and skin color thresholding are propcessed in about 50 ms, the real-time implementation can be poerformed without problem and using C++ language to reduce time processing. 
+
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/flowchart_project.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 6: Basic scheme of the skin detector</i></p>
+
+<p align="justify">Since face features has important features of light conditions and skin color, this is used in the YCbCy color space to extract the most important features for skin detection. Because face size changes with the distance of the person in fron to the camer, the face is scaled to a 100x100 image, then the features are extracted. The parameters extracted from face are the histogram intervals in the YCbCr color space where the skin regions are located. This means that six parameters are extragted: Y_min and Y_max are the boundaries of luminance, and Cb_min Cb_max and Cr_min Cr_max are the boundaries of chrominance. These limits determine the histogram intervals of the skin regions. These interbals are shown in the Figure 7.</p>
+<p align="justify">Then these six parameters (Y_min - Y_max, Cb_min - Cb_max and Cr_min - Cr_max) are used to decide whether a pixel belongs to the skin or not. In the Figure 7, pixels with YCrCb values inside orange region are labeled as pixels and pixels outside orange region are labeled as non skin. The min_val is used to discard regions like eyes, noise holes, eyebrows and small non skin regions inside the face in order to improve the skin model. As final step, a post-processing techique is used in order to smooth the skin regions. So, we used a Gaussian blur filter with a kernel of 5x5 pixels. The implementation of the whole system was performed completely in C++ and using OpenCV libraries.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/histogram_intervals.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 7: Face region in YCbCr color space and its histogram intervals where skin is located</i></p>
+
+<br/> 
+<h3>Results</h3>
+
+<p align="justify">In order to test the performance of our skin recognition system, a group of images downloaded randomly from Google for human skin detection research. These images are captured with a range of different cameras using different colour enhancement and under different illuminations. These results are shown in the Figure 8. As the figure shows, the skin detection of the proposed method achieve good results despite differents orientations of the face, different light conditions, and different skin tones.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/result1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/result2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/result3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p style="text-align:center;"><i>Figure 8: Skin detection for single images</i></p>
+
+<p align="justify">Since the computational time to process face detection and find the skin intervals of the histogram is low, the real-time implementation of this skin classifier is feastible. The video shows below demostrates the good classification of most of the skin regions, but other skin regions are not labeled as skin due the low light conditions. Also, the video shows the whole image of the camera in the YCbCr color space, the face region in the YCbCr color space and its histogram in real-time.</p>
+<p align="justify">On the other hand, this method detects skin only in directly human-machine interaction, it means that the person should be in front of the camera and face should be visible, otherwise it would be impossible to extract facial features. Despite these restrinctions, the video shows a good classification of skin and another regions of the body can be extracted can be extracted such as the hand, the arm, or other limbs.</p>
+
+<center style="padding-bottom: 8px; padding-top: 8px;" ><video controls><source src="https://dennishnf.bitbucket.io/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/skindetector.mp4" type="video/mp4"> Your browser does not support the video tag.</video></center>
+
+<p style="text-align:center;"><i>Skin detector in real-time running on a laptop machine</i></p>
+
+<br/> 
+<h3>Conclusions</h3>
+
+<p align="justify">A method for skin detection was proposed in this project, what makes a different approach compared with others methods is the use of the face to find skin regions. Since face contains useful and important information about the skin color and the light condition of the enviroment it is used to create an adaptive model of the skin accorfing to the actual conditions of the skin and the enviroment. Furthermore, this method can be imporved adding a better post-processing techniques such as morphology transformations or median blur filter. Some possible applications are hand detection to detect hand poses, human-machine interaction such as robots or PC machines, behavior of the drivers body in order to avoid accidents by falling asleep while driving, body behavior to survillance, and more.</p>
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+Made from scratch - Python as backend <br/>
+Website updated 18-06-2020 12:24 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 

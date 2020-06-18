@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/x-icon" />
+<link rel="icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.bitbucket.io">Dennis Núñez Fernández</a></b></h1>
+<h2>Bachelor in Science with mention in Electronic Engineering</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="https://dennishnf.bitbucket.io/index.html">Home</a></li>
+<li><a href="https://dennishnf.bitbucket.io/research/research.html">Research</a></li>
+<li><a href="https://dennishnf.bitbucket.io/posts/posts.html">Posts</a></li>
+<li><a href="https://dennishnf.bitbucket.io/contact/contact.html">Contact</a></li>
+<li><a href="https://dennishnf.bitbucket.io/cv/CV-DennisNúñezFernández-english.pdf">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Installing Raspicam on Raspberry Pi: C++ API for using Raspberry camera with/without OpenCV</h2>
+
+<p align="justify">IMPORTANT!! The Rasperry Pi camera is not an usb-webcam. Thus, OpenCV doesn’t work natively (forget cvCaptureFromCAM for example and all your wonderful apps you’ve thought up!). However, some nice apps (such as raspivid or raspistill) controls  the pi camera using MMAL functions. The idea is to modify source code of such apps, use buffer memory of the camera to feed OpenCV image objects. Pretty easy (said like that). You can find some examples at:</p>
+<p align="justify">- <a target="_blank" href="https://thinkrpi.wordpress.com/2013/05/22/opencv-and-camera-board-csi/">https://thinkrpi.wordpress.com/2013/05/22/opencv-and-camera-board-csi/</a>.</p>
+<p align="justify">- <a target="_blank" href="https://thinkrpi.wordpress.com/2013/05/22/opencvpi-cam-step-5-basic-use-display-a-picture/">https://thinkrpi.wordpress.com/2013/05/22/opencvpi-cam-step-5-basic-use-display-a-picture/</a>.</p>
+<p align="justify">Another option to control the RPI camera is the Raspicam library, which allows to use the Raspberry Pi Camera under BSD License. Main Developer: Rafael Muñoz Salinas ( rmsalinas at uco dot es). Acknowledgement: thanks to Josh-Larson for his contribution.</p>
+<p align="justify">Download at SourceForge:</p>
+<p align="justify">- <a target="_blank" href="https://sourceforge.net/projects/raspicam/files/?">https://sourceforge.net/projects/raspicam/files/?</a>.</p>
+<br/> 
+<h3>Main features</h3>
+
+<p align="justify">- Provides  class RaspiCam for easy and full control of the camera.</p>
+<p align="justify">- Provides class  RaspiCam_Still and RaspiCam_Still_Cv for controlling the camera in still mode.</p>
+<p align="justify">- Provides class  RaspiCam_Cv for easy control of the camera with OpenCV.</p>
+<p align="justify">- Provides class  RaspiCam_Still and RaspiCam_Still_Cv for controlling the camera in still mode.</p>
+<p align="justify">- Provides class RaspiCam_Still and RaspiCam_Still_Cv for using the still camera mode.</p>
+<p align="justify">- Easy compilation/installation using cmake.</p>
+<p align="justify">- No need to install development file of userland. Implementation is hidden.</p>
+<p align="justify">- Many examples.</p>
+<br/> 
+<h3>Connect to RPI with SSH and Xephyr</h3>
+
+<p align="justify">First, on Ubuntu:</p>
+<p><code class="barcode">$ Xephyr -ac -br -keybd ephyr,,,xkbmodel=pc105,xkblayout=es -noreset -screen 1280x720 :1
+</code></p>
+
+<p align="justify">Then, on RPI:</p>
+<p><code class="barcode">$ DISPLAY=:1 ssh -Y pi@10.42.0.246
+$ startlxde
+</code></p>
+
+<br/> 
+<h3>Compiling</h3>
+
+<p align="justify">Note: You should compile and install again after a new version of OpenCV is installed in your PC.</p>
+<p align="justify">Download the file to your raspberry. Uncompress.</p>
+<p align="justify">Then, compile:</p>
+<p><code class="barcode">$ cd raspicam-xx
+$ mkdir build
+$ cd build
+$ cmake ..
+</code></p>
+
+<p align="justify">At this point you'll see something like:</p>
+<p><code class="barcode">-- CREATE OPENCV MODULE=1
+-- CMAKE_INSTALL_PREFIX=/usr/local
+-- REQUIRED_LIBRARIES=/opt/vc/lib/libmmal_core.so;/opt/vc/lib/libmmal_util.so;/opt/vc/lib/libmmal.so
+-- Change a value with: cmake -D&lt;Variable&gt;=&lt;Value&gt;
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/raspicam/trunk/build
+</code></p>
+
+<p align="justify">If OpenCV development files are installed in your system, then  you see:</p>
+<p><code class="barcode">-- CREATE OPENCV MODULE=1
+</code></p>
+
+<p align="justify">otherwise this option will be 0 and the opencv module of the library will not be compiled.
+ 
+Finally compile, install and update the ldconfig:</p>
+<p><code class="barcode">$ make
+$ sudo make install
+$ sudo ldconfig
+</code></p>
+
+<p align="justify">After that, you have the programs <custom_code>raspicam_test</custom_code> and <custom_code>raspicam_cv_test</custom_code> (if opencv was enabled), under <custom_code>raspicam-xx/build/utils/</custom_code>. Run the programs to check that compilation is ok.</p>
+<br/> 
+<h3>Using it in your projects</h3>
+
+<p align="justify">You can learn how to use the library by taking a look at the examples in the utils directory and  by analyzing the header files. In addition, we provide a some simple examples on how to use the library.</p>
+<p align="justify">First, create a directory for our own project. Then, go in and create a file with the name <custom_code>simpletest_raspicam.cpp</custom_code> and add the following code:</p>
+<p><code class="barcode">#include &lt;ctime>
+#include &lt;fstream>
+#include &lt;iostream>
+#include &lt;raspicam/raspicam.h>
+#include &lt;unistd.h>
+    
+using namespace std;
+    
+int main ( int argc,char **argv ) {
+  raspicam::RaspiCam Camera; //Cmaera object
+  //Open camera 
+  cout&lt;&lt;"Opening Camera..."&lt;&lt;endl;
+  if ( !Camera.open()) {cerr&lt;&lt;"Error opening camera"&lt;&lt;endl;return -1;}
+  //wait a while until camera stabilizes
+  cout&lt;&lt;"Sleeping for 3 secs"&lt;&lt;endl;
+  sleep(3);
+  //capture
+  Camera.grab();
+  //allocate memory
+  unsigned char *data=new unsigned char[  Camera.getImageTypeSize ( raspicam::RASPICAM_FORMAT_RGB )];
+  //extract the image in rgb format
+  Camera.retrieve ( data,raspicam::RASPICAM_FORMAT_RGB );//get camera image
+  //save
+  std::ofstream outFile ( "raspicam_image.ppm",std::ios::binary );
+  outFile&lt;&lt;"P6\n"&lt;&lt;Camera.getWidth() &lt;&lt;" "&lt;&lt;Camera.getHeight() &lt;&lt;" 255\n";
+  outFile.write ( ( char* ) data, Camera.getImageTypeSize ( raspicam::RASPICAM_FORMAT_RGB ) );
+  cout&lt;&lt;"Image saved at raspicam_image.ppm"&lt;&lt;endl;
+  //free resrources
+  delete data;
+  return 0;
+}
+</code></p>
+
+<p align="justify">Then, compile:</p>
+<p><code class="barcode">$ g++ -I/usr/local/include/ -L/opt/vc/lib -g -o binary simpletest_raspicam.cpp -lraspicam -lmmal -lmmal_core -lmmal_util -o simpletest_raspicam
+</code></p>
+
+<p align="justify">Finally, run the program:</p>
+<p><code class="barcode">$ ./simpletest_raspicam
+</code></p>
+
+<br/> 
+<h3>OpenCV Interface</h3>
+
+<p align="justify">If the OpenCV is found when compiling the library, the libraspicam_cv.so module is created and the RaspiCam_Cv class available. Take a look at the examples in utils to see how to use the class. In addition, we show here how you can use the RaspiCam_Cv in your own project.</p>
+<p align="justify">First, create a directory for our own project. Then, go in and create a file with the name <custom_code>simpletest_raspicam_cv.cpp</custom_code> and add the following code:</p>
+<p><code class="barcode">#include &lt;ctime&gt;
+#include &lt;iostream&gt;
+#include &lt;raspicam/raspicam_cv.h&gt;
+    
+using namespace std; 
+    
+int main ( int argc,char **argv ) {
+  time_t timer_begin,timer_end;
+  raspicam::RaspiCam_Cv Camera;
+  cv::Mat image;
+  int nCount=100;
+  //set camera params, CV_8UC1 grayscale, CV_8UC3 colored
+  Camera.set( CV_CAP_PROP_FORMAT, CV_8UC1 );
+  //Open camera
+  cout&lt;&lt;"Opening Camera..."&lt;&lt;endl;
+  if (!Camera.open()) {cerr&lt;&lt;"Error opening the camera"&lt;&lt;endl;return -1;}
+  //Start capture
+  cout&lt;&lt;"Capturing "&lt;&lt;nCount&lt;&lt;" frames ...."&lt;&lt;endl;
+  time ( &timer_begin );
+  for ( int i=0; i&lt;nCount; i++ ) {
+    Camera.grab();
+    Camera.retrieve ( image);
+    if ( i%5==0 )  cout&lt;&lt;"\r captured "&lt;&lt;i&lt;&lt;" images"&lt;&lt;std::flush;
+  }
+  cout&lt;&lt;"Stop camera..."&lt;&lt;endl;
+  Camera.release();
+  //show time statistics
+  time ( &timer_end ); /* get current time; same as: timer = time(NULL)  */
+  double secondsElapsed = difftime ( timer_end,timer_begin );
+  cout&lt;&lt; secondsElapsed&lt;&lt;" seconds for "&lt;&lt; nCount&lt;&lt;"  frames : FPS = "&lt;&lt;  ( float ) ( ( float ) ( nCount ) /secondsElapsed ) &lt;&lt;endl;
+  //save image 
+  cv::imwrite("raspicam_cv_image.jpg",image);
+  cout&lt;&lt;"Image saved at raspicam_cv_image.jpg"&lt;&lt;endl;
+}
+</code></p>
+
+<p align="justify">Then, compile:</p>
+<p><code class="barcode">$ g++ -I/usr/local/include/ -g -o binary simpletest_raspicam_cv.cpp -lopencv_core -lopencv_highgui -lraspicam -lraspicam_cv -o simpletest_raspicam_cv
+</code></p>
+
+<p align="justify">Finally, run the program:</p>
+<p><code class="barcode">$ ./simpletest_raspicam_cv
+</code></p>
+
+<br/> 
+<h3>Resources</h3>
+
+<p align="justify">- <a target="_blank" href="https://www.uco.es/investiga/grupos/ava/node/40">https://www.uco.es/investiga/grupos/ava/node/40</a>.</p>
+<p align="justify">- <a target="_blank" href="https://thinkrpi.wordpress.com/2013/05/22/opencv-and-camera-board-csi/">https://thinkrpi.wordpress.com/2013/05/22/opencv-and-camera-board-csi/</a>.</p>
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+Made from scratch - Python as backend <br/>
+Website updated 18-06-2020 12:24 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 

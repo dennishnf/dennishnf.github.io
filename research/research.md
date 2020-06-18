@@ -1,0 +1,81 @@
+<h2>Research</h2>
+<br/>
+<ul>
+<li>
+<i>Workshop paper:</i> D. Núñez-Fernández, F. Porras-Barrientos, M. Vittet-Mondoñedo, R. H. Gilman, M. Zimic. `Prediction of gaze direction using Convolutional Neural Networks for Autism diagnosis'. LatinX in AI Research at NeurIPS 2019. Vancouver, Canada. (2019) <br/>
+[<a href="https://dennishnf.bitbucket.io/research/2019%20-%20lxai%20at%20neurips%202019%20-%20prediction%20gaze%20direction%20using%20cnns%20for%20autism.pdf">PDF</a>] 
+[<a href="https://arxiv.org/abs/1911.05629">arXiv</a>] 
+</li>
+<br/>
+<li>
+<i>Workshop paper:</i> B. Saldivar-Espinoza, D. Núñez-Fernández, F. Porras-Barrientos, A. Alva-Mantari, L. S. Leslie, M. Zimic. `Portable system for the prediction of anemia based on the ocular conjunctiva using Artificial Intelligence'. LatinX in AI Research at NeurIPS 2019. Vancouver, Canada. (2019) <br/>
+[<a href="https://dennishnf.bitbucket.io/research/2019%20-%20lxai%20at%20neurips%202019%20-%20prediction%20of%20anemia%20via%20the%20ocular%20conjunctiva.pdf">PDF</a>] 
+[<a href="https://arxiv.org/abs/1910.12399">arXiv</a>] 
+</li>
+<br/>
+<li>
+<i>Workshop paper:</i> D. Núñez Fernández. `Development of a hand pose recognition system on an embedded computer using CNNs'. LatinX in AI Research at NeurIPS 2019. Vancouver, Canada. (2019) <br/>
+[<a href="https://dennishnf.bitbucket.io/research/2019%20-%20lxai%20at%20neurips%202019%20-%20hand%20pose%20recognition%20on%20an%20embedded%20computer.pdf">PDF</a>] 
+[<a href="https://arxiv.org/abs/1910.11100v1">arXiv</a>] 
+</li>
+<br/>
+<li>
+<i>Book chapter:</i> A. Aspilcueta Narvaez, D. Núñez Fernández, S. Gamarra Quispe, D. Lazo Ochoa. `Smart Campus IoT guidance system for visitors based on Bayesian filters'. BTSym 2019. Lima, Peru. (2019) <br/>
+[<a href="none">PDF</a>] 
+[<a href="none">Springer</a>] 
+</li>
+<br/>
+<li>
+<i>Workshop paper:</i> D. Núñez Fernández, B. Kwolek. `Hand Posture Recognition Using Convolutional Neural Networks'. LatinX in AI Research at ICML 2019. California, USA. (2019) <br/>
+[<a href="https://dennishnf.bitbucket.io/research/2019%20-%20lxai%20at%20icml%202019%20-%20hand%20posture%20recognition%20using%20cnns.pdf">PDF</a>] 
+[<a href="https://hal.archives-ouvertes.fr/hal-02263892">Open Archive HAL</a>] 
+</li>
+<br/>
+<li> 
+<i>Book chapter:</i> D. Núñez Fernández. `Development of a hand gesture based control interface using Deep Learning'. SIMBig 2019. Lima, Peru. (2019) <br/>
+[<a href="https://dennishnf.bitbucket.io/research/2019%20-%20simbig%202019%20-%20development%20of%20a%20hand%20gesture%20interface.pdf">PDF</a>] 
+[<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-46140-9_14">Springer</a>] 
+</li>
+<br/>
+<li> 
+<i>Book chapter:</i> D. Núñez Fernández. `Implementation of an indoor location system for mobile-based museum guidance'. SIMBig 2019. Lima, Peru. (2019) <br/>
+[<a href="https://dennishnf.bitbucket.io/research/2019%20-%20simbig%202019%20-%20implementation%20of%20an%20indoor%20location%20system%20museum.pdf">PDF</a>] 
+[<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-46140-9_7">Springer</a>] 
+</li>
+<br/>
+<li>
+<i>Conference paper:</i> D. Núñez Fernández. `Development of a hand pose recognition system on an embedded computer using Artificial Intelligence'. INTERCON 2019. Lima, Peru. (2019) <br/>
+[<a href="https://dennishnf.bitbucket.io/research/2019%20-%20intercon%202019%20-%20hand%20pose%20on%20embedded%20computer%20using%20ai.pdf">PDF</a>] 
+[<a href="https://ieeexplore.ieee.org/document/8853573">IEEE Xplore</a>] 
+</li>
+<br/>
+<li>
+<i>Conference paper:</i> D. Núñez Fernández. `Implementation of a WiFi-based indoor location system on a mobile device for a university area'. INTERCON 2019. Lima, Peru. (2019) <br/>
+[<a href="2019%20-%20intercon%202019%20-%20wifi%20indoor%20location%20on%20mobile%20device%20for%20university.pdf">PDF</a>] 
+[<a href="https://ieeexplore.ieee.org/document/8853556">IEEE Xplore</a>] 
+</li>
+<br/>
+<li>
+<i>Conference paper:</i> D. Núñez Fernández. `Multi-subject continuous emotional states monitoring by using Convolutional Neural Networks'. XPOTRON 2019. Arequipa, Peru. (2019) <br/> 
+[<a href="https://dennishnf.bitbucket.io/research/2019%20-%20xpotron%202019%20-%20multi-subject%20emotional%20states%20monitoring.pdf">PDF</a>]
+[<a href="https://ieeexplore.ieee.org/document/8705963">IEEE Xplore</a>]
+</li>
+<br/>
+<li>
+<i>Conference paper:</i> D. Núñez Fernández, S. Hosseini. `Real-time handwritten letters recognition on an embedded computer using ConvNets'. SHIRCON 2018. Lima, Peru. (2018) <br/> 
+[<a href="https://dennishnf.bitbucket.io/research/2018%20-%20shircon%202018%20-%20real-time%20handwritten%20letters%20recognition.pdf">PDF</a>]
+[<a href="https://ieeexplore.ieee.org/document/8592981">IEEE Xplore</a>]
+</li>
+<br/>
+<li>
+<i>Conference paper:</i> D. Núñez Fernández. `A Real-Time Recognition System for User Characteristics Based on Deep Learning'. INTERCON 2018. Lima, Peru. (2018) <br/> 
+[<a href="https://dennishnf.bitbucket.io/research/2018%20-%20intercon%202018%20-%20real-time%20recognition%20for%20user%20characteristics.pdf">PDF</a>] 
+[<a href="https://ieeexplore.ieee.org/document/8526381">IEEE Xplore</a>] 
+</li>
+<br/>
+<li> 
+<i>Book chapter:</i> D. Núñez Fernández, B. Kwolek. `Hand Posture Recognition Using Convolutional Neural Network'. CIARP 2017. Valparaiso, Chile. (2017) <br/> 
+[<a href="https://dennishnf.bitbucket.io/research/2018%20-%20ciarp%202017%20-%20hand%20posture%20recognition%20using%20cnn.pdf">PDF</a>]
+[<a href="https://link.springer.com/chapter/10.1007/978-3-319-75193-1_53">Springer</a>]
+</li>
+</ul>

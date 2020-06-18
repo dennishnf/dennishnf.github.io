@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/x-icon" />
+<link rel="icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.bitbucket.io">Dennis Núñez Fernández</a></b></h1>
+<h2>Bachelor in Science with mention in Electronic Engineering</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="https://dennishnf.bitbucket.io/index.html">Home</a></li>
+<li><a href="https://dennishnf.bitbucket.io/research/research.html">Research</a></li>
+<li><a href="https://dennishnf.bitbucket.io/posts/posts.html">Posts</a></li>
+<li><a href="https://dennishnf.bitbucket.io/contact/contact.html">Contact</a></li>
+<li><a href="https://dennishnf.bitbucket.io/cv/CV-DennisNúñezFernández-english.pdf">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Add graphical environment with Xephyr Disp. Server to Parallella Board</h2>
+
+<p align="justify">Requirements: Ubuntu PC and Parallella Board.</p>
+<p align="justify">First you should to set all configurations of the previous post Add Graphical Environment (<a target="_blank" href="https://dennishnf.bitbucket.io/posts/parallella/add_graphical_environment.html">https://dennishnf.bitbucket.io/posts/parallella/parallella_board/add_graphical_environment.html</a>).</p>
+<br/> 
+<h3>Install Xephyr in your Ubuntu PC:</h3>
+
+<p><code class="barcode">$ sudo apt-get install xserver-xephyr
+</code></p>
+
+<br/> 
+<h3>Able or Disable PCManFM Desktop mode:</h3>
+
+<p align="justify">I recommend to disable 'PCManFM Desktop mode' for faster displaying. Edit the next files (On Parallella Board):</p>
+<p><code class="barcode">$ sudo nano /etc/xdg/lxsession/LXDE/autostart
+</code></p>
+
+<p><code class="barcode">$ sudo nano ~/.config/lxsession/LXDE/autostart
+</code></p>
+
+<p align="justify">, to able or disable 'PCManFM Desktop mode', in both files add or delete respectively the next line, and save:</p>
+<p><code class="barcode">@pcmanfm --desktop --profile LXDE
+</code></p>
+
+<br/> 
+<h3>Set a background image:</h3>
+
+<p align="justify">Put a background image file in your home directory ( e.g. /home/parallella/lxde_wallpaper.png ). Then edit the next files (On Parallella Board):</p>
+<p><code class="barcode">$ sudo nano /etc/xdg/lxsession/LXDE/autostart
+</code></p>
+
+<p><code class="barcode">$ sudo nano ~/.config/lxsession/LXDE/autostart
+</code></p>
+
+<p align="justify">, add this line to the bottom of the both files:</p>
+<p><code class="barcode">@feh --bg-fill /home/parallella/lxde_wallpaper.png
+</code></p>
+
+<br/> 
+<h3>After set PCManFM Desktop mode and background image:</h3>
+
+<p align="justify">On Parallella Board:</p>
+<p><code class="barcode">$ sync
+$ sudo reboot
+</code></p>
+
+<br/> 
+<h3>Running</h3>
+
+<p align="justify">Notice that my PC IP is 192.168.1.101, and Parallella uses 192.168.1.110. Obviously you have to adjust those to your values.</p>
+<p align="justify">Check your IP here if you are using Ubuntu: <a target="_blank" href="https://sliceoflinux.wordpress.com/2010/04/02/como-averiguar-la-ip-de-un-ordenador-con-ubuntu/">https://sliceoflinux.wordpress.com/2010/04/02/como-averiguar-la-ip-de-un-ordenador-con-ubuntu/</a>.</p>
+<br/> 
+<h4>1.Open Xephyr</h4>
+
+<p align="justify">Launch Xephyr Server in your Ubuntu PC. Open a terminal and type:</p>
+<p><code class="barcode">$ Xephyr -ac -br -keybd ephyr,,,xkbmodel=pc105,xkblayout=es -noreset -screen 1280x720 :1
+</code></p>
+
+<p align="justify">You can change the value 1280x720 to: 640x489, 1280x720, 1366x768, ...</p>
+<br/> 
+<h4>2.Connect to Parallella</h4>
+
+<p align="justify">Open a terminal in Ubuntu PC and type:</p>
+<p><code class="barcode">$ ssh -X parallella@10.42.0.50
+</code></p>
+
+<br/> 
+<h4>3.Export Parallella Display</h4>
+
+<p align="justify">In the terminal that you are connected to Parallella, type:</p>
+<p><code class="barcode">$ export DISPLAY=192.168.1.101:1
+</code></p>
+
+<p align="justify">You just tell that DISPLAY should be run to the remote machine with the IP (my PC IP is 192.168.1.101) and DISPLAY :1 which is the Xephyr Session. GNOME’s display should be :0, and is used.</p>
+<br/> 
+<h4>4.Run XServer</h4>
+
+<p align="justify">In ssh terminal, that you are connected to Parallella, try to run your graphical environment. I have a default LXDE.</p>
+<p><code class="barcode">$ startlxde
+</code></p>
+
+<br/> 
+<h4>Another option for steps 2, 3 and 4</h4>
+
+<p align="justify">Instead of the points 2 and 3, in Ubuntu PC:</p>
+<p><code class="barcode">$ DISPLAY=:1 ssh -Y parallella@10.42.0.50
+</code></p>
+
+<p align="justify">Then continue with step 4, in ssh terminal connected to Parallella:</p>
+<p><code class="barcode">$ startlxde
+</code></p>
+
+<br/> 
+<h3>Result</h3>
+
+<p align="justify">Start with Xephyr Display Server and disable 'PCManFM Desktop mode' and set a background image:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/parallella/add_graphical_environment_with_xephyr_to_parallella_board/startlxde-DisplayServer.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<br/> 
+<h3>Resources</h3>
+
+<p align="justify">- <a target="_blank" href="http://worldofgnome.org/howto-export-rpi-display-to-gnome/">http://worldofgnome.org/howto-export-rpi-display-to-gnome/</a>.</p>
+<p align="justify">- <a target="_blank" href="http://elinux.org/Parallella_Linaro_Nano#How_to_Install_lightweight_X_environment">http://elinux.org/Parallella_Linaro_Nano#How_to_Install_lightweight_X_environment</a>.</p>
+
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+Made from scratch - Python as backend <br/>
+Website updated 18-06-2020 12:24 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 

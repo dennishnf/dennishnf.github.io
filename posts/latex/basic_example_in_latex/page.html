@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/x-icon" />
+<link rel="icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.bitbucket.io">Dennis Núñez Fernández</a></b></h1>
+<h2>Bachelor in Science with mention in Electronic Engineering</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="https://dennishnf.bitbucket.io/index.html">Home</a></li>
+<li><a href="https://dennishnf.bitbucket.io/research/research.html">Research</a></li>
+<li><a href="https://dennishnf.bitbucket.io/posts/posts.html">Posts</a></li>
+<li><a href="https://dennishnf.bitbucket.io/contact/contact.html">Contact</a></li>
+<li><a href="https://dennishnf.bitbucket.io/cv/CV-DennisNúñezFernández-english.pdf">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Basic example in LaTeX</h2>
+
+<br/> 
+<h3>1. Structure of a LaTeX file</h3>
+
+<p><code class="barcode">\documentclass[options]{article}
+% Preamble       (for LaTeX commands only)
+\begin{document}
+% Document text  (text with embedded LaTeX commands)
+\end{document}
+</code></p>
+
+<p align="justify">The "Document class" determines the overall layout of the document. In addition to "article" class, which is a good all-purpose class, other commonly-used classes are:</p>
+<p align="justify">- report – for longer documents containing chapters.</p>
+<p align="justify">- thesis – for writing an RPI thesis.</p>
+<p align="justify">- book – for books.</p>
+<p align="justify">- letter – for letters.</p>
+<p align="justify">- slides – for making transparencies.</p>
+<p align="justify">Among other things, the classes provide heading commands, such as \part, \chapter, \section.</p>
+<br/> 
+<h3>2. Document Class Options & Packages</h3>
+
+<p align="justify">A "Document Class" may be modified by using options:</p>
+<p><code class="barcode">\documentclass[options]{article}
+</code></p>
+
+<p align="justify">Commonly-used options include:</p>
+<p align="justify">- 11pt Prints document in 11pt type (default 10pt).</p>
+<p align="justify">- 12pt Prints document in 12pt type.</p>
+<p align="justify">Example:</p>
+<p><code class="barcode">\documentclass[11pt]{article}
+</code></p>
+
+<p align="justify">LaTeX "Packages" contain extra definitions that provide additional formatting features. To load a package, include the command into "preamble" :</p>
+<p><code class="barcode">\usepackage{packagename}
+</code></p>
+
+<p align="justify">Some commonly-used packages are:</p>
+<p align="justify">- setspace - Provides easy way to change linespacing.</p>
+<p align="justify">- graphicx - Provides commands to include graphics files.</p>
+<p align="justify">- fancyhdr - Customizes headers and footers.</p>
+<p align="justify">- rotating - Provides rotations, especially for figures & tables.</p>
+<p align="justify">- color - Provides a way to use colors.</p>
+<br/> 
+<h3>3. LaTeX Basics</h3>
+
+<p align="justify">The backslash “\” is used to begin all LaTeX commands. 
+In the input file (.tex file), words are separated by one or more blank spaces, paragraphs are separated by one (or more) blank lines.</p>
+
+<p align="justify">Commands are case-sensitive. Commands are all lowercase unless there’s a good reason to use uppercase. For example:</p>
+<p align="justify">- \Delta → ∆.</p>
+<p align="justify">- \delta → δ.</p>
+<p align="justify">Some commands take arguments, which are enclosed in braces:</p>
+<p><code class="barcode">\textbf{this text will be bold}
+</code></p>
+
+<p align="justify">Certain characters have special meaning to LaTeX. The most common are listed below.</p>
+<p><code class="barcode">|| Char || Input || Special TeX meaning                 ||
+||------||-------||-------------------------------------||
+|| #    || \#    || Parameter in a macro                ||
+|| $    || \$    || Used to begin and end math mode     ||
+|| %    || \%    || Used for comments in the input file ||
+|| &    || \&    || Tab mark, used in alignments        ||
+|| -    || \-    || Used in math mode for subscripts    ||
+</code></p>
+
+<br/> 
+<h3>4. Some LaTeX Vocabulary</h3>
+
+<br/> 
+<h4>Commands:</h4>
+
+<p align="justify">Produce text or space: <custom_code>\hspace{2in}</custom_code> and <custom_code>\textit{some italic words}</custom_code>.</p>
+<br/> 
+<h4>Declarations:</h4>
+
+<p align="justify">Affect the following text: <custom_code>\large</custom_code> prints the following text in a larger font.</p>
+<p align="justify">Grouping <custom_code>{ }</custom_code> is often used to limit the scope of a declaration.</p>
+<p align="justify">Example: <custom_code>{\large only this text is big}</custom_code>.</p>
+<br/> 
+<h4>Environments:</h4>
+
+<p align="justify">Receive special processing and are defined by: <custom_code>\begin{name} ... \end{name}</custom_code>.</p>
+<p align="justify">Example: <custom_code>\begin{quote} ... \end{quote}</custom_code>.</p>
+<br/> 
+<h4>Mandatory arguments:</h4>
+
+<p align="justify">Are included in braces <custom_code>{ }</custom_code>: <custom_code>\hspace{2in}</custom_code> needs the information provided by the argument to generate the space.</p>
+<br/> 
+<h4>Optional arguments:</h4>
+
+<p align="justify">Are enclosed in brackets <custom_code>[ ]</custom_code>: <custom_code>\documentclass[11pt]{article}</custom_code> gives you 11-point type (the default is 10-point type).</p>
+<br/> 
+<h4>Some commands that are apply alone:</h4>
+
+<p align="justify">- <custom_code>*</custom_code> indicates a variation on a command or environment.</p>
+<p align="justify">- <custom_code>\\</custom_code> indicates a line break.</p>
+<p align="justify">- <custom_code>\\*</custom_code> indicates a line break where a page cannot be broken.</p>
+<br/> 
+<h3>5. Example</h3>
+
+<p><code class="barcode">\documentclass[12pt]{article}
+\usepackage{amsmath}
+\title{\LaTeX}
+\date{}
+    
+\begin{document}
+  \maketitle
+   
+  \LaTeX{} is a document preparation system for 
+  the \TeX{} typesetting program. It offers 
+  programmable desktop publishing features and 
+  extensive facilities for automating most 
+  aspects of typesetting and desktop publishing, 
+  including numbering and  cross-referencing, 
+  tables and figures, page layout, 
+  bibliographies, and much more. \LaTeX{} was 
+  originally written in 1984 by Leslie Lamport 
+  and has become the  dominant method for using 
+  \TeX; few people write in plain \TeX{} anymore. 
+  The current version is \LaTeXe.
+   
+  % This is a comment, not shown in final output. 
+  % The following shows typesetting  power of LaTeX:
+  \begin{align}
+    E_0 &= mc^2                              \\
+    E &= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}
+  \end{align}
+   
+\end{document}
+</code></p>
+
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+Made from scratch - Python as backend <br/>
+Website updated 18-06-2020 12:24 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 

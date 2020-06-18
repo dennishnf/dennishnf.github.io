@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/x-icon" />
+<link rel="icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.bitbucket.io">Dennis Núñez Fernández</a></b></h1>
+<h2>Bachelor in Science with mention in Electronic Engineering</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="https://dennishnf.bitbucket.io/index.html">Home</a></li>
+<li><a href="https://dennishnf.bitbucket.io/research/research.html">Research</a></li>
+<li><a href="https://dennishnf.bitbucket.io/posts/posts.html">Posts</a></li>
+<li><a href="https://dennishnf.bitbucket.io/contact/contact.html">Contact</a></li>
+<li><a href="https://dennishnf.bitbucket.io/cv/CV-DennisNúñezFernández-english.pdf">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Handwritten Digits Recognition using Machine Learning</h2>
+
+<p align="justify">Automated handwritten digit recognition is widely used today - from recognizing zip codes (postal codes) on mail envelopes to recognizing amounts written on bank checks. This project will show how a methods of Machine Learning such as one-vs-all logistic regression and neural
+networks are used to recognize hand-written digits.</p>
+<p align="justify">The next diagram describe phases of a Recognition System:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/recognition_system.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 1: Recognition System</i></p>
+
+<br/> 
+<h3>Training Data</h3>
+
+<p align="justify">This recognition system will use a data training that contains 5000 training examples of handwritten digits. Each training example is a 20 pixel by 20 pixel grayscale image of the digit. Each pixel is represented by a floating point number indicating the grayscale intensity at that location. The 20 by 20 grid of pixels is “unrolled” into a 400-dimensional vector. Each of these training examples becomes a single row in our data matrix *X*. This gives us a 5000 by 400 matrix *X* where every row is a training example for a handwritten digit image.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/form1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">The second part of the training set is a 5000-dimensional vector *y* that contains labels for the training set. A “0” digit is labeled as “10”, while the digits “1” to “9” are labeled as “1” to “9” in their natural order.</p>
+<p align="justify">To visualize a subset of the training set, the code randomly selects selects 100 rows from *X* and passes those rows to display the data. This maps each row to a 20 pixel by 20 pixel grayscale image and displays the images together. After this step, an image will be displayed like next figure:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/numbers.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 2: Visual Training Data</i></p>
+
+<br/> 
+<h3>Vectorizing Logistic Regression</h3>
+
+<p align="justify">This recognition system will use multiple one-vs-all logistic regression models to build a multi-class classifier. Since there are 10 classes, recognitio system will need to train 10 separate logistic regression classifiers. To make this training efficient, the code will be vectorized. To get a better performance, this recognition system implements a vectorized version of logistic regression that does not employ any "for" loops.</p>
+<p align="justify">- Vectorizing the cost function: Recognition system is used a vectorized version of the cost function. Recall that in (unregularized) logistic regression, the cost function is:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/form2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">where:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/form3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">To compute each element in the summation, we have to compute last terms for every example 'i'. It turns out that this can be compute quickly for all our examples by using matrix multiplication. Defining 'X' and 'θ' as:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/form4.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">Then, by computing the matrix product Xθ:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/form5.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">In the last equality, the fact that a^T.b = b^T.a is used, where a and b are vectors. This allows to compute the products θ^T.x(i) for all our examples 'i' in one line of code.</p>
+<p align="justify">The last strategy is used to calculate θ^T.x(i) .</p>
+<p align="justify">- Vectorizing the gradient: Recall that the gradient of the (unregularized) logistic regression cost is a vector where the 'jth' element is defined as:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/form6.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">To vectorize this operation over the dataset, all the partial derivatives will be written explicitly for all 'θj':</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/form7.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">where:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/form8.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">To understand the last step of the derivation:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/form9.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">where:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/form10.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">The expression above allows to compute all the partial derivatives without any loops.</p>
+<p align="justify">- Vectorizing regularized logistic regression: It will be used to add regularization to the cost function. Recall that for regularized logistic regression, the cost function is defined as:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/form11.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">Note that θ0 is not regularized, which is used for the bias term.</p>
+<p align="justify">Correspondingly, the partial derivative of regularized logistic regression cost for 'θj' is defined as:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/form12.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">Last strategy helps to not employ any "for" loops.</p>
+<br/> 
+<h3>One-vs-all Classification</h3>
+
+<p align="justify">One-vs-all classification is implemented by training multiple regularized logistic regression classifiers, one for each of the K classes in our dataset (Figure 2).</p>
+<p align="justify">In this recognition system, one classifier is trined for each class. In particular, code returns all the classifier parameters in a matrix Θ of dimension K×(N+1), where each row of Θ corresponds to the learned logistic regression parameters for one class.</p>
+<p align="justify">- One-vs-all Prediction: After training one-vs-all classifier, it is used to predict the digit contained in a given image. For each input, code computes the “probability” that it belongs to each class using the trained logistic regression classifiers. One-vs-all prediction function picks the class for which the corresponding logistic regression classifier outputs the highest probability and return the class label (1, 2,..., or K) as the prediction for the input example.
+With the learned value of Θ the recognition systemgets the training set accuracy of 94.9%:</p>
+<p><code class="barcode">Training Set Accuracy: 94.990000
+Program paused. Press enter to continue.
+</code></p>
+
+<br/> 
+<h3>Neural Networks</h3>
+
+<p align="justify">In the previous part, recognition system was implemented with a multi-class logistic regression to recognize handwritten digits. However, logistic regression cannot form more complex hypotheses as it is only a linear classifier.</p>
+<p align="justify">In this part, a neural network is implemented to recognize handwritten digits using the same training set as before. The neural network will be able to represent complex models that form non-linear hypotheses. This project uses parameters from a neural network that we have already trained. The focus is the implementation of the feedforward propagation algorithm to use weights for prediction.</p>
+<p align="justify">The neural network used in this recognition system is shown in Figure 3. It has 3 layers – an input layer, a hidden layer and an output layer. Recall that inputs are pixel values of digit images. Since the images are of size 20×20, this gives us 400 input layer units (excluding the extra bias unit which always outputs +1). As before, the training data is loaded into the variables 'X' and 'y'.</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/neural_network_model.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+<p style="text-align:center;"><i>Figure 3: Neural Network Model</i></p>
+
+<p align="justify">This recognition system has an accuracy of 97.5%. The next result from Octave shows this:</p>
+<p><code class="barcode">Training Set Accuracy: 97.520000
+Program paused. Press enter to continue.
+</code></p>
+
+<p align="justify">When run the code in Octave, an interactive sequence is launched displaying images from the training set one at a time, while the console prints out the predicted label for the displayed image:</p>
+<p align="justify">Test for the number 2:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/number2.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+</code></p>
+Neural Network Prediction: 2 (digit 2)
+Program paused. Press enter to continue.
+</code></p>
+
+<p align="justify">Test for the number 5:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/number5.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+</code></p>
+Neural Network Prediction: 5 (digit 5)
+Program paused. Press enter to continue.
+</code></p>
+
+<p align="justify">Test for the number 7:</p>
+
+<center><img src="https://dennishnf.bitbucket.io/posts/projects/handwritten-digits-recognition-using-machine-learning/number7.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+</code></p>
+Neural Network Prediction: 7 (digit 7)
+Program paused. Press enter to continue.
+</code></p>
+
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+Made from scratch - Python as backend <br/>
+Website updated 18-06-2020 12:24 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 

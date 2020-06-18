@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/x-icon" />
+<link rel="icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.bitbucket.io">Dennis Núñez Fernández</a></b></h1>
+<h2>Bachelor in Science with mention in Electronic Engineering</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="https://dennishnf.bitbucket.io/index.html">Home</a></li>
+<li><a href="https://dennishnf.bitbucket.io/research/research.html">Research</a></li>
+<li><a href="https://dennishnf.bitbucket.io/posts/posts.html">Posts</a></li>
+<li><a href="https://dennishnf.bitbucket.io/contact/contact.html">Contact</a></li>
+<li><a href="https://dennishnf.bitbucket.io/cv/CV-DennisNúñezFernández-english.pdf">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Useful commands</h2>
+
+<br/> 
+<h3>Shortcuts using Terminator</h3>
+
+<p align="justify">- <custom_code>Ctrl+Shift+O</custom_code>: vertical split.</p>
+<p align="justify">- <custom_code>Ctrl+Shift+E</custom_code>: horizontal split.</p>
+<p align="justify">- <custom_code>Ctrl+Shift+I</custom_code>: new terminal in new window.</p>
+<p align="justify">- <custom_code>Ctrl+Shift+T</custom_code>: new terminal in same window.</p>
+<br/> 
+<h3>Remove (base) from terminal prompt after updating conda</h3>
+
+<p align="justify">This can also be because <custom_code>auto_activate_base</custom_code> is set to True. You can check this using the following command:</p>
+<p><code class="barcode">conda config --show | grep auto_activate_base
+</code></p>
+
+<p align="justify">To set it false:</p>
+<p><code class="barcode">conda config --set auto_activate_base False
+</code></p>
+
+<br/> 
+<h3>Restart Network Manager service</h3>
+
+<p align="justify">Insert the next commad on terminal:</p>
+<p><code class="barcode">sudo systemctl restart NetworkManager.service
+</code></p>
+
+<br/> 
+<h3>Simple commands to manage environemnts in Anaconda</h3>
+
+<p align="justify">Create environment with a specific version of Python:</p>
+<p><code class="barcode">conda create -n myenv python=3.6
+</code></p>
+
+<p align="justify">To create an environment with a specific version of Python and multiple packages:</p>
+<p><code class="barcode">conda create -n myenv python=3.6 scipy=0.15.0 astroid babel
+</code></p>
+
+<p align="justify">Delete environment:</p>
+<p><code class="barcode">conda remove --name myenv --all
+</code></p>
+
+<p align="justify">To export packages from one environment to .yml file and then create another environment with such packages contained in the .yml file:</p>
+<p><code class="barcode">conda env export -n myenv -f myenv.yml
+conda env create -f myenv.yml
+</code></p>
+
+<p align="justify">To use pip in your environment, in your terminal window or an Anaconda Prompt, run:</p>
+<p><code class="barcode">conda install -n myenv pip
+conda activate myenv
+pip &lt;pip_subcommand&gt;
+</code></p>
+
+<br/> 
+<h3>Example syntax for Secure Copy (scp)</h3>
+
+<p align="justify">Copy the file "foobar.txt" from a remote host to the local host:</p>
+<p><code class="barcode">$ scp your_username@remotehost.edu:foobar.txt /some/local/directory
+</code></p>
+
+<p align="justify">Copy the file "foobar.txt" from the local host to a remote host:</p>
+<p><code class="barcode">$ scp foobar.txt your_username@remotehost.edu:/some/remote/directory
+</code></p>
+
+<p align="justify">Copy the directory "foo" from the local host to a remote host's directory "bar":</p>
+<p><code class="barcode">$ scp -r foo your_username@remotehost.edu:/some/remote/directory/bar
+</code></p>
+
+<p align="justify">Copy the directory "bar" from the remote host to a local host's directory "foo":</p>
+<p><code class="barcode">$ scp -r your_username@remotehost.edu:/some/remote/directory/bar /some/local/directory/foo 
+</code></p>
+
+<p align="justify">Copying the files "foo.txt" and "bar.txt" from the local host to your home directory on the remote host:</p>
+<p><code class="barcode">$ scp foo.txt bar.txt your_username@remotehost.edu:~
+</code></p>
+
+<br/> 
+<h3>Compress video with Avidemux</h3>
+
+<p align="justify">- Set video stream to MPEG-4 AVC. stream to “AAC (Faac)”.</p>
+<p align="justify">- Click the "Configure" button in the Video section.</p>
+<p align="justify">- Click the "Encoding Mode" drop-down box and select "Two Pass - Video Size" in the list.</p>
+<p align="justify">- Type the size you want the compressed video to be in megabytes into the "Target Video Size (MB)" box.</p>
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+Made from scratch - Python as backend <br/>
+Website updated 18-06-2020 12:24 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 
