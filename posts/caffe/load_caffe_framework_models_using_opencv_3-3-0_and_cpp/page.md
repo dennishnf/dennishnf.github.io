@@ -9,7 +9,7 @@ We will demonstrate results of this example on the following picture.
 
 ### Source Code ###
 
-We will be using the next code, that can be downloaded here: [[https://dennishnf.bitbucket.io/posts/caffe/load_caffe_framework_models_using_opencv_3-3-0_and_cpp/caffe_googlenet.zip](link)!].
+We will be using the next code, that can be downloaded here: [[https://dennishnf.github.io/posts/caffe/load_caffe_framework_models_using_opencv_3-3-0_and_cpp/caffe_googlenet.zip](link)!].
 
 ```
 #include <<x>opencv2/dnn.hpp<x>>

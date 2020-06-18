@@ -11,7 +11,7 @@ We will demonstrate results of this example on the following picture.
 
 ### Source Code ###
 
-This code was tested on Python 2.7 and works fine. We will be using the next code, that can be downloaded here: [[https://dennishnf.bitbucket.io/posts/caffe/load_caffe_framework_models_using_opencv_3-3-0_and_python/pi_deep_learning.zip](link)!].
+This code was tested on Python 2.7 and works fine. We will be using the next code, that can be downloaded here: [[https://dennishnf.github.io/posts/caffe/load_caffe_framework_models_using_opencv_3-3-0_and_python/pi_deep_learning.zip](link)!].
 
 ```
 # USAGE

@@ -1,7 +1,7 @@
 
 ## Object tracking using OpenCV 3.3.0 and C++/Python ##
 
-OpenCV 3 comes with a new tracking API that contains implementations of many single object tracking algorithms. There are 6 different trackers available in OpenCV 3.2 — BOOSTING, MIL, KCF, TLD, MEDIANFLOW, and GOTURN. as mentioned before, OpenCV 3.x has tracking libraries and is easy to implement object tracking using several approaches. The code shows as follow is included here: [[https://dennishnf.bitbucket.io/posts/opencv/object_tracking_using_opencv_3-3-0_and_cpp_pyhon/example_tracking.zip](link)!].
+OpenCV 3 comes with a new tracking API that contains implementations of many single object tracking algorithms. There are 6 different trackers available in OpenCV 3.2 — BOOSTING, MIL, KCF, TLD, MEDIANFLOW, and GOTURN. as mentioned before, OpenCV 3.x has tracking libraries and is easy to implement object tracking using several approaches. The code shows as follow is included here: [[https://dennishnf.github.io/posts/opencv/object_tracking_using_opencv_3-3-0_and_cpp_pyhon/example_tracking.zip](link)!].
 
 We then open a video and grab a frame. We define a bounding box containing the object for the first frame and initialize the tracker with the first frame and the bounding box. Finally, we read frames from the video and just update the tracker in a loop to obtain a new bounding box for the current frame. Results are subsequently displayed.
 
