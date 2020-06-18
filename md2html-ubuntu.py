@@ -143,7 +143,7 @@ def convert(pathh):
     #replace(path_out, ' \*\*', ' <strong>')
     #replace(path_out, '\*\*', '</strong>')
 
-    replace(path_out, '\!\[image\]\(', '\n<center><img src=\"https://dennishnf.bitbucket.io')
+    replace(path_out, '\!\[image\]\(', '\n<center><img src=\"https://dennishnf.github.io')
     replace(path_out, '.png\){', '.png\" style=\"padding-top:8px; padding-bottom: 8px;\"  width=\"')
     replace(path_out, '}!', '\"/></center>\n')
     replace(path_out, '.jpg\){', '.png\" style=\"padding-top:8px; padding-bottom: 8px;\"  width=\"')
@@ -159,15 +159,15 @@ def convert(pathh):
     replace(path_out, '.gif\)', '.gif\" style=\"padding-top:8px; padding-bottom: 8px;\" /></center>\n')
 
     replace(path_out, '\!{', '\n<center style=\"padding-bottom: 8px; padding-top: 8px;\" ><video width=\"')
-    replace(path_out, '}\[video\]\(', '\" controls><source src=\"https://dennishnf.bitbucket.io')
-    replace(path_out, '\!\[video\]\(', '\n<center style=\"padding-bottom: 8px; padding-top: 8px;\" ><video controls><source src=\"https://dennishnf.bitbucket.io')
+    replace(path_out, '}\[video\]\(', '\" controls><source src=\"https://dennishnf.github.io')
+    replace(path_out, '\!\[video\]\(', '\n<center style=\"padding-bottom: 8px; padding-top: 8px;\" ><video controls><source src=\"https://dennishnf.github.io')
     replace(path_out, '.mp4\)', '.mp4\" type=\"video/mp4\"> Your browser does not support the video tag.</video></center>\n')
 
     replace(path_out, '\[htt', '<a target=\"_blank\" href=\"htt')
     replace(path_out, '\]\(', '\">')
     replace(path_out, '\)!', '</a>')
 
-    replace(path_out, 'https://dennishnf.bitbucket.io/website/', 'https://dennishnf.bitbucket.io/')
+    replace(path_out, 'https://dennishnf.github.io/website/', 'https://dennishnf.github.io/')
 
     ##replace(path_out, 'xxxx', 'xxxx')
 
@@ -227,7 +227,7 @@ def convert(pathh):
 
 
 
-root = '/home/dennis/Desktop/dennishnf.bitbucket.io'
+root = '/home/dennis/Desktop/dennishnf.github.io'
 pattern = "*.md"
 
 for path, subdirs, files in os.walk(root):
