@@ -21,7 +21,7 @@ This notebook is designed to have as few dependencies as possible:
 
 For this guide, Python 2.7 ans Spyder were used (you can install using ```$ sudo pip install spyder``` and open using ```$ spyder```).
 
-The folder were the example will be performed and the images used in this guide are in this [[https://dennishnf.bitbucket.io/posts/caffe/deep-dreams_with_Caffe/deep_dream.zip](link)!]:
+The folder were the example will be performed and the images used in this guide are in this [[https://dennishnf.github.io/posts/caffe/deep-dreams_with_Caffe/deep_dream.zip](link)!]:
 
 ### Starting ###
 

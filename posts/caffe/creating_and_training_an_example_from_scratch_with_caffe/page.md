@@ -3,7 +3,7 @@
 
 This example will be performed with MNIST dataset. This guide was performed in Ubuntu, but works in Windows too after the correctly installation of Caffe. Be careful and change the path of the example.
 
-You can download the example from [[https://dennishnf.bitbucket.io/posts/caffe/creating_and_training_an_example_from_scratch_with_caffe/example_mnist.zip](here)!].
+You can download the example from [[https://dennishnf.github.io/posts/caffe/creating_and_training_an_example_from_scratch_with_caffe/example_mnist.zip](here)!].
 
 ### File structure ###
 

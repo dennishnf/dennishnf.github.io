@@ -8,14 +8,14 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
-<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/reset.css" media="screen">
-<link rel="stylesheet" type="text/css" href="https://dennishnf.bitbucket.io/style.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.github.io/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://dennishnf.github.io/style.css" media="screen">
 <!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
 <title>Dennis Núñez Fernández</title>
 
 <!-- Favicon of the website -->
-<link rel="shortcut icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/x-icon" />
-<link rel="icon" href="https://dennishnf.bitbucket.io/icon.ico" type="image/ico" />
+<link rel="shortcut icon" href="https://dennishnf.github.io/icon.ico" type="image/x-icon" />
+<link rel="icon" href="https://dennishnf.github.io/icon.ico" type="image/ico" />
 
 <style type="text/css">:root .adsbygoogle,
 :root #header + #content > #left > #rlblock_left,
@@ -43,16 +43,16 @@
 <div id="layout_container">
 <div id="layout_content">
 <div id="site_title">
-<h1><b><a href="https://dennishnf.bitbucket.io">Dennis Núñez Fernández</a></b></h1>
+<h1><b><a href="https://dennishnf.github.io">Dennis Núñez Fernández</a></b></h1>
 <h2>Bachelor in Science with mention in Electronic Engineering</h2>
 </div>
 <div class="navigation">
 <ul>
-<li><a href="https://dennishnf.bitbucket.io/index.html">Home</a></li>
-<li><a href="https://dennishnf.bitbucket.io/research/research.html">Research</a></li>
-<li><a href="https://dennishnf.bitbucket.io/posts/posts.html">Posts</a></li>
-<li><a href="https://dennishnf.bitbucket.io/contact/contact.html">Contact</a></li>
-<li><a href="https://dennishnf.bitbucket.io/cv/CV-DennisNúñezFernández-english.pdf">CV</a></li>
+<li><a href="https://dennishnf.github.io/index.html">Home</a></li>
+<li><a href="https://dennishnf.github.io/research/research.html">Research</a></li>
+<li><a href="https://dennishnf.github.io/posts/posts.html">Posts</a></li>
+<li><a href="https://dennishnf.github.io/contact/contact.html">Contact</a></li>
+<li><a href="https://dennishnf.github.io/cv/CV-DennisNúñezFernández-english.pdf">CV</a></li>
 </ul>
 <div class="clearer">&nbsp;</div>
 </div>
@@ -68,7 +68,7 @@
 <p align="justify">Field Programmable Gate Arrays (FPGA) are very interesting integrated circuits. The possibility of completing different tasks by just reprogramming the FPGA made us think at first view it was a kind of microcontroller. We were far from the reality. FPGAs are reprogrammable logic/memory circuits and can be faster than any microcontroller. The main difference is that a microcontroller has a program written in memory, and a FPGA only has programmed connections/cells, so the data follows a continuous way through programmed logic and memory cells, instead of being processed by only one ALU.</p>
 <p align="justify">Programmable Interconnect Points are vital to any FPGA, they allow us to link the output of a cell, or an input pad of the FPGA to any other cell/Pad in the circuit by making a “path” for the data through the FPGA. Every way is fixed during the programming by connecting metal lines with PIPs. These PIPs, well named, are programmable to permit us to build any path we want.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture1.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture1.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
 
 <p style="text-align:center;"><i>Figure 1: FPGA's Programmable Interconnect Points</i></p>
 
@@ -77,20 +77,20 @@
 
 <p align="justify">In the example below (Drawing 1), we have drawn a 4x4 PIP array . The goal is to link a column with a line by configuring the PIP at the intersection between them. For example we have configured the PIP at the intersection of column 2 and Line 3 to link them, the other are left unconnected. Then we put a signal on Column 2, and see its path on the schema.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 2: Example of a 4x4 PIP array</i></p>
 
 <p align="justify">The problem that comes next is: How do I configure all this mess? The solution implying the minimal number of Inputs is to use edge-triggered DRegs to keep the
 state of a PIP. Then we only have to link them serially by connecting Q Output to next latch's Data Input.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 3: Propagation of the configuration data</i></p>
 
 <p align="justify">On a falling edge of the clock, the DReg will memorize the value it has on the data input, and put it on the output after a few picoseconds. This way we can program the entire DReg chain by putting their states successively on the main Data Input. The first value will configure the state of the last DReg, and the last value will configure the first Latch.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture5.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture5.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 4: Timing Diagram of the propagation through the DRegs</i></p>
 
@@ -99,13 +99,13 @@ state of a PIP. Then we only have to link them serially by connecting Q Output t
 
 <p align="justify">The first step is to design one PIP. A PIP is composed of an edge-triggered DReg and a set of 2 transistors used to make the connections. The edge-triggered DReg uses 2 memory cells having only a few differences between them, the fastest way to design the Latch is to design a memory cell, duplicate it and adapt the cells to function correctly.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture6.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture6.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 5: Logic View of a DReg</i></p>
 
 <p align="justify">The only difference between the 2 memory cells is that the 2 MOS controlled by the clock are inverted in the slave memory cell compared to the master memory cell. The two transistors used to make connections are a P-MOS and a N-MOS. The N-MOS receives a not Q state and is used to improve performances compared to a unique transistor.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture7.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture7.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 6: Logic View of a DReg</i></p>
 
@@ -115,7 +115,7 @@ state of a PIP. Then we only have to link them serially by connecting Q Output t
 
 <p align="justify">The goal of this step is to link PIPs to make it possible to configure all the Dregs with only 2 wires. To reach this goal we have linked the Q output of a Dreg to next Dreg's Data Input, and we have placed a Clock Line providing the clock signal everywhere in the matrix.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture8.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture8.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
 
 <p style="text-align:center;"><i>Figure 7: Global view of the PIP array</i></p>
 
@@ -124,12 +124,12 @@ state of a PIP. Then we only have to link them serially by connecting Q Output t
 
 <p align="justify">The arrangement of previous PIPs has been designed to connect a line and a column, but we can not cut the lines or columns. The possibility of cutting between lines and columns would avoid a loss of surface caused by a large number of lines and columns. This type of PIP is made up of 6 programmable switches, that is to say 6 DRegs and is called the Matrix of Switching (Switch Matrix). In the figure shown below, it is observed how a switching matrix is part of an FPGA.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture9.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture9.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 8: Switching matrix as part of an FPGA</i></p>
 
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture10.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture10.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 9: Switching matrix as part of an FPGA</i></p>
 
@@ -142,19 +142,19 @@ state of a PIP. Then we only have to link them serially by connecting Q Output t
 
 <p align="justify">The Figure 10 shows the implemented design at the level of functional blocks uisng the logical editor and simulator Dsch 3.5. The output of each latch is connected to the input of the next latch, in other words, this design has a cascade connection, and all latches have a common clock signal.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture11.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture11.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
 
 <p style="text-align:center;"><i>Figure 10: Design at the level of functional blocks</i></p>
 
 <p align="justify">The design of a latch is showed in the Figure 11 and is based on the design presented in the Figure 5.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture12.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture12.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
 
 <p style="text-align:center;"><i>Figure 11: Design at the level of electronic circuits</i></p>
 
 <p align="justify">The latch created above is represented by the DRed in the Figure 12. So, the 'q' and 'not q' outputs control two transistors in order to connect and disconnect the row and column. When data is 1 in the input and at falling edge of clock, then "q" takes the value of 1 and both transistors are actrivated, so and the column and row are connected. On the other hand, when data is 0 in the input and at falling edge of clock, then "q" takes the value of 0 and both transistors are desactrivated, so and the column and row are disconnected.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture13.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture13.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 12: Design at the level of electronic circuits</i></p>
 
@@ -167,13 +167,13 @@ state of a PIP. Then we only have to link them serially by connecting Q Output t
 
 <p align="justify">The geometric design level of one latch is showed in the Figure 13.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture14.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture14.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
 
 <p style="text-align:center;"><i>Figure 13: At the level of geometric design</i></p>
 
 <p align="justify">The simulation of the design described above is showed in the Figure 14, and puts in evidence that when data is 1 in the input and at falling edge of clock, then "q" takes the value of 1 and both transistors are actrivated, so and the column and row are connected. On the other hand, when data is 0 in the input and at falling edge of clock, then "q" takes the value of 0 and both transistors are desactrivated, so and the column and row are disconnected.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture15.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture15.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
 
 <p style="text-align:center;"><i>Figure 14: At the level of geometric design</i></p>
 
@@ -182,13 +182,13 @@ state of a PIP. Then we only have to link them serially by connecting Q Output t
 
 <p align="justify">Now, the design of a simple latch is expanded to 4 latches configured in a 2x2 matrix is showed in the Figure 15.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture16.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture16.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
 
 <p style="text-align:center;"><i>Figure 15: At the level of geometric design</i></p>
 
 <p align="justify">Then, the simulation of the design descibed above is performed. The results verifies the correct use of the data signal to control the connection of rows with colums. For example, row 1 and column 1 are connected when data is 1 in the input q0 of the 1st latch at falling edge of clock. Also, row 2 and column 1 are connected when data is 1 in the input q2 of the 3rd latch at falling edge of clock.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture17.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture17.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
 
 <p style="text-align:center;"><i>Figure 16: At the level of geometric design</i></p>
 
@@ -197,13 +197,13 @@ state of a PIP. Then we only have to link them serially by connecting Q Output t
 
 <p align="justify">The design of a simple latch is expanded to 16 latches configured in a 4x4 matrix is showed in the Figure 17.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture18.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture18.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
 
 <p style="text-align:center;"><i>Figure 17: At the level of geometric design</i></p>
 
 <p align="justify">The simulation of the design descibed above is showed in the Figure 18. The results verifies the correct use of the data signal to control the connection of rows with colums. For example, row 1 and column 1 are connected when data is 1 in the input q2 of the 4th latch at falling edge of clock. Also, row 3 and column 1 are connected when data is 1 in the input q10 of the 10th latch at falling edge of clock.</p>
 
-<center><img src="https://dennishnf.bitbucket.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture19.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
+<center><img src="https://dennishnf.github.io/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/Picture19.png" style="padding-top:8px; padding-bottom: 8px;"  width="700"/></center>
 
 <p style="text-align:center;"><i>Figure 18: At the level of geometric design</i></p>
 
@@ -244,7 +244,7 @@ f_máx=1/t_(p,máx) = 1/(369.5∗(10)^(−12) ) = 2.71 GHz
 
 </body></html> -->
 Made from scratch - Python as backend <br/>
-Website updated 18-06-2020 12:24 GMT <br/> 
+Website updated 18-06-2020 13:58 GMT <br/> 
 </div> 
 <div class="clearer">&nbsp;</div> 
 </div> 
