@@ -2,7 +2,7 @@
 <p>
 <img style="float: right; margin: 15px 0px 10px 20px;" src="/dennishnf-photo.jpg" alt="90" width="142" height="142" /> 
 <p align="justify" style="text-indent:0"> 
-<!-- <img style="float: left; margin: 15px 20px 10px 0px;" src="https://dennishnf.github.io/dennishnf-photo.jpg" alt="90" width="142" height="142" /> 
+<!-- <img style="float: left; margin: 15px 20px 10px 0px;" src="/dennishnf-photo.jpg" alt="90" width="142" height="142" /> 
 <p align="justify" style="text-indent:0"> -->
 Currently, I'm a research assistant at the Cayetano Heredia University (Peru). There, I develop Artificial Intelligence algorithms for early medical diagnosis. I obtained my bachelor degree in Science with mention in Electronic Engineering from the National University of Engineering (UNI), Peru, ranked first in my graduating class. My research experience includes two research fellowships in Artificial Intelligence at AGH University of Science and Technology (Poland) and the University of Padova (Italy). Also, I have participated in prestigious conferences such as ICML 2019 (USA) and NeurIPS 2019 (Canada).
 </p>
