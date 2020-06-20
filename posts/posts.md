@@ -9,14 +9,8 @@
 <li>2019/08 - <a href="/posts/information/computer-architecture/page.html">Computer Architecture</a></li>
 <li>2019/06 - <a href="/posts/information/algorithms/page.html">Algorithms</a></li>
 <li>2019/01 - <a href="/posts/information/cryptography/page.html">Cryptography</a></li>
-<li>2019/11 - <a href="/posts/information/others/page.html">miscellaneous links</a></li>
+<li>2019/11 - <a href="/posts/information/others/page.html">Miscellaneous links</a></li>
 </ul>
-<!-- ----------------------------------------------------------------------------------------------- -->
-<!-- ----------------------------------------------------------------------------------------------- -->
-<!-- <h3>Some of my articles</h3>
-<ul>
-<li>2018/02 - <a href="link"> First Article</a></li>
-</ul> -->
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
 <h3>Some of my projects</h3>
