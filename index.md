@@ -53,7 +53,8 @@ My 3 submitted abstracts were accepted for the LXAI Workshop at NeurIPS 2019</a>
 
 <li>2019/10 - Our paper, in collaboration with the IIFIEE-UNI, was accepted for the BTSym'19</li>
 
-<li>2019/09 - Selected as program committee member (reviewer) for LXAI Workshop at NeurIPS 2019</li>
+<li>2019/09 - <a href="https://www.latinxinai.org/neurips-2019#nips-org">
+Selected as program committee member (reviewer) for LXAI Workshop at NeurIPS 2019</a></li>
 
 <li>2019/09 - Invited to give a talk at the 22vo Meetup 2019, Data Science Research Perú</li>
 
