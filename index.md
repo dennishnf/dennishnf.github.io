@@ -25,7 +25,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <li>2020/06 - Glad to obtain a scholarship for the Robotics: Science and Systems (RSS) conference</li>
 <li>2020/05 - Selected as member of the program committee (reviewer) for the LXAI Workshop at ICML 2020</li>
 <li>2020/05 - Selected to participate in the Lisbon Machine Learning School (LxMLS 2020)</li>
-<li>2020/03 - Included as part of the program committee (reviewer) for the  IEEE INTERCON 2020 conference</li>
+<li>2020/03 - Included as part of the program committee (reviewer) for the IEEE INTERCON 2020 conf.</li>
 <li>2020/03 - Selected to participate in the Cornell, Maryland, Max Planck Pre-doctoral School 2020</li>
 <li>2020/03 - Glad to obtain a full grant on the upcoming School of AI programme 2020 - Pi School</li>
 <li>2020/01 - Selected as one winner of the AI Latin American SumMIT, held at the MIT Media Lab</li>
