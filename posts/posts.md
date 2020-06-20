@@ -116,3 +116,15 @@
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
+<h3>Some of my writings</h3>
+<ul>
+<ul>
+<li><a href="/posts/writtings/short-history-a-specie-called-humans-against-natural-evolution/page.html">Short history: A specie called Humans against natural evolution</a></li>
+<li><a href="/posts/writtings/human-being-and-their-vulnerable-existence/page.html">The human being and their vulnerable existence</a></li>
+<li><a href="/posts/writtings/the-importance-of-education-in-the-world/page.html">The importance of Education in the World</a></li>
+<li><a href="/posts/writtings/future-of-human-machine-interaction/page.html">How could be the future of Human-Machine interaction?</a></li>
+<li><a href="/posts/writtings/can-ai-destroy-the-humans/page.html">Can AI destroy the humans?</a></li>
+</ul>
+</ul>
+<!-- ----------------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------------- -->
