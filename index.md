@@ -31,7 +31,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <li>2020/01 - Selected as a winner of the AI Latin America SumMIT, held at the MIT Media Lab</li>
 <li>2019/11 - Selected by Fondecyt Peru for a research stay at the University of Padua, Italy</li>
 <li>2019/11 - Glad to give a talk 'AI in Healtcare' at the faculty of Pharmacy and Biochemistry - UNMSM</li>
-<li>2019/10 - Winner of the LXAI Travel Grant to participate in the top NeurIPS 2019 conference</li>
+<li>2019/10 - Winner of the LXAI Travel Grant to participate in the prestigious NeurIPS 2019</li>
 <li>2019/10 - My 3 submitted abstracts were accepted for the LXAI Workshop at NeurIPS 2019</li>
 <li>2019/10 - Our paper, in collaboration with the IIFIEE UNI, was accepted for the BTSym'19</li>
 <li>2019/09 - Selected as program committee member (reviewer) for LXAI Workshop at NeurIPS 2019</li>
