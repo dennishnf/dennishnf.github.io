@@ -48,7 +48,8 @@ My 1st paper was selected for oral presentation at ML4GH Workshop at the ICML 20
 
 <li>2019/10 - Winner of the LXAI travel grant to participate in the prestigious NeurIPS 2019</li>
 
-<li>2019/10 - My 3 submitted abstracts were accepted for the LXAI Workshop at NeurIPS 2019</li>
+<li>2019/10 - <a href="https://www.latinxinai.org/neurips-2019-presenters">
+My 3 submitted abstracts were accepted for the LXAI Workshop at NeurIPS 2019</a></li>
 
 <li>2019/10 - Our paper, in collaboration with the IIFIEE-UNI, was accepted for the BTSym'19</li>
 
