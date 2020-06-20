@@ -6,8 +6,8 @@
 <h3>Useful resources and links</h3>
 <ul>
 <li>2020/04 - <a href="/posts/information/artificial-intelligence/page.html">Artificial Intelligence</a></li>
+<li>2019/10 - <a href="/posts/information/algorithms/page.html">Algorithms</a></li>
 <li>2019/08 - <a href="/posts/information/computer-architecture/page.html">Computer Architecture</a></li>
-<li>2019/06 - <a href="/posts/information/algorithms/page.html">Algorithms</a></li>
 <li>2019/01 - <a href="/posts/information/cryptography/page.html">Cryptography</a></li>
 <li>2019/11 - <a href="/posts/information/others/page.html">Miscellaneous links</a></li>
 </ul>
