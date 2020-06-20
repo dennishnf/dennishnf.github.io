@@ -25,7 +25,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <li>2020/06 - Glad to obtain a scholarship for the Robotics: Science and Systems (RSS) conference</li>
 <li>2020/05 - Selected as program committee member (reviewer) for the LXAI Workshop at ICML 2020</li>
 <li>2020/05 - Selected to participate in the Lisbon Machine Learning School (LxMLS 2020)</li>
-<li>2020/03 - Included as part of the program committee (reviewer) for the IEEE INTERCON 2020 conf.</li>
+<li>2020/03 - Included as program committee member (reviewer) for the IEEE INTERCON 2020 conf.</li>
 <li>2020/03 - Selected to participate in the Cornell, Maryland, Max Planck Pre-doctoral School 2020</li>
 <li>2020/03 - Glad to obtain a full grant on the upcoming School of AI programme 2020 - Pi School</li>
 <li>2020/01 - Selected as one winner of the AI Latin American SumMIT, held at the MIT Media Lab</li>
@@ -34,7 +34,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <li>2019/10 - Winner of the LXAI Travel Grant to participate in the top NeurIPS 2019 conference</li>
 <li>2019/10 - My 3 submitted abstracts were accepted for the LXAI Workshop at NeurIPS 2019</li>
 <li>2019/10 - Our paper, in collaboration with IIFIEE UNI, was accepted for BTSym'19</li>
-<li>2019/09 - Selected as member of the program committee (reviewer) for LXAI Workshop at NeurIPS 2019</li>
+<li>2019/09 - Selected as program committee member (reviewer) for LXAI Workshop at NeurIPS 2019</li>
 <li>2019/09 - Glad I was invited to give a talk at the 22vo Meetup 2019 Data Science Research Perú</li>
 <li>2019/09 - Glad to give a talk about a UPCH project at an event of Innóvate Perú: "Innova como ellos"</li>
 <li>2019/06 - My 2 submitted papers were accepted for the IEEE INTERCON 2019 conference</li>
