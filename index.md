@@ -38,8 +38,8 @@ Included as program committee member (reviewer) for the IEEE INTERCON 2020</li>
 Selected to participate in the Cornell, Maryland, Max Planck Pre-doctoral School 2020</li>
 <li>2020/03 - 
 Glad to obtain a grant for the School of AI programme 2020, hosted by Pi School</li>
-<li>2020/01 - 
-Selected as a winner of the AI Latin America SumMIT, held at the MIT Media Lab</li>
+<li>2020/01 - <a href="http://ailatinsum.mit.edu/">
+Selected as a winner of the AI Latin America SumMIT, held at the MIT Media Lab</a></li>
 <li>2019/11 - 
 Selected by Fondecyt Peru for a research stay at the University of Padua, Italy</li>
 <li>2019/11 - 
