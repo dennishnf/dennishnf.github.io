@@ -73,7 +73,8 @@ My 2 submitted papers were accepted for the SIMBig 2019 conference</a></li>
 <li>2019/04 - <a href="https://www.latinxinai.org/icml-2019-presenters">
 Thrilled that my submitted abstract was accepted for the LXAI Workshop at ICML 2019</a></li>
 
-<li>2018/06 - My submitted paper was accepted for the IEEE INTERCON 2018 conference</li>
+<li>2018/06 - <a href="https://ieeexplore.ieee.org/xpl/conhome/8846111/proceeding">
+My submitted paper was accepted for the IEEE INTERCON 2018 conference</a></li>
 
 <li>2017/08 - <a href="https://dblp.org/db/conf/ciarp/ciarp2017.html">
 My work, advised by PhD. Bogdan Kwolek (AGH UST), was accepted for CIARP 2017</a></li>
