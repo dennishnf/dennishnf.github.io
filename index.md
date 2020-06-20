@@ -42,7 +42,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <li>2019/05 - Glad to give a talk at Computer Science Colloquium, chaired by PhD Modesto Montoya</li>
 <li>2019/05 - Selected as winner of a ICML travel grant to participate in this prestigious conference</li>
 <li>2019/04 - Thrilled that my submitted abstract was accepted for the LXAI Workshop at ICML 2019</li>
-<li>2018/06 - Glad that my submitted paper was accepted for the IEEE INTERCON 2018</li>
+<li>2018/06 - My submitted paper was accepted for the IEEE INTERCON 2018 conference</li>
 <li>2017/08 - My work, advised by PhD. Bogdan Kwolek (AGH UST), was accepted for CIARP 2017</li>
 <li>2016/11 - Selected as a session chair for the UNESCO UCTE 2016 conference, Poland</li>
 <li>2016/06 - Selected for a fellowship under the UNESCO/Poland Program at the AGH UST, Poland</li>
