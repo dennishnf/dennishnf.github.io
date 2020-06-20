@@ -63,7 +63,8 @@ Selected as program committee member (reviewer) for LXAI Workshop at NeurIPS 201
 
 <li>2019/06 - My 2 submitted papers were accepted for the IEEE INTERCON 2019 conference</li>
 
-<li>2019/06 - My 2 submitted papers were accepted for the SIMBig 2019 conference</li>
+<li>2019/06 - <a href="https://simbig.org/SIMBig2019/en/program.html">
+My 2 submitted papers were accepted for the SIMBig 2019 conference</a></li>
 
 <li>2019/05 - Glad to give a talk at Computer Science Colloquium, chaired by PhD Modesto Montoya</li>
 
