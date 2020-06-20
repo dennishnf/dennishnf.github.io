@@ -36,7 +36,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <li>2019/10 - Our paper, in collaboration with the IIFIEE UNI, was accepted for the BTSym'19 conf.</li>
 <li>2019/09 - Selected as program committee member (reviewer) for LXAI Workshop at NeurIPS 2019</li>
 <li>2019/09 - Glad I was invited to give a talk at the 22vo Meetup 2019 Data Science Research Perú</li>
-<li>2019/09 - Glad to give a talk about a UPCH project at an event of Innóvate Perú: "Innova como ellos"</li>
+<li>2019/09 - Glad to give a talk about a UPCH project at an event of Innóvate Perú: 'Innova como ellos'</li>
 <li>2019/06 - Cheerful that my 2 submitted papers were accepted for the IEEE INTERCON 2019</li>
 <li>2019/06 - Delighted that my 2 submitted papers were accepted for the SIMBig 2019 conference</li>
 <li>2019/05 - Glad to give a talk at Computer Science Colloquium, chaired by PhD Modesto Montoya</li>
