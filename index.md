@@ -30,7 +30,8 @@ My 1st paper was selected for oral presentation at ML4GH Workshop at the ICML 20
 
 <li>2020/06 - Glad to obtain a grant for the Robotics: Science and Systems (RSS) conference</li>
 
-<li>2020/05 - Selected as program committee member (reviewer) for the LXAI Workshop at ICML 2020</li>
+<li>2020/05 - <a href="https://www.latinxinai.org/icml-2020#workshop-org">
+Selected as program committee member (reviewer) for the LXAI Workshop at ICML 2020</a></li>
 
 <li>2020/05 - Selected to participate in the Lisbon Machine Learning School (LxMLS 2020)</li>
 
