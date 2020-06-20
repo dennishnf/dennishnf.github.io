@@ -20,7 +20,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <h2>News</h2>
 <p>
 <ul>
-<li>2020/06 - My paper was accepted for oral presentation at ML4GH Workshop at the prestigious ICML 2020</li>
+<li>2020/06 - My paper was selected for oral presentation at ML4GH Workshop at the prestigious ICML 2020</li>
 <li>2020/06 - Grateful for winning a scholarship for the ACL 2020, the best conference on NLP</li>
 <li>2020/06 - Glad to obtain a scholarship for the Robotics: Science and Systems (RSS) conference</li>
 <li>2020/05 - Selected as program committee member (reviewer) for the LXAI Workshop at ICML 2020</li>
