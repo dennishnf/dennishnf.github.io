@@ -28,7 +28,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <li>2020/03 - Included as program committee member (reviewer) for the IEEE INTERCON 2020 conf.</li>
 <li>2020/03 - Selected to participate in the Cornell, Maryland, Max Planck Pre-doctoral School 2020</li>
 <li>2020/03 - Glad to obtain a grant for the School of AI programme 2020, hosted by Pi School</li>
-<li>2020/01 - Selected as a winner of the AI Latin American SumMIT, held at the MIT Media Lab</li>
+<li>2020/01 - Selected as a winner of the AI Latin America SumMIT, held at the MIT Media Lab</li>
 <li>2019/11 - Selected by Fondecyt Peru for a research stay at the University of Padua, Italy</li>
 <li>2019/11 - Glad to give a talk 'AI in Healtcare' at the faculty of Pharmacy and Biochemistry - UNMSM</li>
 <li>2019/10 - Winner of the LXAI Travel Grant to participate in the top NeurIPS 2019 conference</li>
