@@ -72,10 +72,8 @@ My 1st paper was selected for oral presentation at ML4GH Workshop at the ICML 20
 
 <li>2017/08 - My work, advised by PhD. Bogdan Kwolek (AGH UST), was accepted for CIARP 2017</li>
 
-<li>2016/11 - Selected as a presenter and session chair for the UNESCO UCTE 2016 conference, Poland</li>
-
 <li>2020/06 - <a href="http://www.unesco.agh.edu.pl/fileadmin/default/templates/css/j/unesco/system/program_UCTE_2016_v12_2016_12_06x.pdf">
-Selected as a presenter and session chair for the UNESCO UCTE 2016 conference, Poland</a></li>
+Selected as a presenter & session chair for the UNESCO UCTE 2016 conference, Poland</a></li>
 
 <li>2016/06 - Selected for a fellowship under the UNESCO/Poland Program at the AGH UST, Poland</li>
 
