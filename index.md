@@ -46,6 +46,6 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <li>2017/08 - My work, advised by PhD. Bogdan Kwolek (AGH UST), was accepted for CIARP 2017</li>
 <li>2016/11 - Selected as session chair for the UNESCO UCTE 2016 conference, Krakow, Poland</li>
 <li>2016/06 - Selected for a fellowship under the UNESCO/Poland Program at the AGH UST, Poland</li>
-<li>2015/07 - Graduated with 1st place in my class at Universidad Nacional de Ingeniería - UNI</li>
+<li>2015/07 - Graduated with the 1st place in my class at Universidad Nacional de Ingeniería - UNI</li>
 </ul>
 </p>
