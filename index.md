@@ -39,7 +39,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <li>2019/09 - Glad to give a talk about a UPCH project at an event of Innóvate Perú: "Innova como ellos"</li>
 <li>2019/06 - My 2 submitted papers were accepted for the INTERCON 2019 conference</li>
 <li>2019/06 - My 2 submitted papers were accepted for the SIMBig 2019 conference</li>
-<li>2019/05 - Glad to give a talk at colloquium on Computer Science, organized by Dr Modesto Montoya</li>
+<li>2019/05 - Glad to give a talk at Computer Science Colloquium, chaired by PhD Modesto Montoya</li>
 <li>2019/05 - Winner of the ICML Travel Grant to participate in this prestigious conference</li>
 <li>2019/04 - My submitted abstract was accepted for the LXAI Workshop at ICML 2019</li>
 <li>2018/06 - My submitted paper was accepted for the INTERCON 2018 conference</li>
