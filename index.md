@@ -27,7 +27,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <li>2020/05 - Selected to participate in the Lisbon Machine Learning School (LxMLS 2020)</li>
 <li>2020/03 - Included as program committee member (reviewer) for the IEEE INTERCON 2020 conf.</li>
 <li>2020/03 - Selected to participate in the Cornell, Maryland, Max Planck Pre-doctoral School 2020</li>
-<li>2020/03 - Glad to obtain a full grant on the upcoming School of AI programme 2020 - Pi School</li>
+<li>2020/03 - Glad to obtain a grant for the School of AI programme 2020, hosted by Pi School</li>
 <li>2020/01 - Selected as one winner of the AI Latin American SumMIT, held at the MIT Media Lab</li>
 <li>2019/11 - Selected by Fondecyt Peru for a research stay at the University of Padua, Italy</li>
 <li>2019/11 - Glad to give a talk 'AI in Healtcare' at the faculty of Pharmacy and Biochemistry - UNMSM</li>
