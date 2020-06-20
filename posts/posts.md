@@ -96,22 +96,22 @@
 <!-- ----------------------------------------------------------------------------------------------- -->
 <h3>Other posts ...</h3>
 <ul>
-<li>2019/02 - <a href="/posts/more.../train_convolutional_neural_networks_in_google_colab_using_pytorch/page.html">Train Convolutional Neural Networks in Google Colab using PyTorch</a></li>
-<li>2018/09 - <a href="/posts/more.../install_cuda_9_and_cudnn_7_on_ubuntu_16_for_deep_learning/page.html">Install Nvidia CUDA 9 and cuDNN 7 on Ubuntu 16.04 for Deep Learning</a></li>
-<li>2018/09 - <a href="/posts/more.../set_cuda_cudnn_for_tensorflow_and_other_ai_frameworks/page.html">Set CUDA and cuDNN for Tensorflow and other AI frameworks</a></li>
-<li>2018/08 - <a href="/posts/more.../using_a_database_with_mysql_and_python/page.html">Using a Database with MySQL and Python</a></li>
-<li>2017/09 - <a href="/posts/more.../monitor_cpu_and_nvidia_gpu_processes_with_htop_and_nvtop_on_linux/page.html"> Monitor CPU and Nvidia GPU processes with HTOP and NVTOP on Linux</a></li>
-<li>2016/01 - <a href="/posts/more.../installing_and_using_vim_text_editor/page.html">Installing and Using Vim text editor</a></li>
-<li>2015/11 - <a href="/posts/more.../create_a_website_with_github_and_jekyll/page.html">Create a website with Github and Jekyll</a></li>
-<li>2015/06 - <a href="/posts/more.../review_of_the_zedboard_platform/page.html">Review of the ZedBoard platform</a></li>
-<li>2015/06 - <a href="/posts/more.../set_static_ip_on_ubuntu_and_enter_through_terminal_or_graphic_mode_with_ssh/page.html">Set static IP on Ubuntu and enter through terminal or graphic mode using SSH</a></li>
-<li>2015/03 - <a href="/posts/more.../shorten_command_line_bash_prompt_in_linux/page.html">Shorten command line bash prompt in Linux</a></li>
-<li>2015/02 - <a href="/posts/more.../avoid_prompt_password_for_sudo_in_linux/page.html">Avoid prompt password for sudo in Linux</a></li>
-<li>2014/07 - <a href="/posts/more.../set_up_ssh_to_git_repository/page.html"> Set up SSH to Git repository</a></li>
-<li>2014/07 - <a href="/posts/more.../set_up_ssh_to_mercurial_repository/page.html"> Set up SSH to Mercurial repository</a></li>
-<li>2013/11 - <a href="/posts/more.../repair_or_reinstall_grub2_from_ubuntu_live/page.html">Repair or Reinstall Grub2 from Ubuntu Live</a></li>
-<li>2013/03 - <a href="/posts/more.../set_dual_boot_in_ubuntu/page.html">Set dual boot in Ubuntu</a></li>
-<li>2013/02 - <a href="/posts/more.../more.../page.html">more...</a></li>
+<li>2019/02 - <a href="/posts/miscellaneous/train_convolutional_neural_networks_in_google_colab_using_pytorch/page.html">Train Convolutional Neural Networks in Google Colab using PyTorch</a></li>
+<li>2018/09 - <a href="/posts/miscellaneous/install_cuda_9_and_cudnn_7_on_ubuntu_16_for_deep_learning/page.html">Install Nvidia CUDA 9 and cuDNN 7 on Ubuntu 16.04 for Deep Learning</a></li>
+<li>2018/09 - <a href="/posts/miscellaneous/set_cuda_cudnn_for_tensorflow_and_other_ai_frameworks/page.html">Set CUDA and cuDNN for Tensorflow and other AI frameworks</a></li>
+<li>2018/08 - <a href="/posts/miscellaneous/using_a_database_with_mysql_and_python/page.html">Using a Database with MySQL and Python</a></li>
+<li>2017/09 - <a href="/posts/miscellaneous/monitor_cpu_and_nvidia_gpu_processes_with_htop_and_nvtop_on_linux/page.html"> Monitor CPU and Nvidia GPU processes with HTOP and NVTOP on Linux</a></li>
+<li>2016/01 - <a href="/posts/miscellaneous/installing_and_using_vim_text_editor/page.html">Installing and Using Vim text editor</a></li>
+<li>2015/11 - <a href="/posts/miscellaneous/create_a_website_with_github_and_jekyll/page.html">Create a website with Github and Jekyll</a></li>
+<li>2015/06 - <a href="/posts/miscellaneous/review_of_the_zedboard_platform/page.html">Review of the ZedBoard platform</a></li>
+<li>2015/06 - <a href="/posts/miscellaneous/set_static_ip_on_ubuntu_and_enter_through_terminal_or_graphic_mode_with_ssh/page.html">Set static IP on Ubuntu and enter through terminal or graphic mode using SSH</a></li>
+<li>2015/03 - <a href="/posts/miscellaneous/shorten_command_line_bash_prompt_in_linux/page.html">Shorten command line bash prompt in Linux</a></li>
+<li>2015/02 - <a href="/posts/miscellaneous/avoid_prompt_password_for_sudo_in_linux/page.html">Avoid prompt password for sudo in Linux</a></li>
+<li>2014/07 - <a href="/posts/miscellaneous/set_up_ssh_to_git_repository/page.html"> Set up SSH to Git repository</a></li>
+<li>2014/07 - <a href="/posts/miscellaneous/set_up_ssh_to_mercurial_repository/page.html"> Set up SSH to Mercurial repository</a></li>
+<li>2013/11 - <a href="/posts/miscellaneous/repair_or_reinstall_grub2_from_ubuntu_live/page.html">Repair or Reinstall Grub2 from Ubuntu Live</a></li>
+<li>2013/03 - <a href="/posts/miscellaneous/set_dual_boot_in_ubuntu/page.html">Set dual boot in Ubuntu</a></li>
+<li>2013/02 - <a href="/posts/miscellaneous/more.../page.html">more...</a></li>
 </ul>
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
