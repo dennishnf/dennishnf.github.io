@@ -20,8 +20,8 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <h2>News</h2>
 <p>
 <ul>
-<li>2020/06 - <a href="https://mlforglobalhealth.org/posters-and-spotlights/">My papers were accepted for oral & poster presentations at ML4GH workshop at ICML 2020</a></li>
 <li>2020/06 - <a href="https://sites.google.com/view/hsys2020/accepted-papers">My another paper was selected for poster presentation at HSYS workshop at ICML 2020</a></li>
+<li>2020/06 - <a href="https://mlforglobalhealth.org/posters-and-spotlights/">My papers were accepted for oral & poster presentations at ML4GH workshop at ICML 2020</a></li>
 <li>2020/06 - Thankful for winning a LXAI grant for my participation in the prestigious ICML 2020</li>
 <li>2020/06 - Grateful for winning a grant for the ACL 2020, the best conference on NLP</li>
 <li>2020/06 - Glad to obtain a grant for the Robotics: Science and Systems (RSS) conference</li>
