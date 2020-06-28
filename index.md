@@ -47,7 +47,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <li>2018/06 - <a href="https://ieeexplore.ieee.org/xpl/conhome/8484861/proceeding">My submitted paper was accepted for the IEEE INTERCON 2018 conference</a></li>
 <li>2017/08 - <a href="https://dblp.org/db/conf/ciarp/ciarp2017.html">My work, advised by PhD. Bogdan Kwolek (AGH UST), was accepted for CIARP 2017</a></li>
 <li>2016/11 - <a href="http://www.unesco.agh.edu.pl/fileadmin/default/templates/css/j/unesco/system/program_UCTE_2016_v12_2016_12_06x.pdf">Selected as a presenter & session chair for the UNESCO UCTE 2016 conference, Poland</a></li>
-<li>2016/06 - Selected for a fellowship under the UNESCO/Poland Program at the AGH UST, Poland</li>
+<li>2016/06 - Selected for a fellowship under the UNESCO/Poland Program at the AGH UST, at Poland</li>
 <li>2015/07 - Graduated with the 1st place in my class at Universidad Nacional de Ingeniería - UNI</li>
 </ul>
 </p>
