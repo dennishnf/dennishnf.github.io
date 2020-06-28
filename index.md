@@ -20,7 +20,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <h2>News</h2>
 <p>
 <ul>
-<li>2020/06 - <a href="https://mlforglobalhealth.org/schedule/">My 1st paper was selected for oral presentation at ML4GH Workshop at the ICML 2020</a></li>
+<li>2020/06 - <a href="https://sites.google.com/view/hsys2020/">My submitted paper was selected for poster presentation at HSYS Workshop at ICML 2020</a></li>
 <li>2020/06 - Grateful for winning a LXAI grant for my participation in the prestigious ICML 2020</li>
 <li>2020/06 - <a href="https://mlforglobalhealth.org/schedule/">My submitted paper was selected for oral presentation at ML4GH Workshop at ICML 2020</a></li>
 <li>2020/06 - <a href="https://mlforglobalhealth.org/posters-and-spotlights/">My 2nd paper was accepted for poster presentation at ML4GH Workshop at the ICML 2020</a></li>
