@@ -36,7 +36,7 @@ Currently, I'm a research assistant at the Cayetano Heredia University (Peru). T
 <li>2019/10 - Winner of the LXAI travel grant to participate in the prestigious NeurIPS 2019</li>
 <li>2019/10 - <a href="https://www.latinxinai.org/neurips-2019-presenters">My 3 submitted abstracts were accepted for the LXAI Workshop at NeurIPS 2019</a></li>
 <li>2019/10 - Our paper, in collaboration with the IIFIEE-UNI, was accepted for the BTSym'19</li>
-<li>2019/09 - <a href="https://www.latinxinai.org/neurips-2019#nips-org">Selected as program committee member (reviewer) for LXAI Workshop at NeurIPS 2019</a></li>
+<li>2019/09 - <a href="https://www.latinxinai.org/neurips-2019#nips-org">Selected as program committee member (reviewer) for the LXAI Workshop at NeurIPS 2019</a></li>
 <li>2019/09 - Invited to give a talk at the 22vo Meetup 2019, Data Science Research Perú</li>
 <li>2019/09 - Glad to give a talk about a UPCH project at 'Innova como ellos' event, at Innóvate Perú</li>
 <li>2019/06 - <a href="https://ieeexplore.ieee.org/xpl/conhome/8846111/proceeding">My 2 submitted papers were accepted for the IEEE INTERCON 2019 conference</a></li>
