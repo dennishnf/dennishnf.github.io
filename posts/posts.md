@@ -105,7 +105,7 @@
 <li>2014/07 - <a href="/posts/miscellaneous/set_up_ssh_to_mercurial_repository/page.html"> Set up SSH to Mercurial repository</a></li>
 <li>2013/11 - <a href="/posts/miscellaneous/repair_or_reinstall_grub2_from_ubuntu_live/page.html">Repair or Reinstall Grub2 from Ubuntu Live</a></li>
 <li>2013/03 - <a href="/posts/miscellaneous/set_dual_boot_in_ubuntu/page.html">Set dual boot in Ubuntu</a></li>
-<li>2013/02 - <a href="/posts/miscellaneous/more.../page.html">Useful commands</a></li>
+<li>2013/02 - <a href="/posts/miscellaneous/useful_commands/page.html">Useful commands</a></li>
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
