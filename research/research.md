@@ -2,13 +2,13 @@
 <br/>
 <ul>
 <li>
-<i>Workshop paper:</i> D. Núñez-Fernández, F. Porras-Barrientos, M. Vittet-Mondoñedo, R. H. Gilman, M. Zimic. `Prediction of gaze direction using Convolutional Neural Networks for Autism diagnosis'. LatinX in AI Research at NeurIPS 2019. Vancouver, Canada. (2019) <br/>
+<i>Workshop paper:</i> D. Núñez-Fernández, L. Ballan, G. Jiménez-Avalos, J. Coronel, M. Zimic. `Using Capsule Neural Network to predict Tuberculosis in lens-free microscopic images'. HSYS Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
 [<a href="/research/2019%20-%20lxai%20at%20neurips%202019%20-%20prediction%20gaze%20direction%20using%20cnns%20for%20autism.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/1911.05629">arXiv</a>] 
 </li>
 <br/>	
 <li>
-<i>Workshop paper:</i> D. Núñez-Fernández, F. Porras-Barrientos, M. Vittet-Mondoñedo, R. H. Gilman, M. Zimic. `Prediction of gaze direction using Convolutional Neural Networks for Autism diagnosis'. LatinX in AI Research at NeurIPS 2019. Vancouver, Canada. (2019) <br/>
+<i>Workshop paper:</i> D. Núñez-Fernández, F. Porras-Barrientos, M. Vittet-Mondoñedo, R. H. Gilman, M. Zimic. `Prediction of gaze direction using Convolutional Neural Networks for Autism diagnosis'. LatinX in AI Research at NeurIPS 2019. Vienna, Austria. (2020) <br/>
 [<a href="/research/2019%20-%20lxai%20at%20neurips%202019%20-%20prediction%20gaze%20direction%20using%20cnns%20for%20autism.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/1911.05629">arXiv</a>] 
 </li>
