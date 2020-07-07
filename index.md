@@ -10,7 +10,6 @@ Currently, I'm a research assistant at the Bioinformatics and Molecular Biology 
 I have participated in prestigious AI related conferences such as the ICML 2019 (USA), the NeurIPS 2019 (Canada), the ICML 2020 (Austria), the ACL 2020 (USA) and the RSS 2020 (USA). In the upcoming month, I will participate in top schools such as the 10th Lisbon Machine Learning School (LxMLS 2020) and the Cornell, Maryland, Max Planck Pre-doctoral Research School (CMMRS 2020). Also, my academic service experience includes participation as a committee member in the role of reviewer for the LXAI Workshop at NeurIPS (2019) and the LXAI Workshop at ICML (2020). In addition to my interest and work in Artificial Intelligence, I have a special interest in science fiction and technology related books, and attraction for topics about the impact and future of science & technology.
 </p>
 </p>
-<br/>
 <h2>Research interests</h2>
 <p>
 <ul>
@@ -21,7 +20,6 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 <li>Real-Time Systems</li>
 </ul>
 </p>
-<br/>
 <h2>News</h2>
 <p>
 <ul>
