@@ -2,13 +2,13 @@
 <br/>
 <ul>
 <li>
-<i>Workshop paper:</i> D. Núñez-Fernández, L. Ballan, G. Jiménez-Avalos, J. Coronel-Herrera, M. Zimic. `Automatic semantic segmentation for prediction of tuberculosis using lens-free microscopy images'. ML for Global Health Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
+<i>Workshop paper:</i> D. Núñez-Fernández, L. Ballan, G. Jiménez-Avalos, J. Coronel-Herrera, M. Zimic-Peralta. `Automatic semantic segmentation for prediction of tuberculosis using lens-free microscopy images'. ML for Global Health Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
 [<a href="/research/none.pdf">PDF</a>] 
 [<a href="https://arxiv.org/none">arXiv</a>] 
 </li>
 <br/>	
 <li>
-<i>Workshop paper:</i> D. Núñez-Fernández, L. Ballan, G. Jiménez-Avalos, J. Coronel-Herrera, M. Zimic. `Using Capsule Neural Network to predict Tuberculosis in lens-free microscopic images'. HSYS Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
+<i>Workshop paper:</i> D. Núñez-Fernández, L. Ballan, G. Jiménez-Avalos, J. Coronel-Herrera, M. Zimic-Peralta. `Using Capsule Neural Network to predict Tuberculosis in lens-free microscopic images'. HSYS Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
 [<a href="/research/none.pdf">PDF</a>] 
 [<a href="https://arxiv.org/none">arXiv</a>] 
 </li>
