@@ -1,5 +1,6 @@
 <h2>About me</h2>
 <p>
+<ul>
 <img style="float: right; margin: 15px 0px 10px 20px;" src="/dennishnf-photo.jpg" alt="90" width="142" height="142" /> 
 <p align="justify" style="text-indent:0"> 
 <!-- <img style="float: left; margin: 15px 20px 10px 0px;" src="/dennishnf-photo.jpg" alt="90" width="142" height="142" /> 
@@ -7,6 +8,7 @@
 Currently, I'm a research assistant at the Bioinformatics and Molecular Biology Laboratory at Universidad Peruana Cayetano Heredia (UPCH), Peru. There, I develop Artificial Intelligence algorithms for early and low-cost medical diagnosis. I obtained my bachelor degree in Science with a mention in Electronic Engineering from the Universidad Nacional de Ingeniería (UNI), Peru, and ranked first in my graduating class. My research experience includes two research fellowships in Artificial Intelligence & Deep Learning at the AGH University of Science and Technology (Poland) and the University of Padova (Italy).
 </p>
 I have participated in prestigious AI related conferences such as the ICML 2019 (USA), the NeurIPS 2019 (Canada), the ICML 2020 (Austria), the ACL 2020 (USA) and the RSS 2020 (USA). In the upcoming month, I will participate in top schools such as the 10th Lisbon Machine Learning School (LxMLS 2020) and the Cornell, Maryland, Max Planck Pre-doctoral Research School (CMMRS 2020). Also, my academic service experience includes participation as a committee member in the role of reviewer for the LXAI Workshop at NeurIPS (2019) and the LXAI Workshop at ICML (2020). In addition to my interest and work in Artificial Intelligence, I have a special interest in science fiction and technology related books, and attraction for topics about the impact and future of science & technology.
+</ul>
 </p>
 <h2>Research interests</h2>
 <p>
