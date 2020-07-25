@@ -20,9 +20,9 @@
 <br/>
 <h3>Find me:</h3>
 <p> 
-&nbsp &nbsp <a target="_blank" href="https://scholar.google.com/citations?user=QQTBnmMAAAAJ&hl=en">Google Scholar</a>
+&nbsp &nbsp <a target="_blank" href="CV-DennisNúñezFernández-english.pdf">CV in English</a>
 <br/>
-&nbsp &nbsp <a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=57200698818">Scopus</a>
+&nbsp &nbsp <a target="_blank" href="CV-DennisNúñezFernández-spanish.pdf">CV in Spanish</a>
 <br/>
 &nbsp &nbsp <a target="_blank" href="https://www.github.com/dennishnf">GitHub</a>
 <br/>
