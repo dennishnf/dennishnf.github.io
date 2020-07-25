@@ -1,6 +1,5 @@
 <h2>Curriculum Vitae</h2>
 <br/>
-<h3>Emails:</h3>
 <p> 
 &nbsp &nbsp <a target="_blank" href="CV-DennisNúñezFernández-english.pdf">CV in English</a>
 <br/>
