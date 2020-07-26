@@ -1,7 +1,7 @@
 
 ## README ##
 
-My personal Website, Dennis Núñez Fernández. At the moment, Bitbucked is used as host server.
+My personal Website, Dennis Núñez Fernández. At the moment, GitHub is used as host server.
 
 The creation of this website was created usng the principles:
 
@@ -30,7 +30,7 @@ Be careful: In order to use this you should use the same format of the markdown 
 Navigate to repository with cd, example:
 
 ```
-$ cd Repositories/dennishnf.bitbucket.io/
+$ cd Repositories/dennishnf.github.io/
 ```
 
 To CREATE html files and NOT UPDATE:
