@@ -2,9 +2,9 @@
 <br/>
 <ul>
 <li>
-<i>Workshop paper:</i> D. Núñez-Fernández, L. Ballan, G. Jiménez-Avalos, J. Coronel-Herrera, M. Zimic-Peralta. `Automatic semantic segmentation for prediction of tuberculosis using lens-free microscopy images'. ML for Global Health Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
-[<a href="/research/2020%20-%20ml4gh%20at%20icml%202020%20-%20segmentation%20for%20prediction%20of%20tuberculosis.pdf">PDF</a>] 
-[<a href="https://arxiv.org/abs/2007.02482">arXiv</a>] 
+<i>Workshop paper:</i> D. Núñez-Fernández, F. Barrientos-Porras, R. H. Gilman, M. Vittet-Mondonedo, P. Sheen, M. Zimic. `A Convolutional Neural Network for gaze preference detection: A potential tool for diagnostics of autism spectrum disorder in children'. arXiv preprint arXiv:2007.14432. (2020) <br/>
+[<a href="/research/2020%20-%20arxiv%20-%20cnn%20for%20gaze%20preference%20detection%20for%20diagnostics%20of%20autism.pdf">PDF</a>] 
+[<a href="https://arxiv.org/abs/2007.14432">arXiv</a>] 
 </li>
 <br/>	
 <li>
