@@ -2,11 +2,11 @@
 <br/>
 <h3>CV in English:</h3>
 <p> 
-&nbsp &nbsp [<a href="CV-DennisNúñezFernández-english.pdf">CV-DennisNúñezFernández-english.pdf</a>]
+&nbsp &nbsp [<a href="CV-DennisNunezFernandez-english.pdf">CV-DennisNunezFernandez-english.pdf</a>]
 </p>
 <br/>
 <h3>CV in Spanish:</h3>
 <p> 
-&nbsp &nbsp [<a href="CV-DennisNúñezFernández-spanish.pdf">CV-DennisNúñezFernández-spanish.pdf</a>]
+&nbsp &nbsp [<a href="CV-DennisNunezFernandez-spanish.pdf">CV-DennisNunezFernandez-spanish.pdf</a>]
 </p>
 <br/>
