@@ -37,7 +37,7 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 <li>2020/03 - Included as program committee member (reviewer) for the IEEE INTERCON 2020</li>
 <li>2020/03 - Selected to participate in the CMMRS 2020: Cornell, Maryland, Max Planck Pre-doctoral School</li>
 <li>2020/03 - Glad to obtain a grant for the School of AI programme 2020, hosted by Pi School</li>
-<li>2020/01 - <a href="http://ailatinsum.mit.edu/">Selected as a winner of the AI Latin America SumMIT, held at the MIT Media Lab</a></li>
+<li>2020/01 - <a href="http://ailatinsum.mit.edu/">Selected as a winner of the AI Latin America SumMIT, event held at the MIT Media Lab</a></li>
 <li>2019/11 - Selected by Fondecyt Peru for a research stay at the University of Padua, Italy</li>
 <li>2019/11 - Glad to give a talk 'AI in Healtcare' at the faculty of Pharmacy and Biochemistry, at the UNMSM</li>
 <li>2019/10 - Winner of the LXAI travel grant to participate in the prestigious NeurIPS 2019</li>
