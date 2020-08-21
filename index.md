@@ -26,8 +26,8 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 <p>
 <ul>
 <li>2020/08 - Glad to win a grant for the KDD 2020, ACM Conference on Knowledge Discovery and Data Mining</li>
-<li>2020/06 - <a href="https://sites.google.com/view/hsys2020/papers/accepted-papers">My another paper was selected for poster presentation at HSYS workshop at ICML 2020</a></li>
-<li>2020/06 - <a href="https://mlforglobalhealth.org/posters-and-spotlights/">My papers were accepted for oral & poster presentations at ML4GH workshop at ICML 2020</a></li>
+<li>2020/06 - <a href="https://sites.google.com/view/hsys2020/papers/accepted-papers">My another paper was selected for poster presentation at HSYS workshop at the ICML 2020</a></li>
+<li>2020/06 - <a href="https://mlforglobalhealth.org/posters-and-spotlights/">My papers were accepted for oral & poster presentations at ML4GH workshop at the ICML 2020</a></li>
 <li>2020/06 - Thankful for winning a LXAI grant for my participation in the prestigious ICML 2020</li>
 <li>2020/06 - Grateful for winning a grant for the ACL 2020, the best conference on NLP</li>
 <li>2020/06 - <a href="https://sites.google.com/view/inclusion-2020/inclusion-fellowsbio#h.kvia409tw9k8">Selected as an Inclusion Fellow for the Science and Systems (RSS) 2020 conference</a></li>
@@ -39,7 +39,7 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 <li>2020/03 - Glad to obtain a grant for the School of AI programme 2020, hosted by Pi School</li>
 <li>2020/01 - <a href="http://ailatinsum.mit.edu/">Selected as a winner of the AI Latin America SumMIT, held at the MIT Media Lab</a></li>
 <li>2019/11 - Selected by Fondecyt Peru for a research stay at the University of Padua, Italy</li>
-<li>2019/11 - Glad to give a talk 'AI in Healtcare' at the faculty of Pharmacy and Biochemistry, at UNMSM</li>
+<li>2019/11 - Glad to give a talk 'AI in Healtcare' at the faculty of Pharmacy and Biochemistry, at the UNMSM</li>
 <li>2019/10 - Winner of the LXAI travel grant to participate in the prestigious NeurIPS 2019</li>
 <li>2019/10 - <a href="https://www.latinxinai.org/neurips-2019-presenters">My 3 submitted abstracts were accepted for the LXAI Workshop at NeurIPS 2019</a></li>
 <li>2019/10 - Our paper, in collaboration with the IIFIEE-UNI, was accepted for the BTSym'19</li>
