@@ -25,6 +25,7 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 <h2>News</h2>
 <p>
 <ul>
+<li>2020/08 - Included as program committee member (reviewer) for the IEEE EIRCON 2020</li>
 <li>2020/08 - Glad to win a grant for the KDD 2020, ACM Conference on Knowledge Discovery and Data Mining</li>
 <li>2020/06 - <a href="https://sites.google.com/view/hsys2020/papers/accepted-papers">My another paper was selected for poster presentation at HSYS workshop at the ICML 2020</a></li>
 <li>2020/06 - <a href="https://mlforglobalhealth.org/posters-and-spotlights/">My papers were accepted for oral & poster presentations at ML4GH workshop at the ICML 2020</a></li>
