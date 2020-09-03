@@ -14,11 +14,11 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 <h2>Research interests</h2>
 <p>
 <ul>
-<li>Artificial Intelligence</li>
-<li>Machine Learning</li>
-<li>Computer Vision</li>
-<li>Signal Processing and Control</li>
-<li>Real-Time Systems</li>
+<li>Artificial Intelligence.</li>
+<li>Machine Learning.</li>
+<li>Computer Vision.</li>
+<li>Signal Processing and Control.</li>
+<li>Real-Time Systems.</li>
 </ul>
 </p>
 <br/>
