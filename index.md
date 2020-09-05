@@ -29,7 +29,7 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 <li>2020/08 - Included as a program committee member (reviewer) for the IEEE EIRCON 2020.</li>
 <li>2020/08 - Glad to win a grant for the KDD 2020, ACM Conference on Knowledge Discovery and Data Mining</li>
 <li>2020/07 - Invited by IEEE SPS UNI to give a workshop: "Deep Learning: Fundamentos y Aplicaciones"</li>
-<li>2020/07 - Invited by FIEE UNI to give a talk about my experience of research internships abroad.</li>
+<li>2020/07 - Invited by my ex-faculty FIEE UNI to give a talk about my experience of research internships abroad.</li>
 <li>2020/06 - <a href="https://sites.google.com/view/hsys2020/papers/accepted-papers">My another paper was selected for poster presentation at HSYS workshop at the ICML 2020</a>.</li>
 <li>2020/06 - <a href="https://mlforglobalhealth.org/posters-and-spotlights/">My papers were accepted for oral & poster presentations at ML4GH workshop at the ICML 2020</a>.</li>
 <li>2020/06 - Thankful for winning a LXAI grant for my participation in the prestigious ICML 2020.</li>
