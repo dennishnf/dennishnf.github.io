@@ -31,7 +31,7 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 <li>2020/07 - Invited by IEEE SPS UNI to give a workshop: "Deep Learning: Fundamentos y Aplicaciones"</li>
 <li>2020/07 - Invited by my faculty FIEE UNI to give a talk about my experience in research internships abroad.</li>
 <li>2020/06 - <a href="https://sites.google.com/view/hsys2020/papers/accepted-papers">My third paper was selected for poster presentation at HSYS workshop at the ICML 2020</a>.</li>
-<li>2020/06 - <a href="https://mlforglobalhealth.org/posters-and-spotlights/">My two papers were accepted for oral & poster presentations at ML4GH workshop at the ICML 2020</a>.</li>
+<li>2020/06 - <a href="https://mlforglobalhealth.org/posters-and-spotlights/">My two papers were accepted for oral & poster presentation at ML4GH workshop at the ICML 2020</a>.</li>
 <li>2020/06 - Thankful for winning a LXAI grant for my participation in the prestigious ICML 2020.</li>
 <li>2020/06 - Grateful for winning a grant for the ACL 2020, the best conference on Natural Language Processing.</li>
 <li>2020/06 - <a href="https://sites.google.com/view/inclusion-2020/inclusion-fellowsbio#h.kvia409tw9k8">Selected as an Inclusion Fellow for the Science and Systems (RSS) 2020 conference</a>.</li>
