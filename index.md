@@ -66,15 +66,15 @@ clear: both;
     </div>
     <div class="column middle">
         <ul>
-        <li>Artificial Intelligence.</li>
-        <li>Machine Learning.</li>
+        <li>Computer Vision.</li>
+        <li>Signal Processing and Control.</li>
         </ul>
         </p>
     </div>
     <div class="column right">
         <ul>
-        <li>Artificial Intelligence.</li>
-        <li>Machine Learning.</li>
+        <li>Natural Language Processing.</li>
+        <li>Real-Time Systems.</li>
         </ul>
         </p>
     </div>
