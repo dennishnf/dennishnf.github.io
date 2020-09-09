@@ -65,10 +65,18 @@ clear: both;
         </p>
     </div>
     <div class="column middle">
-        <p>Data..</p>
+        <ul>
+        <li>Artificial Intelligence.</li>
+        <li>Machine Learning.</li>
+        </ul>
+        </p>
     </div>
     <div class="column right">
-        <p>Data..</p>
+        <ul>
+        <li>Artificial Intelligence.</li>
+        <li>Machine Learning.</li>
+        </ul>
+        </p>
     </div>
 </div>
 
