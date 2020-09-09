@@ -34,15 +34,15 @@ float: left;
 
 /* Set width length for the left, right and middle columns */
 .left {
-width: 20%;
+width: 33.3%;
 }
 
 .middle {
-width: 30%;
+width: 33.3%;
 }
 
 .right {
-width: 50%;
+width: 33.3%;
 }
 
 .row:after {
