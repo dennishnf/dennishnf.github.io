@@ -18,6 +18,8 @@
 &nbsp &nbsp Av. Honorio Delgado 430, San Martín de Porres 15102, Peru
 </p>
 <br/>
+
+<!--
 <h3>Find me:</h3>
 <p> 
 &nbsp &nbsp <a target="_blank" href="https://scholar.google.com/citations?user=QQTBnmMAAAAJ&hl=en">Google Scholar</a>
@@ -32,4 +34,4 @@
 <br/>
 &nbsp &nbsp <a target="_blank" href="https://www.youtube.com/channel/UC-js4NaIhqI7NtVWT2JGHrQ/videos?view_as=subscriber">YouTube</a>
 </p>
-
+-->
