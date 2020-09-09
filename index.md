@@ -96,7 +96,7 @@ clear: both;
         <ul>
         <li>[<a target="_blank" href="https://twitter.com/dennishnf">Twitter</a>]</li>
         <li>[<a target="_blank" href="https://www.youtube.com/channel/UC-js4NaIhqI7NtVWT2JGHrQ/videos?view_as=subscriber">YouTube</a>]</li>
-        <li>[<a target="_blank" href="https://twitter.com/dennishnf">Twitter</a>]</li>
+        <li>[<a target="_blank" href="https://www.semanticscholar.org/author/Dennis-N%C3%BA%C3%B1ez-Fern%C3%A1ndez/35318979">Semantic Scholar</a>]</li>
         </ul>
         </p>
     </div>
