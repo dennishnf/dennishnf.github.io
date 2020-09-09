@@ -59,7 +59,9 @@ clear: both;
     <div class="column left">
         <h2>Column 1</h2>
         <p>
+        <ul>
         <li>Artificial Intelligence.</li>
+        </ul>
         </p>
     </div>
     <div class="column middle">
