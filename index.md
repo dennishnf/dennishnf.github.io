@@ -11,7 +11,6 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 </p>
 </p>
 <br/>
-
 <h2>Research interests</h2>
 <div class="row">
     <div class="column left">
@@ -26,22 +25,20 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
     	<p>
         <ul>
         <li>Computer Vision.</li>
-        <li>Signal Processing and Control.</li>
+        <li>Natural Language Processing.</li>
         </ul>
         </p>
     </div>
     <div class="column right">
     	<p>
         <ul>
-        <li>Natural Language Processing.</li>
+        <li>Signal Processing and Control.</li>
         <li>Real-Time Systems.</li>
         </ul>
         </p>
     </div>
 </div>
-
 <br/>
-
 <h2>Find me</h2>
 <div class="row">
     <div class="column left">
@@ -72,7 +69,6 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
         </p>
     </div>
 </div>
-
 <br/>
 <h2>News</h2>
 <p>
