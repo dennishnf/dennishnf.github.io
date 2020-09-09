@@ -12,36 +12,7 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 </p>
 <br/>
 
-<style>
-{
-    box-sizing: border-box;
-}
-/* Set additional styling options for the columns */
-.column {
-float: left;
-}
-
-/* Set width length for the left, right and middle columns */
-.left {
-width: 33.3%;
-}
-
-.middle {
-width: 33.3%;
-}
-
-.right {
-width: 33.3%;
-}
-
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
-</style>
-
-<h2>Research interests</h2>
+<h2>Research interestsX</h2>
 <div class="row">
     <div class="column left">
         <p>
