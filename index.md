@@ -57,7 +57,6 @@ clear: both;
 
 <div class="row">
     <div class="column left">
-        <h2>Column 1</h2>
         <p>
         <ul>
         <li>Artificial Intelligence.</li>
@@ -66,11 +65,9 @@ clear: both;
         </p>
     </div>
     <div class="column middle">
-        <h2>Column 2</h2>
         <p>Data..</p>
     </div>
     <div class="column right">
-        <h2>Column 3</h2>
         <p>Data..</p>
     </div>
 </div>
