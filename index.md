@@ -22,7 +22,6 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 </ul>
 </p>
 
-
 <style>
 {
     box-sizing: border-box;
@@ -52,9 +51,7 @@ clear: both;
 }
 </style>
 
-
 <h2>Research interests</h2>
-
 <div class="row">
     <div class="column left">
         <p>
