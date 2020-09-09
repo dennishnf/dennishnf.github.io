@@ -62,6 +62,7 @@ clear: both;
         </p>
     </div>
     <div class="column middle">
+    	<p>
         <ul>
         <li>Computer Vision.</li>
         <li>Signal Processing and Control.</li>
@@ -69,6 +70,7 @@ clear: both;
         </p>
     </div>
     <div class="column right">
+    	<p>
         <ul>
         <li>Natural Language Processing.</li>
         <li>Real-Time Systems.</li>
