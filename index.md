@@ -79,6 +79,34 @@ clear: both;
     </div>
 </div>
 
+<h2>Research interests</h2>
+<div class="row">
+    <div class="column left">
+        <p>
+        <ul>
+        <li>Artificial Intelligence.</li>
+        <li>Machine Learning.</li>
+        </ul>
+        </p>
+    </div>
+    <div class="column middle">
+    	<p>
+        <ul>
+        <li>Computer Vision.</li>
+        <li>Signal Processing and Control.</li>
+        </ul>
+        </p>
+    </div>
+    <div class="column right">
+    	<p>
+        <ul>
+        <li>Natural Language Processing.</li>
+        <li>Real-Time Systems.</li>
+        </ul>
+        </p>
+    </div>
+</div>
+
 <br/>
 <h2>News</h2>
 <p>
