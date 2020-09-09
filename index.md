@@ -23,6 +23,35 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 </p>
 
 
+<style>
+{
+    box-sizing: border-box;
+}
+/* Set additional styling options for the columns */
+.column {
+float: left;
+}
+
+/* Set width length for the left, right and middle columns */
+.left {
+width: 20%;
+}
+
+.middle {
+width: 30%;
+}
+
+.right {
+width: 50%;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+</style>
+
 <div class="row">
     <div class="column left" style="background-color:#FFB695;">
         <h2>Column 1</h2>
