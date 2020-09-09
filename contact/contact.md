@@ -18,7 +18,6 @@
 &nbsp &nbsp Av. Honorio Delgado 430, San Martín de Porres 15102, Peru
 </p>
 <br/>
-
 <!--
 <h3>Find me:</h3>
 <p> 
