@@ -85,18 +85,18 @@ clear: both;
     <div class="column middle">
     	<p>
         <ul>
-        <li>[<a target="_blank" href="https://www.github.com/dennishnf">GitHub</a>]</li>
-        <li>[<a target="_blank" href="https://www.linkedin.com/in/dennishnf">LinkedIn</a>]</li>
         <li>[<a target="_blank" href="https://www.researchgate.net/profile/Dennis_Nunez_Fernandez">ResearchGate</a>]</li>
+        <li>[<a target="_blank" href="https://www.semanticscholar.org/author/Dennis-N%C3%BA%C3%B1ez-Fern%C3%A1ndez/35318979">Semantic Scholar</a>]</li>
+        <li>[<a target="_blank" href="https://www.github.com/dennishnf">GitHub</a>]</li>
         </ul>
         </p>
     </div>
     <div class="column right">
     	<p>
         <ul>
+        <li>[<a target="_blank" href="https://www.linkedin.com/in/dennishnf">LinkedIn</a>]</li>
         <li>[<a target="_blank" href="https://twitter.com/dennishnf">Twitter</a>]</li>
         <li>[<a target="_blank" href="https://www.youtube.com/channel/UC-js4NaIhqI7NtVWT2JGHrQ/videos?view_as=subscriber">YouTube</a>]</li>
-        <li>[<a target="_blank" href="https://www.semanticscholar.org/author/Dennis-N%C3%BA%C3%B1ez-Fern%C3%A1ndez/35318979">Semantic Scholar</a>]</li>
         </ul>
         </p>
     </div>
