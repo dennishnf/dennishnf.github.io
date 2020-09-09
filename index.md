@@ -12,7 +12,7 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 </p>
 <br/>
 
-<h2>Research interestsX</h2>
+<h2>Research interests</h2>
 <div class="row">
     <div class="column left">
         <p>
