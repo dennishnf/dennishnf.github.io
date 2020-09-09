@@ -55,7 +55,9 @@ clear: both;
 <div class="row">
     <div class="column left" style="background-color:#FFB695;">
         <h2>Column 1</h2>
-        <p>Data..</p>
+        <p>
+        <li>Artificial Intelligence.</li>
+        </p>
     </div>
     <div class="column middle" style="background-color:#96D1CD;">
         <h2>Column 2</h2>
