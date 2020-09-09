@@ -85,23 +85,23 @@ clear: both;
         <p>
         <ul>
         <li><a target="_blank" href="https://scholar.google.com/citations?user=QQTBnmMAAAAJ&hl=en">Google Scholar</a></li>
-        <li>Machine Learning.</li>
+        <li><a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=57200698818">Scopus</a></li>
         </ul>
         </p>
     </div>
     <div class="column middle">
     	<p>
         <ul>
-        <li>Computer Vision.</li>
-        <li>Signal Processing and Control.</li>
+        <li><a target="_blank" href="https://www.github.com/dennishnf">GitHub</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/dennishnf">LinkedIn</a></li>
         </ul>
         </p>
     </div>
     <div class="column right">
     	<p>
         <ul>
-        <li>Natural Language Processing.</li>
-        <li>Real-Time Systems.</li>
+        <li><a target="_blank" href="https://twitter.com/dennishnf">Twitter</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/channel/UC-js4NaIhqI7NtVWT2JGHrQ/videos?view_as=subscriber">YouTube</a></li>
         </ul>
         </p>
     </div>
