@@ -78,6 +78,7 @@ clear: both;
         <ul>
         <li>[<a target="_blank" href="https://scholar.google.com/citations?user=QQTBnmMAAAAJ&hl=en">Google Scholar</a>]</li>
         <li>[<a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=57200698818">Scopus</a>]</li>
+        <li>[<a target="_blank" href="https://orcid.org/0000-0001-5574-6967">ORCID</a>]</li>
         </ul>
         </p>
     </div>
@@ -86,6 +87,7 @@ clear: both;
         <ul>
         <li>[<a target="_blank" href="https://www.github.com/dennishnf">GitHub</a>]</li>
         <li>[<a target="_blank" href="https://www.linkedin.com/in/dennishnf">LinkedIn</a>]</li>
+        <li>[<a target="_blank" href="https://www.researchgate.net/profile/Dennis_Nunez_Fernandez">ResearchGate</a>]</li>
         </ul>
         </p>
     </div>
@@ -94,6 +96,7 @@ clear: both;
         <ul>
         <li>[<a target="_blank" href="https://twitter.com/dennishnf">Twitter</a>]</li>
         <li>[<a target="_blank" href="https://www.youtube.com/channel/UC-js4NaIhqI7NtVWT2JGHrQ/videos?view_as=subscriber">YouTube</a>]</li>
+        <li>[<a target="_blank" href="https://twitter.com/dennishnf">Twitter</a>]</li>
         </ul>
         </p>
     </div>
