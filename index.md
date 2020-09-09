@@ -53,17 +53,17 @@ clear: both;
 </style>
 
 <div class="row">
-    <div class="column left" style="background-color:#FFB695;">
+    <div class="column left">
         <h2>Column 1</h2>
         <p>
         <li>Artificial Intelligence.</li>
         </p>
     </div>
-    <div class="column middle" style="background-color:#96D1CD;">
+    <div class="column middle">
         <h2>Column 2</h2>
         <p>Data..</p>
     </div>
-    <div class="column right" style="background-color:#74C3E1;">
+    <div class="column right">
         <h2>Column 3</h2>
         <p>Data..</p>
     </div>
