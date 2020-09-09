@@ -21,6 +21,23 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 <li>Real-Time Systems.</li>
 </ul>
 </p>
+
+
+<div class="row">
+    <div class="column left" style="background-color:#FFB695;">
+        <h2>Column 1</h2>
+        <p>Data..</p>
+    </div>
+    <div class="column middle" style="background-color:#96D1CD;">
+        <h2>Column 2</h2>
+        <p>Data..</p>
+    </div>
+    <div class="column right" style="background-color:#74C3E1;">
+        <h2>Column 3</h2>
+        <p>Data..</p>
+    </div>
+</div>
+
 <br/>
 <h2>News</h2>
 <p>
