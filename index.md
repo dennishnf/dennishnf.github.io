@@ -79,12 +79,12 @@ clear: both;
     </div>
 </div>
 
-<h2>Research interests</h2>
+<h2>Find me</h2>
 <div class="row">
     <div class="column left">
         <p>
         <ul>
-        <li>Artificial Intelligence.</li>
+        <li><a target="_blank" href="https://scholar.google.com/citations?user=QQTBnmMAAAAJ&hl=en">Google Scholar</a></li>
         <li>Machine Learning.</li>
         </ul>
         </p>
