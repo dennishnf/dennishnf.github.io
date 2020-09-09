@@ -52,6 +52,9 @@ clear: both;
 }
 </style>
 
+
+<h2>Research interests</h2>
+
 <div class="row">
     <div class="column left">
         <h2>Column 1</h2>
