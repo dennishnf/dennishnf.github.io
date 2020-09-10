@@ -13,7 +13,7 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 <br/>
 <h2>Research interests</h2>
 <div class="row">
-    <div class="column">
+    <div class="column left">
         <p>
         <ul>
         <li>Artificial Intelligence.</li>
@@ -21,7 +21,7 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
         </ul>
         </p>
     </div>
-    <div class="column">
+    <div class="column middle">
     	<p>
         <ul>
         <li>Computer Vision.</li>
@@ -29,27 +29,42 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
         </ul>
         </p>
     </div>
+    <div class="column right">
+    	<p>
+        <ul>
+        <li>Signal Processing and Control.</li>
+        <li>Real-Time Systems.</li>
+        </ul>
+        </p>
+    </div>
 </div>
 <br/>
 <h2>Find me</h2>
 <div class="row">
-    <div class="column">
+    <div class="column left">
         <p>
         <ul>
         <li>[<a target="_blank" href="https://scholar.google.com/citations?user=QQTBnmMAAAAJ&hl=en">Google Scholar</a>]</li>
         <li>[<a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=57200698818">Scopus</a>]</li>
         <li>[<a target="_blank" href="https://orcid.org/0000-0001-5574-6967">ORCID</a>]</li>
-        <li>[<a target="_blank" href="https://www.linkedin.com/in/dennishnf">LinkedIn</a>]</li>
         </ul>
         </p>
     </div>
-    <div class="column">
+    <div class="column middle">
     	<p>
         <ul>
         <li>[<a target="_blank" href="https://www.researchgate.net/profile/Dennis_Nunez_Fernandez">ResearchGate</a>]</li>
         <li>[<a target="_blank" href="https://www.semanticscholar.org/author/Dennis-N%C3%BA%C3%B1ez-Fern%C3%A1ndez/35318979">Semantic Scholar</a>]</li>
         <li>[<a target="_blank" href="https://www.github.com/dennishnf">GitHub</a>]</li>
+        </ul>
+        </p>
+    </div>
+    <div class="column right">
+    	<p>
+        <ul>
+        <li>[<a target="_blank" href="https://www.linkedin.com/in/dennishnf">LinkedIn</a>]</li>
         <li>[<a target="_blank" href="https://twitter.com/dennishnf">Twitter</a>]</li>
+        <li>[<a target="_blank" href="https://www.youtube.com/channel/UC-js4NaIhqI7NtVWT2JGHrQ/videos?view_as=subscriber">YouTube</a>]</li>
         </ul>
         </p>
     </div>

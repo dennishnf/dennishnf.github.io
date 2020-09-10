@@ -449,16 +449,16 @@ custom_code {
 
 
 
-/*
 
 {
     box-sizing: border-box;
 }
-
+/* Set additional styling options for the columns */
 .column {
 float: left;
 }
 
+/* Set width length for the left, right and middle columns */
 .left {
 width: 33.3%;
 }
@@ -477,21 +477,4 @@ display: table;
 clear: both;
 }
 
-*/
 
-
-
-{
-    box-sizing: border-box;
-}
-
-.column {
-float: left;
-width: 50%;
-}
-
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
