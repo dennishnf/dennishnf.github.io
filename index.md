@@ -13,7 +13,7 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
 <br/>
 <h2>Research interests</h2>
 <div class="row">
-    <div class="column left">
+    <div class="column">
         <p>
         <ul>
         <li>Artificial Intelligence.</li>
@@ -21,19 +21,11 @@ I have participated in prestigious AI related conferences such as the ICML 2019 
         </ul>
         </p>
     </div>
-    <div class="column middle">
+    <div class="column">
     	<p>
         <ul>
         <li>Computer Vision.</li>
         <li>Natural Language Processing.</li>
-        </ul>
-        </p>
-    </div>
-    <div class="column right">
-    	<p>
-        <ul>
-        <li>Signal Processing and Control.</li>
-        <li>Real-Time Systems.</li>
         </ul>
         </p>
     </div>
