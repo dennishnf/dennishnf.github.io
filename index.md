@@ -73,6 +73,8 @@ I have participated in prestigious AI related conferences such as the <a target=
 <h2>News</h2>
 <p>
 <ul>
+<li>2020/09 - Invited to give a talk for "GAIA - Grupo Avanzado de Investigación en Inteligencia Artificial de la UNI".</li>
+<li>2020/09 - Glad to give a talk at the "Semana de la Innovación", event organized by Fondecyt Peru.</li>
 <li>2020/09 - <a href="https://micromasters.mit.edu/ds/" target="_blank">Cheerful to start the MITx MicroMasters in Statistics and Data Science, funded by Aporta</a>.
 <li>2020/08 - Winner of a scholarship for the Advanced Program in Data Science & Global Skills, hosted by MIT.</li>
 <li>2020/08 - Included as a program committee member (reviewer) for the IEEE EIRCON 2020.</li>
