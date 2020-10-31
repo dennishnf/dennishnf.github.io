@@ -103,12 +103,12 @@ I have participated in prestigious AI related conferences such as the <a target=
 <li>2019/09 - <a href="https://www.latinxinai.org/neurips-2019#nips-org" target="_blank">Selected as a program committee member (reviewer) for the LXAI Workshop at the NeurIPS 2019</a>.</li>
 <li>2019/09 - Invited to give a talk at the 22vo Meetup 2019, organized by Data Science Research Perú.</li>
 <li>2019/09 - Glad to give a talk about a UPCH project at the event: 'Innova como ellos', org. by Innóvate Perú.</li>
-<li>2019/06 - <a href="https://ieeexplore.ieee.org/xpl/conhome/8846111/proceeding" target="_blank">My 2 submitted papers were accepted for oral presentation for IEEE INTERCON 2019 conference</a>.</li>
-<li>2019/06 - <a href="https://simbig.org/SIMBig2019/en/program.html" target="_blank">My 2 submitted papers were accepted for oral presentation for SIMBig 2019 conference</a>.</li>
+<li>2019/06 - <a href="https://ieeexplore.ieee.org/xpl/conhome/8846111/proceeding" target="_blank">My 2 submitted papers were accepted for the IEEE INTERCON 2019 conference</a>.</li>
+<li>2019/06 - <a href="https://simbig.org/SIMBig2019/en/program.html" target="_blank">My 2 submitted papers were accepted for the SIMBig 2019 conference</a>.</li>
 <li>2019/05 - Glad to give a talk at the Computer Science Colloquium, event chaired by PhD. Modesto Montoya.</li>
 <li>2019/05 - Selected as winner of a ICML travel grant to participate in this prestigious conference.</li>
 <li>2019/04 - <a href="https://www.latinxinai.org/icml-2019-presenters" target="_blank">Thrilled that my submitted abstract was accepted for the LXAI Workshop at the ICML 2019</a>.</li>
-<li>2018/06 - <a href="https://ieeexplore.ieee.org/xpl/conhome/8484861/proceeding" target="_blank">My submitted paper was accepted for oral presentation for IEEE INTERCON 2018 conference</a>.</li>
+<li>2018/06 - <a href="https://ieeexplore.ieee.org/xpl/conhome/8484861/proceeding" target="_blank">My submitted paper was accepted for the IEEE INTERCON 2018 conference</a>.</li>
 <li>2017/08 - <a href="https://dblp.org/db/conf/ciarp/ciarp2017.html" target="_blank">My work, advised by PhD. Bogdan Kwolek (AGH UST), was accepted for the CIARP 2017</a>.</li>
 <li>2016/11 - <a href="http://www.unesco.agh.edu.pl/fileadmin/default/templates/css/j/unesco/system/program_UCTE_2016_v12_2016_12_06x.pdf" target="_blank">Selected as paper presenter and session chair for the UNESCO UCTE 2016 conference, Poland</a>.</li>
 <li>2016/06 - <a href="http://www.unesco.agh.edu.pl/en/" target="_blank">Selected for a fellowship under the UNESCO/Poland Program at the AGH UST, Poland</a>.</li>
