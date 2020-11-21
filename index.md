@@ -99,7 +99,7 @@ I have participated in prestigious AI related conferences such as the <a target=
 <li>2020/01 - <a href="http://ailatinsum.mit.edu/" target="_blank">Selected as a winner of the AI Latin America SumMIT, event held at the MIT Media Lab</a>.</li>
 <li>2019/11 - <a href="http://vimp.math.unipd.it/people.html" target="_blank">Selected by Fondecyt Peru for a research stay at the University of Padua, Italy</a>.</li>
 <li>2019/11 - Glad to give a talk 'AI in Healtcare' at the faculty of Pharmacy and Biochemistry, at the UNMSM.</li>
-<li>2019/10 - Winner of the LXAI travel grant to participate in the prestigious NeurIPS 2019.</li>
+<li>2019/10 - <a href="https://www.latinxinai.org/neurips-2019" target="_blank">Winner of the LXAI travel grant to participate in the prestigious NeurIPS 2019</a>.</li>
 <li>2019/10 - <a href="https://www.latinxinai.org/neurips-2019-presenters" target="_blank">My 3 submitted abstracts were accepted for the LXAI Workshop at the NeurIPS 2019</a>.</li>
 <li>2019/10 - <a href="https://www.springer.com/gp/book/9783030575656" target="_blank">Our paper, in collaboration with the IIFIEE-UNI, was accepted for the BTSym'19</a>.</li>
 <li>2019/09 - <a href="https://www.latinxinai.org/neurips-2019#nips-org" target="_blank">Selected as a program committee member (reviewer) for the LXAI Workshop at the NeurIPS 2019</a>.</li>
