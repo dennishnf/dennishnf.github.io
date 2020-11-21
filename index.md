@@ -93,7 +93,7 @@ I have participated in prestigious AI related conferences such as the <a target=
 <li>2020/06 - <a href="https://roboticsconference.org/2020/" target="_blank">Glad to obtain a grant for the Robotics: Science and Systems (RSS) 2020 conference</a>.</li>
 <li>2020/05 - <a href="https://www.latinxinai.org/icml-2020#workshop-org" target="_blank">Selected as program committee member (reviewer) for the LXAI Workshop at the ICML 2020</a>.</li>
 <li>2020/05 - <a href="http://lxmls.it.pt/2020/" target="_blank">Selected to participate in the Lisbon Machine Learning School (LxMLS 2020)</a>.</li>
-<li>2020/03 - Included as a program committee member (reviewer) for the IEEE INTERCON 2020.</li>
+<li>2020/03 - <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9220254" target="_blank">Included as a program committee member (reviewer) for the IEEE INTERCON 2020</a>.</li>
 <li>2020/03 - <a href="https://cmmrs.mpi-sws.org/" target="_blank">Selected to participate in the CMMRS 2020: Cornell, Maryland, Max Planck Pre-doctoral School</a>.</li>
 <li>2020/03 - <a href="https://picampus-school.com/programme/school-of-ai/" target="_blank">Glad to obtain a grant for the School of AI programme 2020, hosted by Pi School</a>.</li>
 <li>2020/01 - <a href="http://ailatinsum.mit.edu/" target="_blank">Selected as a winner of the AI Latin America SumMIT, event held at the MIT Media Lab</a>.</li>
