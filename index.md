@@ -108,7 +108,7 @@ I have participated in prestigious AI related conferences such as the <a target=
 <li>2019/06 - <a href="https://simbig.org/SIMBig2019/en/program.html" target="_blank">My 2 submitted papers were accepted for the SIMBig 2019 conference</a>.</li>
 <li>2019/05 - Glad to give a talk at the Computer Science Colloquium, event chaired by PhD. Modesto Montoya.</li>
 <li>2019/05 - Grateful to give a talk about a UPCH project at the event: 'Innova como ellos', org. by Innóvate Perú.</li>
-<li>2019/05 - Selected as winner of a ICML travel grant to participate in this prestigious conference.</li>
+<li>2019/05 - <a href="https://icml.cc/Conferences/2019" target="_blank">Selected as winner of a ICML travel grant to participate in this prestigious conference</a>.</li>
 <li>2019/04 - <a href="https://www.latinxinai.org/icml-2019-presenters" target="_blank">Thrilled that my submitted abstract was accepted for the LXAI Workshop at the ICML 2019</a>.</li>
 <li>2018/06 - <a href="https://ieeexplore.ieee.org/xpl/conhome/8484861/proceeding" target="_blank">My submitted paper was accepted for the IEEE INTERCON 2018 conference</a>.</li>
 <li>2017/08 - <a href="https://dblp.org/db/conf/ciarp/ciarp2017.html" target="_blank">My work, advised by PhD. Bogdan Kwolek (AGH UST), was accepted for the CIARP 2017</a>.</li>
