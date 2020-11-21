@@ -143,7 +143,7 @@ def convert(pathh):
     #replace(path_out, ' \*\*', ' <strong>')
     #replace(path_out, '\*\*', '</strong>')
 
-    replace(path_out, '\!\[image\]\(', '\n<center><img src=\"https://dennishnf.bitbucket.io')
+    replace(path_out, '\!\[image\]\(', '\n<center><img src=\"https://dennishnf.github.io')
     replace(path_out, '.png\){', '.png\" style=\"padding-top:8px; padding-bottom: 8px;\"  width=\"')
     replace(path_out, '}!', '\"/></center>\n')
     replace(path_out, '.jpg\){', '.png\" style=\"padding-top:8px; padding-bottom: 8px;\"  width=\"')
@@ -159,15 +159,15 @@ def convert(pathh):
     replace(path_out, '.gif\)', '.gif\" style=\"padding-top:8px; padding-bottom: 8px;\" /></center>\n')
 
     replace(path_out, '\!{', '\n<center style=\"padding-bottom: 8px; padding-top: 8px;\" ><video width=\"')
-    replace(path_out, '}\[video\]\(', '\" controls><source src=\"https://dennishnf.bitbucket.io')
-    replace(path_out, '\!\[video\]\(', '\n<center style=\"padding-bottom: 8px; padding-top: 8px;\" ><video controls><source src=\"https://dennishnf.bitbucket.io')
+    replace(path_out, '}\[video\]\(', '\" controls><source src=\"https://dennishnf.github.io')
+    replace(path_out, '\!\[video\]\(', '\n<center style=\"padding-bottom: 8px; padding-top: 8px;\" ><video controls><source src=\"https://dennishnf.github.io')
     replace(path_out, '.mp4\)', '.mp4\" type=\"video/mp4\"> Your browser does not support the video tag.</video></center>\n')
 
     replace(path_out, '\[htt', '<a target=\"_blank\" href=\"htt')
     replace(path_out, '\]\(', '\">')
     replace(path_out, '\)!', '</a>')
 
-    replace(path_out, 'https://dennishnf.bitbucket.io/website/', 'https://dennishnf.bitbucket.io/')
+    replace(path_out, 'https://dennishnf.github.io/website/', 'https://dennishnf.github.io/')
 
     ##replace(path_out, 'xxxx', 'xxxx')
 
@@ -199,7 +199,7 @@ def convert(pathh):
     
     with open(path_out, "a") as myfile:
           timee=strftime("%d-%m-%Y %H:%M", gmtime())
-          myfile.write("Made from scratch - Python as backend <br/>\n")
+          myfile.write("<a href=\"https://dennishnf.com/README.html\" target=\"_blank\">Made from scratch - Python as backend</a> <br/>\n")
           myfile.write("Website updated ")
           myfile.write(timee)
           myfile.write(" GMT <br/> \n</div> \n")
@@ -226,7 +226,7 @@ def convert(pathh):
 
 
 
-root = 'C:\Users\Dennis\Desktop\dennishnf.bitbucket.io'
+root = 'C:\Users\Dennis\Desktop\dennishnf.github.io'
 pattern = "*.md"
 
 for path, subdirs, files in os.walk(root):
