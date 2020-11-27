@@ -73,7 +73,7 @@ I have participated in prestigious AI related conferences such as the <a target=
 <h2>News</h2>
 <p>
 <ul>
-<li>2020/06 - <a href="https://www.latinxinai.org/neurips-2020" target="_blank">Grateful to have been accepted as a mentee in the LXAI Mentoring Program at NeurIPS 2020</a>.</li>
+<li>2020/11 - <a href="https://www.latinxinai.org/neurips-2020" target="_blank">Grateful to have been accepted as a mentee in the LXAI Mentoring Program at NeurIPS 2020</a>.</li>
 <li>2020/10 - Glad to be invited to give a talk for Inspiring UNI, as part of a series of professional talks.</li>
 <li>2020/10 - <a href="https://www.latinxinai.org/neurips-2020#nips-org" target="_blank">Selected as a program committee member (reviewer) for the LXAI Workshop at the NeurIPS 2020</a>.</li>
 <li>2020/09 - Invited to give a talk for the UNI Advanced Research Group on Artificial Intelligence - GAIA.</li>
