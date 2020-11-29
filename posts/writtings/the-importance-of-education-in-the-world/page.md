@@ -5,9 +5,10 @@
 By: ```Dennis Núñez Fernández```, ```January 2020```.
 
 
-Education us very important for each country and all people the world.
+Education is very important for each country and all people around the world.
 
-Allows to exande human knoleadge and be humans itself. Gives all people criterion for take better decisions at every stage of life. Special, provides better engineers, better governments, better professionals. But no only better in knowleadge, also better as humans.
+Allows to exande human knoleadge and be humans itself. Gives all people criterion for take better decisions at every stage of their lifes. Specially, education provides better engineers, better governments, better professionals. But no only better in knowleadge, also better as humans.
+
 
 <!--
 
