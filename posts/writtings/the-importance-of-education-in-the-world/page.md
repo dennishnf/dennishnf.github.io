@@ -13,7 +13,7 @@ Education allows to expane human knowleadge and be humans itself. Gives all peop
 
 But education starts at home and continues in the school. If one of these two parts fails, education process has completely failed.
 
-The problem of educaction in latinoamerica and most devepeloping countries is that both pilars, home and school, are not well stablished. Eg. families in  
+The problem of educaction in latinoamerica and most devepeloping countries is that both pilars, home and school, are not well stablished. Families present ethical and economic problems, and at the same time, the way of education at schools should changed.
 
 
 <!--
