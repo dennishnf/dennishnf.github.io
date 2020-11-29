@@ -5,7 +5,7 @@
 By: ```Dennis Núñez Fernández```, ```January 2020```.
 
 
-Education is very important for each country and all people around the world.
+Civilization, a key word that describe us as humans, has been taken an important role Education is very important for each country and all people around the world. 
 
 Allows to exande human knoleadge and be humans itself. Gives all people criterion for take better decisions at every stage of their lifes. Specially, education provides better engineers, better governments, better professionals. But no only better in knowleadge, also better as humans.
 
