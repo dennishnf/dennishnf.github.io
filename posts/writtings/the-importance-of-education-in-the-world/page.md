@@ -7,7 +7,7 @@ By: ```Dennis Núñez Fernández```, ```January 2020```.
 
 Civilization, a key word that describe us as human beings, consists of the advanced social and cultual development and organization. In this sense, education helps to study, apply, conserve and trnsmit this development.
 
-Over the years, education has been more important for each country and all people around the world. Indeed, education sh 
+Over the years, education has been more important for each country and all people around the world. Indeed, education should be one of the transformation factors of a society. 
 
 Education allows to expane human knowleadge and be humans itself. Gives all people criterion for take better decisions at every stage of their lifes. Specially, education provides better engineers, better governments, better professionals. But no only better in knowleadge, also better as humans.
 
