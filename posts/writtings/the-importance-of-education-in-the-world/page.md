@@ -15,7 +15,7 @@ But education starts at home and continues in the school. If one of these two pa
 
 The problem of educaction in latinoamerica and most devepeloping countries is that both pillars, home and school, are not well stablished. Families present ethical and economic problems, and at the same time, structures and teachers are not well prepared.
 
-Furthermore, globally, education proceess should be careful 
+Furthermore, globally, education proceess should be careful examined and emphizise in give to students the motivation to learn. Also, should encourage the self-taught learning.
 
 
 <!--
