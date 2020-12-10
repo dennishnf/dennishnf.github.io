@@ -74,7 +74,7 @@ I have participated in prestigious AI related conferences such as the <a target=
 <p>
 <ul>
 <li>2020/12 - Our 3 projects, which I advised, were accepted for oral presentation at NeurIPS Meetup Peru 2020.</li>
-<li>2020/12 - Grateful for winning a 'LatinX in AI' registration grant to attend the prestigious NeurIPS 2020.</li>
+<li>2020/12 - <a href="https://nips.cc/Conferences/2020" target="_blank">Grateful for winning a 'LatinX in AI' registration grant to attend the prestigious NeurIPS 2020</a>.</li>
 <li>2020/12 - Invited by Universidad Popular del Cesar (Colombia) to give a talk on Artificial Intelligence.</li>
 <li>2020/11 - <a href="https://www.latinxinai.org/neurips-2020" target="_blank">Grateful to have been accepted as a mentee in the LXAI Mentoring Program at NeurIPS 2020</a>.</li>
 <li>2020/10 - Glad to be invited to give a talk for Inspiring UNI, as part of a series of professional talks.</li>
