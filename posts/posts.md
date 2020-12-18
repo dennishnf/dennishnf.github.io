@@ -43,7 +43,7 @@
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
-<h3>Technical posts</h3>
+<h3>Various technical posts</h3>
 <ul>
 <li>2017/04 - <a href="/posts/caffe/load_caffe_framework_models_using_opencv_3-3-0_and_python_on_raspberry_pi_3/page.html">Load Caffe framework models using OpenCV 3.3.0 and Python on Raspberry Pi 3</a></li>
 <li>2017/04 - <a href="/posts/caffe/load_caffe_framework_models_using_opencv_3-3-0_and_c++_on_raspberry_pi_3/page.html">Load Caffe framework models using OpenCV 3.3.0 and C++ on Raspberry Pi 3</a></li>
