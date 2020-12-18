@@ -1,4 +1,4 @@
-<h2>Some posts</h2>
+<h2>Various posts</h2>
 <br/>
 
 
