@@ -32,6 +32,16 @@
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
+<h3>Some of my writings</h3>
+<ul>
+<!-- <li>2019/06 - <a href="/posts/writtings/short-history-a-specie-called-humans-against-natural-evolution/page.html">Short history: A specie called Humans against natural evolution</a></li> -->
+<li>2019/06 - <a href="/posts/writtings/human-being-and-their-vulnerable-existence/page.html">The human being and their vulnerable existence</a></li>
+<li>2019/06 - <a href="/posts/writtings/the-importance-of-education-in-the-world/page.html">The importance of Education in the World</a></li>
+<li>2019/06 - <a href="/posts/writtings/future-of-human-machine-interaction/page.html">How could be the future of Human-Machine interaction?</a></li>
+<li>2019/06 - <a href="/posts/writtings/can-ai-destroy-the-humans/page.html">Can AI destroy the humans?</a></li>
+</ul>
+<!-- ----------------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------------- -->
 <h3>Caffe Framework for Deep Learning</h3>
 <ul>
 <li>2017/04 - <a href="/posts/caffe/load_caffe_framework_models_using_opencv_3-3-0_and_python_on_raspberry_pi_3/page.html">Load Caffe framework models using OpenCV 3.3.0 and Python on Raspberry Pi 3</a></li>
@@ -109,13 +119,4 @@
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
-<h3>Some of my writings</h3>
-<ul>
-<!-- <li>2019/06 - <a href="/posts/writtings/short-history-a-specie-called-humans-against-natural-evolution/page.html">Short history: A specie called Humans against natural evolution</a></li> -->
-<li>2019/06 - <a href="/posts/writtings/human-being-and-their-vulnerable-existence/page.html">The human being and their vulnerable existence</a></li>
-<li>2019/06 - <a href="/posts/writtings/the-importance-of-education-in-the-world/page.html">The importance of Education in the World</a></li>
-<li>2019/06 - <a href="/posts/writtings/future-of-human-machine-interaction/page.html">How could be the future of Human-Machine interaction?</a></li>
-<li>2019/06 - <a href="/posts/writtings/can-ai-destroy-the-humans/page.html">Can AI destroy the humans?</a></li>
-</ul>
-<!-- ----------------------------------------------------------------------------------------------- -->
-<!-- ----------------------------------------------------------------------------------------------- -->
+
