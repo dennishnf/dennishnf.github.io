@@ -4,7 +4,7 @@
 
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
-<h3>Some of my writings</h3>
+<h3>Some of my articles</h3>
 <ul>
 <!-- <li>2019/06 - <a href="/posts/writtings/short-history-a-specie-called-humans-against-natural-evolution/page.html">Short history: A specie called Humans against natural evolution</a></li> -->
 <li>2019/06 - <a href="/posts/writtings/human-being-and-their-vulnerable-existence/page.html">The human being and their vulnerable existence</a></li>
