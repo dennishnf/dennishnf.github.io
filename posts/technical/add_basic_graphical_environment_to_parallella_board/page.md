@@ -92,7 +92,7 @@ And then enter the graphical environment:
 $ startlxde
 ```
 
-Note: Correct some problem "/usr/bin/xauth:  file /home/parallella/.Xauthority does not exist".
+Note: Correct some problem "/usr/bin/xauth:  file /home/technical/.Xauthority does not exist".
 
 Exit from SSH and reconnect to SSH, this can solve this problem.
 

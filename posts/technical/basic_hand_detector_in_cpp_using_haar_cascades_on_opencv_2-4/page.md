@@ -1,7 +1,7 @@
 
 ## Basic hand detector in C++ using Haar cascades on OpenCV 2.4 ##
 
-Implemented in OpenCV 2.4.x and 3.x. In the next link you can find the pre trained .xml file (created after training the Haar cascades classifier) that will be used to implement the hand detector: [[https://dennishnf.github.io/posts/technical/basic_hand_detector_in_cpp_using_haar_cascades_on_opencv_2-4/hand_detector.zip](link)!].
+Implemented in OpenCV 2.4.x and 3.x. In the next link you can find the pre trained .xml file (created after training the Haar cascades classifier) that will be used to implement the hand detector: [[https://dennishnf.github.io/posts/technical/technical/basic_hand_detector_in_cpp_using_haar_cascades_on_opencv_2-4/hand_detector.zip](link)!].
 
 ### Code ###
 

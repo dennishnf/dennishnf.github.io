@@ -74,7 +74,7 @@
 <p align="justify">a. Open Xilinx ISE, create project, then make .bit bitstream.</p>
 <p align="justify">b. When create the project, set the next values:</p>
 
-<center><img src="https://dennishnf.github.io/posts/parallella/using_fpga_with_xilinx_ise_on_parallella_board/ProjectSettingsFPGA.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/ProjectSettingsFPGA.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 
 <p align="justify">c. In the .ucf file add the next <custom_code>IOSTANDARD=LVCMOS25</custom_code> to each physical constraint:</p>
@@ -83,17 +83,17 @@
 
 <p align="justify">d. The connector used on the Parallella Board is the "Expansion Connector GPIO":</p>
 
-<center><img src="https://dennishnf.github.io/posts/parallella/using_fpga_with_xilinx_ise_on_parallella_board/gpio1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/gpio1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 
 <p align="justify">, the corresponding pins on the shield GPIO are:</p>
 
-<center><img src="https://dennishnf.github.io/posts/parallella/using_fpga_with_xilinx_ise_on_parallella_board/gpio2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/gpio2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 
 <p align="justify">, and the correct numeration are:</p>
 
-<center><img src="https://dennishnf.github.io/posts/parallella/using_fpga_with_xilinx_ise_on_parallella_board/gpio3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/gpio3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 
 <p align="justify">e. You can find the pins in pages 28 and 31 of the <a target="_blank" href="https://dennishnf.github.io/documentation/parallella_board/files/02_parallella_reference_manual.pdf">Parallella Reference Manual</a>:  GPIO0_P, GPIO0_N,  GPIO1_P, GPIO1_N, ..., GPIO23_P, GPIO23_N.</p>
@@ -101,7 +101,7 @@
 <h4>STEP 2: Convert the bitstream from *.bit to *.bit.bin</h4>
 
 <p align="justify">Note: You should have Vivado installed on your PC to convert from .bit to .bit.bin .</p>
-<p align="justify">Use this folder bit2bitbin [<a target="_blank" href="https://dennishnf.github.io/posts/parallella/using_fpga_with_xilinx_ise_on_parallella_board/bit2bitbin.zip">link</a>] to convert from .bit to .bit.bin .</p>
+<p align="justify">Use this folder bit2bitbin [<a target="_blank" href="https://dennishnf.github.io/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/bit2bitbin.zip">link</a>] to convert from .bit to .bit.bin .</p>
 <p align="justify">a. Copy the bitstream of your project into the folder bit2bitbin.</p>
 <p align="justify">b. Modify the file called ‘bit2bin.bif’ with the following content (change example.bit with the bitstream of your project):</p>
 <p><code class="barcode"> the_ROM_image:
@@ -161,7 +161,7 @@ $ bootgen -image bit2bin.bif -split bin
 
 </body></html> -->
 <a href="https://dennishnf.com/README.html" target="_blank">Made from scratch - Python as backend</a> <br/>
-Website updated 19-12-2020 14:26 GMT <br/> 
+Website updated 19-12-2020 14:34 GMT <br/> 
 </div> 
 <div class="clearer">&nbsp;</div> 
 </div> 

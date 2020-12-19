@@ -260,5 +260,5 @@ $ ./imgproc
 
 The last command should show:
 
-![image](/posts/opencv/image_processing_using_cuda_and_opencv_linux/imgproc_cuda_opencv.png)
+![image](/posts/technical/image_processing_using_cuda_and_opencv_linux/imgproc_cuda_opencv.png)
 

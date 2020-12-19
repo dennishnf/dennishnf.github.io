@@ -9,7 +9,7 @@ In next window, choose your wired connection or wifi network then click "Edit" b
 
 Then navigate to IPv4 Settings tab. Switch Method to "Manual" from the drop-down box. Click Add button and type in IP address, netmask and gateway. Finally click "Save" when everything’s done.
 
-![image](/posts/miscellaneous/set_static_ip_on_ubuntu_and_enter_through_terminal_or_graphic_mode_with_ssh/change-to-static-ip.jpg)
+![image](/posts/technical/set_static_ip_on_ubuntu_and_enter_through_terminal_or_graphic_mode_with_ssh/change-to-static-ip.jpg)
 
 When you’re ready, click “Save,” then go to the Terminal and type:
 

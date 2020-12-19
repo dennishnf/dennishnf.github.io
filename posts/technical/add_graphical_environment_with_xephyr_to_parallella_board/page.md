@@ -3,7 +3,7 @@
 
 Requirements: Ubuntu PC and Parallella Board.
 
-First you should to set all configurations of the previous post Add Graphical Environment ([https://dennishnf.github.io/posts/parallella/add_graphical_environment.html](https://dennishnf.github.io/posts/parallella/parallella_board/add_graphical_environment.html)!).
+First you should to set all configurations of the previous post Add Graphical Environment ([https://dennishnf.github.io/posts/technical/add_graphical_environment.html](https://dennishnf.github.io/posts/technical/parallella_board/add_graphical_environment.html)!).
 
 ### Install Xephyr in your Ubuntu PC: ###
 
@@ -31,7 +31,7 @@ $ sudo nano ~/.config/lxsession/LXDE/autostart
 
 ### Set a background image: ###
 
-Put a background image file in your home directory ( e.g. /home/parallella/lxde_wallpaper.png ). Then edit the next files (On Parallella Board):
+Put a background image file in your home directory ( e.g. /home/technical/lxde_wallpaper.png ). Then edit the next files (On Parallella Board):
 
 ```
 $ sudo nano /etc/xdg/lxsession/LXDE/autostart
@@ -44,7 +44,7 @@ $ sudo nano ~/.config/lxsession/LXDE/autostart
 , add this line to the bottom of the both files:
 
 ```
-@feh --bg-fill /home/parallella/lxde_wallpaper.png
+@feh --bg-fill /home/technical/lxde_wallpaper.png
 ```
 
 ### After set PCManFM Desktop mode and background image: ###

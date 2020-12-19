@@ -24,11 +24,11 @@ In this tutorial you will learn how to use opencv_dnn module for image classific
 
 We will demonstrate results of this example on the following picture.
 
-![image](/posts/caffe/load_caffe_framework_models_using_opencv_3-3-0_and_c++_on_raspberry_pi_3/space_shuttle.jpg)
+![image](/posts/technical/load_caffe_framework_models_using_opencv_3-3-0_and_c++_on_raspberry_pi_3/space_shuttle.jpg)
 
 ### Source Code ###
 
-We will be using the next code, that can be downloaded here: [[https://dennishnf.github.io/posts/caffe/load_caffe_framework_models_using_opencv_3-3-0_and_c++_on_raspberry_pi_3/caffe_googlenet.zip](link)!].
+We will be using the next code, that can be downloaded here: [[https://dennishnf.github.io/posts/technical/load_caffe_framework_models_using_opencv_3-3-0_and_c++_on_raspberry_pi_3/caffe_googlenet.zip](link)!].
 
 ```
 #include <<x>opencv2/dnn.hpp<x>>

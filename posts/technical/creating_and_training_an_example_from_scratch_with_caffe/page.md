@@ -3,7 +3,7 @@
 
 This example will be performed with MNIST dataset. This guide was performed in Ubuntu, but works in Windows too after the correctly installation of Caffe. Be careful and change the path of the example.
 
-You can download the example from [[https://dennishnf.github.io/posts/caffe/creating_and_training_an_example_from_scratch_with_caffe/example_mnist.zip](here)!].
+You can download the example from [[https://dennishnf.github.io/posts/technical/creating_and_training_an_example_from_scratch_with_caffe/example_mnist.zip](here)!].
 
 ### File structure ###
 
@@ -682,13 +682,13 @@ python /home/dennis/Desktop/example/scripts/test_mean.py --proto /home/dennis/De
 Using:
 
 ```
-python /home/dennis/caffe/python/draw_net.py /home/dennis/Desktop/example/models/model1/model_deploy.prototxt /home/dennis/Desktop/example/scripts/model1.png
+python /home/dennis/technical/python/draw_net.py /home/dennis/Desktop/example/models/model1/model_deploy.prototxt /home/dennis/Desktop/example/scripts/model1.png
 ```
 
 Or:
 
 ```
-python /home/dennis/caffe/python/draw_net.py /home/dennis/Desktop/example/models/model1/model_train_test.prototxt /home/dennis/Desktop/example/scripts/model1.png
+python /home/dennis/technical/python/draw_net.py /home/dennis/Desktop/example/models/model1/model_train_test.prototxt /home/dennis/Desktop/example/scripts/model1.png
 ```
 
 And the image will be saved at /home/dennis/Desktop/example/scripts/model1.png .
@@ -697,7 +697,7 @@ And the image will be saved at /home/dennis/Desktop/example/scripts/model1.png .
 
 - [http://caffe.berkeleyvision.org/gathered/examples/mnist.html](http://caffe.berkeleyvision.org/gathered/examples/mnist.html)!.
 
-- [http://adilmoujahid.com/posts/caffe/2016/06/introduction-deep-learning-python-caffe/](http://adilmoujahid.com/posts/caffe/2016/06/introduction-deep-learning-python-caffe/)!.
+- [http://adilmoujahid.com/posts/technical/2016/06/introduction-deep-learning-python-caffe/](http://adilmoujahid.com/posts/technical/2016/06/introduction-deep-learning-python-caffe/)!.
 
 - [http://shengshuyang.github.io/A-step-by-step-guide-to-Caffe.html](http://shengshuyang.github.io/A-step-by-step-guide-to-Caffe.html)!.
 
