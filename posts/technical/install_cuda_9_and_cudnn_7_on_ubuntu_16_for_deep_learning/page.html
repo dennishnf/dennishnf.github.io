@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="/icon.ico?" type="image/x-icon" />
+<link rel="icon" href="/icon.ico?" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.com/">Dennis Núñez Fernández</a></b></h1>
+<h2>B.Sc. in Electronic Engineering, Universidad Nacional de Ingeniería - UNI</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="/index.html">Home</a></li>
+<li><a href="/research/research.html">Research</a></li>
+<li><a href="/posts/posts.html">Posts</a></li>
+<li><a href="/contact/contact.html">Contact</a></li>
+<li><a href="/cv/cv.html">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Install Nvidia CUDA 9.0 and cuDNN 7.0 on Ubuntu 16.04 for Deep Learning</h2>
+
+<br/> 
+<h3>1. Install CUDA:</h3>
+
+<p align="justify">Go to: <a target="_blank" href="https://developer.nvidia.com/cuda-90-download-archive">https://developer.nvidia.com/cuda-90-download-archive</a>.</p>
+<p align="justify">Select: LINUX --> x86_64 --> Ubuntu --> 16.04 --> deb (network).</p>
+<p align="justify">Then:</p>
+<p><code class="barcode">sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
+sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
+sudo apt-get update
+sudo apt-get install cuda=9.0.176-1
+</code></p>
+
+<p align="justify">Set up the development environment by modifying the PATH and LD_LIBRARY_PATH variables by adding them to the end of .bashrc file (</custom_code> sudo gedit .bashrc <custom_code>):</p>
+<p><code class="barcode">export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+</code></p>
+
+<br/> 
+<h3>2. Install cuDNN:</h3>
+
+<p align="justify">Go to: <a target="_blank" href="https://developer.nvidia.com/rdp/cudnn-archive">https://developer.nvidia.com/cuda-90-download-archive</a>.</p>
+<p align="justify">Select: "Download cuDNN v7.0.5 (Dec 5, 2017), for CUDA 9.0" --> "cuDNN v7.0.5 Library for Linux".</p>
+<p align="justify">Download the .tgz file.</p>
+<p align="justify">Navigate to your <cudnnpath> directory containing the cuDNN Tar file (your cuDNN download path, usually ~/Downloads/):</p>
+<p><code class="barcode">cd ~/Downloads/
+</code></p>
+
+<p align="justify">Unzip the cuDNN package:</p>
+<p><code class="barcode">tar -xzvf cudnn-10.2-linux-x64-v7.6.5.32.tgz
+</code></p>
+
+<p align="justify">Copy the following files into the CUDA Toolkit directory, and change the file permissions:</p>
+<p><code class="barcode">sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+</code></p>
+
+<br/> 
+<h3>References:</h3>
+
+<p align="justify">- <a target="_blank" href="https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#post-installation-actions">https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#post-installation-actions</a>.</p>
+<p align="justify">- <a target="_blank" href="https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html">https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html</a>.</p>
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+<a href="https://dennishnf.com/README.html" target="_blank">Made from scratch - Python as backend</a> <br/>
+Website updated 19-12-2020 07:12 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 

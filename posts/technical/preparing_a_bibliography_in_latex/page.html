@@ -1,0 +1,500 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="/icon.ico?" type="image/x-icon" />
+<link rel="icon" href="/icon.ico?" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.com/">Dennis Núñez Fernández</a></b></h1>
+<h2>B.Sc. in Electronic Engineering, Universidad Nacional de Ingeniería - UNI</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="/index.html">Home</a></li>
+<li><a href="/research/research.html">Research</a></li>
+<li><a href="/posts/posts.html">Posts</a></li>
+<li><a href="/contact/contact.html">Contact</a></li>
+<li><a href="/cv/cv.html">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Preparing a bibliography in LaTeX</h2>
+
+<p align="justify">For any academic/research writing, incorporating references into a document is an important task. Fortunately, LaTeX has a variety of features that make dealing with references much simpler, including built-in support for citing references. However, a much more powerful and flexible solution is achieved thanks to an auxiliary tool called BibTeX (which comes bundled as standard with LaTeX). Recently, BibTeX has been succeeded by BibLaTeX, a tool configurable within LaTeX syntax.</p>
+<p align="justify">BibTeX provides for the storage of all references in an external, flat-file database. (BibLaTeX uses this same syntax.) This database can be referenced in any LaTeX document, and citations made to any record that is contained within the file. This is often more convenient than embedding them at the end of every document written; a centralized bibliography source can be linked to as many documents as desired (write once, read many!). Of course, bibliographies can be split over as many files as one wishes, so there can be a file containing sources concerning topic A (a.bib) and another concerning topic B (b.bib). When writing about topic AB, both of these files can be linked into the document (perhaps in addition to sources ab.bib specific to topic AB).</p>
+<br/> 
+<h3>Citations</h3>
+
+<p align="justify">To actually cite a given document is very easy. Go to the point where you want the citation to appear, and use the following: <custom_code>\cite{cite_key}</custom_code>, where the 'cite_key' is that of the bibitem you wish to cite. When LaTeX processes the document, the citation will be cross-referenced with the bibitems and replaced with the appropriate number citation. The advantage here, once again, is that LaTeX looks after the numbering for you. If it were totally manual, then adding or removing a reference would be a real chore, as you would have to re-number all the citations by hand.</p>
+<p align="justify">Example:</p>
+<p><code class="barcode">... Instead of WYSIWYG editors, typesetting systems like A or B \cite{lamport94} can be used. ...
+</code></p>
+
+<br/> 
+<h3>Referring more specifically</h3>
+
+<p align="justify">Sometimes you want to refer to a certain page, figure or theorem in a text book. For that you can use the arguments to the \cite command:</p>
+<p><code class="barcode">\cite[chapter, p.~215]{citation01}
+</code></p>
+
+<p align="justify">The argument, "p. 215", will show up inside the same brackets. Note the tilde in [p.~215], which replaces the end-of-sentence spacing with a non-breakable inter-word space. There are two reasons: end-of-sentence spacing is too wide, and "p." should not be separated from the page number.</p>
+<br/> 
+<h3>Multiple citations</h3>
+
+<p align="justify">When a sequence of multiple citations are needed, you should use a single <custom_code>\cite{}</custom_code> command. The citations are then separated by commas. Here's an example:</p>
+<p><code class="barcode">\cite{citation01,citation02,citation03}
+</code></p>
+
+<p align="justify">The result will then be shown as citations inside the same brackets, depending on the citation style.</p>
+<br/> 
+<h3>No cite</h3>
+
+<p align="justify">If you only want a reference to appear in the bibliography, but not where it is referenced in the main text, then the <custom_code>\nocite{}</custom_code> command can be used, for example:</p>
+<p><code class="barcode">Lamport showed in 1995 something...  \nocite{lamport95}.
+</code></p>
+
+<p align="justify">A special version of the command, <custom_code>\nocite{*}</custom_code>, includes all entries from the database, whether they are referenced in the document or not.</p>
+<br/> 
+<h3>BibTex .bib file</h3>
+
+<p align="justify">A BibTeX database is stored as a .bib file. It is a plain text file, and so can be viewed and edited easily. The structure of the file is also quite simple. An example of a BibTeX entry:</p>
+<p><code class="barcode">@article{greenwade93,
+    author  = "George D. Greenwade",
+    title   = "The {C}omprehensive {T}ex {A}rchive {N}etwork ({CTAN})",
+    year    = "1993",
+    journal = "TUGBoat",
+    volume  = "14",
+    number  = "3",
+    pages   = "342--351"
+}
+</code></p>
+
+<br/> 
+<h3>Standard templates</h3>
+
+<p align="justify">Be careful if you copy the following templates, the % sign is not valid to comment out lines in bibtex files. If you want to comment out a line, you have to put it outside the entry.</p>
+<br/> 
+<h4>@article</h4>
+
+<p><code class="barcode">@article{Xarticle,
+    author    = "",
+    title     = "",
+    journal   = "",
+    %volume   = "",
+    %number   = "",
+    %pages    = "",
+    year      = "XXXX",
+    %month    = "",
+    %note     = "",
+}
+</code></p>
+
+<br/> 
+<h4>@book</h4>
+
+<p><code class="barcode">@book{Xbook,
+    author    = "",
+    title     = "",
+    publisher = "",
+    %volume   = "",
+    %number   = "",
+    %series   = "",
+    %address  = "",
+    %edition  = "",
+    year      = "XXXX",
+    %month    = "",
+    %note     = "",
+}
+</code></p>
+
+<br/> 
+<h4>@booklet</h4>
+
+<p><code class="barcode">@booklet{Xbooklet,
+    %author   = "",
+    title     = "",
+    %howpublished   = "",
+    %address  = "",
+    %year      = "XXXX",
+    %month    = "",
+    %note     = "",
+}
+</code></p>
+
+<br/> 
+<h4>@conference</h4>
+
+<p><code class="barcode">@conference{Xconference,
+    author    = "",
+    title     = "",
+    booktitle = "",
+    %editor   = "",
+    %volume   = "",
+    %number   = "",
+    %series   = "",
+    %pages    = "",
+    %address  = "",
+    year      = "XXXX",
+    %month    = "",
+    %publisher= "",
+    %note     = "",
+}
+</code></p>
+
+<br/> 
+<h4>@inbook</h4>
+
+<p><code class="barcode">@inbook{Xinbook,
+	author	= "",
+	editor	= "",
+	title	= "",
+	chapter	= "",
+	pages	= "",
+	publisher= "",
+	%volume	= "",
+	%number	= "",
+	%series	= "",
+	%type	= "",
+	%address= "",
+	%edition= "",
+	year	= "",
+	%month	= "",
+	%note	= "",
+}
+</code></p>
+
+<br/> 
+<h4>@incollection</h4>
+
+<p><code class="barcode">@incollection{Xincollection,
+	author	= "",
+	title	= "",
+	booktitle= "",
+	publisher= "",
+	%editor	= "",
+	%volume	= "",
+	%number	= "",
+	%series	= "",
+	%type	= "",
+	%chapter= "",
+	%pages	= "",
+	%address= "",
+	%edition= "",
+	year	= "",
+	%month	= "",
+	%note	= "",
+}
+</code></p>
+
+<br/> 
+<h4>@inproceedings</h4>
+
+<p><code class="barcode">@inproceedings{Xinproceedings,
+	author		= "",
+	title		= "",
+	booktitle	= "",
+	%editor		= "",
+	%volume		= "",
+	%number		= "",
+	%series		= "",
+	%pages		= "",
+	%address	= "",
+	%organization	= "",
+	%publisher	= "",
+	year		= "",
+	%month		= "",
+	%note		= "",
+}
+</code></p>
+
+<br/> 
+<h4>@manual</h4>
+
+<p><code class="barcode">@manual{Xmanual,
+	title		= "",
+	%author		= "",
+	%organization	= "",
+	%address	= "",
+	%edition	= "",
+	year		= "",
+	%month		= "",
+	%note		= "",
+}
+</code></p>
+
+<br/> 
+<h4>@masterthesis</h4>
+
+<p><code class="barcode">@mastersthesis{Xthesis,
+    author    = "",
+    title     = "",
+    school    = "",
+    %type     = "diploma thesis",
+    %address  = "",
+    year      = "XXXX",
+    %month    = "",
+    %note     = "",
+}
+</code></p>
+
+<br/> 
+<h4>@misc</h4>
+
+<p><code class="barcode">@misc{Xmisc,
+    %author    = "",
+    %title     = "",
+    %howpublished = "",
+    %year     = "XXXX",
+    %month    = "",
+    %note     = "",
+}
+</code></p>
+
+<br/> 
+<h4>@phdthesis</h4>
+
+<p><code class="barcode">@phdthesis{Xphdthesis,
+	author		= "",
+	title		= "",
+	school		= "",
+	%address	= "",
+	year		= "",
+	%month		= "",
+	%keywords	= "",
+	%note		= "",
+}
+</code></p>
+
+<br/> 
+<h4>@proceedings</h4>
+
+<p><code class="barcode">@proceedings{Xproceedings,
+	title		= "",
+	%editor		= "",
+	%volume		= "",
+	%number		= "",
+	%series		= "",
+	%address	= "",
+	%organization	= "",
+	%publisher	= "",
+	year		= "",
+	%month		= "",
+	%note		= "",
+}
+</code></p>
+
+<br/> 
+<h4>@techreport</h4>
+
+<p><code class="barcode">@techreport{Xtreport,
+    author    = "",
+    title     = "",
+    institution = "",
+    %type     = "", 
+    %number   = "",
+    %address  = "",
+    year      = "XXXX",
+    %month    = "",
+    %note     = "",
+}
+</code></p>
+
+<br/> 
+<h4>@unpublished</h4>
+
+<p><code class="barcode">@unpublished{Xunpublished,
+	author	= "",
+	title	= "",
+	%year	= "",
+	%month	= "",
+	note	= "",
+}
+</code></p>
+
+<br/> 
+<h3>A few additional examples</h3>
+
+<p align="justify">Below you will find a few additional examples of bibliography entries. The first one covers the case of multiple authors in the Surname, Firstname format, and the second one deals with the incollection case.</p>
+<p><code class="barcode">@article{AbedonHymanThomas2003,
+  author = "Abedon, S. T. and Hyman, P. and Thomas, C.",
+  year = "2003",
+  title = "Experimental examination of bacteriophage latent-period evolution as a response to bacterial availability",
+  journal = "Applied and Environmental Microbiology",
+  volume = "69",
+  pages = "7499--7506"
+},
+   
+@incollection{Abedon1994,
+  author = "Abedon, S. T.",
+  title = "Lysis and the interaction between free phages and infected cells",
+  pages = "397--405",
+  booktitle = "Molecular biology of bacteriophage T4",
+  editor = "Karam, Jim D. Karam and Drake, John W. and Kreuzer, Kenneth N. and Mosig, Gisela
+            and Hall, Dwight and Eiserling, Frederick A. and Black, Lindsay W. and Kutter, Elizabeth
+            and Carlson, Karin and Miller, Eric S. and Spicer, Eleanor",
+  publisher = "ASM Press, Washington DC",
+  year = "1994"
+},
+</code></p>
+
+<p align="justify">If you have to cite a website you can use @misc, for example:</p>
+<p><code class="barcode">@misc{website:fermentas-lambda,
+      author = "Fermentas Inc.",
+      title = "Phage Lambda: description \& restriction map",
+      month = "November",
+      year = "2008",
+      url = "http://www.fermentas.com/techinfo/nucleicacids/maplambda.htm"
+},
+</code></p>
+
+<p align="justify">The note field comes in handy if you need to add unstructured information, for example that the corresponding issue of the journal has yet to appear:</p>
+<p><code class="barcode">@article{blackholes,
+      author="Rabbert Klein",
+      title="Black Holes and Their Relation to Hiding Eggs",
+      journal="Theoretical Easter Physics",
+      publisher="Eggs Ltd.",
+      year="2010",
+      note="(to appear)"
+}
+</code></p>
+
+<br/> 
+<h3>Bibliography styles</h3>
+
+<p align="justify">There are several different ways to format lists of bibliographic references and the citations to them in the text. These are called citation styles, and consist of two parts: the format of the abbreviated citation (i.e. the marker that is inserted into the text to identify the entry in the list of references) and the format of the corresponding entry in the list of references, which includes full bibliographic details.</p>
+<p align="justify">Abbreviated citations can be of two main types: numbered or textual. Numbered citations (also known as the 'Vancouver referencing system': <a target="_blank" href="https://en.wikipedia.org/wiki/Vancouver_system">https://en.wikipedia.org/wiki/Vancouver_system</a>) are numbered consecutively in order of appearance in the text, and consist in Arabic numerals in parentheses (1), square brackets [1], superscript1, or a combination thereof. Textual citations (also known as the 'Harvard referencing system': <a target="_blank" href="https://en.wikipedia.org/wiki/Parenthetical_referencing">https://en.wikipedia.org/wiki/Parenthetical_referencing</a>) use the author surname and (usually) the year as the abbreviated form of the citation, which is normally fully (Smith 2006) or partially enclosed in parenthesis, as in Smith (2006). The latter form allows the citation to be integrated in the sentence it supports.</p>
+<p align="justify">Here are some more often used styles:</p>
+<p><code class="barcode">|| Style  Name || Author  Name  Format || Reference Format || Sorting       ||
+||-------------||----------------------||------------------||---------------||
+|| plain       || Homer Jay Simpson    || [ID]             || by author     ||
+|| unsrt       || Homer Jay Simpson    || [ID]             || as referenced ||
+|| abbrv       || H. J. Simpson        || [ID]             || by author     ||
+|| alpha       || Homer Jay Simpson    || Sim95            || by author     ||
+|| abstract    || Homer Jay Simpson    || Simpson-1995a    ||               ||
+|| acm         || Simpson, H. J.       || [ID]             ||               ||
+|| authordate1 || Simpson, Homer Jay   || Simpson, 1995    ||               ||
+|| apacite     || Simpson, H. J. (1995)|| Simpson1995      ||               ||
+|| named       || Homer Jay Simpson    || Simpson 1995     ||               ||
+||             ||                      ||                  ||               ||
+</code></p>
+
+<p align="justify">However, keep in mind that you will need to use the natbib package to use most of these.</p>
+<br/> 
+<h3>Getting current LaTeX document to use your .bib file</h3>
+
+<p align="justify">At the end of your LaTeX file (that is, after the content, but before <custom_code>\end{document}</custom_code>), you need to place the following commands:</p>
+<p><code class="barcode">\bibliographystyle{plain}
+\bibliography{sample1,sample2,...,samplen} 
+% Note the lack of whitespace between the commas and the next bib file.
+</code></p>
+
+<br/> 
+<h3>Why won't LaTeX generate any output?</h3>
+
+<p align="justify">The addition of BibTeX adds extra complexity for the processing of the source to the desired output. This is largely hidden from the user, but because of all the complexity of the referencing of citations from your source LaTeX file to the database entries in another file, you actually need multiple passes to accomplish the task. This means you have to run LaTeX a number of times.</p>
+<br/> 
+<h3>Including URLs in bibliography</h3>
+
+<p align="justify">As you can see, there is no field for URLs. One possibility is to include (into .bib file) the Internet addresses in <custom_code>howpublished</custom_code> field of <custom_code>@misc</custom_code> or <custom_code>note</custom_code> field of <custom_code>@techreport</custom_code>, <custom_code>@article</custom_code>, <custom_code>@book</custom_code>:</p>
+<p><code class="barcode">howpublished = "\url{http://www.example.com}"
+</code></p>
+
+<p align="justify">,or:</p>
+<p><code class="barcode">note = "\url{http://www.example.com}"
+</code></p>
+
+<br/> 
+<h3>Bibliography in the table of contents</h3>
+
+<p align="justify">If you want your bibliography to be in the table of contents, just add the following two lines just before the thebibliography environment:</p>
+<p><code class="barcode">\clearpage% or cleardoublepage
+\addcontentsline{toc}{chapter}{Bibliography}
+</code></p>
+
+<br/> 
+<h3>Resources</h3>
+
+<p align="justify">- <a target="_blank" href="https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management">https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management</a>.</p>
+
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+<a href="https://dennishnf.com/README.html" target="_blank">Made from scratch - Python as backend</a> <br/>
+Website updated 19-12-2020 07:12 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 

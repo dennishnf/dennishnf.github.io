@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="/icon.ico?" type="image/x-icon" />
+<link rel="icon" href="/icon.ico?" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.com/">Dennis Núñez Fernández</a></b></h1>
+<h2>B.Sc. in Electronic Engineering, Universidad Nacional de Ingeniería - UNI</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="/index.html">Home</a></li>
+<li><a href="/research/research.html">Research</a></li>
+<li><a href="/posts/posts.html">Posts</a></li>
+<li><a href="/contact/contact.html">Contact</a></li>
+<li><a href="/cv/cv.html">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Using a Database with MySQL and Python</h2>
+
+<br/> 
+<h3>1. Make a Backup</h3>
+
+<p align="justify">Move to the Database location with cd command:</p>
+<p><code class="barcode">$ cd /home/&lt;location&gt;
+</code></p>
+
+<p align="justify">Then, make the Backup into a .sql file:</p>
+<p><code class="barcode">$ mysqldump -u root -p mysql_database &gt; mysql_database_1.sql
+</code></p>
+
+<br/> 
+<h3>2. Install MySQL dependencies and mysqlclient</h3>
+
+<p align="justify">Install the following dependencies:</p>
+<p><code class="barcode">$ sudo apt-get install mysql-server mysql-client mysql-common 
+$ sudo apt-get install libmysqlclient-dev
+</code></p>
+
+<p align="justify">Install "mysqlclient" (you can install into an environment):</p>
+<p><code class="barcode">$ pip install mysqlclient 
+</code></p>
+
+<br/> 
+<h3>3. Using the backup Database</h3>
+
+<p align="justify">Move to the backup Database location with cd command:</p>
+<p><code class="barcode">$ cd /home/&lt;location&gt;
+</code></p>
+
+<p align="justify">Create an empty database and use it:</p>
+<p><code class="barcode">$ mysql -u root -p
+mysql&gt; SHOW DATABASES;
+mysql&gt; CREATE DATABASE mysql_database_1;
+mysql&gt; USE mysql_database_1;
+mysql&gt; SHOW DATABASES;
+mysql&gt; SELECT DATABASE(); #see the database that is being used
+mysql&gt; EXIT
+</code></p>
+
+<p align="justify">Fill the database created with the .sql file:</p>
+<p><code class="barcode">$ mysql -u root -p mysql_database_1 &lt; mysql_database_1.sql 
+</code></p>
+
+<p align="justify">See the database filled with:</p>
+<p><code class="barcode">$ mysql -u root -p
+mysql&gt; SHOW DATABASES;
+mysql&gt; USE mysql_database_1;
+mysql&gt; SHOW TABLES;
+mysql&gt; SHOW COLUMNS FROM sample;
+mysql&gt; SHOW COLUMNS FROM user;
+mysql&gt; DESCRIBE sample;
+mysql&gt; DESCRIBE user;
+mysql&gt; EXIT
+</code></p>
+
+<br/> 
+<h3>4. Using the backup Database with Python</h3>
+
+<p align="justify">Move to the backup Database location with cd command:</p>
+<p><code class="barcode">$ cd /home/&lt;location&gt;
+</code></p>
+
+<p align="justify">Open Jupyter Notebook (or Spyder) and work with the backup Database:</p>
+<p><code class="barcode">$ jupyter notebook
+</code></p>
+
+<p><code class="barcode">In [ ]: import MySQLdb
+In [ ]: db = MySQLdb.connect(host="localhost", user="root", passwd="&lt;my_root_password&gt;", db="mysql_database_1")
+In [ ]: cur = db.cursor()
+In [ ]: cur.execute("SELECT * FROM user")
+        for row in cur.fetchall():
+       		print(row[0])
+In [ ]: db.close()
+</code></p>
+
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+<a href="https://dennishnf.com/README.html" target="_blank">Made from scratch - Python as backend</a> <br/>
+Website updated 19-12-2020 07:12 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 

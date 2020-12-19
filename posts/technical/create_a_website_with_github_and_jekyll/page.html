@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="/icon.ico?" type="image/x-icon" />
+<link rel="icon" href="/icon.ico?" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.com/">Dennis Núñez Fernández</a></b></h1>
+<h2>B.Sc. in Electronic Engineering, Universidad Nacional de Ingeniería - UNI</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="/index.html">Home</a></li>
+<li><a href="/research/research.html">Research</a></li>
+<li><a href="/posts/posts.html">Posts</a></li>
+<li><a href="/contact/contact.html">Contact</a></li>
+<li><a href="/cv/cv.html">CV</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Create a website with Github and Jekyll</h2>
+
+<p align="justify">Nota: los pasos de agregar disqus, google analytics, domain, y rss, deben hacerse tomando en cuenta si el theme clonado contiene o no esas cosas adicionales.</p>
+<p align="justify">Se puede realizar una página web personal y de un proyecto, la página web personal quedaría de la forma <custom_code>http://dennis7dns.github.io</custom_code>, y la página web de un proyecto quedaría de la forma <custom_code>http://dennis7dns.github.io/ParallellaPlatform</custom_code>.</p>
+<p align="justify">1.Bien, para comenzar primero se debe de crear el repositorio <custom_code>dennis7dns.github.io</custom_code> o <custom_code>ParallellaPlatform</custom_code> tanto para la website personal o del proyecto respectivamente. Luego procedemos a clonarlo localemente en nuestra PC.</p>
+<p align="justify">-Para crear la página web como <custom_code>http://dennis7dns.github.io</custom_code> se debe de crear la website en la rama principal de <custom_code>master</custom_code>.</p>
+<p align="justify">-Para crear la página web como <custom_code>http://dennis7dns.github.io/ParallellaPlatform</custom_code> se debe de crear la website en la rama de <custom_code>gh-pages</custom_code>.</p>
+<p align="justify">2.Luego se debe de elegir el tema que queremos tomar de <a target="_blank" href="http://jekyllthemes.org/">http://jekyllthemes.org/</a> y lo descargamos.</p>
+<p align="justify">3.Después que descargamos el tema lo descomprimimos y pegamos todo su contenido dentro de nuestro repositorio local clonado (antes borramos lo q había menos el .git).</p>
+<p align="justify">4.Luego procedemos a realizar las modificaciones de los archivos con el fin de darle forma a nuetsra página.</p>
+<p align="justify">Se debe modificar el archivo <custom_code>_config.yml</custom_code> en las secciones de <custom_code>url</custom_code>:</p>
+<p><code class="barcode">url:              http://dennis7dns.github.io
+baseurl:          '/ParallellaPlatform/'
+</code></p>
+
+<p align="justify">Se debe de tener cuidado y verificar cuál CSS esta usándose, ya que si no se especifica http://dennis7dns.github.io/ParallellaPlatform puede usar el CSS de http://dennis7dns.github.io.</p>
+<br/> 
+<h3>Añadir comentarios con DISQUS</h3>
+
+<p align="justify">Para agregar comentarios con DISQUS se debe de realizar lo siguiente:</p>
+<p align="justify">1.Agregar la variable <custom_code>comments</custom_code> dentro del archivo <custom_code>_config.yml</custom_code>, es decir agregar la siguiente línea:</p>
+<p><code class="barcode">disqus: parallella-platform  #cambiar este calor con tu ID de tu pagina administrada desde disquz
+comments: true
+</code></p>
+
+<p align="justify">fuente: <a target="_blank" href="https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions">https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions</a>.</p>
+<p align="justify">2.En el archivo de <custom_code>_layouts</custom_code> y en el archivo de <custom_code>post.html</custom_code> agregar al final: (código jalado desde opciones de tu pagina administrada desde disqus, es difierente para cada web asi como el id, la de abajo es de ejemplo para ParallellPlatform).</p>
+<p><code class="barcode">&lt;div class="related"&gt;
+&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+             
+        s.src = '//parallella-platform.disqus.com/embed.js';
+            
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;/div&gt;
+</code></p>
+
+<p align="justify">fuente: <a target="_blank" href="https://disqus.com/admin/universalcode/">https://disqus.com/admin/universalcode/</a>.</p>
+<p align="justify">3.Listo, verificar poniendo un comentario.</p>
+<br/> 
+<h3>Añadir Google Analytics</h3>
+
+<p align="justify">Según <a target="_blank" href="http://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages">http://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages</a>.</p>
+<p align="justify">1.Ir a <a target="_blank" href="https://www.google.com/analytics">https://www.google.com/analytics</a> e iniciar sesion, luego ir a 'administrador' y  dentro de la pestaña 'propiedad' clic en 'crear nueva propiedad', luego se abrirá una ventana para crear la propiedad con lo cual se generará el 'ID de seguimiento'.</p>
+
+<p align="justify">2.Crear el archivo <custom_code>google-analytics.html</custom_code> dentro de <custom_code>_includes</custom_code> con el siguiente código q se genera de Google Analytics: (el siguente es el ejemplo del generado para ParallellaPlatform) (borrar <x> para que funcione correctamente).</p>
+<p><code class="barcode">&lt;script&gt;
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+  ga('create', 'UA-72070213-2', 'auto');
+  ga('send', 'pageview');
+       
+&lt;/script&gt;
+</code></p>
+
+<p align="justify">3.Dentro de la carpeta <custom_code>_includes</custom_code> y en el archivo <custom_code>head.html</custom_code> colocar la sigueinte linea al final:</p>
+<p><code class="barcode">{<x>% include google-analytics.html %<x>}
+</code></p>
+
+<p align="justify">Chequear bien que head.html esté incluido dentro de un layout y que ese layout esté en todas las páginas, para que así todas las páginas estén con el script para que Google Analytics administre las visitas a todas las paginas de la página web.</p>
+<p align="justify">Opcional: filtros de google analytics para no contar tu ip como numero de visita: <a target="_blank" href="http://enganchadoainternet.com/analitica-web/filtros-analytics-trafico-real/">http://enganchadoainternet.com/analitica-web/filtros-analytics-trafico-real/</a>.</p>
+<br/> 
+<h3>Cambiar dominio</h3>
+
+<p align="justify">Buscar una página donde pueda encontrar dominios (aprox. cuesta <x>13 anual).</p>
+<p align="justify">Opcional:Crear una cuenta en <a target="_blank" href="https://freedns.afraid.org/">https://freedns.afraid.org/</a> para obtener varios dominios publicos (gratis), por ejemplo elegí .cr.rs par ambas webs.</p>
+<p align="justify">-Para crear la página web como <custom_code>http://dennis.cr.rs</custom_code> en <custom_code>Subdomain</custom_code> se debe Add a Subdomain en la página(por ejemplo https://freedns.afraid.org/) y eligiendo Type: CNAME y elegir un URL para tu sitio, y en el repo de github de la pagina web cambiar el archivo CNAME y dentro colocar la URL para tu sitio.</p>
+<p align="justify">-Para crear la página web como <custom_code>http://parallella.cr.rs</custom_code> se debe realizar una <custom_code>Web Forward</custom_code> en la página(por ejemplo https://freedns.afraid.org/) y elegir un URL para tu sitio y la web a donde lo redireccionará (en este caso no se va a realizar como la pag dennis.cr.rs porque la Destination es http://dennis.cr.rs/ParallellaPlatform/ y tiene un simbolo "/" que github usa por defecto).</p>
+<p align="justify">Type: CNAME - Point subdomain.domain.com to another hostname. Good for those who are using other dynamic DNS services. You can create a CNAME record to another host and whatever subdomain.domain.com you choose here will go to whatever IP address the CNAMEd host has.</p>
+<br/> 
+<h3>Git Clone, Git Pull, Git Commit, Git Push</h3>
+
+<p align="justify">Primero navegamos hacia nuestra carpeta con <custom_code>cd</custom_code> en donde deseamos clonar.</p>
+<p align="justify">1.Luego <custom_code>CLONE</custom_code> en nuestra PC:</p>
+<p align="justify">-Para la página web <custom_code>http://dennis.cr.rs</custom_code>, clonamos <custom_code>master</custom_code> branch:</p>
+<p><code class="barcode">$ git clone https://github.com/dennis7dns/dennis7dns.github.io.git
+</code></p>
+
+<p align="justify">-Para la página web <custom_code>http://parallella.cr.rs</custom_code>, clonamos <custom_code>gh-pages</custom_code> branch:</p>
+<p><code class="barcode">$ git clone -b gh-pages https://github.com/dennis7dns/ParallellaPlatform.git
+</code></p>
+
+<p align="justify">Despues entramos dentro de donde se clonó con <custom_code>cd</custom_code>.</p>
+<p align="justify">2.Luego, antes de cualquier modificación hacemos <custom_code>PULL</custom_code>:</p>
+<p><code class="barcode">$ git pull
+</code></p>
+
+<p align="justify">3.Después agregamos y eliminamos archivos y cambios con <custom_code>ADD</custom_code>:</p>
+<p><code class="barcode">$ git add -A
+$ git add --all
+</code></p>
+
+<p align="justify">4.Luego commiteamos con <custom_code>COMMIT</custom_code>, entre las comillas un comentario de lo q hemos commiteado:</p>
+<p><code class="barcode">$ git commit -m "last change"
+</code></p>
+
+<p align="justify">5.Y por último hacemos <custom_code>PUSH</custom_code> para aplicar los cambios al repo:</p>
+<p align="justify">-Para la página web <custom_code>http://dennis.cr.rs</custom_code>, push en la rama <custom_code>master</custom_code>:</p>
+<p><code class="barcode">$ git push -u origin master
+</code></p>
+
+<p align="justify">-Para la página web <custom_code>http://parallella.cr.rs</custom_code>, push en la rama <custom_code>gh-pages</custom_code>:</p>
+<p><code class="barcode">$ git push -u origin gh-pages
+</code></p>
+
+<br/> 
+<h3>Resources</h3>
+
+<p align="justify">- <a target="_blank" href="https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions">https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions</a>.</p>
+<p align="justify">- <a target="_blank" href="https://disqus.com/admin/universalcode/">https://disqus.com/admin/universalcode/</a>.</p>
+<p align="justify">- <a target="_blank" href="http://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages">http://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages</a>.</p>
+
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+<a href="https://dennishnf.com/README.html" target="_blank">Made from scratch - Python as backend</a> <br/>
+Website updated 19-12-2020 07:12 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 
