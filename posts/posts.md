@@ -24,7 +24,7 @@
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
-<h3>Part of my projects</h3>
+<h3>Part of my developed projects</h3>
 <ul>
 <li>2018/09 - <a href="/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/page.html">Basic WiFi-based indoor location via Bayesian filters</a></li>
 <li>2017/10 - <a href="/posts/projects/real-time-hand-gesture-recognition-on-a-pc-and-raspberry-pi-using-deep-learning/page.html">Real-time hand gesture recognition on a PC and Raspberry Pi using Deep Learning</a></li>
