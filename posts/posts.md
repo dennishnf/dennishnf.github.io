@@ -14,7 +14,7 @@
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
-<h3>Useful resources and links</h3>
+<h3>Useful resources & links</h3>
 <ul>
 <li>2020/04 - <a href="/posts/information/artificial-intelligence/page.html">AI, ML, Computer Vision</a></li>
 <li>2019/10 - <a href="/posts/information/algorithms/page.html">Algorithms, Data Structures</a></li>
@@ -24,7 +24,7 @@
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
-<h3>Part of my developed projects</h3>
+<h3>Part of my last projects</h3>
 <ul>
 <li>2018/09 - <a href="/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/page.html">Basic WiFi-based indoor location via Bayesian filters</a></li>
 <li>2017/10 - <a href="/posts/projects/real-time-hand-gesture-recognition-on-a-pc-and-raspberry-pi-using-deep-learning/page.html">Real-time hand gesture recognition on a PC and Raspberry Pi using Deep Learning</a></li>
