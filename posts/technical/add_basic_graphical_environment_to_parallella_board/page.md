@@ -151,7 +151,7 @@ To exit, logout and reconnect with SSH, or only Ctrl+C.
 
 Start with graphical environment:
 
-![image](/posts/parallella/add_basic_graphical_environment_to_parallella_board/startlxde.png)
+![image](/posts/technical/add_basic_graphical_environment_to_parallella_board/startlxde.png)
 
 ### Resources ###
 

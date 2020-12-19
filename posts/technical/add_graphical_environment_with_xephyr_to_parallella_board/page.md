@@ -116,7 +116,7 @@ $ startlxde
 
 Start with Xephyr Display Server and disable 'PCManFM Desktop mode' and set a background image:
 
-![image](/posts/parallella/add_graphical_environment_with_xephyr_to_parallella_board/startlxde-DisplayServer.png)
+![image](/posts/technical/add_graphical_environment_with_xephyr_to_parallella_board/startlxde-DisplayServer.png)
 
 ### Resources ###
 
