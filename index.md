@@ -64,7 +64,7 @@ I have participated in prestigious AI related conferences such as the <a target=
         <ul>
         <li>[<a target="_blank" href="https://www.linkedin.com/in/dennishnf">LinkedIn</a>]</li>
         <li>[<a target="_blank" href="https://twitter.com/dennishnf">Twitter</a>]</li>
-        <li>[<a target="_blank" href="https://www.youtube.com/channel/UC-js4NaIhqI7NtVWT2JGHrQ/videos?view_as=subscriber">YouTube</a>]</li>
+        <li>[<a target="_blank" href="https://www.youtube.com/channel/UC-js4NaIhqI7NtVWT2JGHrQ">YouTube</a>]</li>
         </ul>
         </p>
     </div>
