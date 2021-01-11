@@ -73,6 +73,7 @@ I have participated in prestigious AI related conferences such as the <a target=
 <h2>News</h2>
 <p>
 <ul>
+<li>2021/01 - Thankful with ML/DL Meetup Arequipa for invited me to give a talk at "III Simposio Peruano de Deep Learning (SPDL)".</li>
 <li>2020/12 - Our 3 projects, which I advised, were accepted for oral presentation at NeurIPS Meetup Peru 2020.</li>
 <li>2020/12 - <a href="https://nips.cc/Conferences/2020" target="_blank">Grateful for winning a 'LatinX in AI' registration grant to attend the prestigious NeurIPS 2020</a>.</li>
 <li>2020/12 - Invited by Universidad Popular del Cesar (Colombia) to give a talk on Artificial Intelligence.</li>
