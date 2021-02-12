@@ -69,13 +69,13 @@ D. Núñez-Fernández, B. Kwolek. ‘Hand Posture Recognition Using Convolutiona
 <h3>Workshop papers</h3>
 <ul>
 <li>
-D. Núñez-Fernández, L. Ballan, G. Jim´enez-Avalos, J. Coronel-Herrera, M. Zimic-Peralta. ‘Automatic semantic segmentation for prediction of tuberculosis using lens-free microscopy images’. Machine Learning for Global Health Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
+D. Núñez-Fernández, L. Ballan, G. Jiménez-Avalos, J. Coronel-Herrera, M. Zimic-Peralta. ‘Automatic semantic segmentation for prediction of tuberculosis using lens-free microscopy images’. Machine Learning for Global Health Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
 [<a href="/research/2020%20-%20ml4gh%20at%20icml%202020%20-%20segmentation%20for%20prediction%20of%20tuberculosis.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/2007.02482">arXiv</a>] 
 </li>
 <br/>	
 <li>
-D. Núñez-Fernández, L. Ballan, G. Jim´enez-Avalos, J. Coronel-Herrera, M. Zimic-Peralta. ‘Using Capsule Neural Network to predict Tuberculosis in lens-free microscopic images’. Healthcare Systems, Population Health, and the Role of Health-Tech (HSYS) Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
+D. Núñez-Fernández, L. Ballan, G. Jiménez-Avalos, J. Coronel-Herrera, M. Zimic-Peralta. ‘Using Capsule Neural Network to predict Tuberculosis in lens-free microscopic images’. Healthcare Systems, Population Health, and the Role of Health-Tech (HSYS) Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
 [<a href="/research/2020%20-%20hsys%20at%20icml%202020%20-%20capsule%20neural%20network%20for%20tuberculosis%20detection.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/2007.02457">arXiv</a>] 
 </li>
