@@ -7,7 +7,6 @@
 [<a href="https://arxiv.org/abs/2007.14432">PDF</a>] 
 [<a href="https://arxiv.org/abs/2007.14432">arXiv</a>] 
 </li>
-<br/>
 </ul>
 <br/>
 <h3>Conference Proceedings</h3>
