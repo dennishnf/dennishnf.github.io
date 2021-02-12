@@ -1,5 +1,6 @@
 <h2>Research</h2>
 <br/>
+<h3>Journal Articles</h3>
 <ul>
 <li>
 <i>Pre-printed journal paper:</i> D. Núñez-Fernández, F. Barrientos-Porras, R. H. Gilman, M. Vittet-Mondonedo, P. Sheen, M. Zimic. `A Convolutional Neural Network for gaze preference detection: A potential tool for diagnostics of autism spectrum disorder in children'. arXiv preprint arXiv:2007.14432. (2020) <br/>
