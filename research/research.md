@@ -7,7 +7,9 @@
 [<a href="https://arxiv.org/abs/2007.14432">PDF</a>] 
 [<a href="https://arxiv.org/abs/2007.14432">arXiv</a>] 
 </li>
+<br/>
 </ul>
+<br/>
 <h3>Conference Proceedings</h3>
 <ul>
 <li>
@@ -40,6 +42,7 @@ D. Núñez-Fernández. ‘A Real-Time Recognition System for User Characteristic
 [<a href="https://ieeexplore.ieee.org/document/8526381">IEEE Xplore</a>] 
 </li>
 </ul>
+<br/>
 <h3>Book chapters</h3>
 <ul>
 <li>
@@ -66,6 +69,7 @@ D. Núñez-Fernández, B. Kwolek. ‘Hand Posture Recognition Using Convolutiona
 [<a href="https://link.springer.com/chapter/10.1007/978-3-319-75193-1_53">Springer</a>]
 </li>
 </ul>
+<br/>
 <h3>Workshop papers</h3>
 <ul>
 <li>
