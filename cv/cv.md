@@ -1,6 +1,6 @@
 <h2>Curriculum Vitae</h2>
-<h2>CV in English</h2>
 <br/>
+<h3>CV in English</h3>
 <ul> 
 <li>[<a href="CV-DennisNunezFernandez-english.pdf">CV-DennisNunezFernandez-english.pdf</a>]</li>
 </ul>
