@@ -11,6 +11,21 @@
 <h3>Conference Proceedings</h3>
 <ul>
 <li>
+A. Aspilcueta Narvaez, D. Núñez-Fernández, S. Gamarra Quispe, D. Lazo Ochoa. ‘Smart Campus IoT guidance system for visitors based on Bayesian filters’. Brazilian Technology Symposium BTSym 2019. Lima, Peru. (2019) <br/>
+[<a href="/research/2019%20-%20btsym 2019%20-%20iot%20guidance%20system%20based%20on%20bayesian%20filters.pdf">PDF</a>] 
+[<a href="https://doi.org/10.1007/978-3-030-57566-3_46">Springer</a>] 
+</li>
+<li> 
+D. Núñez-Fernández. ‘Development of a hand gesture based control interface using Deep Learning’. International Conference on Information Management and Big Data SIMBig 2019. Lima, Peru. (2019) <br/>
+[<a href="/research/2019%20-%20simbig%202019%20-%20development%20of%20a%20hand%20gesture%20interface.pdf">PDF</a>] 
+[<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-46140-9_14">Springer</a>] 
+</li>
+<li> 
+D. Núñez-Fernández. ‘Implementation of an indoor location system for mobile-based museum guidance’. International Conference on Information Management and Big Data SIMBig 2019. Lima, Peru. (2019) <br/>
+[<a href="/research/2019%20-%20simbig%202019%20-%20implementation%20of%20an%20indoor%20location%20system%20museum.pdf">PDF</a>] 
+[<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-46140-9_7">Springer</a>] 
+</li>
+<li>
 D. Núñez-Fernández. ‘Development of a hand pose recognition system on an embedded computer using Artificial Intelligence’. XXVI International Conf. on Electronics, Electrical Eng. and Computing INTERCON. Lima, Peru. (2019) <br/>
 [<a href="/research/2019%20-%20intercon%202019%20-%20hand%20pose%20on%20embedded%20computer%20using%20ai.pdf">PDF</a>] 
 [<a href="https://ieeexplore.ieee.org/document/8853573">IEEE Xplore</a>] 
@@ -34,24 +49,6 @@ D. Núñez-Fernández, S. Hosseini. ‘Real-time handwritten letters recognition
 D. Núñez-Fernández. ‘A Real-Time Recognition System for User Characteristics Based on Deep Learning’. XXV International Conf. on Electronics, Electrical Eng. and Computing INTERCON 2018. Lima, Peru. (2018) <br/> 
 [<a href="/research/2018%20-%20intercon%202018%20-%20real-time%20recognition%20for%20user%20characteristics.pdf">PDF</a>] 
 [<a href="https://ieeexplore.ieee.org/document/8526381">IEEE Xplore</a>] 
-</li>
-</ul>
-<h3>Book chapters</h3>
-<ul>
-<li>
-A. Aspilcueta Narvaez, D. Núñez-Fernández, S. Gamarra Quispe, D. Lazo Ochoa. ‘Smart Campus IoT guidance system for visitors based on Bayesian filters’. Brazilian Technology Symposium BTSym 2019. Lima, Peru. (2019) <br/>
-[<a href="/research/2019%20-%20btsym 2019%20-%20iot%20guidance%20system%20based%20on%20bayesian%20filters.pdf">PDF</a>] 
-[<a href="https://doi.org/10.1007/978-3-030-57566-3_46">Springer</a>] 
-</li>
-<li> 
-D. Núñez-Fernández. ‘Development of a hand gesture based control interface using Deep Learning’. International Conference on Information Management and Big Data SIMBig 2019. Lima, Peru. (2019) <br/>
-[<a href="/research/2019%20-%20simbig%202019%20-%20development%20of%20a%20hand%20gesture%20interface.pdf">PDF</a>] 
-[<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-46140-9_14">Springer</a>] 
-</li>
-<li> 
-D. Núñez-Fernández. ‘Implementation of an indoor location system for mobile-based museum guidance’. International Conference on Information Management and Big Data SIMBig 2019. Lima, Peru. (2019) <br/>
-[<a href="/research/2019%20-%20simbig%202019%20-%20implementation%20of%20an%20indoor%20location%20system%20museum.pdf">PDF</a>] 
-[<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-46140-9_7">Springer</a>] 
 </li>
 <li> 
 D. Núñez-Fernández, B. Kwolek. ‘Hand Posture Recognition Using Convolutional Neural Network’. 22nd Iberoamerican Congress on Pattern Recognition CIARP 2017. Valparaiso, Chile. (2017) <br/> 
