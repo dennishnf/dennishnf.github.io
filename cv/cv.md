@@ -6,11 +6,10 @@
 [<a href="CV-DennisNunezFernandez-english.pdf">CV-DennisNunezFernandez-english.pdf</a>]
 </li>
 </ul>
-<br/>
 <h3>CV in Spanish</h3>
 <ul> 
 <li>
-&nbsp &nbsp [<a href="CV-DennisNunezFernandez-spanish.pdf">CV-DennisNunezFernandez-spanish.pdf</a>]
+[<a href="CV-DennisNunezFernandez-spanish.pdf">CV-DennisNunezFernandez-spanish.pdf</a>]
 </li>
 </ul>
 <br/>
