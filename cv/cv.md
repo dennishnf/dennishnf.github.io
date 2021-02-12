@@ -1,9 +1,11 @@
 <h2>Curriculum Vitae</h2>
 <br/>
 <h3>CV in English</h3>
-<p> 
-&nbsp &nbsp [<a href="CV-DennisNunezFernandez-english.pdf">CV-DennisNunezFernandez-english.pdf</a>]
-</p>
+<ul> 
+<li>
+[<a href="CV-DennisNunezFernandez-english.pdf">CV-DennisNunezFernandez-english.pdf</a>]
+<li>
+</ul>
 <br/>
 <h3>CV in Spanish</h3>
 <p> 
