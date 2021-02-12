@@ -3,7 +3,7 @@
 <h3>Journal Articles</h3>
 <ul>
 <li>
-[under review] Núñez-Fernández, F. Barrientos-Porras, R. H. Gilman, M. Vittet-Mondonedo, P. Sheen, M. Zimic. ‘A Convolutional Neural Network for gaze preference detection: A potential tool for diagnostics of autism spectrum disorder in children’. arXiv preprint arXiv:2007.14432. (2021) <br/>
+[under review] Núñez-Fernández, F. Barrientos-Porras, R. H. Gilman, M. Vittet-Mondoñedo, P. Sheen, M. Zimic. ‘A Convolutional Neural Network for gaze preference detection: A potential tool for diagnostics of autism spectrum disorder in children’. arXiv preprint arXiv:2007.14432. (2021) <br/>
 [<a href="https://arxiv.org/abs/2007.14432">PDF</a>] 
 [<a href="https://arxiv.org/abs/2007.14432">arXiv</a>] 
 </li>
@@ -72,7 +72,7 @@ D. Núñez-Fernández, L. Ballan, G. Jiménez-Avalos, J. Coronel-Herrera, M. Zim
 [<a href="https://arxiv.org/abs/2007.02457">arXiv</a>] 
 </li>
 <li>
-D. Núñez-Fernández, F. Porras-Barrientos, M. Vittet-Mondo˜nedo, R. H. Gilman, M. Zimic-Peralta. ‘Prediction of gaze direction using Convolutional Neural Networks for Autism diagnosis’. LatinX in AI (LXAI) Research Workshop at NeurIPS 2019. Vancouver, Canada. (2019) <br/>
+D. Núñez-Fernández, F. Porras-Barrientos, M. Vittet-Mondoñedo, R. H. Gilman, M. Zimic-Peralta. ‘Prediction of gaze direction using Convolutional Neural Networks for Autism diagnosis’. LatinX in AI (LXAI) Research Workshop at NeurIPS 2019. Vancouver, Canada. (2019) <br/>
 [<a href="/research/2019%20-%20lxai%20at%20neurips%202019%20-%20prediction%20gaze%20direction%20using%20cnns%20for%20autism.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/1911.05629">arXiv</a>] 
 </li>
