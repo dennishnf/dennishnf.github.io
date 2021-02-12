@@ -66,7 +66,7 @@ D. N´u˜nez-Fern´andez, B. Kwolek. ‘Hand Posture Recognition Using Convoluti
 [<a href="https://link.springer.com/chapter/10.1007/978-3-319-75193-1_53">Springer</a>]
 </li>
 </ul>
-<h3>Book chapters</h3>
+<h3>Workshop papers</h3>
 <ul>
 <li>
 <i>Workshop paper:</i> D. Núñez-Fernández, L. Ballan, G. Jiménez-Avalos, J. Coronel-Herrera, M. Zimic-Peralta. `Automatic semantic segmentation for prediction of tuberculosis using lens-free microscopy images'. ML for Global Health Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
