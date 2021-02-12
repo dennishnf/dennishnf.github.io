@@ -1,13 +1,13 @@
 <h2>Contact me</h2>
 <br/>
-<h3>Emails:</h3>
+<h3>Emails</h3>
 <p> 
 &nbsp &nbsp Principal: &nbsp dennishnf@gmail.com
 <br/>
 &nbsp &nbsp Alternative: &nbsp dnunezf@uni.pe
 </p>
 <br/>
-<h3>Addressing:</h3>
+<h3>Addressing</h3>
 <p> 
 &nbsp &nbsp Bioinformatics and Molecular Biology Laboratory
 <br/>
@@ -19,7 +19,7 @@
 </p>
 <br/>
 <!--
-<h3>Find me:</h3>
+<h3>Find me</h3>
 <p> 
 &nbsp &nbsp <a target="_blank" href="https://scholar.google.com/citations?user=QQTBnmMAAAAJ&hl=en">Google Scholar</a>
 <br/>
