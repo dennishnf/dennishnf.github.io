@@ -227,7 +227,7 @@ def convert(pathh):
 
 
 
-root = '/home/dennis/Desktop/dennishnf.github.io'
+root = '/home/dennishnf/Desktop/dennishnf.github.io'
 pattern = "*.md"
 
 for path, subdirs, files in os.walk(root):
