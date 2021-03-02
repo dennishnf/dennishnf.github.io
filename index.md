@@ -73,7 +73,7 @@ I have participated in prestigious AI related conferences such as the <a target=
 <h2>News</h2>
 <p>
 <ul>
-<li>2021/03 - <a href="https://sites.google.com/view/sedl-workshop" target="_blank">Selected as a reviewer for the Science and Engineering of Deep Learning Workshop at the ICLR 2021</a>.</li>
+<li>2021/03 - <a href="https://sites.google.com/view/sedl-workshop" target="_blank">Selected as a reviewer for the Science and Engineering of Deep Learning Workshop at ICLR 2021</a>.</li>
 <li>2021/02 - <a href="http://www.patronatouni.org.pe/es/resultados-de-beca/item/110-resultado-de-convocatoria-de-beca-alberto-benavides-de-la-quintana-embajada-de-francia-prouni-2021.html" target="_blank">Glad to have won the ‘Alberto Benavides de la Quintana - France Embassy’ master’s scholarship</a>.</li>
 <li>2021/01 - Invited as mentor and to give a talk at the "III Peruvian Deep Learning Symposium (SPDL)".</li>
 <li>2020/12 - Our 3 projects, which I advised, were accepted for oral presentation at NeurIPS Meetup Peru 2020.</li>
