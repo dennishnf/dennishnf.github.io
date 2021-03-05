@@ -198,7 +198,7 @@ def convert(pathh):
               output.write(data)
     
     with open(path_out, "a") as myfile:
-          timee=strftime("%d-%m-%Y %H:%M", gmtime())
+          timee=strftime("%Y-%m-%d, at %H:%M", gmtime())
           myfile.write("<a href=\"https://dennishnf.com/README.html\" target=\"_blank\">Made from scratch with Python - Powered by Linux</a> <br/>\n")
           myfile.write("Website updated ")
           myfile.write(timee)
