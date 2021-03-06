@@ -169,20 +169,20 @@ def convert(pathh):
     ##replace(path_out, 'xxxx', 'xxxx')
 
     with open(path_out, "a") as myfile:
-          myfile.write("\n<br/>\n")
+        myfile.write("\n<br/>\n")
           
 
     ##COPYING PRE
 
     with open('pre.html', 'r') as myfile:
-          data1=myfile.read()
+        data1=myfile.read()
 
     f = open(path_out,'r+')
     lines = f.readlines() # read old content
     f.seek(0) # go back to the beginning of the file
     f.write(data1) # write new content at the beginning
     for line in lines: # write old content after new
-          f.write(line)
+        f.write(line)
     f.close()
 
     ## COPYING POST
@@ -195,20 +195,20 @@ def convert(pathh):
               output.write(data)
     
     with open(path_out, "a") as myfile:
-          timee=strftime("%Y-%m-%d  %H:%M", gmtime())
-          myfile.write("<a href=\"https://dennishnf.com/README.html\" target=\"_blank\">From scratch by Python. Powered by Linux</a> <br/>\n")
-          myfile.write("Website updated: ")
-          myfile.write(timee)
-          myfile.write(" GMT <br/> \n</div> \n")
-          myfile.write("<div class=\"clearer\">&nbsp;</div> \n")
-          myfile.write("</div> \n")
-          myfile.write("</div> \n")
-          myfile.write("</div> \n")
-          myfile.write("</div> \n")
-          myfile.write("</div> \n")
-          myfile.write("</div> \n")
-          myfile.write("</body> \n\n\n")
-          myfile.write("</html> \n")
+        timee=strftime("%Y-%m-%d  %H:%M", gmtime())
+        myfile.write("<a href=\"https://dennishnf.com/README.html\" target=\"_blank\">From scratch by Python. Powered by Linux</a> <br/>\n")
+        myfile.write("Website updated: ")
+        myfile.write(timee)
+        myfile.write(" GMT <br/> \n</div> \n")
+        myfile.write("<div class=\"clearer\">&nbsp;</div> \n")
+        myfile.write("</div> \n")
+        myfile.write("</div> \n")
+        myfile.write("</div> \n")
+        myfile.write("</div> \n")
+        myfile.write("</div> \n")
+        myfile.write("</div> \n")
+        myfile.write("</body> \n\n\n")
+        myfile.write("</html> \n")
 
 
               
@@ -224,14 +224,16 @@ def convert(pathh):
 
 plataform_ = platform.system()
 
+
+root = ""
+
 if plataform_ == 'Linux':
-    root = '/home/dennishnf/Desktop/dennishnf.github.io'
-    pattern = "*.md"
+    root = r"/home/dennishnf/Desktop/dennishnf.github.io"
 
 if plataform_ == 'Windows':
-    root = 'C:\Users\Dennis\Desktop\dennishnf.github.io'
-    pattern = "*.md"
+    root = r"C:\Users\Dennis\Desktop\dennishnf.github.io"
 
+pattern = "*.md"
 
 for path, subdirs, files in os.walk(root):
     for name in files:
@@ -241,6 +243,8 @@ for path, subdirs, files in os.walk(root):
             convert(os.path.splitext(os.path.join(path, name))[0])
             
 
+
+print("Executed in",plataform_)
 
 
 
