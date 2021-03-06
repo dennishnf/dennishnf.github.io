@@ -198,9 +198,9 @@ def convert(pathh):
               output.write(data)
     
     with open(path_out, "a") as myfile:
-          timee=strftime("%Y-%m-%d %H:%M", gmtime())
-          myfile.write("<a href=\"https://dennishnf.com/README.html\" target=\"_blank\">Made from scratch - Python as backend</a> <br/>\n")
-          myfile.write("Website updated ")
+          timee=strftime("%Y-%m-%d  %H:%M", gmtime())
+          myfile.write("<a href=\"https://dennishnf.com/README.html\" target=\"_blank\">From scratch by Python. Powered by Linux</a> <br/>\n")
+          myfile.write("Website updated: ")
           myfile.write(timee)
           myfile.write(" GMT <br/> \n</div> \n")
           myfile.write("<div class=\"clearer\">&nbsp;</div> \n")
