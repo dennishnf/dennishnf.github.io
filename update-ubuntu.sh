@@ -4,7 +4,7 @@
 git pull;
 
 #create html files
-python md2html-ubuntu.py
+python md2html.py
 
 #upload
 git add -A;

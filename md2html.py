@@ -1,24 +1,21 @@
-import os
-from fnmatch import fnmatch
-
 
 
 #Convertion file from Markdown to Html for my website
 #By Dennis Nunez-Fernandez
 
 
+
+import os
+import re
+import argparse
+import platform
 from tempfile import mkstemp
 from shutil import move
 from os import fdopen, remove
-
+from fnmatch import fnmatch
 from shutil import copyfile
-
 from time import gmtime, strftime
 
-
-import re
-
-import argparse
 
 
 
@@ -225,9 +222,16 @@ def convert(pathh):
 
 
 
+plataform_ = platform.system()
 
-root = 'C:\Users\Dennis\Desktop\dennishnf.github.io'
-pattern = "*.md"
+if plataform_ == 'Linux':
+    root = '/home/dennishnf/Desktop/dennishnf.github.io'
+    pattern = "*.md"
+
+if plataform_ == 'Windows':
+    root = 'C:\Users\Dennis\Desktop\dennishnf.github.io'
+    pattern = "*.md"
+
 
 for path, subdirs, files in os.walk(root):
     for name in files:

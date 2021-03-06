@@ -1,7 +1,7 @@
 @ECHO.
 git pull
 @ECHO.
-py "md2html-windows.py" 
+py "md2html.py" 
 @ECHO.
 git add -A
 git commit -m "making website"
