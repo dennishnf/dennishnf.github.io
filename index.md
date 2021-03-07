@@ -88,7 +88,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <li>2020/09 - Glad to give a talk at the "Semana de la Innovación", event organized by Fondecyt Peru.</li>
 <li>2020/09 - <a href="https://micromasters.mit.edu/ds/" target="_blank">Cheerful to start the MITx MicroMasters in Statistics and Data Science, funded by Aporta</a>.
 <li>2020/08 - Winner of a scholarship for "Advanced Program in Data Science & Global Skills", org. by Aporta & MIT.</li>
-<li>2020/08 - Invited to be a paper reviewer at the IEEE EIRCON 2020 conference.</li>
+<li>2020/08 - Pleased to have been invited to be a paper reviewer at the IEEE EIRCON 2020 conference.</li>
 <li>2020/08 - <a href="https://www.kdd.org/kdd2020/" target="_blank">Glad to win a grant for the KDD 2020, ACM Conference on Knowledge Discovery and Data Mining</a>.
 <li>2020/07 - Invited by IEEE SPS UNI to give a workshop: "Deep Learning: Fundamentos y Aplicaciones".</li>
 <li>2020/07 - Invited by my faculty FIEE UNI to give a talk about my experience in research internships abroad.</li>
