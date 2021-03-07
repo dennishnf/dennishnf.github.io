@@ -73,7 +73,7 @@ I have participated in prestigious AI related conferences such as the NeurIPS (<
 <h2>News</h2>
 <p>
 <ul>
-<li>2021/03 - <a href="https://sites.google.com/view/sedl-workshop" target="_blank">Selected as reviewer for the LatinX in CV Workshop at CVPR 2021</a>.</li>
+<li>2021/03 - <a href="https://www.latinxinai.org/cvpr-2021-about" target="_blank">Selected as reviewer for the LatinX in CV Research Workshop at CVPR 2021</a>.</li>
 <li>2021/03 - <a href="https://opencv.org/opencv-ai-competition-2021/" target="_blank">Our team 'Vigilare' won the Phase 1 of the OpenCV AI Competition, congts Dari, Bernick and Jhonny!!</a>.</li>
 <li>2021/03 - <a href="https://sites.google.com/view/sedl-workshop" target="_blank">Selected as reviewer for the Science and Engineering of Deep Learning Workshop at ICLR 2021</a>.</li>
 <li>2021/02 - <a href="http://www.patronatouni.org.pe/es/resultados-de-beca/item/110-resultado-de-convocatoria-de-beca-alberto-benavides-de-la-quintana-embajada-de-francia-prouni-2021.html" target="_blank">Glad to have won the ‘Alberto Benavides de la Quintana - France Embassy’ master’s scholarship</a>.</li>
