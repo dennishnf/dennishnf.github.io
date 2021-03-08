@@ -70,7 +70,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
     </div>
 </div>
 <br/>
-<h2>News</h2>
+<h2>News and updates</h2>
 <p>
 <ul>
 <li>2021/03 - <a href="https://www.latinxinai.org/cvpr-2021-about" target="_blank">Selected as paper reviewer for the LatinX in CV (LXCV) Research Workshop at CVPR 2021</a>.</li>
