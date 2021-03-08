@@ -39,7 +39,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
     </div>
 </div>
 <br/>
-<h2>Find me</h2>
+<h2>Find me on</h2>
 <div class="row">
     <div class="column left">
         <p>
