@@ -123,6 +123,6 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <li>2016/11 - <a href="http://www.unesco.agh.edu.pl/fileadmin/default/templates/css/j/unesco/system/program_UCTE_2016_v12_2016_12_06x.pdf" target="_blank">Selected as paper presenter and session chair for the UNESCO UCTE 2016 conference, Poland</a>.</li>
 <li>2016/06 - <a href="http://www.unesco.agh.edu.pl/en/" target="_blank">Winner of a fellowship for the "UNESCO/Poland Co-Sponsored Program 2016" at AGH UST, Poland</a>.</li>
 <li>2015/07 - <a href="https://www.uni.edu.pe/" target="_blank">Graduated with the first place in my graduating class at the Universidad Nacional de Ingeniería (UNI)</a>.</li>
-<li>2014/12 - Top 10 Electronics Engineering GPA of the entire department during the periods 2014-I and 2014-II.</li>
+<li>2014/12 - Top 10 Electronics Engineering GPA of the entire faculty during the periods 2014-I and 2014-II.</li>
 </ul>
 </p>
