@@ -108,7 +108,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <li>2019/11 - <a href="http://vimp.math.unipd.it/people.html" target="_blank">Winner of a scholarship by Fondecyt Peru for a research stay at the University of Padua, Italy</a>.</li>
 <li>2019/11 - Glad to give a talk on AI in Healtcare at the department of Pharmacy and Biochemistry, at the UNMSM.</li>
 <li>2019/10 - <a href="https://www.latinxinai.org/neurips-2019" target="_blank">Selected as winner of a LatinX in AI travel grant to participate in the prestigious NeurIPS 2019</a>.</li>
-<li>2019/10 - <a href="https://www.latinxinai.org/neurips-2019-presenters" target="_blank">My 3 submitted abstracts were accepted for the LXAI Workshop at the NeurIPS 2019</a>.</li>
+<li>2019/10 - <a href="https://www.latinxinai.org/neurips-2019-presenters" target="_blank">My 3 submitted abstract papers were accepted for the LXAI Workshop at the NeurIPS 2019</a>.</li>
 <li>2019/10 - <a href="https://www.springer.com/gp/book/9783030575656" target="_blank">Our paper, which was in collaboration with the IIFIEE-UNI, was accepted for the BTSym'19</a>.</li>
 <li>2019/09 - <a href="https://www.latinxinai.org/neurips-2019#nips-org" target="_blank">Selected as a program committee member (reviewer) for the LXAI Workshop at the NeurIPS 2019</a>.</li>
 <li>2019/09 - Invited to give a talk at the 22vo Meetup 2019, organized by Data Science Research Perú.</li>
