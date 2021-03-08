@@ -121,7 +121,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <li>2018/06 - <a href="https://ieeexplore.ieee.org/xpl/conhome/8484861/proceeding" target="_blank">My submitted paper on deep learning was accepted for the IEEE INTERCON 2018 conference</a>.</li>
 <li>2017/08 - <a href="https://dblp.org/db/conf/ciarp/ciarp2017.html" target="_blank">My work, advised by Bogdan Kwolek, PhD, (AGH UST) was accepted for the CIARP 2017</a>.</li>
 <li>2016/11 - <a href="http://www.unesco.agh.edu.pl/fileadmin/default/templates/css/j/unesco/system/program_UCTE_2016_v12_2016_12_06x.pdf" target="_blank">Selected as paper presenter and session chair for the UNESCO UCTE 2016 conference, Poland</a>.</li>
-<li>2016/06 - <a href="http://www.unesco.agh.edu.pl/en/" target="_blank">Selected for a fellowship under the UNESCO/Poland Program at the AGH UST, Poland</a>.</li>
+<li>2016/06 - <a href="http://www.unesco.agh.edu.pl/en/" target="_blank">Winner of a fellowship for the "UNESCO/Poland Co-Sponsored Program 2016" at AGH UST, Poland</a>.</li>
 <li>2015/07 - <a href="https://www.uni.edu.pe/" target="_blank">Graduated with the first place in my graduating class at the Universidad Nacional de Ingeniería (UNI)</a>.</li>
 <li>2014/12 - Top 10 Electronic Engineering GPA of all the department in the periods 2014-I and 2014-II.</li>
 </ul>
