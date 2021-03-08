@@ -112,7 +112,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <li>2019/10 - <a href="https://www.springer.com/gp/book/9783030575656" target="_blank">Our paper, which was in collaboration with the IIFIEE-UNI, was accepted for the BTSym'19</a>.</li>
 <li>2019/09 - <a href="https://www.latinxinai.org/neurips-2019#nips-org" target="_blank">Selected as a program committee member (reviewer) for the LXAI Workshop at the NeurIPS 2019</a>.</li>
 <li>2019/09 - Invited to give a talk at the 22vo Meetup 2019, organized by Data Science Research Perú.</li>
-<li>2019/06 - <a href="https://ieeexplore.ieee.org/xpl/conhome/8846111/proceeding" target="_blank">My 2 submitted papers were successfully accepted for the XXVI IEEE INTERCON 2019</a>.</li>
+<li>2019/06 - <a href="https://ieeexplore.ieee.org/xpl/conhome/8846111/proceeding" target="_blank">My 2 submitted papers were successfully accepted for the IEEE INTERCON 2019 conference</a>.</li>
 <li>2019/06 - <a href="https://simbig.org/SIMBig2019/en/program.html" target="_blank">My 2 submitted papers about deep learning were successfully accepted for the SIMBig 2019</a>.</li>
 <li>2019/05 - Glad to give a talk at the Computer Science Colloquium, event chaired by Modesto Montoya, PhD.</li>
 <li>2019/05 - Grateful to give a talk about our UPCH project at the event: "Innova como ellos", org. by Innóvate Perú.</li>
