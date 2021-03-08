@@ -96,7 +96,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <li>2020/06 - <a href="https://mlforglobalhealth.org/posters-and-spotlights/" target="_blank">My two papers were accepted for oral and poster presentation at ML4GH workshop at the ICML 2020</a>.</li>
 <li>2020/06 - Thankful for winning a 'LatinX in AI' grant for my participation in the prestigious ICML 2020.</li>
 <li>2020/06 - <a href="https://acl2020.org/" target="_blank">Grateful for winning a grant for the ACL 2020, the best conference about natural language processing</a>.</li>
-<li>2020/06 - <a href="https://sites.google.com/view/inclusion-2020/inclusion-fellowsbio#h.kvia409tw9k8" target="_blank">Selected as an Inclusion Fellow for the "Science and Systems RSS 2020" conference</a>.</li>
+<li>2020/06 - <a href="https://sites.google.com/view/inclusion-2020/inclusion-fellowsbio#h.kvia409tw9k8" target="_blank">Selected as one of the Inclusion Fellows for the "Science and Systems RSS 2020" conference</a>.</li>
 <li>2020/06 - <a href="https://www.latinxinai.org/icml-2020" target="_blank">Grateful to have been accepted as a mentee in the LXAI Mentoring Program at ICML 2020</a>.</li>
 <li>2020/06 - <a href="https://roboticsconference.org/2020/" target="_blank">Glad to won a registration grant for the "Robotics: Science and Systems RSS 2020" conference</a>.</li>
 <li>2020/05 - <a href="https://www.latinxinai.org/icml-2020#workshop-org" target="_blank">Selected as program committee member (reviewer) for the LXAI Workshop at the ICML 2020</a>.</li>
