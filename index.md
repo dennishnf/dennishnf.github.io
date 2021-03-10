@@ -73,7 +73,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <h2>News and updates</h2>
 <p>
 <ul>
-<li>2021/03 - <a href="https://www.biorxiv.org/content/10.1101/2021.03.07.434276v1" target="_blank">Contributed in the research of the Peruvian vaccine COVID-19, analyzing the mobility in animal tests.</a>.</li>
+<li>2021/03 - <a href="https://www.biorxiv.org/content/10.1101/2021.03.07.434276v1" target="_blank">Contributed in the research of the Peruvian vaccine COVID-19, analyzing the mobility in animal tests</a>.</li>
 <li>2021/03 - <a href="https://www.latinxinai.org/cvpr-2021-about" target="_blank">Selected as paper reviewer for the LatinX in CV (LXCV) Research Workshop at CVPR 2021</a>.</li>
 <li>2021/03 - <a href="https://opencv.org/opencv-ai-competition-2021/" target="_blank">Our team 'Vigilare' won the Phase 1 of the OpenCV AI Competition, congts Dari, Bernick and Jhonny!!</a>.</li>
 <li>2021/03 - <a href="https://sites.google.com/view/sedl-workshop" target="_blank">Selected as reviewer for the Science and Engineering of Deep Learning Workshop at ICLR 2021</a>.</li>
