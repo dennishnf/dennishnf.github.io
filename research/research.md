@@ -3,9 +3,13 @@
 <h3>Journal Articles</h3>
 <ul>
 <li>
-[under review] Núñez-Fernández, F. Barrientos-Porras, R. H. Gilman, M. Vittet-Mondoñedo, P. Sheen, M. Zimic. ‘A Convolutional Neural Network for gaze preference detection: A potential tool for diagnostics of autism spectrum disorder in children’. arXiv preprint arXiv:2007.14432. (2021) <br/>
+[under review] D. Núñez-Fernández, F. Barrientos-Porras, R. H. Gilman, M. Vittet-Mondoñedo, P. Sheen, M. Zimic. ‘A Convolutional Neural Network for gaze preference detection: A potential tool for diagnostics of autism spectrum disorder in children’. arXiv preprint arXiv:2007.14432. (2021) <br/>
 [<a href="https://arxiv.org/abs/2007.14432">PDF</a>] 
 [<a href="https://arxiv.org/abs/2007.14432">arXiv</a>] 
+</li>
+[under review] Manolo Fernandez Díaz, Katherine Calderon, Aldo Rojas-Neyra, Vikram N. Vakharia, Ricardo Choque-Guevara, Angela Montalvan, Astrid Poma-Acevedo, Dora Rios-Matos, Andres Agurto-Arteaga, María de Grecia Cauti-Mendoza, Norma Perez-Martinez, Gisela Isasi-Rivas, Luis Tataje-Lavanda, Miryam Palomino, Henri Bailón, Yacory Sernaque-Aguilar, Freddy Ygnacio-Aguirre, Manuel Criollo-Orozco, Edison Huaccachi-Gonzalez, Elmer Delgado-Ccancce, Doris Villanueva-Pérez, Ricardo Montesinos-Millan, Kristel Gutiérrez-Manchay, Katherine Pauyac-Antezana, Ingrid Ramirez-Ortiz, Stefany Quiñones-Garcia, Yudith Cauna-Orocollo, Katherine Vallejos-Sánchez, Angela A. Rios-Angulo, Dennis Núñez-Fernández, Mario I. Salguedo-Bohorquez, Julio Ticona, Manolo Fernández Sánchez, Paquita García, Eliana Icochea, Luis Guevara, Mirko Zimic. ‘Development and pre-clinical evaluation of Newcastle disease virus-vectored SARS-CoV-2 intranasal vaccine candidate’. bioRxiv preprint bioRxiv:2021.03.07.434276. (2021) <br/>
+[<a href="https://www.biorxiv.org/content/10.1101/2021.03.07.434276v1">PDF</a>] 
+[<a href="https://www.biorxiv.org/content/10.1101/2021.03.07.434276v1">bioRxiv</a>] 
 </li>
 </ul>
 <h3>Conference Proceedings</h3>
