@@ -9,7 +9,7 @@
 </li>
 <li>
 [under review] M. Fernandez Díaz, K. Calderon, A. Rojas-Neyra, [and 34 others, including <u>D. Núñez-Fernández</u>], for the COVID-19 Working Group in Peru. ‘Development and pre-clinical evaluation of Newcastle disease virus-vectored SARS-CoV-2 intranasal vaccine candidate’. bioRxiv preprint bioRxiv:2021.03.07.434276. (2021) <br/>
-[<a href="https://www.biorxiv.org/content/10.1101/2021.03.07.434276v1">PDF</a>] 
+[<a href="https://www.biorxiv.org/content/10.1101/2021.03.07.434276v1.full.pdf">PDF</a>] 
 [<a href="https://www.biorxiv.org/content/10.1101/2021.03.07.434276v1">bioRxiv</a>] 
 </li>
 </ul>
