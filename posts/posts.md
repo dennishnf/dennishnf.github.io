@@ -2,6 +2,16 @@
 <br/>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
+<h3>Useful resources & links</h3>
+<ul>
+<li>2020/04 - <a href="/posts/information/artificial-intelligence/page.html">AI, ML, Computer Vision</a></li>
+<li>2019/10 - <a href="/posts/information/algorithms/page.html">Algorithms, Data Structures</a></li>
+<li>2019/08 - <a href="/posts/information/computer-architecture/page.html">Computer Architecture</a></li>
+<li>2019/01 - <a href="/posts/information/cryptography/page.html">Cryptography, Cyber Security</a></li>
+<li>2019/11 - <a href="/posts/information/others/page.html">Miscellaneous links</a></li>
+</ul>
+<!-- ----------------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------------- -->
 <h3>Part of my past projects</h3>
 <ul>
 <li>2018/09 - <a href="/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/page.html">Basic WiFi-based indoor location via Bayesian filters</a></li>
@@ -83,14 +93,3 @@
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
-<h3>Useful resources & links</h3>
-<ul>
-<li>2020/04 - <a href="/posts/information/artificial-intelligence/page.html">AI, ML, Computer Vision</a></li>
-<li>2019/10 - <a href="/posts/information/algorithms/page.html">Algorithms, Data Structures</a></li>
-<li>2019/08 - <a href="/posts/information/computer-architecture/page.html">Computer Architecture</a></li>
-<li>2019/01 - <a href="/posts/information/cryptography/page.html">Cryptography, Cyber Security</a></li>
-<li>2019/11 - <a href="/posts/information/others/page.html">Miscellaneous links</a></li>
-</ul>
-<!-- ----------------------------------------------------------------------------------------------- -->
-<!-- ----------------------------------------------------------------------------------------------- -->
-
