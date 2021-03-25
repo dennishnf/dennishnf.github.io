@@ -14,20 +14,20 @@
 <!-- ----------------------------------------------------------------------------------------------- -->
 <h3>Part of my past projects</h3>
 <ul>
-<li>2018 Sep - <a href="/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/page.html">Basic WiFi-based indoor location via Bayesian filters</a></li>
-<li>2017 Oct - <a href="/posts/projects/real-time-hand-gesture-recognition-on-a-pc-and-raspberry-pi-using-deep-learning/page.html">Real-time hand gesture recognition on a PC and Raspberry Pi using Deep Learning</a></li>
-<li>2017 Jul - <a href="/posts/projects/robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/page.html">Robust hand detection and tracking on a personal computer and embedded computer</a></li>
-<li>2017 May - <a href="/posts/projects/basic-hand-pose-recognition-system-on-a-raspberry-pi-using-cnns/page.html">Basic hand pose recognition system on a Raspberry Pi using CNNs</a></li>
-<li>2017 Apr - <a href="/posts/projects/basic-hand-pose-recognition-system-on-a-pc-using-cnns/page.html">Basic hand pose recognition system on a PC using CNNs</a></li>
-<li>2017 Apr - <a href="/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/page.html">Image classification using GoogleNet Convolutional Neural Network on a Raspberry Pi</a></li>
-<li>2016 Dec - <a href="/posts/projects/skin-detection-in-real-time-based-on-face-skin-color/page.html">Skin detection in real-time based on face skin color</a></li>
-<li>2016 Oct - <a href="/posts/projects/basic-examples-of-convolutional-neural-networks/page.html">Basic examples of Convolutional Neural Networks</a></li>
-<li>2016 Ago - <a href="/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/page.html">Real-time face detection using Haar cascades on a Raspberry Pi</a></li>
-<li>2016 Feb - <a href="/posts/projects/control-of-an-analog-camera-with-a-fpga-using-the-parallel-peripheral/page.html">Control of an analog camera with a FPGA using the parallel peripheral</a></li>
-<li>2015 Mar - <a href="/posts/projects/handwritten-digits-recognition-using-machine-learning/page.html">Handwritten digits recognition using machine learning</a></li>
-<li>2014 Oct - <a href="/posts/projects/implementation-of-a-programmable-system-on-chip-on-a-fpga/page.html">Implementation of a Programmable System-On-Chip (PSoC) on a FPGA</a></li>
-<li>2014 May - <a href="/posts/projects/construction-of-a-robot-sumo-for-competitions/page.html">Construction of a Sumo robot for competitions</a></li>
-<li>2013 Nov - <a href="/posts/projects/cmos-design-of-fpgas-programmable-interconnect-points/page.html">CMOS design of FPGA's Programmable Interconnect Points</a></li>
+<li>2018 Sep - <a href="/posts/projects/2018-09_basic-wifi-based-indoor-location-via-bayesian-filters/page.html">Basic WiFi-based indoor location via Bayesian filters</a></li>
+<li>2017 Oct - <a href="/posts/projects/2017-10_real-time-hand-gesture-recognition-on-a-pc-and-raspberry-pi-using-deep-learning/page.html">Real-time hand gesture recognition on a PC and Raspberry Pi using Deep Learning</a></li>
+<li>2017 Jul - <a href="/posts/projects/2017-07_robust-hand-detection-and-tracking-on-a-personal-computer-and-embedded-computer/page.html">Robust hand detection and tracking on a personal computer and embedded computer</a></li>
+<li>2017 May - <a href="/posts/projects/2017-05_basic-hand-pose-recognition-system-on-a-raspberry-pi-using-cnns/page.html">Basic hand pose recognition system on a Raspberry Pi using CNNs</a></li>
+<li>2017 Apr - <a href="/posts/projects/2017-04_basic-hand-pose-recognition-system-on-a-pc-using-cnns/page.html">Basic hand pose recognition system on a PC using CNNs</a></li>
+<li>2017 Apr - <a href="/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/page.html">Image classification using GoogleNet Convolutional Neural Network on a Raspberry Pi</a></li>
+<li>2016 Dec - <a href="/posts/projects/2016-12_skin-detection-in-real-time-based-on-face-skin-color/page.html">Skin detection in real-time based on face skin color</a></li>
+<li>2016 Oct - <a href="/posts/projects/2016-10_basic-examples-of-convolutional-neural-networks/page.html">Basic examples of Convolutional Neural Networks</a></li>
+<li>2016 Ago - <a href="/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/page.html">Real-time face detection using Haar cascades on a Raspberry Pi</a></li>
+<li>2016 Feb - <a href="/posts/projects/2016-02_control-of-an-analog-camera-with-a-fpga-using-the-parallel-peripheral/page.html">Control of an analog camera with a FPGA using the parallel peripheral</a></li>
+<li>2015 Mar - <a href="/posts/projects/2015-03_handwritten-digits-recognition-using-machine-learning/page.html">Handwritten digits recognition using machine learning</a></li>
+<li>2014 Oct - <a href="/posts/projects/2014-10_implementation-of-a-programmable-system-on-chip-on-a-fpga/page.html">Implementation of a Programmable System-On-Chip (PSoC) on a FPGA</a></li>
+<li>2014 May - <a href="/posts/projects/2014-05_construction-of-a-robot-sumo-for-competitions/page.html">Construction of a Sumo robot for competitions</a></li>
+<li>2013 Nov - <a href="/posts/projects/2013-11_cmos-design-of-fpgas-programmable-interconnect-points/page.html">CMOS design of FPGA's Programmable Interconnect Points</a></li>
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
