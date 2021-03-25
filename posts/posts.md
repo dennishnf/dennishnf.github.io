@@ -5,10 +5,10 @@
 <h3>Useful resources and info</h3>
 <ul>
 <li>2020 Apr - <a href="/posts/information/artificial-intelligence/page.html">AI, ML, Computer Vision</a></li>
-<li>2019 Oct - <a href="/posts/information/algorithms/page.html">Algorithms, Data Structures</a></li>
-<li>2019 Ago - <a href="/posts/information/computer-architecture/page.html">Computer Architecture</a></li>
-<li>2019 Jan - <a href="/posts/information/cryptography/page.html">Cryptography, Cyber Security</a></li>
-<li>2019 Nov - <a href="/posts/information/others/page.html">Miscellaneous links</a></li>
+<li>2019 Nov - <a href="/posts/information/algorithms/page.html">Algorithms, Data Structures</a></li>
+<li>2019 Oct - <a href="/posts/information/computer-architecture/page.html">Computer Architecture</a></li>
+<li>2019 Ago - <a href="/posts/information/cryptography/page.html">Cryptography, Cyber Security</a></li>
+<li>2019 Jan - <a href="/posts/information/others/page.html">Miscellaneous links</a></li>
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
