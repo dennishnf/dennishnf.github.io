@@ -59,7 +59,7 @@
 <li>2016 Jun - <a href="/posts/technical/2016-06_starting_with_opencl_on_parallella_board/page.html"> Starting with OpenCL on Parallella Board</a></li>
 <li>2016 Jan - <a href="/posts/technical/2016-01_installing_and_using_vim_text_editor/page.html">Installing and Using Vim text editor</a></li>
 <li>2015 Nov - <a href="/posts/technical/2015-11_create_a_website_with_github_and_jekyll/page.html">Create a website with Github and Jekyll</a></li>
-<li>2015 Jul - <a href="/posts/technical/2015-08_add_graphical_environment_with_xephyr_to_parallella_board/page.html"> Add graphical environment with Xephyr Disp. Server to Parallella Board</a></li>
+<li>2015 Jul - <a href="/posts/technical/2015-07_add_graphical_environment_with_xephyr_to_parallella_board/page.html"> Add graphical environment with Xephyr Disp. Server to Parallella Board</a></li>
 <li>2015 Jul - <a href="/posts/technical/2015-07_add_basic_graphical_environment_to_parallella_board/page.html"> Add basic graphical environment to Parallella Board</a></li>
 <li>2015 Jun - <a href="/posts/technical/2015-06_run_basic_tests_on_parallella_board/page.html"> Run basic tests on Parallella Board</a></li>
 <li>2015 Jun - <a href="/posts/technical/2015-06_enter_to_parallella_board_with_ssh_and_first_settings/page.html"> Enter to Parallella Board with SSH and first settings</a></li>

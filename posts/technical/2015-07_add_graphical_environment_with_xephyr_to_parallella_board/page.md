@@ -3,7 +3,7 @@
 
 Requirements: Ubuntu PC and Parallella Board.
 
-First you should to set all configurations of the previous post Add Graphical Environment ([https://dennishnf.github.io/posts/technical/2015-08_add_graphical_environment.html](https://dennishnf.github.io/posts/technical/parallella_board/add_graphical_environment.html)!).
+First you should to set all configurations of the previous post Add Graphical Environment ([https://dennishnf.github.io/posts/technical/2015-07_add_graphical_environment.html](https://dennishnf.github.io/posts/technical/2015-07_add_graphical_environment.html)!).
 
 ### Install Xephyr in your Ubuntu PC: ###
 
