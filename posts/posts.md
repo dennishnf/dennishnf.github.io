@@ -68,8 +68,8 @@
 <li>2015 Jun - <a href="/posts/technical/set_static_ip_on_ubuntu_and_enter_through_terminal_or_graphic_mode_with_ssh/page.html">Set static IP on Ubuntu and enter through terminal or graphic mode using SSH</a></li>
 <li>2015 Mar - <a href="/posts/technical/create_presentations_in_latex_with_beamer_package/page.html">Create presentations in LaTeX with Beamer Package</a></li>
 <li>2015 Mar - <a href="/posts/technical/shorten_command_line_bash_prompt_in_linux/page.html">Shorten command line bash prompt in Linux</a></li>
-<li>2015 Feb - <a href="/posts/technical/expectation-maximization_em_algorithm_in_cpp_using_opencv_2-4/page.html">Using the Expectation Maximization (EM) algorithm in C++ using OpenCV 2.4</a></li>
 <li>2015 Feb - <a href="/posts/technical/avoid_prompt_password_for_sudo_in_linux/page.html">Avoid prompt password for sudo in Linux</a></li>
+<li>2015 Feb - <a href="/posts/technical/expectation-maximization_em_algorithm_in_cpp_using_opencv_2-4/page.html">Using the Expectation Maximization (EM) algorithm in C++ using OpenCV 2.4</a></li>
 <li>2014 Sep - <a href="/posts/technical/face_detection_using_haar_cascades_on_opencv_2-4/page.html">Face detection using Haar Cascades on OpenCV 2.4</a></li>
 <li>2014 Sep - <a href="/posts/technical/image_processing_using_cuda_and_opencv_linux/page.html"> Image processing using CUDA and OpenCV on Linux</a></li>
 <li>2014 Ago - <a href="/posts/technical/build_and_install_multiple_versions_of_opencv_on_linux/page.html">Build and install multiple versions of OpenCV on Linux</a></li>
