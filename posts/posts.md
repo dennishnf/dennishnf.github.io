@@ -2,7 +2,7 @@
 <br/>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
-<h3>Useful resources & links</h3>
+<h3>Useful resources and info</h3>
 <ul>
 <li>2020 Apr - <a href="/posts/information/artificial-intelligence/page.html">AI, ML, Computer Vision</a></li>
 <li>2019 Oct - <a href="/posts/information/algorithms/page.html">Algorithms, Data Structures</a></li>
