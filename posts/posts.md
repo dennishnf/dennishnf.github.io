@@ -72,9 +72,9 @@
 <li>2015 Feb - <a href="/posts/technical/avoid_prompt_password_for_sudo_in_linux/page.html">Avoid prompt password for sudo in Linux</a></li>
 <li>2014 Sep - <a href="/posts/technical/face_detection_using_haar_cascades_on_opencv_2-4/page.html">Face detection using Haar Cascades on OpenCV 2.4</a></li>
 <li>2014 Sep - <a href="/posts/technical/image_processing_using_cuda_and_opencv_linux/page.html"> Image processing using CUDA and OpenCV on Linux</a></li>
+<li>2014 Ago - <a href="/posts/technical/build_and_install_multiple_versions_of_opencv_on_linux/page.html">Build and install multiple versions of OpenCV on Linux</a></li>
 <li>2014 Jul - <a href="/posts/technical/set_up_ssh_to_git_repository/page.html"> Set up SSH to Git repository</a></li>
 <li>2014 Jul - <a href="/posts/technical/set_up_ssh_to_mercurial_repository/page.html"> Set up SSH to Mercurial repository</a></li>
-<li>2014 May - <a href="/posts/technical/build_and_install_multiple_versions_of_opencv_on_linux/page.html">Build and install multiple versions of OpenCV on Linux</a></li>
 <li>2014 May - <a href="/posts/technical/preparing_a_bibliography_in_latex/page.html">Preparing a bibliography in LaTeX</a></li>
 <li>2013 Nov - <a href="/posts/technical/basic_example_in_latex/page.html">Basic example in LaTeX</a></li>
 <li>2013 Nov - <a href="/posts/technical/repair_or_reinstall_grub2_from_ubuntu_live/page.html">Repair or Reinstall Grub2 from Ubuntu Live</a></li>
