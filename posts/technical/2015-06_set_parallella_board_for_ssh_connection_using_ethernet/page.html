@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="/icon.ico?" type="image/x-icon" />
+<link rel="icon" href="/icon.ico?" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.com/">Dennis Núñez Fernández</a></b></h1>
+<h2>BSc in Electronic Engineering, Universidad Nacional de Ingeniería (UNI)</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="/index.html">Home</a></li>
+<li><a href="/research/research.html">Research</a></li>
+<li><a href="/posts/posts.html">Posts</a></li>
+<li><a href="/contact/contact.html">Contact</a></li>
+<li><a href="/curriculum/curriculum.html">Curriculum</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Set Parallella Board for SSH connection using Ethernet</h2>
+
+<p align="justify">Note: ParallellaBoard-Laptop connection can be done without router (router only gives Internet access).</p>
+<p align="justify">Scheme of the connection:</p>
+
+<center><img src="https://dennishnf.github.io/posts/technical/set_parallella_board_for_ssh_connection_using_ethernet/scheme_directly_by_ethernet.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<br/> 
+<h3>On laptop:</h3>
+
+<p align="justify">1.) Run a recent Ubuntu on PC (I run 14.04).</p>
+<p align="justify">2.) Set the network-manager on PC.</p>
+<p align="justify">2.1.) On the computer connected to the Internet, click the network icon in the panel and go to "Edit Connections..." at the bottom of the menu.</p>
+
+<center><img src="https://dennishnf.github.io/posts/technical/set_parallella_board_for_ssh_connection_using_ethernet/SetInter0.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">2.2.) Clinc on "Add" to add new Wired Connection and select "Ethernet" (Leave your wireless connection untouched, the one connected to Internet and the one you want to share, as I understand).</p>
+
+<center><img src="https://dennishnf.github.io/posts/technical/set_parallella_board_for_ssh_connection_using_ethernet/SetInter1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">2.3.) In "Ethernet tab", select the correct "Device Mac address". In the "IPv4 Settings tab", select Method: "Shared to other computers".</p>
+
+<center><img src="https://dennishnf.github.io/posts/technical/set_parallella_board_for_ssh_connection_using_ethernet/SetInter2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">2.4.) Reconnect clicking on the Wired Network so it gets its new IP address. (The two computers must be connected by an ethernet cable for this step, so connect them now if you have not already).</p>
+<p align="justify">2.5.) Click on "Connection Information" in the network menu and write down the IP address and network mask (in my case it was assigned 10.42.0.1/255.255.255.0 but I do not know if that will always be the case).</p>
+
+<center><img src="https://dennishnf.github.io/posts/technical/set_parallella_board_for_ssh_connection_using_ethernet/SetInter3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">3.) Connect an ethernet cable from your computer to the Parallella.</p>
+<p align="justify">4.) After being connected to the internet using wifi, clock on your new "shared wifi connection to Parallella".</p>
+<br/> 
+<h3>On Parallella Board:</h3>
+
+<br/> 
+<h4>1.) Set a static IP</h4>
+
+<p align="justify">Start Ubuntu and insert the microSD card into the PC (the ext2 format is read by Linux), launch the terminal and open the 'eth0' file with:</p>
+<p><code class="barcode">$ sudo nano /media/dennis/rootfs/etc/network/interfaces.d/eth0
+</code></p>
+
+<p align="justify">In the code above, be careful with "user" and "networks" or "network".</p>
+<p align="justify">Then copy the following code into the open file 'eth0': (change IP's Parallella according to ethernet network, in my case it's 10.42.0.50).</p>
+<p><code class="barcode">auto eth0 
+iface eth0 inet static 
+address 10.42.0.50 
+netmask 255.255.255.0 
+gateway 10.42.0.1 
+</code></p>
+
+<p align="justify">In the code above, 10.42.0.50 is the IP's Parallella.</p>
+<p align="justify">After, press Ctrl+X and save, then write into terminal:</p>
+<p><code class="barcode">$ sync
+</code></p>
+
+<br/> 
+<h4>2.) Connect through SSH</h4>
+
+<p align="justify">Then ejected microSD card memory and insert into the Parallella Board.</p>
+<p align="justify">Write into the terminal:</p>
+<p><code class="barcode">$ ssh parallella@10.42.0.50 
+</code></p>
+
+<p align="justify">Note: You may also need to remove the following file and reboot: <custom_code>/etc/udev/rules.d/74-parallella-persistent-net.rules</custom_code> .</p>
+<p align="justify">and press Enter, then it will connect and write the password, which is <custom_code>parallella</custom_code>.</p>
+<p align="justify">then, a question will appear [yes/no], select yes.</p>
+<p align="justify">Done!, Now we are connected to the Parallella Board through SSH.</p>
+<br/> 
+<h4>3.) verify the connection to Internet</h4>
+
+<p align="justify">In addition, to verify that you can connect to the Internet, update the OS:</p>
+<p><code class="barcode">parallella@parallella:~$ sudo apt-get update
+</code></p>
+
+<p align="justify">Note: If you have problem to connect to Internet through <custom_code>$ ping -c 3 google.com</custom_code>, then you should check if the DNS resolver is set correctly, write this to check: <custom_code>$ sudo nano /etc/resolv.conf</custom_code> and this should show <custom_code>nameserver 10.42.0.1</custom_code>, change this value if isn't set correctly, then <custom_code>$ /etc/init.d/networking restart</custom_code>.</p>
+<br/> 
+<h3>Resources</h3>
+
+<p align="justify">- <a target="_blank" href="http://parallella.org/forums/viewtopic.php?f=48&t=1043">http://parallella.org/forums/viewtopic.php?f=48&t=1043</a>.</p>
+<p align="justify">- <a target="_blank" href="http://askubuntu.com/questions/359856/share-wireless-internet-connection-through-ethernet">http://askubuntu.com/questions/359856/share-wireless-internet-connection-through-ethernet</a>.</p>
+
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis H. Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+<a href="https://dennishnf.com/README.html" target="_blank">From scratch by Python. Powered by Linux</a> <br/>
+Website updated: 2021-03-25  10:05 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 

@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="/reset.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="ie_fixes.css" media="screen" /><![endif]-->
+<title>Dennis Núñez Fernández</title>
+
+<!-- Favicon of the website -->
+<link rel="shortcut icon" href="/icon.ico?" type="image/x-icon" />
+<link rel="icon" href="/icon.ico?" type="image/ico" />
+
+<style type="text/css">:root .adsbygoogle,
+:root #header + #content > #left > #rlblock_left,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{display:none !important;}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115924652-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115924652-1');
+</script>
+
+</head>
+
+
+<body>
+<div id="paper_left">
+<div id="paper_right">
+<div id="layout_wrapper">
+<div id="layout_container">
+<div id="layout_content">
+<div id="site_title">
+<h1><b><a href="https://dennishnf.com/">Dennis Núñez Fernández</a></b></h1>
+<h2>BSc in Electronic Engineering, Universidad Nacional de Ingeniería (UNI)</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="/index.html">Home</a></li>
+<li><a href="/research/research.html">Research</a></li>
+<li><a href="/posts/posts.html">Posts</a></li>
+<li><a href="/contact/contact.html">Contact</a></li>
+<li><a href="/curriculum/curriculum.html">Curriculum</a></li>
+</ul>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div id="main">
+
+<div class="post">
+<div class="post_body">
+<br/>
+
+<h2>Using FPGA with Xilinx ISE on Parallella Board</h2>
+
+<p align="justify">Note: All next steps should be done on PC, not on Parallella Board.</p>
+<p align="justify">The new Xilinx ISE Design Suite 14 – WebPACK now supports embedded processing design for the Zynq™-7000 All Programmable SoC family for the three smallest Zynq devices – the Z-7010, Z-7020, and Z-7030.</p>
+<p align="justify">Be careful: that if you use this simple way to program the FPGA: You can't be able to use ARM cores with Linaro/Ubuntu because you modify the parallella.bit.bin (this file contain configuration of Zynq) , then you won't enter with SSH. To use ARM cores with Linaro/Ubuntu and FPGA you should use Vivado and modify part of the entire design (Vivado needs a permanent license, Xilinx gives you a 30-day license).</p>
+<br/> 
+<h4>STEP 1: Create project with Xilinx ISE and make .bit bitstream</h4>
+
+<p align="justify">a. Open Xilinx ISE, create project, then make .bit bitstream.</p>
+<p align="justify">b. When create the project, set the next values:</p>
+
+<center><img src="https://dennishnf.github.io/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/ProjectSettingsFPGA.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">c. In the .ucf file add the next <custom_code>IOSTANDARD=LVCMOS25</custom_code> to each physical constraint:</p>
+<p><code class="barcode">... LOC = U19 | IOSTANDARD=LVCMOS25; 
+</code></p>
+
+<p align="justify">d. The connector used on the Parallella Board is the "Expansion Connector GPIO":</p>
+
+<center><img src="https://dennishnf.github.io/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/gpio1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">, the corresponding pins on the shield GPIO are:</p>
+
+<center><img src="https://dennishnf.github.io/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/gpio2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">, and the correct numeration are:</p>
+
+<center><img src="https://dennishnf.github.io/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/gpio3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+
+
+<p align="justify">e. You can find the pins in pages 28 and 31 of the <a target="_blank" href="https://dennishnf.github.io/documentation/parallella_board/files/02_parallella_reference_manual.pdf">Parallella Reference Manual</a>:  GPIO0_P, GPIO0_N,  GPIO1_P, GPIO1_N, ..., GPIO23_P, GPIO23_N.</p>
+<br/> 
+<h4>STEP 2: Convert the bitstream from *.bit to *.bit.bin</h4>
+
+<p align="justify">Note: You should have Vivado installed on your PC to convert from .bit to .bit.bin .</p>
+<p align="justify">Use this folder bit2bitbin [<a target="_blank" href="https://dennishnf.github.io/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/bit2bitbin.zip">link</a>] to convert from .bit to .bit.bin .</p>
+<p align="justify">a. Copy the bitstream of your project into the folder bit2bitbin.</p>
+<p align="justify">b. Modify the file called ‘bit2bin.bif’ with the following content (change example.bit with the bitstream of your project):</p>
+<p><code class="barcode"> the_ROM_image:
+{
+[bootloader]dummy.elf
+example.bit
+}
+</code></p>
+
+<p align="justify">c. Make sure you have a dummy.elf in that directory.</p>
+<p align="justify">d. In terminal go to the directory of bit2bitbin folder with <custom_code>cd</custom_code>.</p>
+<p align="justify">e. Then, run some “magical steps” using the Xilinx tools to convert the bit stream to a loadable bit stream.</p>
+<p><code class="barcode">$ source /opt/Xilinx/Vivado/2015.4/settings64.sh
+$ bootgen -image bit2bin.bif -split bin
+</code></p>
+
+<br/> 
+<h4>STEP 3: Copy the new *.bit.bin file to the boot partion of a Parallella SD card</h4>
+
+<p align="justify">NOTE: before to copy and change the name to parallella.bit.bin, do a backup of your default parallella.bit.bin, this have your configuration of Zynq to set ARM cores with Linaro/Ubuntu.</p>
+<p align="justify">First you should copy the .bit.bin to the SD card, then change the name to "parallella.bit.bin".</p>
+<p align="justify">Note: Sync and properly eject the sd card as appropriate for your system.</p>
+<br/> 
+<h4>STEP 4: Boot the system</h4>
+
+<p align="justify">Insert the SD card into the Parallella board and boot the system, then run some tests.</p>
+<p align="justify">After run and finish your project, recover your parallella.bit.bin in the SD card to execute your Linaro/Ubuntu normally.</p>
+<br/> 
+<h3>Resources</h3>
+
+<p align="justify">-<a target="_blank" href="https://parallella.org/forums/viewtopic.php?f=23&t=134">https://parallella.org/forums/viewtopic.php?f=23&t=134</a>.</p>
+<p align="justify">-<a target="_blank" href="https://www.parallella.org/2015/03/23/new-parallella-elink-fpga-design-project-now-available-in-vivado/">https://www.parallella.org/2015/03/23/new-parallella-elink-fpga-design-project-now-available-in-vivado/</a>.</p>
+<p align="justify">-<a target="_blank" href="https://parallella.org/forums/viewtopic.php?f=51&t=1767">https://parallella.org/forums/viewtopic.php?f=51&t=1767</a>.</p>
+<p align="justify">-<a target="_blank" href="https://parallella.org/forums/viewtopic.php?f=10&t=415">https://parallella.org/forums/viewtopic.php?f=10&t=415</a>.</p>
+
+
+<br/>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+<div class="left">© 2013–2020 Dennis H. Núñez Fernández <br/>  <!-- </div> 
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html> -->
+<a href="https://dennishnf.com/README.html" target="_blank">From scratch by Python. Powered by Linux</a> <br/>
+Website updated: 2021-03-25  10:05 GMT <br/> 
+</div> 
+<div class="clearer">&nbsp;</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+
+</html> 
