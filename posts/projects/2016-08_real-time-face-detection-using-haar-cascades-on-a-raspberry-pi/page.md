@@ -22,7 +22,7 @@ c. AdaBoost: machine-learning method.
 
 d. Cascade classifier: to combine many features efficiently.
 
-![image](/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/steps_viola_jones.jpg)
+![image](/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/steps_viola_jones.jpg)
 <p style="text-align:center;"><i>Figure 1: Viola-Jones steps</i></p>
 
 #### A. Haar like features: ####
@@ -31,26 +31,26 @@ Haar like features are used to detect variation in the black and light portion o
 
 The value of two rectangle feature is the difference between the sums of the pixels within two rectangle regions as sown in Figure 2. In three rectangles, the value is center rectangle subtracted by the addition of the two surrounding rectangles. Whereas four rectangle features computes the difference between the diagonal pairs of the rectangles.
 
-![image](/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/haar_features.png)
+![image](/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/haar_features.png)
 <p style="text-align:center;"><i>Figure 2: Haar features used for face detection</i></p>
 
 #### B. Integral Images: ####
 
 As the name suggests, the value at any point (x, y) in the summed-area table is the sum of all the pixels above and to the left of (x, y), inclusive:
 
-![image](/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_integral_image_1.png)
+![image](/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_integral_image_1.png)
 
 where i(x,y) is the value of the pixel at (x,y).
 
 The summed-area table can be computed efficiently in a single pass over the image, as the value in the summed-area table at (x, y) is just:
 
-![image](/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_integral_image_2.png)
+![image](/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_integral_image_2.png)
 
 Once the summed-area table has been computed, evaluating the sum of intensities over any rectangular area requires exactly four array references regardless of the area size. That is, the notation in the figure at right, having A=(x0, y0), B=(x1, y0), C=(x0, y1) and D=(x1, y1), the sum of i(x,y) over the rectangle spanned by A, B,C and D is:
 
-![image](/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_integral_image_3.png)
+![image](/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_integral_image_3.png)
 
-![image](/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/integral_image.png)
+![image](/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/integral_image.png)
 <p style="text-align:center;"><i>Figure 3: A description of computing a sum in the summed-area table data structure/algorithm</i></p>
 
 #### C. Adaboost machine learning method ####
@@ -61,11 +61,11 @@ It uses an important concept of Bagging that is procedure for combining differen
 
 The speed with which features may be evaluated does not adequately compensate for their number, however. For example, in a standard 24x24 pixel sub-window, there are a total of M = 162,336 possible features, and it would be prohibitively expensive to evaluate them all when testing an image. Thus, the object detection framework employs a variant of the learning algorithm AdaBoost to both select the best features and to train classifiers that use them. This algorithm constructs a “strong” classifier as a linear combination of weighted simple “weak” classifiers.
 
-![image](/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_adaboost_1.png)
+![image](/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_adaboost_1.png)
 
 Each weak classifier is a threshold function based on the feature fj.
 
-![image](/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_adaboost_2.png)
+![image](/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_adaboost_2.png)
 
 The threshold value &theta;j and the polarity sj are determined in the training, as well as the coefficients &alpha;j.
 
@@ -73,7 +73,7 @@ The threshold value &theta;j and the polarity sj are determined in the training,
 
 The Viola and Jones face detection algorithm eliminates face candidates quickly using a cascade of stages. The cascade eliminates candidates by making stricter requirements in each stage with later stages being much more difficult for a candidate to pass. Candidates exit the cascade if they pass all stages or fail any stage. A face is detected if a candidate passes all stages. This process is shown in Figure 4.
 
-![image](/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/cascades_step.png)
+![image](/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/cascades_step.png)
 <p style="text-align:center;"><i>Figure 4: Cascades using for face detection</i></p>
 
 ### Implementation ###
@@ -82,21 +82,21 @@ The evaluation of a strong classifiers generated by a learning process can be do
 
 However, when using the Raspberry Pi for Viola-Jones algorithm we have two major pitfalls working against us: restricted memory (only 1GB on the Raspberry Pi 3) and limited processor speed (four ARM Cortex-A53 core running at 1.2GHz on the Raspberry Pi 3). So, this makes it difficult to use larger, complex algorithms on this platform. Since Viola-Jones algorithm was designed to perform face detection using the least amount of computational resources, the impementation on the Raspberry Pi 3 board is feasible. The Figure 5 shows the scheme of the face detection system.
 
-![image](/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/flowchart_project.png)
+![image](/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/flowchart_project.png)
 <p style="text-align:center;"><i>Figure 5: Basic scheme of the face detection system</i></p>
 
 The detection process is as follows: first, the stream video is obtained using the Pi Camera module and using the Raspicam library, then the frames of the video are converted from RGB to Grayscale to process faster the face detection algorithm. Finally, histogram equalization is done before to apply face detection algorithm. Histogram equalization technique improves the contrast in an image, in order to stretch out the intensity range.
 
 After histogram equalization, multiscale face detection is performed, this mens that the Raspberry Pi platforms performs face detection on diferent scales using the trained model. This detection for each captured image is realized using the libraries of OpenCV 2.4 (works with 3.3.0 version too). In addition, this implementation was performed completely in C++. A basic scheme of the recognition system is presented in the Figure 6 and show the input and output signals:
 
-![image](/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/system_diagram.png)
+![image](/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/system_diagram.png)
 <p style="text-align:center;"><i>Figure 6: Basic scheme of the face detection system</i></p>
 
 ### Results ###
 
 As the video shows, the face detection is performed in real-time. The face detected is show in a red square. Furthermore, this video shows robustness of the trained model to small rotations and shiftings as well as stability. On the other hand, the time to complete face detection is about 267.66 miliseconds (average from 10 iterations) since Viola-Jones algorithm is evaluated in the whole image.
 
-![video](/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/facedetector.mp4)
+![video](/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/facedetector.mp4)
 <p style="text-align:center;"><i>Face detector in real-time running on a Raspberry Pi</i></p>
 
 In summary, a face detector was implemented in real-time on a Raspberry Pi platform. The testing phase shows a good detection for different rotations, positions and light conditions. In addition to this, the time used to perform the image classification for each image is about 267.66 ms. This precessing time can be reduced by using tracking algorithms like the KLT algorithm to detect salient features within the detection bounding boxes and track their movement between frames.

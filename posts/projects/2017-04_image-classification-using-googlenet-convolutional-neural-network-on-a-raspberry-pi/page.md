@@ -7,7 +7,7 @@ In machine learning, a convolutional neural network (CNN, or ConvNet) is a class
 
 CNNs use relatively little pre-processing compared to other image classification algorithms. This means that the network learns the filters that in traditional algorithms were hand-engineered. This independence from prior knowledge and human effort in feature design is a major advantage.
 
-![image](/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/cnn.jpg)
+![image](/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/cnn.jpg)
 <p style="text-align:center;"><i>Figure 1: Convolutional Neural Network</i></p>
 
 ### Architectrure ###
@@ -40,7 +40,7 @@ The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) evaluates algorit
 
 The ILSVRC 2014 winner was a Convolutional Network from Szegedy et al. from Google. Its main contribution was the development of an Inception Module that dramatically reduced the number of parameters in the network (4M, compared to AlexNet with 60M). Additionally, this architecture uses Average Pooling instead of Fully Connected layers at the top of the ConvNet, eliminating a large amount of parameters that do not seem to matter much. There are also several followup versions to the GoogLeNet, most recently Inception-v4.
 
-![image](/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/googlenet.png)
+![image](/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/googlenet.png)
 <p style="text-align:center;"><i>Figure 2: GoogleNet Convolutional Neural Network</i></p>
 
 ### Caffe Framework ####
@@ -53,12 +53,12 @@ Deep networks are compositional models that are naturally represented as a colle
 
 The model used in this project is the GoogleNet neural network, whose parameters and weights were obtained after training step. The training phase is show in the Figure 3. This training is performed usig the Caffe framework. The design and layers of the GoogleNet networs is described in the ```.prototxt``` file and the parameters of this training is contained in the ```.caffemodel``` file.
 
-![image](/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/step1-training.jpg)
+![image](/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/step1-training.jpg)
 <p style="text-align:center;"><i>Figure 3: Training phase</i></p>
 
 After training step, the ```.prototxt``` and ```.caffemodel``` files will be used on the Raspberry Pi in order to perform inference. The Figure 4 show the inference step.
 
-![image](/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/step2-inference.jpg)
+![image](/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/step2-inference.jpg)
 <p style="text-align:center;"><i>Figure 4: Inference phase</i></p>
 
 As mentioned above, the pre-trained GoogleNet deep learning neural network is used in the Raspberry Pi to classify input images. However, when using the Raspberry Pi for deep learning we have two major pitfalls working against us:
@@ -75,18 +75,18 @@ The stream video is obtained using the Pi Camera module and using the Raspicam l
 
 The diagram of the recognition system is presented in the Figure 5:
 
-![image](/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/diagram.png)
+![image](/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/diagram.png)
 <p style="text-align:center;"><i>Figure 5: Diagram of the recognition system</i></p>
 
 ### Results ###
 
 After the implementation of the GoogleNet model on the Raspberry Pi a series of objects were used for testing of the recognition system. The results obtained in this recognition system are shown in the Figure 6. These results show a high accuracy rate but a high processing time, which is about 3.4 seconds (average from 10 iterations).
 
-![image](/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/results1.png)
+![image](/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/results1.png)
 
-![image](/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/results2.png)
+![image](/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/results2.png)
 
-![image](/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/results3.png)
+![image](/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/results3.png)
 
 <p style="text-align:center;"><i>Figure 6: Results displayed in the LCD screen</i></p>
 

@@ -71,7 +71,7 @@
 <p align="justify">In machine learning, a convolutional neural network (CNN, or ConvNet) is a class of deep, feed-forward artificial neural networks that has successfully been applied to analyzing visual imagery.</p>
 <p align="justify">CNNs use relatively little pre-processing compared to other image classification algorithms. This means that the network learns the filters that in traditional algorithms were hand-engineered. This independence from prior knowledge and human effort in feature design is a major advantage.</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/cnn.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/cnn.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 1: Convolutional Neural Network</i></p>
 
@@ -103,7 +103,7 @@
 <p align="justify">The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) evaluates algorithms for object detection and image classification at large scale. The ILSVRC 2014 classification challenge involved the task of classifying the image into one of 1000 leaf-node categories in the Imagenet hierarchy. There are about 1.2 million images for training, 50,000 for validation and 100,000 images for testing. Each image is associated with one ground truth category, and performance is measured based on the highest scoring classifier predictions.</p>
 <p align="justify">The ILSVRC 2014 winner was a Convolutional Network from Szegedy et al. from Google. Its main contribution was the development of an Inception Module that dramatically reduced the number of parameters in the network (4M, compared to AlexNet with 60M). Additionally, this architecture uses Average Pooling instead of Fully Connected layers at the top of the ConvNet, eliminating a large amount of parameters that do not seem to matter much. There are also several followup versions to the GoogLeNet, most recently Inception-v4.</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/googlenet.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/googlenet.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 2: GoogleNet Convolutional Neural Network</i></p>
 
@@ -117,13 +117,13 @@
 
 <p align="justify">The model used in this project is the GoogleNet neural network, whose parameters and weights were obtained after training step. The training phase is show in the Figure 3. This training is performed usig the Caffe framework. The design and layers of the GoogleNet networs is described in the <custom_code>.prototxt</custom_code> file and the parameters of this training is contained in the <custom_code>.caffemodel</custom_code> file.</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/step1-training.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/step1-training.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 3: Training phase</i></p>
 
 <p align="justify">After training step, the <custom_code>.prototxt</custom_code> and <custom_code>.caffemodel</custom_code> files will be used on the Raspberry Pi in order to perform inference. The Figure 4 show the inference step.</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/step2-inference.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/step2-inference.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 4: Inference phase</i></p>
 
@@ -135,7 +135,7 @@
 <p align="justify">The stream video is obtained using the Pi Camera module and using the Raspicam library. Then, the Raspberry Pi platforms classification using the GogoleNet pre-trained model. This classification for each image captured is realized using the deep neuronal libraries of OpenCV 3.3.0, which alllows the inference of pre-trained caffe models. In addition, this implementation was performed completely in C++.</p>
 <p align="justify">The diagram of the recognition system is presented in the Figure 5:</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/diagram.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/diagram.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 5: Diagram of the recognition system</i></p>
 
@@ -144,15 +144,15 @@
 
 <p align="justify">After the implementation of the GoogleNet model on the Raspberry Pi a series of objects were used for testing of the recognition system. The results obtained in this recognition system are shown in the Figure 6. These results show a high accuracy rate but a high processing time, which is about 3.4 seconds (average from 10 iterations).</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/results1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/results1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 
 
-<center><img src="https://dennishnf.github.io/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/results2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/results2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 
 
-<center><img src="https://dennishnf.github.io/posts/projects/image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/results3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2017-04_image-classification-using-googlenet-convolutional-neural-network-on-a-raspberry-pi/results3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 
 <p style="text-align:center;"><i>Figure 6: Results displayed in the LCD screen</i></p>
@@ -187,7 +187,7 @@
 
 </body></html> -->
 <a href="https://dennishnf.com/README.html" target="_blank">From scratch by Python. Powered by Linux</a> <br/>
-Website updated: 2021-03-25  09:26 GMT <br/> 
+Website updated: 2021-03-25  09:33 GMT <br/> 
 </div> 
 <div class="clearer">&nbsp;</div> 
 </div> 

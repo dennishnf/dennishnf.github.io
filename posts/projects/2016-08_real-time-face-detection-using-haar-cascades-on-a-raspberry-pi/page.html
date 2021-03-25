@@ -79,7 +79,7 @@ computer vision. In this field, accuracy and speed of identification is a main i
 <p align="justify">c. AdaBoost: machine-learning method.</p>
 <p align="justify">d. Cascade classifier: to combine many features efficiently.</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/steps_viola_jones.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/steps_viola_jones.jpg" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 1: Viola-Jones steps</i></p>
 
@@ -89,7 +89,7 @@ computer vision. In this field, accuracy and speed of identification is a main i
 <p align="justify">Haar like features are used to detect variation in the black and light portion of the image. This computation forms a single rectangle around the detected face. Based on the color shade near nose or forehead a contour is formed. Some commonly used Haar features are: two rectangle feature, three rectangle feature, four rectangle feature.</p>
 <p align="justify">The value of two rectangle feature is the difference between the sums of the pixels within two rectangle regions as sown in Figure 2. In three rectangles, the value is center rectangle subtracted by the addition of the two surrounding rectangles. Whereas four rectangle features computes the difference between the diagonal pairs of the rectangles.</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/haar_features.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/haar_features.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 2: Haar features used for face detection</i></p>
 
@@ -98,22 +98,22 @@ computer vision. In this field, accuracy and speed of identification is a main i
 
 <p align="justify">As the name suggests, the value at any point (x, y) in the summed-area table is the sum of all the pixels above and to the left of (x, y), inclusive:</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_integral_image_1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_integral_image_1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 
 <p align="justify">where i(x,y) is the value of the pixel at (x,y).</p>
 <p align="justify">The summed-area table can be computed efficiently in a single pass over the image, as the value in the summed-area table at (x, y) is just:</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_integral_image_2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_integral_image_2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 
 <p align="justify">Once the summed-area table has been computed, evaluating the sum of intensities over any rectangular area requires exactly four array references regardless of the area size. That is, the notation in the figure at right, having A=(x0, y0), B=(x1, y0), C=(x0, y1) and D=(x1, y1), the sum of i(x,y) over the rectangle spanned by A, B,C and D is:</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_integral_image_3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_integral_image_3.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 
 
-<center><img src="https://dennishnf.github.io/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/integral_image.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/integral_image.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 3: A description of computing a sum in the summed-area table data structure/algorithm</i></p>
 
@@ -124,12 +124,12 @@ computer vision. In this field, accuracy and speed of identification is a main i
 <p align="justify">It uses an important concept of Bagging that is procedure for combining different classifiers constructed using the same data set.It is an acronym for bootstrap aggregating, a motivation of combining classifiers is to improve an unstable classifier and an unstable classifier is one where a small change in the learning set/classification parameters produces a large change in the classifier.</p>
 <p align="justify">The speed with which features may be evaluated does not adequately compensate for their number, however. For example, in a standard 24x24 pixel sub-window, there are a total of M = 162,336 possible features, and it would be prohibitively expensive to evaluate them all when testing an image. Thus, the object detection framework employs a variant of the learning algorithm AdaBoost to both select the best features and to train classifiers that use them. This algorithm constructs a “strong” classifier as a linear combination of weighted simple “weak” classifiers.</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_adaboost_1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_adaboost_1.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 
 <p align="justify">Each weak classifier is a threshold function based on the feature fj.</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_adaboost_2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/formula_adaboost_2.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 
 <p align="justify">The threshold value &theta;j and the polarity sj are determined in the training, as well as the coefficients &alpha;j.</p>
@@ -138,7 +138,7 @@ computer vision. In this field, accuracy and speed of identification is a main i
 
 <p align="justify">The Viola and Jones face detection algorithm eliminates face candidates quickly using a cascade of stages. The cascade eliminates candidates by making stricter requirements in each stage with later stages being much more difficult for a candidate to pass. Candidates exit the cascade if they pass all stages or fail any stage. A face is detected if a candidate passes all stages. This process is shown in Figure 4.</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/cascades_step.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/cascades_step.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 4: Cascades using for face detection</i></p>
 
@@ -148,14 +148,14 @@ computer vision. In this field, accuracy and speed of identification is a main i
 <p align="justify">The evaluation of a strong classifiers generated by a learning process can be done quickly, but it isn’t fast enough to run in real-time over a frame of images. For this reason, the strong classifiers are arranged in a cascade in order of complexity, where each successive classifier is trained only on those selected samples which pass through the preceding classifiers. If at any stage in the cascade a classifier rejects the sub-window under inspection, no further processing is performed and continue on searching the next sub-window. The cascade therefore has the form of a degenerate tree.</p>
 <p align="justify">However, when using the Raspberry Pi for Viola-Jones algorithm we have two major pitfalls working against us: restricted memory (only 1GB on the Raspberry Pi 3) and limited processor speed (four ARM Cortex-A53 core running at 1.2GHz on the Raspberry Pi 3). So, this makes it difficult to use larger, complex algorithms on this platform. Since Viola-Jones algorithm was designed to perform face detection using the least amount of computational resources, the impementation on the Raspberry Pi 3 board is feasible. The Figure 5 shows the scheme of the face detection system.</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/flowchart_project.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/flowchart_project.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 5: Basic scheme of the face detection system</i></p>
 
 <p align="justify">The detection process is as follows: first, the stream video is obtained using the Pi Camera module and using the Raspicam library, then the frames of the video are converted from RGB to Grayscale to process faster the face detection algorithm. Finally, histogram equalization is done before to apply face detection algorithm. Histogram equalization technique improves the contrast in an image, in order to stretch out the intensity range.</p>
 <p align="justify">After histogram equalization, multiscale face detection is performed, this mens that the Raspberry Pi platforms performs face detection on diferent scales using the trained model. This detection for each captured image is realized using the libraries of OpenCV 2.4 (works with 3.3.0 version too). In addition, this implementation was performed completely in C++. A basic scheme of the recognition system is presented in the Figure 6 and show the input and output signals:</p>
 
-<center><img src="https://dennishnf.github.io/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/system_diagram.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
+<center><img src="https://dennishnf.github.io/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/system_diagram.png" style="padding-top:8px; padding-bottom: 8px;" /></center>
 
 <p style="text-align:center;"><i>Figure 6: Basic scheme of the face detection system</i></p>
 
@@ -164,7 +164,7 @@ computer vision. In this field, accuracy and speed of identification is a main i
 
 <p align="justify">As the video shows, the face detection is performed in real-time. The face detected is show in a red square. Furthermore, this video shows robustness of the trained model to small rotations and shiftings as well as stability. On the other hand, the time to complete face detection is about 267.66 miliseconds (average from 10 iterations) since Viola-Jones algorithm is evaluated in the whole image.</p>
 
-<center style="padding-bottom: 8px; padding-top: 8px;" ><video controls><source src="https://dennishnf.github.io/posts/projects/real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/facedetector.mp4" type="video/mp4"> Your browser does not support the video tag.</video></center>
+<center style="padding-bottom: 8px; padding-top: 8px;" ><video controls><source src="https://dennishnf.github.io/posts/projects/2016-08_real-time-face-detection-using-haar-cascades-on-a-raspberry-pi/facedetector.mp4" type="video/mp4"> Your browser does not support the video tag.</video></center>
 
 <p style="text-align:center;"><i>Face detector in real-time running on a Raspberry Pi</i></p>
 
@@ -194,7 +194,7 @@ computer vision. In this field, accuracy and speed of identification is a main i
 
 </body></html> -->
 <a href="https://dennishnf.com/README.html" target="_blank">From scratch by Python. Powered by Linux</a> <br/>
-Website updated: 2021-03-25  09:26 GMT <br/> 
+Website updated: 2021-03-25  09:33 GMT <br/> 
 </div> 
 <div class="clearer">&nbsp;</div> 
 </div> 

@@ -33,7 +33,7 @@ The procedure for the implementation of the indoor localization system is as fol
 
 Steps 2 and 8 were implemented in Android Studio IDE using Java 7 language. Steps 4, 5 and 6 were implemented using Python 2.7. A diagram of the system is shown in Fig 1.
 
-![image](/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/diagram.png)
+![image](/posts/projects/2018-09_basic-wifi-based-indoor-location-via-bayesian-filters/diagram.png)
 
 <p style="text-align:center;"><i>Figure 1: Diagram of the system</i></p>
 
@@ -45,7 +45,7 @@ Steps 2 and 8 were implemented in Android Studio IDE using Java 7 language. Step
 
 We consider each room as a cell. But due the difficulty to find a larger number of rooms and APs, we only consider four rooms and two APs for purposes of this project. However, the procedure is the same for a larger number of rooms and APs. Fig 2. depicts the distributions of rooms and APs as well as its dimensions.
 
-![image](/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/rooms.png)
+![image](/posts/projects/2018-09_basic-wifi-based-indoor-location-via-bayesian-filters/rooms.png)
 
 <p style="text-align:center;"><i>Figure 2: Distributions of rooms (R) and routers (W)</i></p>
 
@@ -59,7 +59,7 @@ We implemented a Android application to perform Wi-Fi scan (for all the APs we e
 
 Using the Android app for Wi-Fi scan and capture, we took 100 samples of RSSI values in every room. The captures in each room were taken by us starting in the centre of the room and then moving to different positions inside the room. To obtain a robust system, the RSSI samples were taken at different times during a day, both at night and during the day. After capturing step, we obtained one RSSI table per room and each one was saved in the smartphone as .txt file. Therefore, we obtained four files: R1.txt, R2.txt, R3.txt and R4.txt. For instance, the "R1.txt" file is composed by:
 
-![image](/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/R1txt.png)
+![image](/posts/projects/2018-09_basic-wifi-based-indoor-location-via-bayesian-filters/R1txt.png)
 
 
 #### 4. Division of the RSSI data into training and testing sets: ####
@@ -71,20 +71,20 @@ After capturing the RSSI values in .txt files, we upload the files from the smar
 
 Using the training RSSI dataset we calculate the normalized histograms (for each AP and room) in the range of RSSI values: [-100,-99,...,-11,-10]. However, since original training RSSI database is composed by a limited number of samples (affectd by reflections and scattering), the calculated histograms are composed by misssing RSSI values and noisy histogram values., see Fig. 3.
 
-![image](/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/histograms0.png)
+![image](/posts/projects/2018-09_basic-wifi-based-indoor-location-via-bayesian-filters/histograms0.png)
 
 <p style="text-align:center;"><i>Figure 3: Original histograms</i></p>
 
 Many papers concerning indoor location, based on RSSI measurement, assume its Gaussian probability density function (PDF). This is partially excused by
 relation to PDF of radio-receiver's noise and/or together with influence of AWGN (average white Gaussian noise) radio-channel which is generally modelled by normal PDF. Therefore, we clean our original histograms by approximating each histogram to a Gaussian PDF. The next image shows the formulation of a Gaussian PDF, which is defined by two parameters: mu (mean) and sigma (standard deviation).
 
-![image](/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/gaussian.png)
+![image](/posts/projects/2018-09_basic-wifi-based-indoor-location-via-bayesian-filters/gaussian.png)
 
 <p style="text-align:center;"><i>Figure 4: Description of Gaussian pdf</i></p>
 
 Fig. 5 shows the original histograms and the cleaned histograms (Gaussians histograms). As figure shows, our original histograms can be well approximated by Gaussians PFDs. This new distribution fills the missing values of the RSSI histogram and modify the values which were disturbed by strong reflections and scattering conditions. Therefore, after clean our normalized histograms, we obtained a new dataset composed only by the normalized Gaussian histograms.
 
-![image](/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/histograms1.png)
+![image](/posts/projects/2018-09_basic-wifi-based-indoor-location-via-bayesian-filters/histograms1.png)
 
 <p style="text-align:center;"><i>Figure 5: Original and cleaned histograms</i></p>
 
@@ -93,24 +93,24 @@ Fig. 5 shows the original histograms and the cleaned histograms (Gaussians histo
 
 Before to perform analysis of the Bayesian filters, we constructed one AP table for each access point. Each AP table will be composed by joining the values of the Gaussian histograms of different rooms with the same AP. Next tables show how they are composed:
 
-![image](/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/histogram_tables.png)
+![image](/posts/projects/2018-09_basic-wifi-based-indoor-location-via-bayesian-filters/histogram_tables.png)
 
 In order to predict the accuracy of our system, first we analyze the model offline. This means that the performance of the localization system is carried out on a PC using training and testing datasets.
 
 We assume a mobile device of interest located at a two-dimensional Cartesian plane. The used position algorithm was based on Bayes filter, which is able to estimate the posterior state based on sense and prior knowledge. In other words, the idea of Bayesian static localization is to estimate the posterior p(xk|zk) with only the current measurement. Using the Bayes’ rule, we get:
 
-![image](/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/formula_bayes.png){350}!
+![image](/posts/projects/2018-09_basic-wifi-based-indoor-location-via-bayesian-filters/formula_bayes.png){350}!
 
 For this project, which considers four rooms and two APs, the pseudocode for the implementation of the Bayes-based position algorithm (used for the online model too) is as follows:
 
-![image](/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/pseudocode_prediction.png){400}!
+![image](/posts/projects/2018-09_basic-wifi-based-indoor-location-via-bayesian-filters/pseudocode_prediction.png){400}!
 
 
 #### 7. Construction of confusion matrix: ####
 
 To evaluate the performance of the indoor localization system we used the Bayes prediction algorithm in the testing dataset. The results were summarized on a confusion matrix, which is a specific table layout that allows us easily visualize the performance of our prediction system, see Fig. 6. In this matrix, each column represents the instances in a predicted class while each row represents the instances in an actual class. In addition to confusion matrix, the overall accuracy of our Bayes prediction algorithm is 95.65%.
 
-![image](/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/confusion_matrix.png)
+![image](/posts/projects/2018-09_basic-wifi-based-indoor-location-via-bayesian-filters/confusion_matrix.png)
 
 <p style="text-align:center;"><i>Figure 6: Confusion matrix</i></p>
 
@@ -124,7 +124,7 @@ The Bayes prediciton algorithm described in step 6 is implemented on an Android 
 
 The app for localization developed at previous step was installed on a J2 Android Smarphone (with Android verion 6.0.1). Then, we tested the app at different positions inside different rooms, and verified if the developed localization system works properly. As expected, we verified that the system correctly predicted the locations for almost all positions inside different rooms. Some results are show in Fig. 7. As we can see, all tests conducted in each room correctly predict the location with an accuracy above 97%. However, we noticed that since we didn't implemented motion model, we obtained some wrong predictions while we used the application on move.
 
-![image](/posts/projects/basic-wifi-based-indoor-location-via-bayesian-filters/results.png)
+![image](/posts/projects/2018-09_basic-wifi-based-indoor-location-via-bayesian-filters/results.png)
 
 <p style="text-align:center;"><i>Figure 7: Online results on a Android smartphone</i></p>
 
