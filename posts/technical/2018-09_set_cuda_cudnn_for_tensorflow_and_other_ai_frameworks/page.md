@@ -7,11 +7,11 @@
 
 - Review CUDA versions and Driver versions requirements:
 
-![image](/posts/technical/set_cuda_cudnn_for_tensorflow_and_other_ai_frameworks/img1_drivers_versions.png){400}!
+![image](/posts/technical/2018-09_set_cuda_cudnn_for_tensorflow_and_other_ai_frameworks/img1_drivers_versions.png){400}!
 
 - Review tensorflow versions and CUDA/cuDNN versions requirements:
 
-![image](/posts/technical/set_cuda_cudnn_for_tensorflow_and_other_ai_frameworks/img2_python_cuda_cudnn_versions.png){500}!
+![image](/posts/technical/2018-09_set_cuda_cudnn_for_tensorflow_and_other_ai_frameworks/img2_python_cuda_cudnn_versions.png){500}!
 
 - All versions of cuDNN only support GPUs with capability >= 3.0, therefore tensorflow-gpu only support GPUs with capability >= 3.0 . Check GPUs and capabilities: [[https://developer.nvidia.com/cuda-gpus](https://developer.nvidia.com/cuda-gpus)!].
 

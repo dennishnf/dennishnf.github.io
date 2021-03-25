@@ -105,7 +105,7 @@ $ gpio readall
 
 Use the next connection for wiring:
 
-![image](/posts/technical/using_raspberry_pi_gpio_ports_in_c_cpp_with_wiringpi_library/rpi3_gpio_led.jpg)
+![image](/posts/technical/2017-05_using_raspberry_pi_gpio_ports_in_c_cpp_with_wiringpi_library/rpi3_gpio_led.jpg)
 
 Create the file ```blink.c``` or ```blink.cpp```:
 

@@ -1,7 +1,7 @@
 
 ## Face detection using Haar Cascades on OpenCV 2.4 ##
 
-Create a folder ```facedetector```. In this folder open up a new file, name it ```facedetector.cpp```, and insert the following code (the files ```facedetector.cpp``` and ```haarcascade_frontalface_alt.xml``` are included in this [[https://dennishnf.github.io/posts/technical/face_detection_using_haar_cascades_on_opencv_2-4/face_detector.zip](link)!]:
+Create a folder ```facedetector```. In this folder open up a new file, name it ```facedetector.cpp```, and insert the following code (the files ```facedetector.cpp``` and ```haarcascade_frontalface_alt.xml``` are included in this [[https://dennishnf.github.io/posts/technical/2014-09_face_detection_using_haar_cascades_on_opencv_2-4/face_detector.zip](link)!]:
 
 ```
 #include <<x>opencv2/opencv.hpp<x>>
@@ -94,6 +94,6 @@ $ ./facedetector
 
 The command above should show the next result:
 
-![image](/posts/technical/face_detection_using_haar_cascades_on_opencv_2-4/facedetector.png)
+![image](/posts/technical/2014-09_face_detection_using_haar_cascades_on_opencv_2-4/facedetector.png)
 
 

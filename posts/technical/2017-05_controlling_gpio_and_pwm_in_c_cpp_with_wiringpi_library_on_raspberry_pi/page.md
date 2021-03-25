@@ -37,7 +37,7 @@ $ gpio readall
 
 Use the next connection for wiring:
 
-![image](/posts/technical/controlling_gpio_and_pwm_in_c_cpp_with_wiringpi_library_on_raspberry_pi/rpi3_led.jpg)
+![image](/posts/technical/2017-05_controlling_gpio_and_pwm_in_c_cpp_with_wiringpi_library_on_raspberry_pi/rpi3_led.jpg)
 
 Create the file ```test_led.c``` or ```test_led.cpp```:
 
@@ -93,7 +93,7 @@ So, the led will start blinking for 10 seconds.
 
 Use the next connection for wiring:
 
-![image](/posts/technical/controlling_gpio_and_pwm_in_c_cpp_with_wiringpi_library_on_raspberry_pi/rpi3_pwm.jpg)
+![image](/posts/technical/2017-05_controlling_gpio_and_pwm_in_c_cpp_with_wiringpi_library_on_raspberry_pi/rpi3_pwm.jpg)
 
 Create the file ```test_pwm.c``` or ```test_pwm.cpp```:
 

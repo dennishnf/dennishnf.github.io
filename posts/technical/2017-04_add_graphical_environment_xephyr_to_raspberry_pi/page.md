@@ -69,7 +69,7 @@ $ startlxde
 
 Start with Xephyr Display Server:
 
-![image](/posts/technical/add_graphical_environment_xephyr_to_raspberry_pi/startlxde-DisplayServer.png)
+![image](/posts/technical/2017-04_add_graphical_environment_xephyr_to_raspberry_pi/startlxde-DisplayServer.png)
 
 ### Resources ###
 

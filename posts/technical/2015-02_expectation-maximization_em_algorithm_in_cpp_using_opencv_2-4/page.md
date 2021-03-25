@@ -7,7 +7,7 @@ The Expectation Maximization(EM) algorithm estimates the parameters of the multi
 
 OpenCV 2.4.9 will be used in this example. The next image will be classify in foreground and background using the EM algorithm.
 
-![image](/posts/technical/expectation-maximization_em_algorithm_in_cpp_using_opencv_2-4/test-example_em.jpg)
+![image](/posts/technical/2015-02_expectation-maximization_em_algorithm_in_cpp_using_opencv_2-4/test-example_em.jpg)
 
 Create a file ```example_em.cpp```:
 
@@ -99,7 +99,7 @@ Finally, run using:
 
 The command above should show the next result:
 
-![image](/posts/technical/expectation-maximization_em_algorithm_in_cpp_using_opencv_2-4/result-example_em.png)
+![image](/posts/technical/2015-02_expectation-maximization_em_algorithm_in_cpp_using_opencv_2-4/result-example_em.png)
 
 ### Resources ###
 

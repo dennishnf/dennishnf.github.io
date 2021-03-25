@@ -7,11 +7,11 @@ In this tutorial you will learn how to use dnn module for image classification b
 
 We will demonstrate results of this example on the following picture.
 
-![image](/posts/technical/load_caffe_framework_models_using_opencv_3-3-0_and_python/image.png)
+![image](/posts/technical/2017-02_load_caffe_framework_models_using_opencv_3-3-0_and_python/image.png)
 
 ### Source Code ###
 
-This code was tested on Python 2.7 and works fine. We will be using the next code, that can be downloaded here: [[https://dennishnf.github.io/posts/technical/load_caffe_framework_models_using_opencv_3-3-0_and_python/pi_deep_learning.zip](link)!].
+This code was tested on Python 2.7 and works fine. We will be using the next code, that can be downloaded here: [[https://dennishnf.github.io/posts/technical/2017-02_load_caffe_framework_models_using_opencv_3-3-0_and_python/pi_deep_learning.zip](link)!].
 
 ```
 # USAGE
@@ -93,7 +93,7 @@ $ cd ~/Desktop/pi_deep_learning
 $ python pi_deep_learning.py --prototxt models/bvlc_googlenet.prototxt --model models/bvlc_googlenet.caffemodel --labels synset_words.txt --image images/barbershop.png
 ```
 
-![image](/posts/technical/load_caffe_framework_models_using_opencv_3-3-0_and_python/result1.png)
+![image](/posts/technical/2017-02_load_caffe_framework_models_using_opencv_3-3-0_and_python/result1.png)
 
 ### Run SqueezeNet ###
 
@@ -102,7 +102,7 @@ $ cd ~/Desktop/pi_deep_learning
 $ python pi_deep_learning.py --prototxt models/squeezenet_v1.0.prototxt --model models/squeezenet_v1.0.caffemodel --labels synset_words.txt --image images/barbershop.png
 ```
 
-![image](/posts/technical/load_caffe_framework_models_using_opencv_3-3-0_and_python/result2.png)
+![image](/posts/technical/2017-02_load_caffe_framework_models_using_opencv_3-3-0_and_python/result2.png)
 
 ### Resources ###
 

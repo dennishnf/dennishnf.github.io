@@ -5,7 +5,7 @@ Note: RaspberryBoard-Laptop connection can be done without router (router only g
 
 Scheme of the connection:
 
-![image](/posts/technical/set_raspberry_pi_for_the_SSH_connection_directly_by_ethernet/scheme_directly_by_ethernet.png)
+![image](/posts/technical/2017-04_set_raspberry_pi_for_the_SSH_connection_directly_by_ethernet/scheme_directly_by_ethernet.png)
 
 ### On laptop: ###
 
@@ -15,21 +15,21 @@ Scheme of the connection:
 
 2.1.) On the computer connected to the Internet, click the network icon in the panel and go to "Edit Connections..." at the bottom of the menu.
 
-![image](/posts/technical/set_raspberry_pi_for_the_SSH_connection_directly_by_ethernet/SetInter0.png)
+![image](/posts/technical/2017-04_set_raspberry_pi_for_the_SSH_connection_directly_by_ethernet/SetInter0.png)
 
 2.2.) Click on "Add" to add new Wired Connection and select "Ethernet" (Leave your wireless connection untouched, the one connected to Internet and the one you want to share, as I understand).
 
-![image](/posts/technical/set_raspberry_pi_for_the_SSH_connection_directly_by_ethernet/SetInter1.png)
+![image](/posts/technical/2017-04_set_raspberry_pi_for_the_SSH_connection_directly_by_ethernet/SetInter1.png)
 
 2.3.) In "Ethernet tab", select the correct "Device Mac address". In the "IPv4 Settings tab", select Method: "Shared to other computers".
 
-![image](/posts/technical/set_raspberry_pi_for_the_SSH_connection_directly_by_ethernet/SetInter2.png)
+![image](/posts/technical/2017-04_set_raspberry_pi_for_the_SSH_connection_directly_by_ethernet/SetInter2.png)
 
 2.4.) Reconnect clicking on the Wired Network so it gets its new IP address. (The two computers must be connected by an ethernet cable for this step, so connect them now if you have not already).
 
 2.5.) Click on "Connection Information" in the network menu and write down the IP address and network mask (in my case it was assigned 10.42.0.1/255.255.255.0 but I do not know if that will always be the case).
 
-![image](/posts/technical/set_raspberry_pi_for_the_SSH_connection_directly_by_ethernet/SetInter3.png)
+![image](/posts/technical/2017-04_set_raspberry_pi_for_the_SSH_connection_directly_by_ethernet/SetInter3.png)
 
 3.) Connect an ethernet cable from your computer to the Raspberry Pi.
 

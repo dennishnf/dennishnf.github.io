@@ -3,7 +3,7 @@
 
 Requirements: Ubuntu PC and Parallella Board.
 
-First you should to set all configurations of the previous post Add Graphical Environment ([https://dennishnf.github.io/posts/technical/add_graphical_environment.html](https://dennishnf.github.io/posts/technical/parallella_board/add_graphical_environment.html)!).
+First you should to set all configurations of the previous post Add Graphical Environment ([https://dennishnf.github.io/posts/technical/2015-08_add_graphical_environment.html](https://dennishnf.github.io/posts/technical/parallella_board/add_graphical_environment.html)!).
 
 ### Install Xephyr in your Ubuntu PC: ###
 
@@ -116,7 +116,7 @@ $ startlxde
 
 Start with Xephyr Display Server and disable 'PCManFM Desktop mode' and set a background image:
 
-![image](/posts/technical/add_graphical_environment_with_xephyr_to_parallella_board/startlxde-DisplayServer.png)
+![image](/posts/technical/2015-08_add_graphical_environment_with_xephyr_to_parallella_board/startlxde-DisplayServer.png)
 
 ### Resources ###
 

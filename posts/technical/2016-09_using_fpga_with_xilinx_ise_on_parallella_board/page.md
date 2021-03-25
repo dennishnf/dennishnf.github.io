@@ -13,7 +13,7 @@ a. Open Xilinx ISE, create project, then make .bit bitstream.
 
 b. When create the project, set the next values:
 
-![image](/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/ProjectSettingsFPGA.png)
+![image](/posts/technical/2016-09_using_fpga_with_xilinx_ise_on_parallella_board/ProjectSettingsFPGA.png)
 
 c. In the .ucf file add the next ```IOSTANDARD=LVCMOS25``` to each physical constraint:
 
@@ -23,15 +23,15 @@ c. In the .ucf file add the next ```IOSTANDARD=LVCMOS25``` to each physical cons
 
 d. The connector used on the Parallella Board is the "Expansion Connector GPIO":
 
-![image](/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/gpio1.png)
+![image](/posts/technical/2016-09_using_fpga_with_xilinx_ise_on_parallella_board/gpio1.png)
 
 , the corresponding pins on the shield GPIO are:
 
-![image](/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/gpio2.png)
+![image](/posts/technical/2016-09_using_fpga_with_xilinx_ise_on_parallella_board/gpio2.png)
 
 , and the correct numeration are:
 
-![image](/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/gpio3.png)
+![image](/posts/technical/2016-09_using_fpga_with_xilinx_ise_on_parallella_board/gpio3.png)
 
 e. You can find the pins in pages 28 and 31 of the [https://dennishnf.github.io/documentation/parallella_board/files/02_parallella_reference_manual.pdf](Parallella Reference Manual)!:  GPIO0_P, GPIO0_N,  GPIO1_P, GPIO1_N, ..., GPIO23_P, GPIO23_N.
 
@@ -39,7 +39,7 @@ e. You can find the pins in pages 28 and 31 of the [https://dennishnf.github.io/
 
 Note: You should have Vivado installed on your PC to convert from .bit to .bit.bin .
 
-Use this folder bit2bitbin [[https://dennishnf.github.io/posts/technical/using_fpga_with_xilinx_ise_on_parallella_board/bit2bitbin.zip](link)!] to convert from .bit to .bit.bin .
+Use this folder bit2bitbin [[https://dennishnf.github.io/posts/technical/2016-09_using_fpga_with_xilinx_ise_on_parallella_board/bit2bitbin.zip](link)!] to convert from .bit to .bit.bin .
 
 a. Copy the bitstream of your project into the folder bit2bitbin.
 

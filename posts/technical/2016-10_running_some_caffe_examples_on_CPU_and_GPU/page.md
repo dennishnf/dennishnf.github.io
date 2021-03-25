@@ -21,7 +21,7 @@ That’s all we have to do to prepare the data. Let’s see how much time the CP
 
 And here’s my result on my Intel Core i7-6700K CPU:
 
-![image](/posts/technical/running_some_caffe_examples_on_CPU_and_GPU/image1_mnist_cpu.png)
+![image](/posts/technical/2016-10_running_some_caffe_examples_on_CPU_and_GPU/image1_mnist_cpu.png)
 
 As you can see, my CPU took approximately 55ms to run each iteration, in which 23ms for forward pass and 32ms for backward pass. Let’s go ahead and see if the GPU can do better:
 
@@ -31,7 +31,7 @@ As you can see, my CPU took approximately 55ms to run each iteration, in which 2
 
 And here’s the result on my GTX 1070:
 
-![image](/posts/technical/running_some_caffe_examples_on_CPU_and_GPU/image2_mnist_gpu.png)
+![image](/posts/technical/2016-10_running_some_caffe_examples_on_CPU_and_GPU/image2_mnist_gpu.png)
 
 The result came out nearly right after I hit Enter. I was really impressed, I admit. Each iteration took only 1.7ms to complete, in which 0.5ms for forward pass and 1.2ms for backpropagation. Let’s do some calculation here: the computing time when using GPU is roughly 32 times faster than when using CPU. Hmm, not so bad, you may think.
 
@@ -59,7 +59,7 @@ Just like what we did with MNIST dataset, let’s first see how much time it tak
 
 And here’s the result I got:
 
-![image](/posts/technical/running_some_caffe_examples_on_CPU_and_GPU/image3_cifar10_cpu.png)
+![image](/posts/technical/2016-10_running_some_caffe_examples_on_CPU_and_GPU/image3_cifar10_cpu.png)
 
 As you can see, with a larger dataset (and a more complicated Network, of course), the computing speed was much slower comparing with MNIST dataset. It took approximately 526ms to complete one iteration: 238ms for forward pass and 288ms for backward pass. Let’s go ahead and see how well the big guy can do:
 
@@ -69,7 +69,7 @@ As you can see, with a larger dataset (and a more complicated Network, of course
 
 And the result I had with my GTX 1070:
 
-![image](/posts/technical/running_some_caffe_examples_on_CPU_and_GPU/image4_cifar10_gpu.png)
+![image](/posts/technical/2016-10_running_some_caffe_examples_on_CPU_and_GPU/image4_cifar10_gpu.png)
 
 Look at the result above. Unlike the significant decrease in performance as we saw when running on CPU, my GTX 1070 still brought me an impressive computing speed. It took only 11ms on one iteration, in which 3ms for forward pass and 8ms for backpropagation. So when running on CIFAR-10 dataset, the GPU really did outperform the CPU, which computed 48 times faster. Imagine you are working with some real large dataset in real life such as ImageNet, using GPU would save you a great deal of time (let’s say days or even weeks) on training. The faster you obtain the result, the more you can spend on improving the Model. That’s also the reason why Neural Network, especially Deep Neural Network, has become the biggest trend in Machine Learning after long time being ignored by the lack of computing power. Obviously not only nowadays, but Deep Neural Network will continue to grow in the future.
 

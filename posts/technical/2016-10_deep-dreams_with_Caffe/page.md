@@ -21,7 +21,7 @@ This notebook is designed to have as few dependencies as possible:
 
 For this guide, Python 2.7 ans Spyder were used (you can install using ```$ sudo pip install spyder``` and open using ```$ spyder```).
 
-The folder were the example will be performed and the images used in this guide are in this [[https://dennishnf.github.io/posts/technical/deep-dreams_with_Caffe/deep_dream.zip](link)!]:
+The folder were the example will be performed and the images used in this guide are in this [[https://dennishnf.github.io/posts/technical/2016-10_deep-dreams_with_Caffe/deep_dream.zip](link)!]:
 
 ### Starting ###
 
@@ -172,7 +172,7 @@ img = np.float32(PIL.Image.open('sky1024px.jpg'))
 showarray(img)
 ```
 
-![image](/posts/technical/deep-dreams_with_Caffe/img1.jpeg)
+![image](/posts/technical/2016-10_deep-dreams_with_Caffe/img1.jpeg)
 
 Running the next code cell starts the detail generation process. You may see how new patterns start to form, iteration by iteration, octave by octave.
 
@@ -182,7 +182,7 @@ In [ ]:
 _=deepdream(net, img)
 ```
 
-![image](/posts/technical/deep-dreams_with_Caffe/img2.jpeg)
+![image](/posts/technical/2016-10_deep-dreams_with_Caffe/img2.jpeg)
 
 ```
 3 9 inception_4c/output (575, 1024, 3)
@@ -196,7 +196,7 @@ In [ ]:
 _=deepdream(net, img, end='inception_3b/5x5_reduce')
 ```
 
-![image](/posts/technical/deep-dreams_with_Caffe/img3.jpeg)
+![image](/posts/technical/2016-10_deep-dreams_with_Caffe/img3.jpeg)
 
 ```
 3 9 inception_3b/5x5_reduce (575, 1024, 3)
@@ -241,7 +241,7 @@ Image(filename='frames/0029.jpg')
 Out[ ]:
 ```
 
-![image](/posts/technical/deep-dreams_with_Caffe/img4.jpeg)
+![image](/posts/technical/2016-10_deep-dreams_with_Caffe/img4.jpeg)
 
 ## Controlling dreams ###
 
@@ -254,7 +254,7 @@ guide = np.float32(PIL.Image.open('flowers.jpg'))
 showarray(guide)
 ```
 
-![image](/posts/technical/deep-dreams_with_Caffe/img5.jpeg)
+![image](/posts/technical/2016-10_deep-dreams_with_Caffe/img5.jpeg)
 
 Note that the neural network we use was trained on images downscaled to 224x224 size. So high resolution images might have to be downscaled, so that the network could pick up their features. The image we use here is already small enough.
 Now we pick some target layer and extract guide image features.
@@ -288,7 +288,7 @@ def objective_guide(dst):
 _=deepdream(net, img, end=end, objective=objective_guide)
 ```
 
-![image](/posts/technical/deep-dreams_with_Caffe/img6.jpeg)
+![image](/posts/technical/2016-10_deep-dreams_with_Caffe/img6.jpeg)
 
 ```
 3 9 inception_3b/output (575, 1024, 3)
