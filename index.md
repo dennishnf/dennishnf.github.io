@@ -73,58 +73,58 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <h2>News and updates</h2>
 <p>
 <ul>
-<li>2021.Mar - <a href="https://aiforpublichealth.github.io/papers/" target="_blank">Grateful that my paper has been accepted to the AI for Public Health workshop at ICLR 2021</a>.</li>
-<li>2021.Mar - <a href="https://www.biorxiv.org/content/Oct.1101/2021.03.07.434276v1" target="_blank">Collaborated in the research of the Peruvian COVID-19 vaccine, analyzing the mobility in animal tests</a>.</li>
-<li>2021.Mar - <a href="https://www.latinxinai.org/cvpr-2021-about" target="_blank">Selected as paper reviewer for the LatinX in CV (LXCV) Research Workshop at CVPR 2021</a>.</li>
-<li>2021.Mar - <a href="https://opencv.org/opencv-ai-competition-2021/" target="_blank">Our team 'Vigilare' won the Phase 1 of the OpenCV AI Competition, congts Dari, Bernick and Jhonny!!</a>.</li>
-<li>2021.Mar - <a href="https://sites.google.com/view/sedl-workshop" target="_blank">Selected as reviewer for the Science and Engineering of Deep Learning Workshop at ICLR 2021</a>.</li>
-<li>2021.Feb - <a href="http://www.patronatouni.org.pe/es/resultados-de-beca/item/Nov0-resultado-de-convocatoria-de-beca-alberto-benavides-de-la-quintana-embajada-de-francia-prouni-2021.html" target="_blank">Glad to have won the ‘Alberto Benavides de la Quintana - France Embassy’ master’s scholarship</a>.</li>
-<li>2021.Jan - Invited as mentor and to give a talk at the "III Peruvian Deep Learning Symposium (SPDL)".</li>
-<li>2020.Dec - Our 3 projects, which I advised, were accepted for oral presentation at the NeurIPS Meetup Peru 2020.</li>
-<li>2020.Dec - <a href="https://nips.cc/Conferences/2020" target="_blank">Grateful for winning a 'LatinX in AI' registration grant to attend the prestigious NeurIPS 2020</a>.</li>
-<li>2020.Dec - Invited by Universidad Popular del Cesar (Colombia) to give a talk on Artificial Intelligence.</li>
-<li>2020.Nov - <a href="https://www.latinxinai.org/neurips-2020" target="_blank">Grateful to have been accepted as a mentee in the LXAI Mentoring Program at NeurIPS 2020</a>.</li>
-<li>2020.Oct - Glad to be invited to give a talk for Inspiring UNI, as part of a series of professional talks.</li>
-<li>2020.Oct - <a href="https://www.latinxinai.org/neurips-2020#nips-org" target="_blank">Selected as a program committee member (reviewer) for the LXAI Workshop at the NeurIPS 2020</a>.</li>
-<li>2020.Sep - Invited to give a talk for the UNI Advanced Research Group on Artificial Intelligence - GAIA.</li>
-<li>2020.Sep - Glad to give a talk at the "Semana de la Innovación", which was organized by Fondecyt Peru.</li>
-<li>2020.Sep - <a href="https://micromasters.mit.edu/ds/" target="_blank">Cheerful to start the MITx MicroMasters in Statistics and Data Science, funded by Aporta</a>.
-<li>2020.Ago - Winner of a scholarship for "Advanced Program in Data Science & Global Skills", org. by Aporta & MIT.</li>
-<li>2020.Ago - Pleased to have been invited to be a paper reviewer at the IEEE EIRCON 2020 conference.</li>
-<li>2020.Ago - <a href="https://www.kdd.org/kdd2020/" target="_blank">Glad to win a grant for the KDD 2020, ACM Conference on Knowledge Discovery and Data Mining</a>.
-<li>2020.Jul - Invited by IEEE SPS UNI to give a workshop: "Deep Learning: Fundamentos y Aplicaciones".</li>
-<li>2020.Jul - Invited by my faculty FIEE UNI to give a talk about my experience in research internships abroad.</li>
-<li>2020.Jun - <a href="https://sites.google.com/view/hsys2020/papers/accepted-papers" target="_blank">My third paper was selected for poster presentation at HSYS workshop at the ICML 2020</a>.</li>
-<li>2020.Jun - <a href="https://mlforglobalhealth.org/posters-and-spotlights/" target="_blank">My two papers were accepted for oral and poster presentation at ML4GH workshop at the ICML 2020</a>.</li>
-<li>2020.Jun - Thankful for winning a 'LatinX in AI' grant for my participation in the prestigious ICML 2020.</li>
-<li>2020.Jun - <a href="https://acl2020.org/" target="_blank">Grateful for winning a grant for the ACL 2020, the best conference about natural language processing</a>.</li>
-<li>2020.Jun - <a href="https://sites.google.com/view/inclusion-2020/inclusion-fellowsbio#h.kvia409tw9k8" target="_blank">Selected as one of the Inclusion Fellows for the "Science and Systems RSS 2020" conference</a>.</li>
-<li>2020.Jun - <a href="https://www.latinxinai.org/icml-2020" target="_blank">Grateful to have been accepted as a mentee in the LXAI Mentoring Program at ICML 2020</a>.</li>
-<li>2020.Jun - <a href="https://roboticsconference.org/2020/" target="_blank">Glad to won a registration grant for the "Robotics: Science and Systems RSS 2020" conference</a>.</li>
-<li>2020.May - <a href="https://www.latinxinai.org/icml-2020#workshop-org" target="_blank">Selected as program committee member (reviewer) for the LXAI Workshop at the ICML 2020</a>.</li>
-<li>2020.May - <a href="http://lxmls.it.pt/2020/" target="_blank">Selected to participate in the 10th Lisbon Machine Learning School LxMLS 2020, Portugal</a>.</li>
-<li>2020.Mar - Pleased to have been invited to be a paper reviewer at the IEEE INTERCON 2020 conference.</li>
-<li>2020.Mar - <a href="https://cmmrs.mpi-sws.org/" target="_blank">Accepted to participate in the Cornell, Maryland, Max Planck Pre-doctoral School CMMRS 2020</a>.</li>
-<li>2020.Mar - <a href="https://picampus-school.com/programme/school-of-ai/" target="_blank">Glad to obtain a fellowship for the "School of AI 2020" programme, hosted by Pi School, Italy</a>.</li>
-<li>2020.Jan - <a href="http://ailatinsum.mit.edu/" target="_blank">Selected and winner of a travel grant to the AI Latin America SumMIT, held at the MIT Media Lab</a>.</li>
-<li>2019.Nov - <a href="http://vimp.math.unipd.it/people.html" target="_blank">Winner of a scholarship by Fondecyt Peru for a research stay at the University of Padua, Italy</a>.</li>
-<li>2019.Nov - Glad to give a talk on AI in Healtcare at the department of Pharmacy and Biochemistry, at the UNMSM.</li>
-<li>2019.Oct - <a href="https://www.latinxinai.org/neurips-2019" target="_blank">Selected as winner of a LatinX in AI travel grant to participate in the prestigious NeurIPS 2019</a>.</li>
-<li>2019.Oct - <a href="https://www.latinxinai.org/neurips-2019-presenters" target="_blank">My 3 submitted abstract papers were accepted for the LXAI Workshop at the NeurIPS 2019</a>.</li>
-<li>2019.Oct - <a href="https://www.springer.com/gp/book/9783030575656" target="_blank">Our paper, which was in collaboration with the IIFIEE-UNI, was accepted for the BTSym'19</a>.</li>
-<li>2019.Sep - <a href="https://www.latinxinai.org/neurips-2019#nips-org" target="_blank">Selected as a program committee member (reviewer) for the LXAI Workshop at the NeurIPS 2019</a>.</li>
-<li>2019.Sep - Invited to give a talk at the 22vo Meetup 2019, organized by Data Science Research Perú.</li>
-<li>2019.Jun - <a href="https://ieeexplore.ieee.org/xpl/conhome/8846111/proceeding" target="_blank">My 2 submitted papers were successfully accepted for the IEEE INTERCON 2019 conference</a>.</li>
-<li>2019.Jun - <a href="https://simbig.org/SIMBig2019/en/program.html" target="_blank">My 2 submitted papers about deep learning were successfully accepted for the SIMBig 2019</a>.</li>
-<li>2019.May - Glad to give a talk at the Computer Science Colloquium, event chaired by Modesto Montoya, PhD.</li>
-<li>2019.May - Grateful to give a talk about our UPCH project at the event: "Innova como ellos", org. by Innóvate Perú.</li>
-<li>2019.May - <a href="https://icml.cc/Conferences/2019" target="_blank">Selected as winner of ICML and LXAI travel grants to participate in this prestigious conference</a>.</li>
-<li>2019.Apr - <a href="https://www.latinxinai.org/icml-2019-presenters" target="_blank">Thrilled that my submitted abstract was accepted for the LXAI Workshop at the ICML 2019</a>.</li>
-<li>2018.Jun - <a href="https://ieeexplore.ieee.org/xpl/conhome/8484861/proceeding" target="_blank">My submitted paper on deep learning was accepted for the IEEE INTERCON 2018 conference</a>.</li>
-<li>2017.Ago - <a href="https://dblp.org/db/conf/ciarp/ciarp2017.html" target="_blank">My work, advised by Bogdan Kwolek, PhD, (from AGH UST) was accepted for the CIARP 2017</a>.</li>
-<li>2016.Nov - <a href="http://www.unesco.agh.edu.pl/fileadmin/default/templates/css/j/unesco/system/program_UCTE_2016_v12_2016_12_06x.pdf" target="_blank">Selected as paper presenter and session chair for the UNESCO UCTE 2016 conference, Poland</a>.</li>
-<li>2016.Jun - <a href="http://www.unesco.agh.edu.pl/en/" target="_blank">Winner of a fellowship for the "UNESCO/Poland Co-Sponsored Program" at AGH UST, Poland</a>.</li>
-<li>2015.Jul - <a href="https://www.uni.edu.pe/" target="_blank">Graduated with the first place in my graduating class at the Universidad Nacional de Ingeniería (UNI)</a>.</li>
-<li>2014.Dec - Top 10 Electronics Engineering GPA of the entire faculty during the periods 2014-I and 2014-II.</li>
+<li>2021 Mar - <a href="https://aiforpublichealth.github.io/papers/" target="_blank">Grateful that my paper has been accepted to the AI for Public Health workshop at ICLR 2021</a>.</li>
+<li>2021 Mar - <a href="https://www.biorxiv.org/content/Oct.1101/2021.03.07.434276v1" target="_blank">Collaborated in the research of the Peruvian COVID-19 vaccine, analyzing the mobility in animal tests</a>.</li>
+<li>2021 Mar - <a href="https://www.latinxinai.org/cvpr-2021-about" target="_blank">Selected as paper reviewer for the LatinX in CV (LXCV) Research Workshop at CVPR 2021</a>.</li>
+<li>2021 Mar - <a href="https://opencv.org/opencv-ai-competition-2021/" target="_blank">Our team 'Vigilare' won the Phase 1 of the OpenCV AI Competition, congts Dari, Bernick and Jhonny!!</a>.</li>
+<li>2021 Mar - <a href="https://sites.google.com/view/sedl-workshop" target="_blank">Selected as reviewer for the Science and Engineering of Deep Learning Workshop at ICLR 2021</a>.</li>
+<li>2021 Feb - <a href="http://www.patronatouni.org.pe/es/resultados-de-beca/item/Nov0-resultado-de-convocatoria-de-beca-alberto-benavides-de-la-quintana-embajada-de-francia-prouni-2021.html" target="_blank">Glad to have won the ‘Alberto Benavides de la Quintana - France Embassy’ master’s scholarship</a>.</li>
+<li>2021 Jan - Invited as mentor and to give a talk at the "III Peruvian Deep Learning Symposium (SPDL)".</li>
+<li>2020 Dec - Our 3 projects, which I advised, were accepted for oral presentation at the NeurIPS Meetup Peru 2020.</li>
+<li>2020 Dec - <a href="https://nips.cc/Conferences/2020" target="_blank">Grateful for winning a 'LatinX in AI' registration grant to attend the prestigious NeurIPS 2020</a>.</li>
+<li>2020 Dec - Invited by Universidad Popular del Cesar (Colombia) to give a talk on Artificial Intelligence.</li>
+<li>2020 Nov - <a href="https://www.latinxinai.org/neurips-2020" target="_blank">Grateful to have been accepted as a mentee in the LXAI Mentoring Program at NeurIPS 2020</a>.</li>
+<li>2020 Oct - Glad to be invited to give a talk for Inspiring UNI, as part of a series of professional talks.</li>
+<li>2020 Oct - <a href="https://www.latinxinai.org/neurips-2020#nips-org" target="_blank">Selected as a program committee member (reviewer) for the LXAI Workshop at the NeurIPS 2020</a>.</li>
+<li>2020 Sep - Invited to give a talk for the UNI Advanced Research Group on Artificial Intelligence - GAIA.</li>
+<li>2020 Sep - Glad to give a talk at the "Semana de la Innovación", which was organized by Fondecyt Peru.</li>
+<li>2020 Sep - <a href="https://micromasters.mit.edu/ds/" target="_blank">Cheerful to start the MITx MicroMasters in Statistics and Data Science, funded by Aporta</a>.
+<li>2020 Ago - Winner of a scholarship for "Advanced Program in Data Science & Global Skills", org. by Aporta & MIT.</li>
+<li>2020 Ago - Pleased to have been invited to be a paper reviewer at the IEEE EIRCON 2020 conference.</li>
+<li>2020 Ago - <a href="https://www.kdd.org/kdd2020/" target="_blank">Glad to win a grant for the KDD 2020, ACM Conference on Knowledge Discovery and Data Mining</a>.
+<li>2020 Jul - Invited by IEEE SPS UNI to give a workshop: "Deep Learning: Fundamentos y Aplicaciones".</li>
+<li>2020 Jul - Invited by my faculty FIEE UNI to give a talk about my experience in research internships abroad.</li>
+<li>2020 Jun - <a href="https://sites.google.com/view/hsys2020/papers/accepted-papers" target="_blank">My third paper was selected for poster presentation at HSYS workshop at the ICML 2020</a>.</li>
+<li>2020 Jun - <a href="https://mlforglobalhealth.org/posters-and-spotlights/" target="_blank">My two papers were accepted for oral and poster presentation at ML4GH workshop at the ICML 2020</a>.</li>
+<li>2020 Jun - Thankful for winning a 'LatinX in AI' grant for my participation in the prestigious ICML 2020.</li>
+<li>2020 Jun - <a href="https://acl2020.org/" target="_blank">Grateful for winning a grant for the ACL 2020, the best conference about natural language processing</a>.</li>
+<li>2020 Jun - <a href="https://sites.google.com/view/inclusion-2020/inclusion-fellowsbio#h.kvia409tw9k8" target="_blank">Selected as one of the Inclusion Fellows for the "Science and Systems RSS 2020" conference</a>.</li>
+<li>2020 Jun - <a href="https://www.latinxinai.org/icml-2020" target="_blank">Grateful to have been accepted as a mentee in the LXAI Mentoring Program at ICML 2020</a>.</li>
+<li>2020 Jun - <a href="https://roboticsconference.org/2020/" target="_blank">Glad to won a registration grant for the "Robotics: Science and Systems RSS 2020" conference</a>.</li>
+<li>2020 May - <a href="https://www.latinxinai.org/icml-2020#workshop-org" target="_blank">Selected as program committee member (reviewer) for the LXAI Workshop at the ICML 2020</a>.</li>
+<li>2020 May - <a href="http://lxmls.it.pt/2020/" target="_blank">Selected to participate in the 10th Lisbon Machine Learning School LxMLS 2020, Portugal</a>.</li>
+<li>2020 Mar - Pleased to have been invited to be a paper reviewer at the IEEE INTERCON 2020 conference.</li>
+<li>2020 Mar - <a href="https://cmmrs.mpi-sws.org/" target="_blank">Accepted to participate in the Cornell, Maryland, Max Planck Pre-doctoral School CMMRS 2020</a>.</li>
+<li>2020 Mar - <a href="https://picampus-school.com/programme/school-of-ai/" target="_blank">Glad to obtain a fellowship for the "School of AI 2020" programme, hosted by Pi School, Italy</a>.</li>
+<li>2020 Jan - <a href="http://ailatinsum.mit.edu/" target="_blank">Selected and winner of a travel grant to the AI Latin America SumMIT, held at the MIT Media Lab</a>.</li>
+<li>2019 Nov - <a href="http://vimp.math.unipd.it/people.html" target="_blank">Winner of a scholarship by Fondecyt Peru for a research stay at the University of Padua, Italy</a>.</li>
+<li>2019 Nov - Glad to give a talk on AI in Healtcare at the department of Pharmacy and Biochemistry, at the UNMSM.</li>
+<li>2019 Oct - <a href="https://www.latinxinai.org/neurips-2019" target="_blank">Selected as winner of a LatinX in AI travel grant to participate in the prestigious NeurIPS 2019</a>.</li>
+<li>2019 Oct - <a href="https://www.latinxinai.org/neurips-2019-presenters" target="_blank">My 3 submitted abstract papers were accepted for the LXAI Workshop at the NeurIPS 2019</a>.</li>
+<li>2019 Oct - <a href="https://www.springer.com/gp/book/9783030575656" target="_blank">Our paper, which was in collaboration with the IIFIEE-UNI, was accepted for the BTSym'19</a>.</li>
+<li>2019 Sep - <a href="https://www.latinxinai.org/neurips-2019#nips-org" target="_blank">Selected as a program committee member (reviewer) for the LXAI Workshop at the NeurIPS 2019</a>.</li>
+<li>2019 Sep - Invited to give a talk at the 22vo Meetup 2019, organized by Data Science Research Perú.</li>
+<li>2019 Jun - <a href="https://ieeexplore.ieee.org/xpl/conhome/8846111/proceeding" target="_blank">My 2 submitted papers were successfully accepted for the IEEE INTERCON 2019 conference</a>.</li>
+<li>2019 Jun - <a href="https://simbig.org/SIMBig2019/en/program.html" target="_blank">My 2 submitted papers about deep learning were successfully accepted for the SIMBig 2019</a>.</li>
+<li>2019 May - Glad to give a talk at the Computer Science Colloquium, event chaired by Modesto Montoya, PhD.</li>
+<li>2019 May - Grateful to give a talk about our UPCH project at the event: "Innova como ellos", org. by Innóvate Perú.</li>
+<li>2019 May - <a href="https://icml.cc/Conferences/2019" target="_blank">Selected as winner of ICML and LXAI travel grants to participate in this prestigious conference</a>.</li>
+<li>2019 Apr - <a href="https://www.latinxinai.org/icml-2019-presenters" target="_blank">Thrilled that my submitted abstract was accepted for the LXAI Workshop at the ICML 2019</a>.</li>
+<li>2018 Jun - <a href="https://ieeexplore.ieee.org/xpl/conhome/8484861/proceeding" target="_blank">My submitted paper on deep learning was accepted for the IEEE INTERCON 2018 conference</a>.</li>
+<li>2017 Ago - <a href="https://dblp.org/db/conf/ciarp/ciarp2017.html" target="_blank">My work, advised by Bogdan Kwolek, PhD, (from AGH UST) was accepted for the CIARP 2017</a>.</li>
+<li>2016 Nov - <a href="http://www.unesco.agh.edu.pl/fileadmin/default/templates/css/j/unesco/system/program_UCTE_2016_v12_2016_12_06x.pdf" target="_blank">Selected as paper presenter and session chair for the UNESCO UCTE 2016 conference, Poland</a>.</li>
+<li>2016 Jun - <a href="http://www.unesco.agh.edu.pl/en/" target="_blank">Winner of a fellowship for the "UNESCO/Poland Co-Sponsored Program" at AGH UST, Poland</a>.</li>
+<li>2015 Jul - <a href="https://www.uni.edu.pe/" target="_blank">Graduated with the first place in my graduating class at the Universidad Nacional de Ingeniería (UNI)</a>.</li>
+<li>2014 Dec - Top 10 Electronics Engineering GPA of the entire faculty during the periods 2014-I and 2014-II.</li>
 </ul>
 </p>
