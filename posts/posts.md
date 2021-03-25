@@ -79,7 +79,7 @@
 <li>2013 Nov - <a href="/posts/technical/basic_example_in_latex/page.html">Basic example in LaTeX</a></li>
 <li>2013 Nov - <a href="/posts/technical/repair_or_reinstall_grub2_from_ubuntu_live/page.html">Repair or Reinstall Grub2 from Ubuntu Live</a></li>
 <li>2013 Mar - <a href="/posts/technical/set_dual_boot_in_ubuntu/page.html">Set dual boot in Ubuntu</a></li>
-<li>2013 Feb - <a href="/posts/technical/useful_commands/page.html">Various commands very useful</a></li>
+<li>2013 Feb - <a href="/posts/technical/useful_commands/page.html">Various very useful commands</a></li>
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
