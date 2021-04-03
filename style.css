@@ -93,7 +93,7 @@ h1, h2, h3, h4 {margin-bottom: 8px;}
 	background: url('img/paper_left.gif') no-repeat left top;
 	margin: 0 auto;
 	padding-bottom: 34px;
-	width: 778px;
+	width: 840px;
 }
 #paper_right {
 	background: url('img/paper_right.gif') no-repeat right bottom;
@@ -102,7 +102,7 @@ h1, h2, h3, h4 {margin-bottom: 8px;}
 #layout_wrapper {
 	background: #b9b9b9;
 	margin: 0 auto;
-	width: 786px;
+	width: 840px;
 }
 #layout_container {padding: 8px;}
 #layout_content {border: 1px solid #6d6d6d;}
