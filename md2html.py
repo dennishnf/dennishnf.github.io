@@ -198,6 +198,7 @@ def convert(pathh):
         timee=strftime("%Y-%m-%d  %H:%M", gmtime())
         myfile.write("<a href=\"https://dennishnf.com/README.html\" target=\"_blank\">From scratch in Python. Powered by Linux</a> <br/>\n")
         myfile.write("Website updated: ")
+        myfile.write("&nbsp;")
         myfile.write(timee)
         myfile.write(" GMT <br/> \n</div> \n")
         myfile.write("<div class=\"clearer\">&nbsp;</div> \n")
