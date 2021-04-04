@@ -10,7 +10,7 @@ Currently, I'm a research assistant at the <a target="_blank" href="https://faci
 I have participated in prestigious conferences related to AI, such as the NeurIPS (<a target="_blank" href="https://nips.cc/Conferences/2019">2019</a>, <a target="_blank" href="https://neurips.cc/Conferences/2020"> 2020</a>), the ICML (<a target="_blank" href="https://icml.cc/Conferences/2019">2019</a>, <a target="_blank" href="https://icml.cc/Conferences/2020"> 2020</a>), and the ACL (<a target="_blank" href="https://acl2020.org/">2020</a>). Also, I have participated in important schools such as the 10th Lisbon Machine Learning School <a target="_blank" href="http://lxmls.it.pt/2020/">LxMLS 2020</a> (Portugal), and the Cornell, Maryland, Max Planck Pre-doctoral Research School <a target="_blank" href="https://cmmrs.mpi-sws.org/">CMMRS 2020</a> (Germany). My academic service includes my participation as a reviewer for the LXAI Workshop at NeurIPS (<a target="_blank" href="https://www.latinxinai.org/neurips-2019">2019</a>, <a target="_blank" href="https://www.latinxinai.org/neurips-2020">2020</a>), the LXAI Workshop at ICML (<a target="_blank" href="https://www.latinxinai.org/icml-2020">2020</a>), the SEDL Workshop at ICLR (<a target="_blank" href="https://sites.google.com/view/sedl-workshop">2021</a>), and the LXCV Workshop at CVPR (<a target="_blank" href="https://www.latinxinai.org/cvpr-2021-about">2021</a>). In addition to my strong interest in Artificial Intelligence, I have a fascination for books related to science fiction and technology, and also a deep interest in topics about the impact and future of science and technology.
 </p>
 </p>
-<br/>
+<p></p>
 <h2>Research interests</h2>
 <div class="row">
     <div class="column left">
@@ -38,7 +38,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
         </p>
     </div>
 </div>
-<br/>
+<p></p>
 <h2>Find me on</h2>
 <div class="row">
     <div class="column left">
@@ -69,7 +69,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
         </p>
     </div>
 </div>
-<br/>
+<p></p>
 <h2>News and updates</h2>
 <p>
 <ul>
