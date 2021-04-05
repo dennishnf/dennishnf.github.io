@@ -65,7 +65,7 @@ A. Aspilcueta Narvaez, <u>D. Núñez-Fernández</u>, S. Gamarra Quispe, D. Lazo 
 <ul>
 <li>
 <u>D. Núñez-Fernández</u>, L. Ballan, G. Jiménez-Avalos, J. Coronel, P. Sheen, M. Zimic. ‘Prediction of Tuberculosis using U-Net and segmentation techniques’. AI for Public Health Workshop at ICLR 2021. Vienna, Austria. (2021) <br/>
-[<a href="/research/2020%20-%20ml4gh%20at%20icml%202020%20-%20segmentation%20for%20prediction%20of%20tuberculosis.pdf">PDF</a>] 
+[<a href="/research/2021%20-%20ai4ph%20at%20iclr%202021%20-%20prediction%20of%20tb%20using%20u-net%20and%20segm%20tecniques.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/2104.01071">arXiv</a>] 
 </li>
 <li>
