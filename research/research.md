@@ -64,9 +64,9 @@ A. Aspilcueta Narvaez, <u>D. Núñez-Fernández</u>, S. Gamarra Quispe, D. Lazo 
 <h3>Workshop papers</h3>
 <ul>
 <li>
-<u>D. Núñez-Fernández</u>, L. Ballan, G. Jiménez-Avalos, J. Coronel, P. Sheen, M. Zimic. ‘Automatic semantic segmentation for prediction of tuberculosis using lens-free microscopy images’. AI for Public Health Workshop at ICLR 2021. Vienna, Austria. (2021) <br/>
+<u>D. Núñez-Fernández</u>, L. Ballan, G. Jiménez-Avalos, J. Coronel, P. Sheen, M. Zimic. ‘Prediction of Tuberculosis using U-Net and segmentation techniques’. AI for Public Health Workshop at ICLR 2021. Vienna, Austria. (2021) <br/>
 [<a href="/research/2020%20-%20ml4gh%20at%20icml%202020%20-%20segmentation%20for%20prediction%20of%20tuberculosis.pdf">PDF</a>] 
-[<a href="https://arxiv.org/abs/2007.02482">arXiv</a>] 
+[<a href="https://arxiv.org/abs/2104.01071">arXiv</a>] 
 </li>
 <li>
 <u>D. Núñez-Fernández</u>, L. Ballan, G. Jiménez-Avalos, J. Coronel-Herrera, M. Zimic-Peralta. ‘Automatic semantic segmentation for prediction of tuberculosis using lens-free microscopy images’. Machine Learning for Global Health Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
