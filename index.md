@@ -73,7 +73,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <h2>News and updates</h2>
 <p>
 <ul>
-<li>2021 Apr - Delighted for winning a D&I registration grant for the EACL 2021, one of the best conferences in NLP.</li>
+<li>2021 Apr - Winner a D&I registration grant for the EACL 2021, one of the best conferences in NLP.</li>
 <li>2021 Mar - <a href="https://pml4dc.github.io/iclr2021/" target="_blank">Cheerful that our paper, which I advised, has been accepted to the PML4DC workshop at ICLR 2021</a>.</li>
 <li>2021 Mar - <a href="https://aiforpublichealth.github.io/papers/" target="_blank">Grateful that my paper has been accepted to the AI for Public Health workshop at ICLR 2021</a>.</li>
 <li>2021 Mar - <a href="https://www.biorxiv.org/content/Oct.1101/2021.03.07.434276v1" target="_blank">Collaborated in the research of the Peruvian COVID-19 vaccine, analyzing the mobility in animal tests</a>.</li>
