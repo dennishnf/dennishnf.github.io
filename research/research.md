@@ -70,7 +70,7 @@ A. Aspilcueta Narvaez, <u>D. Núñez-Fernández</u>, S. Gamarra Quispe, D. Lazo 
 </li>
 <li>
 C. Rojas-Azabache, K. Vilca-Janampa, R. Guerrero-Huayta, <u>D. Núñez-Fernández</u>. ‘Detection of COVID-19 Disease using Deep Neural Networks with Ultrasound Imaging’. Practical Machine Learning for Developing Countries Workshop at ICLR 2021. Vienna, Austria. (2021) <br/>
-[<a href="/research/wp__2021__pml4dc_at_iclr_2021__detection_of_covid_using_dnn_with_ultrasound_img">PDF</a>] 
+[<a href="/research/wp__2021__pml4dc_at_iclr_2021__detection_of_covid_using_dnn_with_ultrasound_img.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/2104.01509">arXiv</a>] 
 </li>
 <li>
