@@ -80,27 +80,27 @@ C. Rojas-Azabache, K. Vilca-Janampa, R. Guerrero-Huayta, <u>D. Núñez-Fernánde
 </li>
 <li>
 <u>D. Núñez-Fernández</u>, L. Ballan, G. Jiménez-Avalos, J. Coronel-Herrera, M. Zimic-Peralta. ‘Using Capsule Neural Network to predict Tuberculosis in lens-free microscopic images’. Healthcare Systems, Population Health, and the Role of Health-Tech (HSYS) Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
-[<a href="/research/2020%20-%20hsys%20at%20icml%202020%20-%20capsule%20neural%20network%20for%20tuberculosis%20detection.pdf">PDF</a>] 
+[<a href="/research/wp__2020__hsys_at_icml_2020__capsule_neural_network_for_tuberculosis_detection.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/2007.02457">arXiv</a>] 
 </li>
 <li>
 <u>D. Núñez-Fernández</u>, F. Porras-Barrientos, M. Vittet-Mondoñedo, R. H. Gilman, M. Zimic-Peralta. ‘Prediction of gaze direction using Convolutional Neural Networks for Autism diagnosis’. LatinX in AI (LXAI) Research Workshop at NeurIPS 2019. Vancouver, Canada. (2019) <br/>
-[<a href="/research/2019%20-%20lxai%20at%20neurips%202019%20-%20prediction%20gaze%20direction%20using%20cnns%20for%20autism.pdf">PDF</a>] 
+[<a href="/research/wp__2019__lxai_at_neurips_2019__prediction_gaze_direction_using_cnns_for_autism.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/1911.05629">arXiv</a>] 
 </li>
 <li>
 B. Saldivar-Espinoza, <u>D. Núñez-Fernández</u>, F. Porras-Barrientos, A. Alva-Mantari, L. S. Leslie, M. Zimic-Peralta. ‘Portable system for the prediction of anemia based on the ocular conjunctiva using Artificial Intelligence’. LatinX in AI (LXAI) Research Workshop at NeurIPS 2019. Vancouver, Canada. (2019) <br/>
-[<a href="/research/2019%20-%20lxai%20at%20neurips%202019%20-%20prediction%20of%20anemia%20via%20the%20ocular%20conjunctiva.pdf">PDF</a>] 
+[<a href="/research/wp__2019__lxai_at_neurips_2019__prediction_of_anemia_via_the_ocular_conjunctiva.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/1910.12399">arXiv</a>] 
 </li>
 <li>
 <u>D. Núñez-Fernández</u>. ‘Development of a hand pose recognition system on an embedded computer using CNNs’. LatinX in AI (LXAI) Research Workshop at NeurIPS 2019. Vancouver, Canada. (2019) <br/>
-[<a href="/research/2019%20-%20lxai%20at%20neurips%202019%20-%20hand%20pose%20recognition%20on%20an%20embedded%20computer.pdf">PDF</a>] 
+[<a href="/research/wp__2019__lxai_at_neurips_2019__hand_pose_recognition_on_an_embedded_computer.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/1910.11100v1">arXiv</a>] 
 </li>
 <li>
 <u>D. Núñez-Fernández</u>, B. Kwolek. ‘Hand Posture Recognition Using Convolutional Neural Networks’. LatinX in AI (LXAI) Research Workshop at ICML 2019. Long Beach, USA. (2019) <br/>
-[<a href="/research/2019%20-%20lxai%20at%20icml%202019%20-%20hand%20posture%20recognition%20using%20cnns.pdf">PDF</a>] 
+[<a href="/research/wp__2019__ lxai_at_icml_2019__hand_posture_recognition_using_cnns.pdf">PDF</a>] 
 [<a href="https://hal.archives-ouvertes.fr/hal-02263892">Open Archive HAL</a>] 
 </li>
 </ul>
