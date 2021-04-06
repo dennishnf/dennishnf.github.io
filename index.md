@@ -80,7 +80,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <li>2021 Mar - <a href="https://www.latinxinai.org/cvpr-2021-about" target="_blank">Selected as paper reviewer for the LatinX in CV (LXCV) Research Workshop at CVPR 2021</a>.</li>
 <li>2021 Mar - <a href="https://opencv.org/opencv-ai-competition-2021/" target="_blank">Our team 'Vigilare' won the Phase 1 of the OpenCV AI Competition, congts Dari, Bernick and Jhonny!!</a>.</li>
 <li>2021 Mar - <a href="https://sites.google.com/view/sedl-workshop" target="_blank">Selected as reviewer for the Science and Engineering of Deep Learning Workshop at ICLR 2021</a>.</li>
-<li>2021 Feb - <a href="http://www.patronatouni.org.pe/es/resultados-de-beca/item/Nov0-resultado-de-convocatoria-de-beca-alberto-benavides-de-la-quintana-embajada-de-francia-prouni-2021.html" target="_blank">Glad to have won the ‘Alberto Benavides de la Quintana - France Embassy’ master’s scholarship</a>.</li>
+<li>2021 Feb - <a href="http://www.patronatouni.org.pe/es/resultados-de-beca/item/110-resultado-de-convocatoria-de-beca-alberto-benavides-de-la-quintana-embajada-de-francia-prouni-2021.html" target="_blank">Glad to have won the ‘Alberto Benavides de la Quintana - France Embassy’ master’s scholarship</a>.</li>
 <li>2021 Jan - Invited as mentor and to give a talk at the "III Peruvian Deep Learning Symposium (SPDL)".</li>
 <li>2020 Dec - Our 3 projects, which I advised, were accepted for oral presentation at the NeurIPS Meetup Peru 2020.</li>
 <li>2020 Dec - <a href="https://nips.cc/Conferences/2020" target="_blank">Grateful for winning a 'LatinX in AI' registration grant to attend the prestigious NeurIPS 2020</a>.</li>
