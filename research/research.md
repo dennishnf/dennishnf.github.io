@@ -75,7 +75,7 @@ C. Rojas-Azabache, K. Vilca-Janampa, R. Guerrero-Huayta, <u>D. Núñez-Fernánde
 </li>
 <li>
 <u>D. Núñez-Fernández</u>, L. Ballan, G. Jiménez-Avalos, J. Coronel-Herrera, M. Zimic-Peralta. ‘Automatic semantic segmentation for prediction of tuberculosis using lens-free microscopy images’. Machine Learning for Global Health Workshop at ICML 2020. Vienna, Austria. (2020) <br/>
-[<a href="/research/2020%20-%20ml4gh%20at%20icml%202020%20-%20segmentation%20for%20prediction%20of%20tuberculosis.pdf">PDF</a>] 
+[<a href="/research/wp__2020__ml4gh_at_icml_2020__segmentation_for_prediction_of_tuberculosis.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/2007.02482">arXiv</a>] 
 </li>
 <li>
