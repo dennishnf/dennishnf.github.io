@@ -22,12 +22,12 @@ A. Aspilcueta Narvaez, <u>D. Núñez-Fernández</u>, S. Gamarra Quispe, D. Lazo 
 </li>
 <li> 
 <u>D. Núñez-Fernández</u>. ‘Development of a hand gesture based control interface using Deep Learning’. International Conference on Information Management and Big Data SIMBig 2019. Lima, Peru. (2019) <br/>
-[<a href="/research/2019%20-%20simbig%202019%20-%20development%20of%20a%20hand%20gesture%20interface.pdf">PDF</a>] 
+[<a href="/research/cp__2019__simbig_2019__development_of_a_hand_gesture_interface.pdf">PDF</a>] 
 [<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-46140-9_14">Springer</a>] 
 </li>
 <li> 
 <u>D. Núñez-Fernández</u>. ‘Implementation of an indoor location system for mobile-based museum guidance’. International Conference on Information Management and Big Data SIMBig 2019. Lima, Peru. (2019) <br/>
-[<a href="/research/2019%20-%20simbig%202019%20-%20implementation%20of%20an%20indoor%20location%20system%20museum.pdf">PDF</a>] 
+[<a href="/research/cp__2019__simbig_2019__implementation_of_an_indoor_location_system_museum.pdf">PDF</a>] 
 [<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-46140-9_7">Springer</a>] 
 </li>
 <li>
