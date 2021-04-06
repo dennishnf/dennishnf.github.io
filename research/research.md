@@ -17,7 +17,7 @@
 <ul>
 <li>
 A. Aspilcueta Narvaez, <u>D. Núñez-Fernández</u>, S. Gamarra Quispe, D. Lazo Ochoa. ‘Smart Campus IoT guidance system for visitors based on Bayesian filters’. Brazilian Technology Symposium BTSym 2019. Lima, Peru. (2019) <br/>
-[<a href="/research/2019%20-%20btsym 2019%20-%20iot%20guidance%20system%20based%20on%20bayesian%20filters.pdf">PDF</a>] 
+[<a href="/research/cp__2019__btsym_2019__iot_guidance_system_based_on_bayesian_filters.pdf">PDF</a>] 
 [<a href="https://doi.org/10.1007/978-3-030-57566-3_46">Springer</a>] 
 </li>
 <li> 
