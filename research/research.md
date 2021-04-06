@@ -32,7 +32,7 @@ A. Aspilcueta Narvaez, <u>D. Núñez-Fernández</u>, S. Gamarra Quispe, D. Lazo 
 </li>
 <li>
 <u>D. Núñez-Fernández</u>. ‘Development of a hand pose recognition system on an embedded computer using Artificial Intelligence’. XXVI International Conf. on Electronics, Electrical Eng. and Computing INTERCON. Lima, Peru. (2019) <br/>
-[<a href="/research/2019%20-%20intercon%202019%20-%20hand%20pose%20on%20embedded%20computer%20using%20ai.pdf">PDF</a>] 
+[<a href="/research/cp__2019__intercon_2019__hand_pose_on_embedded_computer_using_ai.pdf">PDF</a>] 
 [<a href="https://ieeexplore.ieee.org/document/8853573">IEEE Xplore</a>] 
 </li>
 <li>
