@@ -73,6 +73,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <h2>News and updates</h2>
 <p>
 <ul>
+<li>2021 Apr - Glad to be able to participate in the DLI workshop "Applications of AI for Anomaly Detection" @ NVIDIA GTC 2021.</li>
 <li>2021 Apr - Winner of a D&I registration grant for the EACL 2021, one of the best conferences in NLP.</li>
 <li>2021 Mar - <a href="https://pml4dc.github.io/iclr2021/" target="_blank">Cheerful that our paper, which I advised, has been accepted to the PML4DC workshop at ICLR 2021</a>.</li>
 <li>2021 Mar - <a href="https://aiforpublichealth.github.io/papers/" target="_blank">Grateful that my paper has been accepted to the AI for Public Health workshop at ICLR 2021</a>.</li>
