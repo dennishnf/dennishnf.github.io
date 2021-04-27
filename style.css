@@ -474,3 +474,22 @@ clear: both;
 }
 
 
+
+
+
+
+
+
+
+.oneThird{
+    width:30%;
+    float:left;
+    margin:.5%;
+}
+.oneThird img{
+    width:100%;
+}
+
+
+
+
