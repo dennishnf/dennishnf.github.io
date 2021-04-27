@@ -5,14 +5,8 @@
 <!-------------------->
 <main class="grid">
 <div class="oneThird">
-
-<video controls>
-  <source src="https://dennishnf.github.io/posts/projects/2017-04_basic-hand-pose-recognition-system-on-a-pc-using-cnns/hanposture.mp4" type="video/mp4">
-  <source src="https://dennishnf.github.io/posts/projects/2017-04_basic-hand-pose-recognition-system-on-a-pc-using-cnns/hanposture.mp4" type="video/ogg">
-  Your browser does not support HTML video.
-</video>
+  <img src="https://dennishnf.com/gallery/2021_04__peru_chota2.jpg" alt="Sample photo">
   <p style="text-align:center">My hometown, Chota. <br> Chota, Peru. <br> 2021 April.</p>
-
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2021_04__peru_chota1.jpg" alt="Sample photo">
