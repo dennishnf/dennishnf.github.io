@@ -494,9 +494,9 @@ clear: both;
   max-width: 100%;
 }
 .oneThird{
-    width:100%;
-    float:left;
-    margin:1.5%;
+    width: 100%;
+    float: center;
+    margin: 0.0%;
 }
 
 
