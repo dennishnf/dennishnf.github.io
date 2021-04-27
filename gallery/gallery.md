@@ -39,7 +39,7 @@
   <p style="text-align:center">Caption caption caption caption caption caption</p>
   </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2013_10__robot1.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2019_06__goldengate.jpg" alt="Sample photo">
   <p style="text-align:center">Caption caption caption caption caption caption</p>
   </div>
 <div class="oneThird">
