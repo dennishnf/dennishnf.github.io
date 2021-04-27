@@ -5,7 +5,7 @@
 <!-------------------->
 <main class="grid">
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_12__canada_neurips2019.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2020_03__belgium_attomium.jpg" alt="Sample photo">
   <p style="text-align:center">Caption caption caption caption caption caption</p>
   </div>
 <div class="oneThird">
