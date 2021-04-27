@@ -1,9 +1,6 @@
 <h2>Gallery</h2>
 <br/>
 
-<br/>
-
-
 <p> 
 <div class="row">
 <div class="oneThird">
