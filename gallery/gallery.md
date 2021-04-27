@@ -16,6 +16,10 @@
   <img src="https://dennishnf.com/gallery/2013_10__peru_robot2.jpg" alt="Sample photo">
   <p style="text-align:center">Caption caption caption caption caption caption</p>
 </div>
+<div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2013_10__peru_robot2.jpg" alt="Sample photo">
+  <p style="text-align:center">Caption caption caption caption caption caption</p>
+</div>
 </main>
 <!-------------------->
 <main class="grid">
@@ -31,6 +35,10 @@
   <img src="https://dennishnf.com/gallery/2019_12__canada_neurips2019.jpg" alt="Sample photo">
   <p style="text-align:center">Caption caption caption caption caption caption</p>
 </div>
+<div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2013_10__peru_robot2.jpg" alt="Sample photo">
+  <p style="text-align:center">Caption caption caption caption caption caption</p>
+</div>
 </main>
 <!-------------------->
 <main class="grid">
@@ -40,6 +48,10 @@
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_06__usa_goldengate.jpg" alt="Sample photo">
+  <p style="text-align:center">Caption caption caption caption caption caption</p>
+</div>
+<div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2013_10__peru_robot2.jpg" alt="Sample photo">
   <p style="text-align:center">Caption caption caption caption caption caption</p>
 </div>
 <div class="oneThird">
