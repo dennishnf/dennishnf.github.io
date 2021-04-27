@@ -5,6 +5,14 @@
 <!-------------------->
 <main class="grid">
 <div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2021_04__peru_chota2.jpg" alt="Sample photo">
+  <p style="text-align:center">My hometown, Chota. <br> Chota, Peru. <br> 2021 April.</p>
+</div>
+<div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2021_04__peru_chota1.jpg" alt="Sample photo">
+  <p style="text-align:center">My hometown, Chota. <br> Chota, Peru. <br> 2021 April.</p>
+</div>
+<div class="oneThird">
   <img src="https://dennishnf.com/gallery/2020_03__belgium_attomium.jpg" alt="Sample photo">
   <p style="text-align:center">The Attomium. <br> Brussels, Belgium. <br> 2020 March.</p>
 </div>
