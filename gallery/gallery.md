@@ -53,6 +53,10 @@
   <p style="text-align:center">The ICML 2019 conference. <br> Long Beach, USA. <br> 2019 June.</p>
 </div>
 <div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2017_03__poland_unesco.jpg" alt="Sample photo">
+  <p style="text-align:center">Closing ceremony of the UNESCO Fellowship. <br> Krakow, Poland. <br> 2017 March.</p>
+</div>
+<div class="oneThird">
   <img src="https://dennishnf.com/gallery/2017_03__poland_naorobot.jpg" alt="Sample photo">
   <p style="text-align:center">Nao Humanoid Robot. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
