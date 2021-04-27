@@ -17,8 +17,8 @@
   <p style="text-align:center">The Eiffel Tower. <br> Paris, France. <br> 2020 February.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2020_01__zwitzerland_zurich.jpg" alt="Sample photo">
-  <p style="text-align:center">Walking around Zurich. <br> Zurich, Awitzerland. <br> 2020 January.</p>
+  <img src="https://dennishnf.com/gallery/2020_01__switzerland_zurich.jpg" alt="Sample photo">
+  <p style="text-align:center">Walking around Zurich. <br> Zurich, Switzerland. <br> 2020 January.</p>
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_12__canada_neurips2019.jpg" alt="Sample photo">
