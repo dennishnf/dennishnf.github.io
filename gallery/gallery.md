@@ -13,7 +13,7 @@
     <img src="https://dennishnf.com/gallery/2019_12__neurips2019.jpg" alt="Snow" style="width:40mm">
   </div>
   <div class="column">
-    <img src="https://dennishnf.com/gallery/2019_12__neurips2019.jpg" alt="Forest" style="width:40mm">
+    <img src="https://dennishnf.com/gallery/2013_10__robot2.jpg" alt="Forest" style="width:40mm">
   </div>
   <div class="column">
     <img src="https://dennishnf.com/gallery/2013_10__robot1.jpg" alt="Mountains" style="width:40mm">
