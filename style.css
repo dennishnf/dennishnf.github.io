@@ -481,15 +481,22 @@ clear: both;
 
 
 
+.grid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  justify-items: center;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
 .oneThird{
-    width:30%;
+    width:100%;
     float:left;
     margin:1.5%;
 }
-.oneThird img{
-    width:100%;
-}
-
 
 
 
