@@ -6,7 +6,7 @@
 <main class="grid">
 <div class="oneThird">
 
-<video width="400" controls>
+<video width="200" controls>
   <source src="https://dennishnf.github.io/posts/projects/2017-04_basic-hand-pose-recognition-system-on-a-pc-using-cnns/hanposture.mp4" type="video/mp4">
   <source src="https://dennishnf.github.io/posts/projects/2017-04_basic-hand-pose-recognition-system-on-a-pc-using-cnns/hanposture.mp4" type="video/ogg">
   Your browser does not support HTML video.
