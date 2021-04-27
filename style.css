@@ -482,9 +482,9 @@ clear: both;
 
 
 .oneThird{
-    width:32%;
+    width:30%;
     float:left;
-    margin:.5%;
+    margin:1.0%;
 }
 .oneThird img{
     width:100%;
