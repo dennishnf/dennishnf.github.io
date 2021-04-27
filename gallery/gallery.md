@@ -41,6 +41,10 @@
   <p style="text-align:center">Informatyk Faculty. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
 <div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2015_08__peru_graduation.jpg" alt="Sample photo">
+  <p style="text-align:center">Graduation ceremony. <br> Lima, Peru. <br> 2015 August.</p>
+</div>
+<div class="oneThird">
   <img src="https://dennishnf.com/gallery/2013_10__peru_robot2.jpg" alt="Sample photo">
   <p style="text-align:center">Summo robot. <br> Lima, Peru. <br> 2013 October.</p>
 </div>
