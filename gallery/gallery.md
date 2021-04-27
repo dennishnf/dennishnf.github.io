@@ -21,6 +21,8 @@
 </div>
 </p>
 
+
+<p> 
 <div class="oneThird">
     <img src="https://dennishnf.com/gallery/2019_12__neurips2019.jpg"></img>
     <p>Caption</p>
@@ -33,5 +35,7 @@
     <img src="https://dennishnf.com/gallery/2013_10__robot1.jpg"></img>
     <p>Caption</p>
 </div>
+</p>
+
 
 <br/>
