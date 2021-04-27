@@ -1,5 +1,7 @@
 <h2>Gallery</h2>
 <br/>
+<p> 
+<div class="row">
 <main class="grid">
 
 <div class="oneThird">
@@ -30,4 +32,6 @@
   </div>
 
 </main>
+</div>
+</p>
 <br/>
