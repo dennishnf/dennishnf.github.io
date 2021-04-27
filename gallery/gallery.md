@@ -5,45 +5,45 @@
 <!-------------------->
 <main class="grid">
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_12__neurips2019.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2019_12__canada_neurips2019.jpg" alt="Sample photo">
   <p style="text-align:center">Caption caption caption caption caption caption</p>
   </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2013_10__robot1.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2013_10__peru_robot1.jpg" alt="Sample photo">
   <p style="text-align:center">Caption caption caption caption caption caption</p>
   </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2013_10__robot2.jpg" alt="Sample photo">
-  <p style="text-align:center">Caption caption caption caption caption caption</p>
-  </div>
-</main>
-<!-------------------->
-<main class="grid">
-<div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2013_10__robot1.jpg" alt="Sample photo">
-  <p style="text-align:center">Caption caption caption caption caption caption</p>
-  </div>
-<div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_12__neurips2019.jpg" alt="Sample photo">
-  <p style="text-align:center">Caption caption caption caption caption caption</p>
-  </div>
-<div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_12__neurips2019.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2013_10__peru_robot2.jpg" alt="Sample photo">
   <p style="text-align:center">Caption caption caption caption caption caption</p>
   </div>
 </main>
 <!-------------------->
 <main class="grid">
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_12__neurips2019.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2013_10__peru_robot1.jpg" alt="Sample photo">
   <p style="text-align:center">Caption caption caption caption caption caption</p>
   </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_06__goldengate.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2019_12__canada_neurips2019.jpg" alt="Sample photo">
   <p style="text-align:center">Caption caption caption caption caption caption</p>
   </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2013_10__robot2.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2019_12__ncanada_eurips2019.jpg" alt="Sample photo">
+  <p style="text-align:center">Caption caption caption caption caption caption</p>
+  </div>
+</main>
+<!-------------------->
+<main class="grid">
+<div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2019_12__canada_neurips2019.jpg" alt="Sample photo">
+  <p style="text-align:center">Caption caption caption caption caption caption</p>
+  </div>
+<div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2019_06__usa_goldengate.jpg" alt="Sample photo">
+  <p style="text-align:center">Caption caption caption caption caption caption</p>
+  </div>
+<div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2013_10__peru_robot2.jpg" alt="Sample photo">
   <p style="text-align:center">Caption caption caption caption caption caption</p>
   </div>
 </main>
