@@ -11,7 +11,7 @@
   </div>
   
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2013_10__robot2.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2013_10__robot1.jpg" alt="Sample photo">
   <p>Caption caption caption caption caption caption</p>
   </div>
 
@@ -23,7 +23,7 @@
 
 <main class="grid">
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2013_10__robot2.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2013_10__robot1.jpg" alt="Sample photo">
   <p>Caption caption caption caption caption caption</p>
   </div>
   
