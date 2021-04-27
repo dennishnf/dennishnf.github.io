@@ -22,7 +22,7 @@
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_12__canada_neurips2019.jpg" alt="Sample photo">
-  <p style="text-align:center">NeurIPS 2019. <br> Vancouver, Canada. <br> 2019 December.</p>
+  <p style="text-align:center">Poster presentation at LXAI workshop at NeurIPS 2019. <br> Vancouver, Canada. <br> 2019 December.</p>
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_06__usa_icml2010.jpg" alt="Sample photo">
