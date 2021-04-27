@@ -34,19 +34,19 @@
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2017_03__poland_naorobot.jpg" alt="Sample photo">
-  <p style="text-align:center">The Attomium. <br> Brussels, Belgium. <br> 2020 March.</p>
+  <p style="text-align:center">Nao HUmanoid Robot. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2017_03__poland_informatyk.jpg" alt="Sample photo">
-  <p style="text-align:center">The Attomium. <br> Brussels, Belgium. <br> 2020 March.</p>
+  <p style="text-align:center">Informatyk Faculty. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2013_10__peru_robot2.jpg" alt="Sample photo">
-  <p style="text-align:center">The Attomium. <br> Brussels, Belgium. <br> 2020 March.</p>
+  <p style="text-align:center">Summo robot. <br> Lima, Peru. <br> 2013 October.</p>
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2013_10__peru_robot1.jpg" alt="Sample photo">
-  <p style="text-align:center">The Attomium. <br> Brussels, Belgium. <br> 2020 March.</p>
+  <p style="text-align:center">Summo robot. <br> Lima, Peru. <br> 2013 October.</p>
 </div>
 </main>
 <!-------------------->
