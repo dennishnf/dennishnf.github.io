@@ -9,10 +9,6 @@
   <p style="text-align:center">The Attomium. <br> Brussels, Belgium. <br> 2020 March.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2020_03__belgium_attomium.jpg" alt="Sample photo">
-  <p style="text-align:center">The Attomium. <br> Brussels, Belgium. <br> 2020 March.</p>
-</div>
-<div class="oneThird">
   <img src="https://dennishnf.com/gallery/2020_02__italy_sister.jpg" alt="Sample photo">
   <p style="text-align:center">The Attomium. <br> Brussels, Belgium. <br> 2020 March.</p>
 </div>
