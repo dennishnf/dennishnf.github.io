@@ -73,6 +73,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <h2>News and updates</h2>
 <p>
 <ul>
+<li>2021 Apr - Considered as part of the 2021 IEEE INTERCON program committee, as paper reviewer.</li>
 <li>2021 Apr - <a href="https://probabilistic.ai/" target="_blank">Pleased to have been accepted to participate in the Nordic Probabilistic AI School (ProbAI) 2021</a>.</li>
 <li>2021 Apr - Glad to attend the DLI workshop "Applications of AI for Anomaly Detection" at NVIDIA GTC 2021.</li>
 <li>2021 Apr - Winner of a D&I registration grant for the EACL 2021, one of the best conferences in NLP.</li>
