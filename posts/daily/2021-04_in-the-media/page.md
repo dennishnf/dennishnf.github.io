@@ -8,5 +8,5 @@
 ![image](/posts/daily/2021-04_in-the-media/2019_11_03__peru_tvperu.png){480}!
 <p style="text-align:center;"><i>Interview with the project leader, Dr. Mirko Zimic about a project developed in the Bioinformatics laboratory <br> 2019 Dec 14. Peru</i></p>
 
-![image](/posts/daily/2021-04_in-the-media/2019_06_03__peru_andina.png){480}!
+![image](/posts/daily/2021-04_in-the-media/2019_06_03__peru_andina.png){540}!
 <p style="text-align:center;"><i>Publication at "Andina" about a project developed in the Bioinformatics laboratory [[https://andina.pe/agencia/noticia-adios-a-las-agujas-ahora-un-celular-podra-diagnosticarse-anemia-video-754243.aspx](Link)!] <br> 2019 Dec 14. Peru</i></p>
