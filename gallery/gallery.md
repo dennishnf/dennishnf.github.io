@@ -82,7 +82,7 @@
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2013_04__peru_talkieeeuni.jpg" alt="Sample photo">
-  <p style="text-align:center">Giving a talking on neural networks at FIEE UNI. <br> Lima, Peru. <br> 2013 April.</p>
+  <p style="text-align:center">Giving a talk on neural networks at FIEE UNI. <br> Lima, Peru. <br> 2013 April.</p>
 </div>
 </main>
 <!-------------------->
