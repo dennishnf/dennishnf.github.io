@@ -4,7 +4,7 @@
 By: ```Dennis Núñez Fernández```, ```January 2021```.
 
 
-My start in AI projects began when I was in the last years of college, I became interested in Artificial Neural Networks, Signal Processing and Digital Systems. In addition to my undergraduate courses, I took some external courses in Control using Fuzzy Logic and Neural Networks, where I learned the basics of these areas.
+My start in AI projects began when I was in the last years of my university studies, I became interested in Artificial Neural Networks, Signal Processing and Digital Systems. In addition to my undergraduate courses, I took some external courses in Control using Fuzzy Logic and Neural Networks, where I learned the basics of these areas.
 
 After finishing my university studies, and concluding my English studies I applied for a 6 month internship funded by UNESCO and the Government of Poland since there was an area that caught my attention within what they offered: Computer Vision, I applied and within a month my application was accepted. A few months later, in October 2016, I traveled to Poland where I conducted a research project on Deep Learning for hand gesture recognition and trying to optimize computational resources, using Gabor filters. At the end of the project we were able to publish a scientific paper in a leading Ibero-American conference on Artificial Intelligence: CIARP.
 
