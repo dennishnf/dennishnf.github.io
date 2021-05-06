@@ -46,7 +46,7 @@
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_06_10__usa_lxaiicml20192.jpg">
-  <p style="text-align:center">Peruvian group at the LXAI at ICML 2019. <br> Long Beach, USA. <br> 2019 June.</p>
+  <p style="text-align:center">Peruvian group at the LXAI workshop at ICML 2019. <br> Long Beach, USA. <br> 2019 June.</p>
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_06_10__usa_lxaiicml20191.jpg">
