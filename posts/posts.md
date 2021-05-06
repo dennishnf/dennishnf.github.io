@@ -86,7 +86,7 @@
 <h3>Daily Posts</h3>
 <ul>
 <li>2021 Apr - <a href="/posts/daily/2021-04_in-the-media/page.html">In the News and Media</a></li>
-<li>2021 Jan - <a href="/posts/daily/2021-01_how-i-started-in-ai/page.html">How I started in AI</a></li>
+<li>2021 Jan - <a href="/posts/daily/2021-01_how-i-started-in-ai/page.html">How I started in research and development in AI/ML</a></li>
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->

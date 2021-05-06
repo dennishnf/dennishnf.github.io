@@ -1,5 +1,5 @@
 
-## Hoew I started in AI ##
+## How I started in research and development in AI/ML ##
 
 By: ```Dennis Núñez Fernández```, ```May 2021```.
 
