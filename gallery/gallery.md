@@ -93,6 +93,10 @@
   <p style="text-align:center">Closing ceremony of the UNESCO Fellowship. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
 <div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2017_01_19__germany_trip.jpg">
+  <p style="text-align:center">Brandenburger Tor. <br> Berlin, Germany. <br> 2017 January.</p>
+</div>
+<div class="oneThird">
   <img src="https://dennishnf.com/gallery/2015_08_29__peru_graduation.jpg">
   <p style="text-align:center">Graduation ceremony. <br> Lima, Peru. <br> 2015 August.</p>
 </div>
