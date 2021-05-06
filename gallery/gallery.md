@@ -41,6 +41,10 @@
   <p style="text-align:center">My parents and me. <br> Chota, Peru. <br> 2019 December.</p>
 </div>
 <div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2019_08_21__peru_simbig.jpg">
+  <p style="text-align:center">Paper presentation at SIMBig 2019. <br> Lima, Peru. <br> 2019 August.</p>
+</div>
+<div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_06_14__usa_goldengate.jpg">
   <p style="text-align:center">The Golden Gate Bridge. <br> San Francisco, USA. <br> 2019 June.</p>
 </div>
