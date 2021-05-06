@@ -41,6 +41,10 @@
   <p style="text-align:center">Participating in NeurIPS 2019 (formerly NIPS). <br> Vancouver, Canada. <br> 2019 December.</p>
 </div>
 <div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2019_12_05__peru_bioinfoautism.png">
+  <p style="text-align:center">My parents and me. <br> Lima, Peru. <br> 2019 December.</p>
+</div>
+<div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_12_01__peru_papaschota.jpg">
   <p style="text-align:center">My parents and me. <br> Chota, Peru. <br> 2019 December.</p>
 </div>
