@@ -14,11 +14,11 @@ Later I looked for an opportunity at the Universidad Peruana Cayetano Heredia, m
 
 As part of those projects and for projects that I developed on my own independently I had the opportunity to have one of my papers accepted in the LXAI workshop @ ICML and also to win an ICML travel grant for ICML 2019. I presented the abstact paper of what I did in Poland. At that conference I was able to meet several Latin guys involved in AI/ML, which was very motivating for me.
 
-Subsequently, and thanks to that ICML 2019 experience, I sent independent papers to conferences such as INTERCON and SIMBig. I also sent UPCH papers to workshops at NeurIPS 2019 and ICML 2020. Most of those papers were successfully accepted and exhibited. I also had the opportunity to win a travel grant from LXAI for NeurIPS 2019. 
+Subsequently, and thanks to that ICML 2019 experience, I sent independent papers to conferences such as INTERCON and SIMBig. I also sent UPCH papers to workshops at NeurIPS 2019 and ICML 2020. Most of those papers were successfully accepted and exhibited. I also had the opportunity to win a travel grant from LXAI for NeurIPS 2019.
 
 Subsequently, I won a Fondecyt grant to do an internship in Italy, in the laboratory of Dr. Lamberto Ballan, at the University of Padua. The work was successfully developed and the results were accepted for an oral presentation at an ICML 2020 workshop. After finishing the internship I was accepted and won a scholarship to the Pi School of AI, where we had lectures about AI and developed a project for a company, the project was related to automatic text summarization using BERT models. At the same time I was applying to be a paper reviewer for LXAI workshops, and I was invited to review papers for national conferences such as INTERCON.
 
-After that I had the opportunity to participate in important summer schools such as Lisbon Machine Learning School LxMLS 2020 and Cornell, Maryland, Max Planck Pre-doctoral School 2020. At the end of 2020, I was accepted for the 'Program in Data Science & Global Skills' which is organized by Aporta and MIT, in this program I was able to learn a lot about the basics of Machine Learning and Data Science.  
+After that I had the opportunity to participate in important summer schools such as Lisbon Machine Learning School LxMLS 2020 and Cornell, Maryland, Max Planck Pre-doctoral School 2020. At the end of 2020, I was accepted for the 'Program in Data Science & Global Skills' which is organized by Aporta and MIT, in this program I was able to learn a lot about the basics of Machine Learning and Data Science.
 
 <!--
 
