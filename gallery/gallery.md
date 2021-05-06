@@ -17,12 +17,12 @@
   <p style="text-align:center">The Attomium. <br> Brussels, Belgium. <br> 2020 March.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2020_02__italy_sister.jpg" alt="Sample photo">
-  <p style="text-align:center">My sister and me. <br> Venice, Italy. <br> 2020 February.</p>
-</div>
-<div class="oneThird">
   <img src="https://dennishnf.com/gallery/2020_02__france_eiffel.jpg" alt="Sample photo">
   <p style="text-align:center">The Eiffel Tower. <br> Paris, France. <br> 2020 February.</p>
+</div>
+<div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2020_02__italy_sister.jpg" alt="Sample photo">
+  <p style="text-align:center">My sister and me. <br> Venice, Italy. <br> 2020 February.</p>
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2020_01__switzerland_zurich.jpg" alt="Sample photo">
