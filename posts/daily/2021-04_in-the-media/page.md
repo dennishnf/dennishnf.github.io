@@ -5,28 +5,7 @@
 By: ```Dennis Núñez Fernández```, ```January 2020```.
 
 
-Machines will not replace physicians, but physicians using AI will soon replace those not using iAI will not affect the works, on the contrary, it will give opportunity to advance more in science and technology, due to creativity. This means that AI will create new areas to work in, as the development and the work itself with AI will demand the creation of new professions.
+- https://larepublica.pe/sociedad/2019/12/14/google-proyecto-peruano-que-busca-detectar-a-tiempo-el-autismo-en-ninos-fue-premiado-universidad-peruana-cayetano-heredia-investigacion-rddr/
 
 
-<!--
-
-La Inteligencia Artificial no afectará a las obras, al contrario, dará oportunidad de avanzar más en ciencia y la tecnología, debido a la creatividad. Lo anterior significa que la IA creará nuevas áreas en las que trabajar, ya que el desarrollo y el propio trabajo con AI demandará la creación de nuevas profesiones.
-
-La Inteligencia Artificial también brindará mejores herramientas para que los profesionales puedan trabajar y relizar mejores progresos. Una frase que recojo y la cual es una de mis favoritas es la siguiente: "Machines will not replace physicians, but physicians using AI will soon replace those not using it".
-
--->
-
-### References ###
-
-<!--
-
-[1] ...
-
-[2] ...
-
-[3] ...
-
-[4] ...
-
--->
 
