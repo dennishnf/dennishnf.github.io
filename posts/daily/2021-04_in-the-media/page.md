@@ -2,7 +2,7 @@
 ## In the Media and News ##
 ## //in process// ##
 
-By: ```Dennis Núñez Fernández```, ```January 2020```.
+By: ```Dennis Núñez Fernández```, ```January 2021```.
 
 
 - [https://larepublica.pe/sociedad/2019/12/14/google-proyecto-peruano-que-busca-detectar-a-tiempo-el-autismo-en-ninos-fue-premiado-universidad-peruana-cayetano-heredia-investigacion-rddr/](https://larepublica.pe/sociedad/2019/12/14/google-proyecto-peruano-que-busca-detectar-a-tiempo-el-autismo-en-ninos-fue-premiado-universidad-peruana-cayetano-heredia-investigacion-rddr/)!.
