@@ -58,7 +58,7 @@
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2017_03_30__poland_supervisor.jpg">
-  <p style="text-align:center">My advisor in AGH UST and me. <br> Krakow, Poland. <br> 2017 March.</p>
+  <p style="text-align:center">My AGH UST advisor and me. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2017_03_30__poland_naorobot.jpg">
