@@ -65,10 +65,6 @@
   <p style="text-align:center">Nao Humanoid Robot. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2017_03_30__poland_mylab.jpg">
-  <p style="text-align:center">My working lab, AGH UST. <br> Krakow, Poland. <br> 2017 March.</p>
-</div>
-<div class="oneThird">
   <img src="https://dennishnf.com/gallery/2017_03_30__poland_informatyk.jpg">
   <p style="text-align:center">Faculty of Computer Science and Electronics, AGH UST. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
