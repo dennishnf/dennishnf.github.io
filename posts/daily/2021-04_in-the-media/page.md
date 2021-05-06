@@ -1,6 +1,5 @@
 
 ## In the Media and News ##
-## //in process// ##
 
 By: ```Dennis Núñez Fernández```, ```January 2021```.
 
