@@ -42,7 +42,7 @@
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_12_05__peru_bioinfoautism.png">
-  <p style="text-align:center">My parents and me. <br> Lima, Peru. <br> 2019 December.</p>
+  <p style="text-align:center">Working group of a 2019 LARA project, UPCH. <br> Lima, Peru. <br> 2019 December.</p>
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_12_01__peru_papaschota.jpg">
