@@ -1,5 +1,5 @@
 
-## In the Media and News ##
+## Mentions in the press and in the media ##
 
 <br>
 ![image](/posts/daily/2021-04_in-the-media/2019_12_14__peru_republica.png){540}!
