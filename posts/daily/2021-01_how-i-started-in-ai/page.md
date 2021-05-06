@@ -4,9 +4,9 @@
 By: ```Dennis Núñez Fernández```, ```January 2021```.
 
 
-My start in AI projects began when I was in the last years of college, I became interested in Artificial Neural Networks, Signal Processing and Digital Systems. I got a diploma in Control Using Fuzzy Logic and Neural Networks, where I learned the basics of these areas.
+My start in AI projects began when I was in the last years of college, I became interested in Artificial Neural Networks, Signal Processing and Digital Systems. In addition to my undergraduate courses, I took some external courses in Control using Fuzzy Logic and Neural Networks, where I learned the basics of these areas.
 
-After finishing college, and concluding my English studies I applied for a 6 month internship funded by UNESCO and the Government of Poland since there was an area that caught my attention within what they offered: Computer Vision, I applied and within a month my application was accepted. A few months later, in October 2016, I traveled to Poland where I conducted a research project on Deep Learning for hand gesture recognition and trying to optimize computational resources, using Gabor filters. At the end of the project we were able to publish a scientific paper in a leading Ibero-American conference on Artificial Intelligence: CIARP.
+After finishing my university studies, and concluding my English studies I applied for a 6 month internship funded by UNESCO and the Government of Poland since there was an area that caught my attention within what they offered: Computer Vision, I applied and within a month my application was accepted. A few months later, in October 2016, I traveled to Poland where I conducted a research project on Deep Learning for hand gesture recognition and trying to optimize computational resources, using Gabor filters. At the end of the project we were able to publish a scientific paper in a leading Ibero-American conference on Artificial Intelligence: CIARP.
 
 Returning to Peru, in 2017, I started to carry out projects on my own as an independent researcher and related to what I did in Poland. The results of these works were sent to national conferences such as INTERCON, which helped me to soak a little more into the research.
 
@@ -22,7 +22,7 @@ After that I had the opportunity to participate in important summer schools such
 
 <!--
 
-Mi inicio en proyectos de AI inició cuando estaba en los últimos años de la universidad, me comenzé a interesar en Redes Neuronales Artificiales, Procesamiento de Señales y Sistemas Digitales. Me metí a un diplomado en Control Usando Lógica Difusa y Redes Neuronales, en donde aprendí lo básico de dichas áres.
+Mi inicio en proyectos de AI inició cuando estaba en los últimos años de la universidad, me comenzé a interesar en Redes Neuronales Artificiales, Procesamiento de Señales y Sistemas Digitales. Adicionalmente a mis curso de pregrado, llevé cursos en Control usando Lógica Difusa y Redes Neuronales, en donde aprendí lo básico de dichas áres.
 
 Acabando la universidad, y concluyendo mis estudios de inglés apliqué a una pasantía de 6 meses financiado por UNESCO y el Gobierno de Polonia ya que había un área que me llamaba la atención dentro de lo que ofrecian: Computer Vision, postulé y al mes me aceptaron mi aplicación. Unos meses mas tarde, en octubre del 2016, viajé a Polonia en donde realizé un proyecto de investigación sobre Deep Learning para el recononcimiento de gestos con la mano y tratando de optimizar recursos computacionales, usando para eso filtros de Gabor. Al finalizar el proyecto pudimos publicar un artículo científico en una destacada conferencia iberoamericana de Inteligencia Artificial: CIARP.
 
