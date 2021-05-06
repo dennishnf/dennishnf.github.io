@@ -42,7 +42,7 @@
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_08_21__peru_simbig.jpg">
-  <p style="text-align:center">Paper presentation at SIMBig 2019. <br> Lima, Peru. <br> 2019 August.</p>
+  <p style="text-align:center">Oral paper presentation at SIMBig 2019. <br> Lima, Peru. <br> 2019 August.</p>
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_06_14__usa_goldengate.jpg">
