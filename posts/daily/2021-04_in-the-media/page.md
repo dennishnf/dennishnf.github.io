@@ -10,5 +10,5 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
 ![image](/posts/daily/2021-04_in-the-media/2019_11_03__peru_tvperu.png){480}!
 <p style="text-align:center;"><i>Interview with the project leader, Dr. Mirko Zimic about a project developed in the Bioinformatics laboratory. <br> 2019 Dec 14. Peru</i></p>
 
-![image](/posts/daily/2021-04_in-the-media/2019_12_14__peru_republica.png){480}!
+![image](/posts/daily/2021-04_in-the-media/2019_12_14__peru_republica.png){540}!
 <p style="text-align:center;"><i>Publication at La República. <br> 2019 Dec 14. Peru</i></p>
