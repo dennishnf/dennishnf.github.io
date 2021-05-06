@@ -17,7 +17,7 @@
   <p style="text-align:center">The Attomium. <br> Brussels, Belgium. <br> 2020 March.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2020_02__france_eiffel.jpg">
+  <img src="https://dennishnf.com/gallery/2020_02_15__france_eiffel.jpg">
   <p style="text-align:center">The Eiffel Tower. <br> Paris, France. <br> 2020 February.</p>
 </div>
 <div class="oneThird">
