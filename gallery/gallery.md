@@ -29,6 +29,10 @@
   <p style="text-align:center">Walking around Zurich. <br> Zurich, Switzerland. <br> 2020 January.</p>
 </div>
 <div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2019_12_13__peru_bioinfogroup.jpg">
+  <p style="text-align:center">Group photo of the Bioinformatics Lab at UPCH. <br> Lima, Peru. <br> 2019 December.</p>
+</div>
+<div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_12_10__canada_lxaineurips2019.jpg">
   <p style="text-align:center">Poster presentation at LXAI workshop at NeurIPS 2019. <br> Vancouver, Canada. <br> 2019 December.</p>
 </div>
