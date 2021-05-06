@@ -62,7 +62,7 @@
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2017_03_30__poland_informatyk.jpg">
-  <p style="text-align:center">Informatyk Faculty. <br> Krakow, Poland. <br> 2017 March.</p>
+  <p style="text-align:center">Faculty of Computer Science and Electronics, AGH UST. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2017_03_27__poland_unesco.jpg">
