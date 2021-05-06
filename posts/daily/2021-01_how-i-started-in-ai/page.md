@@ -20,7 +20,6 @@ Subsequently, I won a Fondecyt grant to do an internship in Italy, in the labora
 
 After that I had the opportunity to participate in important summer schools such as Lisbon Machine Learning School LxMLS 2020 and Cornell, Maryland, Max Planck Pre-doctoral School 2020. At the end of 2020, I was accepted for the 'Program in Data Science & Global Skills' which is organized by Aporta and MIT, in this program I was able to learn a lot about the basics of Machine Learning and Data Science.  
 
-
 <!--
 
 Mi inicio en proyectos de AI inició cuando estaba en los últimos años de la universidad, me comenzé a interesar en Redes Neuronales Artificiales, Procesamiento de Señales y Sistemas Digitales. Me metí a un diplomado en Control Usando Lógica Difusa y Redes Neuronales, en donde aprendí lo básico de dichas áres.
@@ -41,8 +40,7 @@ Luego de ello tuve la oportunidad de particiapar en improtantes summer schools c
 
 -->
 
-
-## References ##
+### References ###
 
 [1] [https://www.latinxinai.org/](Latinx in AI)!.
 
