@@ -41,47 +41,47 @@
   <p style="text-align:center">My parents and me. <br> Chota, Peru. <br> 2019 December.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_06__usa_goldengate.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2019_06_14__usa_goldengate.jpg" alt="Sample photo">
   <p style="text-align:center">The Golden Gate Bridge. <br> San Francisco, USA. <br> 2019 June.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_06__usa_lxaiicml20192.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2019_06_10__usa_lxaiicml20192.jpg" alt="Sample photo">
   <p style="text-align:center">Peruvian group at the LXAI at ICML 2019. <br> Long Beach, USA. <br> 2019 June.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_06__usa_lxaiicml20191.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2019_06_10__usa_lxaiicml20191.jpg" alt="Sample photo">
   <p style="text-align:center">Poster presentation at LXAI workshop at ICML 2019. <br> Long Beach, USA. <br> 2019 June.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_06__usa_icml2019.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2019_06_10__usa_icml2019.jpg" alt="Sample photo">
   <p style="text-align:center">The ICML 2019 conference. <br> Long Beach, USA. <br> 2019 June.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2017_03__poland_unesco.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2017_03_27__poland_unesco.jpg" alt="Sample photo">
   <p style="text-align:center">Closing ceremony of the UNESCO Fellowship. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2017_03__poland_naorobot.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2017_03_30__poland_naorobot.jpg" alt="Sample photo">
   <p style="text-align:center">Nao Humanoid Robot. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2017_03__poland_informatyk.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2017_03_30__poland_informatyk.jpg" alt="Sample photo">
   <p style="text-align:center">Informatyk Faculty. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2015_08__peru_graduation.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2015_08_29__peru_graduation.jpg" alt="Sample photo">
   <p style="text-align:center">Graduation ceremony. <br> Lima, Peru. <br> 2015 August.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2013_10__peru_robot2.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2013_10_08__peru_robot2.jpg" alt="Sample photo">
   <p style="text-align:center">Summo robot. <br> Lima, Peru. <br> 2013 October.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2013_10__peru_robot1.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2013_10_08__peru_robot1.jpg" alt="Sample photo">
   <p style="text-align:center">Summo robot. <br> Lima, Peru. <br> 2013 October.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2013_04__peru_talkieeeuni.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2013_04_13__peru_talkieeeuni.jpg" alt="Sample photo">
   <p style="text-align:center">Giving a talk on neural networks at FIEE UNI. <br> Lima, Peru. <br> 2013 April.</p>
 </div>
 </main>
