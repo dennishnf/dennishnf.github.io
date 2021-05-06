@@ -45,6 +45,10 @@
   <p style="text-align:center">The Golden Gate Bridge. <br> San Francisco, USA. <br> 2019 June.</p>
 </div>
 <div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2019_06_10__usa_lxaiicml20193.jpg">
+  <p style="text-align:center">Group photo at the LXAI workshop at ICML 2019. <br> Long Beach, USA. <br> 2019 June.</p>
+</div>
+<div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_06_10__usa_lxaiicml20192.jpg">
   <p style="text-align:center">Peruvian group at the LXAI workshop at ICML 2019. <br> Long Beach, USA. <br> 2019 June.</p>
 </div>
