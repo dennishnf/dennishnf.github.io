@@ -65,6 +65,10 @@
   <p style="text-align:center">The ICML 2019 conference. <br> Long Beach, USA. <br> 2019 June.</p>
 </div>
 <div class="oneThird">
+  <img src="https://dennishnf.com/gallery/2019_05_31__peru_innovateperu.jpg">
+  <p style="text-align:center">Talking at the event 'Innova como ellos'. <br> Lima, Peru. <br> 2019 May.</p>
+</div>
+<div class="oneThird">
   <img src="https://dennishnf.com/gallery/2017_03_30__poland_supervisor.jpg">
   <p style="text-align:center">My fellowship advisor in AGH UST and me. <br> Krakow, Poland. <br> 2017 March.</p>
 </div>
