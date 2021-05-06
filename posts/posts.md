@@ -83,9 +83,18 @@
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->
+<h3>Daily Posts</h3>
+<ul>
+<li>2021 Apr - <a href="/posts/daily/2021-04_in-the-media/page.html">In the News and Media</a></li>
+<li>2021 Jan - <a href="/posts/daily/2021-01_how-i-started-in-ai/page.html">How I started in AI</a></li>
+</ul>
+<!-- ----------------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------------- -->
 <h3>Some of my own articles</h3>
 <ul>
-<!-- <li>2019 Jun - <a href="/posts/writtings/short-history-a-specie-called-humans-against-natural-evolution/page.html">Short history: A specie called Humans against natural evolution</a></li> -->
+<!-- <li>2019 Jun - <a href="/posts/articles/short-history-a-specie-called-humans-against-natural-evolution/page.html">Short history: A specie called Humans against natural evolution</a></li> -->
 <li>2019 Jun - <a href="/posts/articles/2019-06_human-being-and-their-vulnerable-existence/page.html">The human being and their vulnerable existence</a></li>
 <li>2019 Jun - <a href="/posts/articles/2019-06_the-importance-of-education-in-the-world/page.html">The importance of Education in the World</a></li>
 <li>2019 Jun - <a href="/posts/articles/2019-06_future-of-human-machine-interaction/page.html">How could be the future of Human-Machine interaction?</a></li>
