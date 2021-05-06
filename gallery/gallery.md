@@ -34,7 +34,7 @@
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_12_08__canada_neurips2019.jpg">
-  <p style="text-align:center">Participating in NeurIPS (formerly NIPS) 2019. <br> Vancouver, Canada. <br> 2019 December.</p>
+  <p style="text-align:center">Participating in NeurIPS 2019 (formerly NIPS). <br> Vancouver, Canada. <br> 2019 December.</p>
 </div>
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2019_12_01__peru_papaschota.jpg">
