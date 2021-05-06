@@ -41,6 +41,7 @@ Luego de ello tuve la oportunidad de particiapar en improtantes summer schools c
 
 -->
 
+
 ### References ###
 
 [1] [https://www.latinxinai.org/](Latinx in AI)!.
