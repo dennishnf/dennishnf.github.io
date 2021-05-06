@@ -5,15 +5,15 @@
 <!-------------------->
 <main class="grid">
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2021_04__peru_chota2.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2021_04_13__peru_chota2.jpg" alt="Sample photo">
   <p style="text-align:center">My hometown, Chota. <br> Chota, Peru. <br> 2021 April.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2021_04__peru_chota1.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2021_04_13__peru_chota1.jpg" alt="Sample photo">
   <p style="text-align:center">My hometown, Chota. <br> Chota, Peru. <br> 2021 April.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2020_03__belgium_attomium.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2020_03_07__belgium_attomium.jpg" alt="Sample photo">
   <p style="text-align:center">The Attomium. <br> Brussels, Belgium. <br> 2020 March.</p>
 </div>
 <div class="oneThird">
@@ -21,23 +21,23 @@
   <p style="text-align:center">The Eiffel Tower. <br> Paris, France. <br> 2020 February.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2020_02__italy_sister.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2020_02_20__italy_sister.jpg" alt="Sample photo">
   <p style="text-align:center">My sister and me. <br> Venice, Italy. <br> 2020 February.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2020_01__switzerland_zurich.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2020_01_04__switzerland_zurich.jpg" alt="Sample photo">
   <p style="text-align:center">Walking around Zurich. <br> Zurich, Switzerland. <br> 2020 January.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_12__canada_neurips2019.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2019_12_08__canada_neurips2019.jpg" alt="Sample photo">
   <p style="text-align:center">Participating at the NeurIPS 2019. <br> Vancouver, Canada. <br> 2019 December.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_12__canada_lxaineurips2019.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2019_12_10__canada_lxaineurips2019.jpg" alt="Sample photo">
   <p style="text-align:center">Poster presentation at LXAI workshop at NeurIPS 2019. <br> Vancouver, Canada. <br> 2019 December.</p>
 </div>
 <div class="oneThird">
-  <img src="https://dennishnf.com/gallery/2019_12__peru_papaschota.jpg" alt="Sample photo">
+  <img src="https://dennishnf.com/gallery/2019_12_01__peru_papaschota.jpg" alt="Sample photo">
   <p style="text-align:center">My parents and me. <br> Chota, Peru. <br> 2019 December.</p>
 </div>
 <div class="oneThird">
