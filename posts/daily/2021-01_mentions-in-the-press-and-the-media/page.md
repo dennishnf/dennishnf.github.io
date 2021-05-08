@@ -21,7 +21,7 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
 
 
 
-
+<p>
 <p>
 <div>
     <div style="float:left;margin-right:5px;">
@@ -41,5 +41,6 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
         <p style="text-align:center;">This is image 2</p>
     </div>
 </div>
+</p>
 </p>
 
