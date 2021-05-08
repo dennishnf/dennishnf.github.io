@@ -44,11 +44,11 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
 
 <div class="row">
     <div style="float:left;margin-right:5px;">
-        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_12_14__peru_republica_.png" height="200" width="200"  />
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_12_14__peru_republica_.png" height="300" width="400"  />
         <p style="text-align:center;">This is image 1</p>
     </div>
     <div style="float:left;margin-right:5px;">
-        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_11_20__peru_tvperu_.png" height="200" width="200" />
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_11_20__peru_tvperu_.png" height="300" width="400" />
         <p style="text-align:center;">This is image 2</p>
     </div>
 </div>
@@ -56,11 +56,11 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
 
 <div class="row">
     <div style="float:left;margin-right:5px;">
-        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_11_03__peru_tvperu_.png" height="200" width="200"  />
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_11_03__peru_tvperu_.png" height="300" width="400"  />
         <p style="text-align:center;">This is image 1</p>
     </div>
     <div style="float:left;margin-right:5px;">
-        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_06_03__peru_andina_.png" height="200" width="200" />
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_06_03__peru_andina_.png" height="300" width="400" />
         <p style="text-align:center;">This is image 2</p>
     </div>
 </div>
