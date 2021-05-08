@@ -61,6 +61,6 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
     </div>
     <div style="float:left;margin-right:5px;">
         <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_06_03__peru_andina_.png" height="280" width="360" />
-        <p style="text-align:center;">Publication in "Andina" about a project developed in the Bioinformatics laboratory [[https://andina.pe/agencia/noticia-adios-a-las-agujas-ahora-un-celular-podra-diagnosticarse-anemia-video-754243.aspx](Link)!] <br> 2019 June 03. Peru<</p>
+        <p style="text-align:center;">Publication in "Andina" about a project developed in the Bioinformatics laboratory [[https://andina.pe/agencia/noticia-adios-a-las-agujas-ahora-un-celular-podra-diagnosticarse-anemia-video-754243.aspx](Link)!] <br> 2019 June 03. Peru</p>
     </div>
 </div>
