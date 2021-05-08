@@ -42,6 +42,36 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
 
 
 
+
+
+<div class="row">
+    <div style="float:left;margin-right:5px;">
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_12_14__peru_republica_.png" height="280" width="365"  />
+        <p style="text-align:center;">This is image 1</p>
+    </div>
+    <div style="float:left;margin-right:5px;">
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_11_20__peru_tvperu_.png" height="280" width="365" />
+        <p style="text-align:center;">This is image 2</p>
+    </div>
+</div>
+
+
+<div class="row">
+    <div style="float:left;margin-right:5px;">
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_11_03__peru_tvperu_.png" height="280" width="365"  />
+        <p style="text-align:center;">This is image 1</p>
+    </div>
+    <div style="float:left;margin-right:5px;">
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_06_03__peru_andina_.png" height="280" width="365" />
+        <p style="text-align:center;">This is image 2</p>
+    </div>
+</div>
+
+
+
+
+
+
 <div class="row">
     <div style="float:left;margin-right:5px;">
         <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_12_14__peru_republica_.png" height="280" width="360"  />
@@ -64,3 +94,5 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
         <p style="text-align:center;">Publication in "Andina" about a project developed in the Bioinformatics laboratory [[https://andina.pe/agencia/noticia-adios-a-las-agujas-ahora-un-celular-podra-diagnosticarse-anemia-video-754243.aspx](Link)!] <br> 2019 June 03. Peru</p>
     </div>
 </div>
+
+
