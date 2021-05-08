@@ -27,7 +27,7 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
         <p style="text-align:center;">This is image 1</p>
     </div>
     <div style="float:left;margin-right:5px;">
-        <img class="middle-img" src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_11_20__peru_tvperu_.png" height="200" width="200" />
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_11_20__peru_tvperu_.png" height="200" width="200" />
         <p style="text-align:center;">This is image 2</p>
     </div>
     <div style="float:left;margin-right:5px;">
@@ -35,7 +35,7 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
         <p style="text-align:center;">This is image 1</p>
     </div>
     <div style="float:left;margin-right:5px;">
-        <img class="middle-img" src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_06_03__peru_andina_.png" height="200" width="200" />
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_06_03__peru_andina_.png" height="200" width="200" />
         <p style="text-align:center;">This is image 2</p>
     </div>
 </div>
