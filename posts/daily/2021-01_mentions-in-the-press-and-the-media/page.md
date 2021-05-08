@@ -40,3 +40,27 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
     </div>
 </div>
 
+
+
+<div class="row">
+    <div style="float:left;margin-right:5px;">
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_12_14__peru_republica_.png" height="200" width="200"  />
+        <p style="text-align:center;">This is image 1</p>
+    </div>
+    <div style="float:left;margin-right:5px;">
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_11_20__peru_tvperu_.png" height="200" width="200" />
+        <p style="text-align:center;">This is image 2</p>
+    </div>
+</div>
+
+
+<div class="row">
+    <div style="float:left;margin-right:5px;">
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_12_14__peru_republica_.png" height="200" width="200"  />
+        <p style="text-align:center;">This is image 1</p>
+    </div>
+    <div style="float:left;margin-right:5px;">
+        <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_11_20__peru_tvperu_.png" height="200" width="200" />
+        <p style="text-align:center;">This is image 2</p>
+    </div>
+</div>
