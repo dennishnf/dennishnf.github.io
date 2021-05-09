@@ -104,7 +104,7 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
 <p> 
 <div class="row">
 <!-------------------->
-<main class="grid">
+<main class="grid2">
 <div class="oneThird">
   <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_12_14__peru_republica_.png" height="280" width="360"  />
   <p style="text-align:center;">Publication in "La República" about a project developed in the Bioinformatics laboratory [[https://larepublica.pe/sociedad/2019/12/14/google-proyecto-peruano-que-busca-detectar-a-tiempo-el-autismo-en-ninos-fue-premiado-universidad-peruana-cayetano-heredia-investigacion-rddr/](Link)!] <br> 2019 December 14. Peru</p>

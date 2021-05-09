@@ -3,7 +3,7 @@
 <p> 
 <div class="row">
 <!-------------------->
-<main class="grid">
+<main class="grid4">
 <div class="oneThird">
   <img src="https://dennishnf.com/gallery/2021_04_13__peru_chota2_.jpg">
   <p style="text-align:center">My hometown, Chota. <br> Chota, Peru. <br> 2021 April.</p>
