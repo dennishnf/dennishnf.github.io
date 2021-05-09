@@ -491,12 +491,12 @@ clear: both;
   align-items: center;
   justify-items: center;
   }
-.grid img {
+.grid4 img {
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   max-width: 100%;
 }
-.grid video {
+.grid4 video {
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   max-width: 100%;
@@ -515,12 +515,12 @@ clear: both;
   align-items: center;
   justify-items: center;
   }
-.grid img {
+.grid2 img {
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   max-width: 100%;
 }
-.grid video {
+.grid2 video {
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   max-width: 100%;
