@@ -101,7 +101,9 @@ By: ```Dennis Núñez Fernández```, ```January 2021```.
 
 
 
-
+<p> 
+<div class="row">
+<!-------------------->
 <main class="grid">
 <div class="oneThird">
   <img src="https://dennishnf.github.io/posts/daily/2021-01_mentions-in-the-press-and-the-media/2019_12_14__peru_republica_.png" height="280" width="360"  />
