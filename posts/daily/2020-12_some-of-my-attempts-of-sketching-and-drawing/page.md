@@ -18,7 +18,7 @@ By: ```Dennis Núñez Fernández```, ```December 2020```.
   <p style="text-align:center;">Publication in "La República" about a project developed in the Bioinformatics laboratory</p></div>
 <div class="oneBoxx">
   <img src="https://dennishnf.github.io/posts/daily/2020-12_some-of-my-attempts-of-sketching-and-drawing/image1_.jpg">
-  <p style="text-align:center;">Publication in "La República" about a project developed in the Bioinformatics laboratory</p>
+  <p style="text-align:center;">Drawing of the Earth captured from the </p>
 </div>
 <div class="oneBoxx">
   <img src="https://dennishnf.github.io/posts/daily/2020-12_some-of-my-attempts-of-sketching-and-drawing/image1_.jpg">
