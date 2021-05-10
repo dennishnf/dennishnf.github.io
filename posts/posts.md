@@ -87,7 +87,7 @@
 <ul>
 <li>2021 Apr - <a href="/posts/daily/2021-04_how-i-started-in-research-development-in-ai-ml/page.html">How I started in research and development in AI/ML</a></li>
 <li>2021 Jan - <a href="/posts/daily/2021-01_mentions-in-the-press-and-the-media/page.html">Mentions in the press and in the media</a></li>
-<li>2020 Dec - <a href="/posts/daily/2020-12_some-of-my-attempts-of-sketches-and-drawings/page.html">Some of my attempts of sketches and drawings</a></li>
+<li>2020 Dec - <a href="/posts/daily/2020-12_some-of-my-attempts-of-sketching-and-drawing/page.html">Some of my attempts of sketching and drawing</a></li>
 </ul>
 <!-- ----------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------- -->

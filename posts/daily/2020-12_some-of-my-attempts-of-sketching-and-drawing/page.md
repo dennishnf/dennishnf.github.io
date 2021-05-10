@@ -1,5 +1,5 @@
 
-## Some of my attempts of sketches and drawings ##
+## some of my attempts of sketching and drawing ##
 
 By: ```Dennis Núñez Fernández```, ```December 2020```.
 
