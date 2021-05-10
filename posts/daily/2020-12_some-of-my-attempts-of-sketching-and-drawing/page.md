@@ -19,7 +19,7 @@ By: ```Dennis Núñez Fernández```, ```December 2020```.
 </div>
 <div class="oneBoxx">
   <img src="https://dennishnf.github.io/posts/daily/2020-12_some-of-my-attempts-of-sketching-and-drawing/image1_.jpg">
-  <p style="text-align:center;">Drawing of my secundary school, 'San Juan' National School, at Chota 2007.</p>
+  <p style="text-align:center;">Drawing of the photo of the Earth, taken by Voyager 1. Everything you know and all of human history is in that pale blue dot.</p>
 </div>
 <div class="oneBoxx">
   <img src="https://dennishnf.github.io/posts/daily/2020-12_some-of-my-attempts-of-sketching-and-drawing/image1_.jpg">
