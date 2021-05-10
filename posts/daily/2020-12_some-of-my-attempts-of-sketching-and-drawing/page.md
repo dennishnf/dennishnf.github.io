@@ -11,14 +11,15 @@ By: ```Dennis Núñez Fernández```, ```December 2020```.
 <main class="grid3">
 <div class="oneBoxx">
   <img src="https://dennishnf.github.io/posts/daily/2020-12_some-of-my-attempts-of-sketching-and-drawing/image1_.jpg">
-  <p style="text-align:center;">Publication in "La República" about a project developed in the Bioinformatics laboratory</p>
+  <p style="text-align:center;">Drawing of my secundary school, 'San Juan' National School, at Chota 2007.</p>
 </div>
 <div class="oneBoxx">
   <img src="https://dennishnf.github.io/posts/daily/2020-12_some-of-my-attempts-of-sketching-and-drawing/image1_.jpg">
-  <p style="text-align:center;">Publication in "La República" about a project developed in the Bioinformatics laboratory</p></div>
+  <p style="text-align:center;">Drawing of my secundary school, 'San Juan' National School, at Chota 2007.</p>
+</div>
 <div class="oneBoxx">
   <img src="https://dennishnf.github.io/posts/daily/2020-12_some-of-my-attempts-of-sketching-and-drawing/image1_.jpg">
-  <p style="text-align:center;">Drawing of the Earth captured from the </p>
+  <p style="text-align:center;">Drawing of my secundary school, 'San Juan' National School, at Chota 2007.</p>
 </div>
 <div class="oneBoxx">
   <img src="https://dennishnf.github.io/posts/daily/2020-12_some-of-my-attempts-of-sketching-and-drawing/image1_.jpg">
