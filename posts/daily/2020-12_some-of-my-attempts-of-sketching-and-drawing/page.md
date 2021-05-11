@@ -5,7 +5,7 @@ By: ```Dennis Núñez Fernández```, ```December 2020```.
 
 <br>
 
-<p> 
+<p>
 <div class="row">
 <!-------------------->
 <main class="grid3">
