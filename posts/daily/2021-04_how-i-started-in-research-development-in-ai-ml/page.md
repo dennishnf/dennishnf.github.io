@@ -42,7 +42,14 @@ Luego de ello tuve la oportunidad de particiapar en improtantes summer schools c
 
 ### References ###
 
-[1] [https://www.latinxinai.org/](Latinx in AI)!.
 
+[1] [https://en.wikipedia.org/wiki/National_University_of_Engineering](Universidad Nacional de Ingeniería (UNI))!.
 
+[2] [https://en.wikipedia.org/wiki/Cayetano_Heredia_University](Universidad Peruana Cayetano Heredia (UPCH))!.
+
+[3] [http://www.unesco.org/new/en/fellowships/programmes/unesco-poland-co-sponsored-fellowships-programme-engineering/](UNESCO/Poland Co-Sponsored Fellowship Programme in Engineering)!.
+
+[4] [https://www.latinxinai.org/](Latinx in AI)!.
+
+[5] [https://picampus-school.com/programme/school-of-ai/](Pi School of Artificial Intelligence)!.
 
