@@ -73,6 +73,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <h2>News and updates</h2>
 <p>
 <ul>
+<li>2021 May - <a href="http://cvpr2021.thecvf.com/" target="_blank">Grateful for winning a 'LatinX in CV' registration grant to attend the prestigious CVPR 2021</a>.</li>
 <li>2021 May - <a href="https://www.eeml.eu/home" target="_blank">Accepted to participate in the Eastern European Machine Learning Summer School (EEML) 2021</a>.</li>
 <li>2021 May - <a href="https://www.latinxinai.org/icml-2021-about" target="_blank">Considered as workshop chair for the LatinX in AI (LXAI) Research Workshop at the ICML 2021</a>.</li>
 <li>2021 Apr - <a href="https://www.latinxinai.org/icml-2021-about" target="_blank">Selected as program committee member (paper reviewer) for the LXAI Workshop at the ICML 2021</a>.</li>
