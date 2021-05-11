@@ -49,7 +49,7 @@ Luego de ello tuve la oportunidad de particiapar en improtantes summer schools c
 
 [3] [http://www.unesco.org/new/en/fellowships/programmes/unesco-poland-co-sponsored-fellowships-programme-engineering/](UNESCO/Poland Co-Sponsored Fellowship Programme in Engineering)!.
 
-[4] [https://www.latinxinai.org/](Latinx in AI)!.
+[4] [https://www.latinxinai.org/](Latinx in AI (LXAI))!.
 
 [5] [https://picampus-school.com/programme/school-of-ai/](Pi School of Artificial Intelligence)!.
 
