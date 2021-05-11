@@ -53,3 +53,9 @@ Luego de ello tuve la oportunidad de particiapar en improtantes summer schools c
 
 [5] [https://picampus-school.com/programme/school-of-ai/](Pi School of Artificial Intelligence)!.
 
+[6] [https://icml.cc/](International Conference on Machine Learning (ICML))!.
+
+[7] [https://nips.cc/](Conference on Neural Information Processing Systems (NeurIPS))!.
+
+[8] [https://iclr.cc/](International Conference on Learning Representations (ICLR))!.
+
