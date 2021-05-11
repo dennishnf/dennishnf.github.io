@@ -2,7 +2,7 @@
 ## How could be the future of Human-Machine interaction? ##
 ## //in process// ##
 
-By: ```Dennis Núñez Fernández```, ```January 2020```.
+By: ```Dennis Núñez-Fernández```, ```January 2020```.
 
 
 What lies beyond the real iterfaces between humans and machines? Could the current interfaces under development be the right way for efficient human-machine interaction?

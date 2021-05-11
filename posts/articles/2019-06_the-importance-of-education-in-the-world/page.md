@@ -2,7 +2,7 @@
 ## The importance of Education in the World ##
 ## //in process// ##
 
-By: ```Dennis Núñez Fernández```, ```January 2020```.
+By: ```Dennis Núñez-Fernández```, ```January 2020```.
 
 
 Civilization, a key word that describe us as human beings, consists of the advanced social and cultual development and organization. In this sense, education helps to study, apply, conserve and trnsmit this development.

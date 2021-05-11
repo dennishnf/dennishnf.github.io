@@ -1,7 +1,7 @@
 
 ## Some of my attempts of sketching and drawing ##
 
-By: ```Dennis Núñez Fernández```, ```December 2020```.
+By: ```Dennis Núñez-Fernández```, ```December 2020```.
 
 <br>
 

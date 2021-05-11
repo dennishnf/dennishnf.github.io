@@ -1,7 +1,7 @@
 
 ## How I started in research and development in AI/ML ##
 
-By: ```Dennis Núñez Fernández```, ```April 2021```.
+By: ```Dennis Núñez-Fernández```, ```April 2021```.
 
 
 My start in AI projects began when I was in the last years of my university studies, I became interested in Artificial Neural Networks, Signal Processing and Digital Systems. In addition to my undergraduate courses, I took some external courses in Control using Fuzzy Logic and Neural Networks, where I learned the basics of these areas.

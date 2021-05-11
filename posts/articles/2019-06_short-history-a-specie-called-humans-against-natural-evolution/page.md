@@ -2,7 +2,7 @@
 ## Short history: A specie called Humans against natural evolution ##
 ## //in process// ##
 
-By: ```Dennis Núñez Fernández```, ```April 2020```.
+By: ```Dennis Núñez-Fernández```, ```April 2020```.
 
 
 When a specie called Humans started to evolve, a pandemy start to grow from a ciertan point from the planet there live in, called Earth. There has been pased million of years from natural evolution until the last brilliant result of the evolution, the Humans. A specie that can conduct itself that depend no so much from natural conditions, discovers of great mielstones like a oxygen combustion fenomenon called Fire. This differentiable power of creation and solving problems has been unlinked from the others species in such planet.

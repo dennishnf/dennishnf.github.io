@@ -2,7 +2,7 @@
 ## Can AI destroy the humans? ##
 ## //in process// ##
 
-By: ```Dennis Núñez Fernández```, ```January 2020```.
+By: ```Dennis Núñez-Fernández```, ```January 2020```.
 
 
 Machines will not replace physicians, but physicians using AI will soon replace those not using iAI will not affect the works, on the contrary, it will give opportunity to advance more in science and technology, due to creativity. This means that AI will create new areas to work in, as the development and the work itself with AI will demand the creation of new professions.

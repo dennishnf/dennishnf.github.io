@@ -2,7 +2,7 @@
 ## The human being and their vulnerable existence ##
 ## //in process// ##
 
-By: ```Dennis Núñez Fernández```, ```January 2020```.
+By: ```Dennis Núñez-Fernández```, ```January 2020```.
 
 
 Human beings are vulnerable to all kinds of factors, both within the world and outside it. Internal causes can be world overheating, global natural disasters, a nuclear disaster, and external causes can be the impact of a celestial body or the collapse of our own star, the Sun.

@@ -1,7 +1,7 @@
 
 ## Mentions in the press and in the media ##
 
-By: ```Dennis Núñez Fernández```, ```January 2021```.
+By: ```Dennis Núñez-Fernández```, ```January 2021```.
 
 <br>
 
