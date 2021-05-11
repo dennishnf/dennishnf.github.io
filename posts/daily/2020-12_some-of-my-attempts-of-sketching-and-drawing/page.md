@@ -11,7 +11,7 @@ By: ```Dennis Núñez Fernández```, ```December 2020```.
 <main class="grid3">
 <div class="oneBoxx"><br>
   <img src="https://dennishnf.github.io/posts/daily/2020-12_some-of-my-attempts-of-sketching-and-drawing/image004_.jpg">
-  <p style="text-align:center;">Pattern of tree roots, tree branches, which are similar to lightning, neurons, river courses, and more. Fractals is a mathematical attempt to describe these structures.</p>
+  <p style="text-align:center;">Pattern of tree roots, tree branches, which are similar to lightning, neurons, river courses, and more. Fractals is a mathematical attempt to describe these interesting structures.</p>
 </div>
 <div class="oneBoxx"><br>
   <img src="https://dennishnf.github.io/posts/daily/2020-12_some-of-my-attempts-of-sketching-and-drawing/image003_.jpg">
