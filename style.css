@@ -134,15 +134,18 @@ h1, h2, h3, h4 {margin-bottom: 8px;}
 #site_title {
 	background: #d2d1d1;
 	padding: 32px 20px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 #site_title h1 	{
 	color: #EED;
-	font: normal 2em Georgia,sans-serif;
+	font: normal 2em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;	
 	margin: 0 0 5px;
 }
 #site_title h2 {
 	color: #000000;
-	font: normal 1.1em sans-serif;
+	font: normal 1.1em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	margin: 0;
 }
 
@@ -183,6 +186,7 @@ h1, h2, h3, h4 {margin-bottom: 8px;}
 #subnav a {
 	padding: 10px;
 	font-size: 0.9em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 
@@ -235,6 +239,7 @@ h1, h2, h3, h4 {margin-bottom: 8px;}
 	border-top: 1px solid #6d6d6d;
 	color: #888;
 	font-size: 0.9em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	padding: 10px 12px;
 }
 #footer a {color: #AAA;}
@@ -254,6 +259,7 @@ h1, h2, h3, h4 {margin-bottom: 8px;}
 	display: block;
 	line-height: 0;
 	font-size: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .clearer {height: 0;}
 
@@ -306,6 +312,7 @@ span.comment {background: url('img/icon_comment.gif') no-repeat left center; pad
 }
 .post_title h2 {
 	font-size: 2em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -319,6 +326,7 @@ span.comment {background: url('img/icon_comment.gif') no-repeat left center; pad
 	background: #424242;
 	color: #999;
 	font-size: 0.9em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	padding: 10px 12px;
 }
 .post_metadata a {color: #BBB;}
@@ -339,7 +347,8 @@ form {margin: 0; padding: 0;}
 input#s, textarea, input.styled {
 	background: #DDD;
 	border: 3px solid #555;
-	font: normal 1em Verdana,sans-serif;
+	font: normal 1em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	padding: 3px;
 	width: 160px;
 }
@@ -386,6 +395,7 @@ table.search td {vertical-align: top;}
 .nicelist .date {
 	color: #999;
 	font-size: 0.9em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	padding-top: 4px;
 }
 .nicelist .date a {
@@ -413,6 +423,7 @@ table.search td {vertical-align: top;}
 	background: #555;
 	border-top: 1px solid #444;
 	font-size: 0.9em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	padding: 7px 8px 9px;
 }
 .pagenavigation a {
