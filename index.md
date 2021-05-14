@@ -1,8 +1,8 @@
 <h2>About me</h2>
 <p>
-<img style="float: right; margin: 15px 0px 10px 20px;" src="/dennishnf-photo1.jpg" alt="90" width="142" height="142" /> 
+<img style="float: right; margin: 15px 0px 10px 20px;" src="/dennishnf-photo1.jpg" width="142" height="142" /> 
 <p align="justify" style="text-indent:0"> 
-<!-- <img style="float: left; margin: 15px 20px 10px 0px;" src="/dennishnf-photo.jpg" alt="90" width="142" height="142" /> 
+<!-- <img style="float: left; margin: 15px 20px 10px 0px;" src="/dennishnf-photo.jpg" width="142" height="142" /> 
 <p align="justify" style="text-indent:0"> -->
 Currently, I'm a research assistant at the <a target="_blank" href="https://facien.cayetano.edu.pe/investigacion-lid/lista-de-laboratorios-de-investigacion-y-desarrollo/73-bioinformatica">Bioinformatics and Molecular Biology Laboratory</a> at the <a target="_blank" href="https://en.wikipedia.org/wiki/Cayetano_Heredia_University">Universidad Peruana Cayetano Heredia</a> (UPCH), Peru. There, I develop Artificial Intelligence algorithms for early and low-cost medical diagnosis. I obtained my Bachelor of Science degree in Electronic Engineering at the <a target="_blank" href="https://en.wikipedia.org/wiki/National_University_of_Engineering">Universidad Nacional de Ingeniería</a> (UNI), Peru, and ranked first place in my graduating class. My research experience includes two research fellowships in the areas of Artificial Intelligence and Deep Learning at the <a target="_blank" href="https://en.wikipedia.org/wiki/AGH_University_of_Science_and_Technology">AGH University of Science and Technology</a> (Poland), and the <a target="_blank" href="https://en.wikipedia.org/wiki/University_of_Padua">University of Padova</a> (Italy).
 <br/>
