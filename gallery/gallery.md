@@ -17,10 +17,6 @@
   <p style="text-align:center">The Attomium. <br> Brussels, Belgium. <br> 2020 March.</p>
 </div>
 <div class="oneBoxx">
-  <img src="https://dennishnf.com/gallery/2020_02_20__italy_sister_.jpg">
-  <p style="text-align:center">My sister and me. <br> Venice, Italy. <br> 2020 February.</p>
-</div>
-<div class="oneBoxx">
   <img src="https://dennishnf.com/gallery/2020_02_15__france_eiffel_.jpg">
   <p style="text-align:center">The Eiffel Tower. <br> Paris, France. <br> 2020 February.</p>
 </div>
