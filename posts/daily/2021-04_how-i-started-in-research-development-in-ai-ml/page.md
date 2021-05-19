@@ -4,7 +4,7 @@
 By: ```Dennis Núñez-Fernández```, ```April 2021```.
 
 
-My interest in the areas of AI/ML started when I was in the last years of college, there I started to become interested in topics such as Artificial Neural Networks, Signal Processing and Digital Systems. Thus, in addition to my undergraduate courses, I took courses in Control using Fuzzy Logic and Neural Networks, where I learned important fundamentals of these areas.
+My interest in the areas of AI/ML started when I was in the last years of university, there I started to become interested in topics such as Artificial Neural Networks, Signal Processing and Digital Systems. Thus, in addition to my undergraduate courses, I took courses in Control using Fuzzy Logic and Neural Networks, where I learned important fundamentals of these areas.
 
 After finishing university, and concluding my English studies, I applied for a 6-month internship funded by UNESCO and the Government of Poland because there was an area that caught my attention: Computer Vision. I applied and had the opportunity to be accepted. A few months later, in October 2016, I traveled to Poland to start the internship, there I conducted a research project on Deep Learning for hand gesture recognition and trying to optimize computational resources by using Gabor filters. At the end of the project we were able to publish a scientific paper in a top Iberoamerican conference on Artificial Intelligence: the Iberoamerican Congress on Pattern Recognition (CIARP). That was my first scientific publication.
 
