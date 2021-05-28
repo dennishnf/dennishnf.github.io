@@ -73,6 +73,7 @@ I have participated in prestigious conferences related to AI, such as the NeurIP
 <h2>News and updates</h2>
 <p>
 <ul>
+<li>2021 May - <a href="https://sites.google.com/view/beyond-fairness-cv/home" target="_blank">Grateful that our paper has been accepted to the Beyond Fairness in CV workshop at CVPR 2021</a>.</li>
 <li>2021 May - Glad to be have been accepted in different French universities for master studies.</li>
 <li>2021 May - <a href="http://cvpr2021.thecvf.com/" target="_blank">Grateful for winning a 'LatinX in CV' registration grant to attend the prestigious CVPR 2021</a>.</li>
 <li>2021 May - <a href="https://www.eeml.eu/home" target="_blank">Accepted to participate in the Eastern European Machine Learning Summer School (EEML) 2021</a>.</li>
