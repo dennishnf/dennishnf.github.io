@@ -74,7 +74,7 @@ I have participated in prestigious conferences related to Artificial Intelligenc
 <p>
 <ul>
 <li>2021 Jun - Accepted for participate in the Neuromatch Academy (NMA) - Computational Neuroscience.</li>
-<li>2021 Jun - Glad to be voluntering at the LatinX in CV workshop at CVPR 2021.</li>
+<li>2021 Jun - Pleased to be a volunteer for the realization of the LatinX in CV workshop at CVPR 2021.</li>
 <li>2021 May - <a href="https://sites.google.com/view/beyond-fairness-cv/home" target="_blank">Cheerful that our paper has been accepted to the Beyond Fairness in CV workshop at CVPR 2021</a>.</li>
 <li>2021 May - Glad to have been accepted in various French universities for master studies about ML/AI.</li>
 <li>2021 May - <a href="http://cvpr2021.thecvf.com/" target="_blank">Grateful for winning a 'LatinX in CV' registration grant to attend the prestigious CVPR 2021</a>.</li>
