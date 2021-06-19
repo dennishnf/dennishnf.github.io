@@ -64,7 +64,7 @@ A. Aspilcueta Narvaez, <u>D. Núñez-Fernández</u>, S. Gamarra Quispe, D. Lazo 
 <h3>Workshop papers</h3>
 <ul>
 <li>
-C. Rojas-Azabache, K. Vilca-Janampa, R. Guerrero-Huayta, <u>D. Núñez-Fernández</u>. Implementing a Detection System for COVID-19 based on Lung Ultrasound Imaging and Deep Learning’. Beyond Fairness Workshop at CVPR 2021. Tennessee, USA. (2021) <br/>
+C. Rojas-Azabache, K. Vilca-Janampa, R. Guerrero-Huayta, <u>D. Núñez-Fernández</u>. ‘Implementing a Detection System for COVID-19 based on Lung Ultrasound Imaging and Deep Learning’. Beyond Fairness Workshop at CVPR 2021. Tennessee, USA. (2021) <br/>
 [<a href="/research/wp__2021__pml4dc_at_iclr_2021__detection_of_covid_using_dnn_with_ultrasound_img.pdf">PDF</a>] 
 [<a href="https://arxiv.org/abs/2104.01509">arXiv</a>] 
 </li>
