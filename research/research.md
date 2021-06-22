@@ -65,8 +65,8 @@ A. Aspilcueta Narvaez, <u>D. Núñez-Fernández</u>, S. Gamarra Quispe, D. Lazo 
 <ul>
 <li>
 C. Rojas-Azabache, K. Vilca-Janampa, R. Guerrero-Huayta, <u>D. Núñez-Fernández</u>. ‘Implementing a Detection System for COVID-19 based on Lung Ultrasound Imaging and Deep Learning’. Beyond Fairness Workshop at CVPR 2021. Tennessee, USA. (2021) <br/>
-[<a href="/research/wp__2021__pml4dc_at_iclr_2021__detection_of_covid_using_dnn_with_ultrasound_img.pdf">PDF</a>] 
-[<a href="https://arxiv.org/abs/2104.01509">arXiv</a>] 
+[<a href="/research/wp__2021__bfcv_at_cvpr_2021__implementing_detection_system_covid_with_ultrasound.pdf.pdf">PDF</a>] 
+[<a href="https://arxiv.org/abs/2106.10651">arXiv</a>] 
 </li>
 <li>
 <u>D. Núñez-Fernández</u>, L. Ballan, G. Jiménez-Avalos, J. Coronel, P. Sheen, M. Zimic. ‘Prediction of Tuberculosis using U-Net and segmentation techniques’. AI for Public Health Workshop at ICLR 2021. Vienna, Austria. (2021) <br/>
