@@ -12,6 +12,6 @@
 <br/>
 <h3>Curriculum Vitae in Spanish:</h3>
 <p> 
-&nbsp &nbsp [<a href="CV-DennisNunezFernandez-spanish.pdf">CV-DennisNunezFernandez-english.pdf</a>]
+&nbsp &nbsp [<a href="CV-DennisNunezFernandez-spanish.pdf">CV-DennisNunezFernandez-spanish.pdf</a>]
 </p>
 <br/>
