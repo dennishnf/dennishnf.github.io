@@ -73,6 +73,7 @@ I have participated in prestigious conferences related to Artificial Intelligenc
 <h2>News and updates</h2>
 <p>
 <ul>
+<li>2021 Jun - Pleased to be invited to give a talk about Deep Learning for Data Science Woman Peru.</li>
 <li>2021 Jun - <a href="https://dlrl.ca/" target="_blank">Accepted in the CIFAR Deep Learning + Reinforcement Learning (DLRL) Summer School 2021</a>.</li>
 <li>2021 Jun - Accepted to participate in the Neuromatch Academy (NMA) - Computational Neuroscience.</li>
 <li>2021 Jun - Pleased to be a volunteer member at the LatinX in CV (LXCV) Research workshop at CVPR 2021.</li>
