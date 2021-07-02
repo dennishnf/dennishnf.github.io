@@ -73,7 +73,7 @@ I have participated in prestigious conferences related to Artificial Intelligenc
 <h2>News and updates</h2>
 <p>
 <ul>
-<li>2021 Jul - <a href="http://ai.ntu.edu.tw/mlss2021/" target="_blank">Accepted as strong profile participant in the Machine Learning Summer School (MLSS) 2021 Taipei</a>.</li>
+<li>2021 Jul - <a href="http://ai.ntu.edu.tw/mlss2021/" target="_blank">Accepted as a strong profile participant in the Machine Learning Summer School (MLSS) 2021 Taipei</a>.</li>
 <li>2021 Jul - It's a pleasure to be invited by my former faculty FIEE UNI to give a talk about my work in deep learning.</li>
 <li>2021 Jun - <a href="https://dlrl.ca/" target="_blank">Accepted in the CIFAR Deep Learning + Reinforcement Learning (DLRL) Summer School 2021</a>.</li>
 <li>2021 Jun - It's a pleasure to be invited to give a talk about deep learning for 'Data Science Woman Peru'.</li>
