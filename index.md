@@ -112,7 +112,7 @@ I have participated in prestigious conferences related to Artificial Intelligenc
 <li>2020 Ago - Pleased to have been invited to be a paper reviewer at the IEEE EIRCON 2020 conference.</li>
 <li>2020 Ago - <a href="https://www.kdd.org/kdd2020/" target="_blank">Glad to win a grant for the KDD 2020, ACM Conference on Knowledge Discovery and Data Mining</a>.
 <li>2020 Jul - Invited by IEEE SPS UNI to give a workshop: "Deep Learning: Fundamentos y Aplicaciones".</li>
-<li>2020 Jul - Invited by my faculty FIEE UNI to give a talk about my experience in research internships abroad.</li>
+<li>2020 Jul - Invited by my former faculty FIEE UNI to give a talk about my experience in research internships.</li>
 <li>2020 Jun - <a href="https://sites.google.com/view/hsys2020/papers/accepted-papers" target="_blank">My third paper was selected for poster presentation at HSYS workshop at the ICML 2020</a>.</li>
 <li>2020 Jun - <a href="https://mlforglobalhealth.org/posters-and-spotlights/" target="_blank">My two papers were accepted for oral and poster presentation at ML4GH workshop at the ICML 2020</a>.</li>
 <li>2020 Jun - Thankful for winning a 'LatinX in AI' grant for my participation in the prestigious ICML 2020.</li>
