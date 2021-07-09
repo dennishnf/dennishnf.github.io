@@ -10,6 +10,11 @@
 &nbsp &nbsp [<a href="CV-DennisNunezFernandez-french.pdf">CV-DennisNunezFernandez-french.pdf</a>]
 </p>
 <br/>
+<h3>Curriculum Vitae in German:</h3>
+<p> 
+&nbsp &nbsp [<a href="CV-DennisNunezFernandez-german.pdf">CV-DennisNunezFernandez-german.pdf</a>]
+</p>
+<br/>
 <h3>Curriculum Vitae in Spanish:</h3>
 <p> 
 &nbsp &nbsp [<a href="CV-DennisNunezFernandez-spanish.pdf">CV-DennisNunezFernandez-spanish.pdf</a>]
