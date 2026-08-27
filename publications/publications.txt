@@ -1,0 +1,171 @@
+Publication List
+================
+================
+
+
+
+Journal Articles
+================
+
+4*
+U-Net and segmentation techniques to analyze microscopic images of MODS cultures captured with a lens-free inverted microscope to facilitate the diagnostics of tuberculosis
+
+3*
+A Convolutional Neural Network for gaze preference detection: A potential tool for diagnostics of autism spectrum disorder in children
+
+2
+Preclinical Assessment of IgY Antibodies Against Recombinant SARS-CoV-2 RBD Protein for Prophylaxis and Post-Infection Treatment of COVID-19
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+1
+Intranasal vaccination of hamsters with a Newcastle disease virus vector expressing the S1 subunit protects animals against SARS-CoV-2 disease
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+
+
+Conference Proceedings 
+======================
+
+9
+Smart Campus IoT guidance system for visitors based on Bayesian filters
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+8
+Development of a hand gesture based control interface using Deep Learning
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+7
+Implementation of an indoor location system for mobile-based museum guidance
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+6
+Development of a hand pose recognition system on an embedded computer using Artificial Intelligence
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+5
+Implementation of a WiFi-based indoor location system on a mobile device for a university area
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+4
+Multi-subject continuous emotional states monitoring by using Convolutional Neural Networks
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+3
+Real-time handwritten letters recognition on an embedded computer using ConvNets
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+2
+A Real-Time Recognition System for User Characteristics Based on Deep Learning
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+1
+Hand Posture Recognition Using Convolutional Neural Network
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+
+
+Workshop papers
+===============
+
+10
+DyREx: Dynamic Query Representation for Extractive Question Answering
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+9
+Implementing a Detection System for COVID-19 based on Lung Ultrasound Imaging and Deep Learning
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+8
+Prediction of Tuberculosis using U-Net and segmentation techniques
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+7
+Detection of COVID-19 Disease using Deep Neural Networks with Ultrasound Imaging
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+6
+Automatic semantic segmentation for prediction of tuberculosis using lens-free microscopy images
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+5
+Using Capsule Neural Network to predict Tuberculosis in lens-free microscopic images
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+4
+Prediction of gaze direction using Convolutional Neural Networks for Autism diagnosis
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+3
+Portable system for the prediction of anemia based on the ocular conjunctiva using Artificial Intelligence
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+2
+Development of a hand pose recognition system on an embedded computer using CNNs
+[GoogleScholar][SemanticScholar][ResearchGate]
+[Scopus][ORCID]
+[Dina]
+[CV][Website][LinkedIn]
+
+1
+Hand Posture Recognition Using Convolutional Neural Networks
+[GoogleScholar][SemanticScholar][ResearchGate]
+[NaN][NaN]
+[Dina]
+[CV][Website][LinkedIn]
